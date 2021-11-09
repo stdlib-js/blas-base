@@ -65,6 +65,7 @@
   },
   "devDependencies": {
     "@stdlib/array-complex64": "^0.0.x",
+    "@stdlib/array-filled-by": "^0.0.x",
     "@stdlib/array-float32": "^0.0.x",
     "@stdlib/array-float64": "^0.0.x",
     "@stdlib/array-uint8c": "^0.0.x",
