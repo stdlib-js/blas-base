@@ -64,6 +64,8 @@
     "@stdlib/utils-define-read-only-property": "^0.0.x"
   },
   "devDependencies": {
+    "@stdlib/array-base-arraylike2object": "^0.0.x",
+    "@stdlib/array-complex128": "^0.0.x",
     "@stdlib/array-complex64": "^0.0.x",
     "@stdlib/array-filled-by": "^0.0.x",
     "@stdlib/array-float32": "^0.0.x",
@@ -80,6 +82,7 @@
     "@stdlib/number-float64-base-to-float32": "^0.0.x",
     "@stdlib/random-base-discrete-uniform": "^0.0.x",
     "@stdlib/random-base-randu": "^0.0.x",
+    "@stdlib/strided-base-reinterpret-complex128": "^0.0.x",
     "@stdlib/utils-define-nonenumerable-read-only-property": "^0.0.x",
     "@stdlib/utils-keys": "^0.0.x",
     "@stdlib/utils-try-require": "^0.0.x",
