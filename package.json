@@ -1,0 +1,42 @@
+{
+  "name": "@stdlib/blas-base",
+  "version": "0.0.0",
+  "description": "Base (i.e., lower-level) basic linear algebra subprograms (BLAS).",
+  "license": "Apache-2.0",
+  "type": "module",
+  "main": "./index.mjs",
+  "homepage": "https://stdlib.io",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stdlib-js/blas-base.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stdlib-js/stdlib/issues"
+  },
+  "keywords": [
+    "stdlib",
+    "stdmath",
+    "standard",
+    "library",
+    "std",
+    "lib",
+    "blas",
+    "mathematics",
+    "math",
+    "basic",
+    "linear",
+    "algebra",
+    "routines",
+    "subprograms",
+    "ndarray",
+    "vector",
+    "array",
+    "level 1",
+    "level 2",
+    "level 3"
+  ],
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/athan"
+  }
+}
