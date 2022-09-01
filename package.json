@@ -72,6 +72,7 @@
     "@stdlib/array-float64": "^0.0.x",
     "@stdlib/array-uint8c": "^0.0.x",
     "@stdlib/assert-is-browser": "^0.0.x",
+    "@stdlib/assert-is-error": "^0.0.x",
     "@stdlib/bench": "^0.0.x",
     "@stdlib/math-base-assert-is-nan": "^0.0.x",
     "@stdlib/math-base-special-abs": "^0.0.x",
