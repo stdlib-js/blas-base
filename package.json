@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/blas-base",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Base (i.e., lower-level) basic linear algebra subprograms (BLAS).",
   "license": "Apache-2.0",
   "author": {
