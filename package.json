@@ -59,7 +59,7 @@
     "@stdlib/blas-base-sdot": "^0.0.8",
     "@stdlib/blas-base-sdsdot": "^0.0.8",
     "@stdlib/blas-base-snrm2": "^0.0.7",
-    "@stdlib/blas-base-srotg": "github:stdlib-js/blas-base-srotg#main",
+    "@stdlib/blas-base-srotg": "^0.0.2",
     "@stdlib/blas-base-sscal": "^0.0.10",
     "@stdlib/blas-base-sswap": "^0.0.9",
     "@stdlib/utils-define-read-only-property": "^0.0.8"
@@ -92,7 +92,7 @@
     "@stdlib/math-base-special-sqrt": "^0.0.8",
     "@stdlib/math-base-special-sqrtf": "^0.0.6",
     "@stdlib/number-float64-base-to-float32": "^0.0.7",
-    "@stdlib/random-array-discrete-uniform": "github:stdlib-js/random-array-discrete-uniform#main",
+    "@stdlib/random-array-discrete-uniform": "^0.0.1",
     "@stdlib/random-base-discrete-uniform": "^0.0.6",
     "@stdlib/random-base-randu": "^0.0.8",
     "@stdlib/random-base-uniform": "^0.0.6",
