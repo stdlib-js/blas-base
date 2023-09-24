@@ -18,44 +18,47 @@ limitations under the License.
 
 -->
 
+
+<details>
+  <summary>
+    About stdlib...
+  </summary>
+  <p>We believe in a future in which the web is a preferred environment for numerical computation. To help realize this future, we've built stdlib. stdlib is a standard library, with an emphasis on numerical and scientific computation, written in JavaScript (and C) for execution in browsers and in Node.js.</p>
+  <p>The library is fully decomposable, being architected in such a way that you can swap out and mix and match APIs and functionality to cater to your exact preferences and use cases.</p>
+  <p>When you use stdlib, you can be absolutely certain that you are using the most thorough, rigorous, well-written, studied, documented, tested, measured, and high-quality code out there.</p>
+  <p>To join us in bringing numerical computing to the web, get started by checking us out on <a href="https://github.com/stdlib-js/stdlib">GitHub</a>, and please consider <a href="https://opencollective.com/stdlib">financially supporting stdlib</a>. We greatly appreciate your continued support!</p>
+</details>
+
 # BLAS
 
 [![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] <!-- [![dependencies][dependencies-image]][dependencies-url] -->
 
 > Base (i.e., lower-level) basic linear algebra subprograms (BLAS).
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/blas-base
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-blas = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base@umd/browser.js' )
-```
-
-To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
-
-```javascript
-var blas = require( 'path/to/vendor/umd/blas-base/index.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/blas-base@umd/browser.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.blas;
-})();
-</script>
+var blas = require( '@stdlib/blas-base' );
 ```
 
 #### blas
@@ -124,21 +127,11 @@ var o = blas;
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/blas-base@umd/browser.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var objectKeys = require( '@stdlib/utils-keys' );
+var blas = require( '@stdlib/blas-base' );
 
 console.log( objectKeys( blas ) );
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -192,8 +185,8 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/blas-base.svg
 [npm-url]: https://npmjs.org/package/@stdlib/blas-base
 
-[test-image]: https://github.com/stdlib-js/blas-base/actions/workflows/test.yml/badge.svg?branch=main
-[test-url]: https://github.com/stdlib-js/blas-base/actions/workflows/test.yml?query=branch:main
+[test-image]: https://github.com/stdlib-js/blas-base/actions/workflows/test.yml/badge.svg?branch=v0.1.0
+[test-url]: https://github.com/stdlib-js/blas-base/actions/workflows/test.yml?query=branch:v0.1.0
 
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/blas-base/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/blas-base?branch=main
@@ -224,57 +217,57 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 <!-- <toc-links> -->
 
-[@stdlib/blas/base/ccopy]: https://github.com/stdlib-js/blas-base-ccopy/tree/umd
+[@stdlib/blas/base/ccopy]: https://github.com/stdlib-js/blas-base-ccopy
 
-[@stdlib/blas/base/cswap]: https://github.com/stdlib-js/blas-base-cswap/tree/umd
+[@stdlib/blas/base/cswap]: https://github.com/stdlib-js/blas-base-cswap
 
-[@stdlib/blas/base/dasum]: https://github.com/stdlib-js/blas-base-dasum/tree/umd
+[@stdlib/blas/base/dasum]: https://github.com/stdlib-js/blas-base-dasum
 
-[@stdlib/blas/base/daxpy]: https://github.com/stdlib-js/blas-base-daxpy/tree/umd
+[@stdlib/blas/base/daxpy]: https://github.com/stdlib-js/blas-base-daxpy
 
-[@stdlib/blas/base/dcopy]: https://github.com/stdlib-js/blas-base-dcopy/tree/umd
+[@stdlib/blas/base/dcopy]: https://github.com/stdlib-js/blas-base-dcopy
 
-[@stdlib/blas/base/ddot]: https://github.com/stdlib-js/blas-base-ddot/tree/umd
+[@stdlib/blas/base/ddot]: https://github.com/stdlib-js/blas-base-ddot
 
-[@stdlib/blas/base/dnrm2]: https://github.com/stdlib-js/blas-base-dnrm2/tree/umd
+[@stdlib/blas/base/dnrm2]: https://github.com/stdlib-js/blas-base-dnrm2
 
-[@stdlib/blas/base/dscal]: https://github.com/stdlib-js/blas-base-dscal/tree/umd
+[@stdlib/blas/base/dscal]: https://github.com/stdlib-js/blas-base-dscal
 
-[@stdlib/blas/base/dsdot]: https://github.com/stdlib-js/blas-base-dsdot/tree/umd
+[@stdlib/blas/base/dsdot]: https://github.com/stdlib-js/blas-base-dsdot
 
-[@stdlib/blas/base/dswap]: https://github.com/stdlib-js/blas-base-dswap/tree/umd
+[@stdlib/blas/base/dswap]: https://github.com/stdlib-js/blas-base-dswap
 
-[@stdlib/blas/base/gasum]: https://github.com/stdlib-js/blas-base-gasum/tree/umd
+[@stdlib/blas/base/gasum]: https://github.com/stdlib-js/blas-base-gasum
 
-[@stdlib/blas/base/gaxpy]: https://github.com/stdlib-js/blas-base-gaxpy/tree/umd
+[@stdlib/blas/base/gaxpy]: https://github.com/stdlib-js/blas-base-gaxpy
 
-[@stdlib/blas/base/gcopy]: https://github.com/stdlib-js/blas-base-gcopy/tree/umd
+[@stdlib/blas/base/gcopy]: https://github.com/stdlib-js/blas-base-gcopy
 
-[@stdlib/blas/base/gdot]: https://github.com/stdlib-js/blas-base-gdot/tree/umd
+[@stdlib/blas/base/gdot]: https://github.com/stdlib-js/blas-base-gdot
 
-[@stdlib/blas/base/gnrm2]: https://github.com/stdlib-js/blas-base-gnrm2/tree/umd
+[@stdlib/blas/base/gnrm2]: https://github.com/stdlib-js/blas-base-gnrm2
 
-[@stdlib/blas/base/gscal]: https://github.com/stdlib-js/blas-base-gscal/tree/umd
+[@stdlib/blas/base/gscal]: https://github.com/stdlib-js/blas-base-gscal
 
-[@stdlib/blas/base/gswap]: https://github.com/stdlib-js/blas-base-gswap/tree/umd
+[@stdlib/blas/base/gswap]: https://github.com/stdlib-js/blas-base-gswap
 
-[@stdlib/blas/base/sasum]: https://github.com/stdlib-js/blas-base-sasum/tree/umd
+[@stdlib/blas/base/sasum]: https://github.com/stdlib-js/blas-base-sasum
 
-[@stdlib/blas/base/saxpy]: https://github.com/stdlib-js/blas-base-saxpy/tree/umd
+[@stdlib/blas/base/saxpy]: https://github.com/stdlib-js/blas-base-saxpy
 
-[@stdlib/blas/base/scopy]: https://github.com/stdlib-js/blas-base-scopy/tree/umd
+[@stdlib/blas/base/scopy]: https://github.com/stdlib-js/blas-base-scopy
 
-[@stdlib/blas/base/sdot]: https://github.com/stdlib-js/blas-base-sdot/tree/umd
+[@stdlib/blas/base/sdot]: https://github.com/stdlib-js/blas-base-sdot
 
-[@stdlib/blas/base/sdsdot]: https://github.com/stdlib-js/blas-base-sdsdot/tree/umd
+[@stdlib/blas/base/sdsdot]: https://github.com/stdlib-js/blas-base-sdsdot
 
-[@stdlib/blas/base/snrm2]: https://github.com/stdlib-js/blas-base-snrm2/tree/umd
+[@stdlib/blas/base/snrm2]: https://github.com/stdlib-js/blas-base-snrm2
 
-[@stdlib/blas/base/srotg]: https://github.com/stdlib-js/blas-base-srotg/tree/umd
+[@stdlib/blas/base/srotg]: https://github.com/stdlib-js/blas-base-srotg
 
-[@stdlib/blas/base/sscal]: https://github.com/stdlib-js/blas-base-sscal/tree/umd
+[@stdlib/blas/base/sscal]: https://github.com/stdlib-js/blas-base-sscal
 
-[@stdlib/blas/base/sswap]: https://github.com/stdlib-js/blas-base-sswap/tree/umd
+[@stdlib/blas/base/sswap]: https://github.com/stdlib-js/blas-base-sswap
 
 <!-- </toc-links> -->
 
