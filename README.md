@@ -42,13 +42,18 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import blas from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/blas-base/tags). For example,
+
+```javascript
 import blas from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base@v0.1.0-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { ccopy, cswap, dasum, daxpy, dcopy, ddot, dnrm2, dscal, dsdot, dswap, gasum, gaxpy, gcopy, gdot, gnrm2, gscal, gswap, sasum, saxpy, scopy, sdot, sdsdot, snrm2, srotg, sscal, sswap } from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base@v0.1.0-deno/mod.js';
+import { ccopy, cswap, dasum, daxpy, dcopy, ddot, dnrm2, dscal, dsdot, dswap, gasum, gaxpy, gcopy, gdot, gnrm2, gscal, gswap, sasum, saxpy, scopy, sdot, sdsdot, snrm2, srotg, sscal, sswap } from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base@deno/mod.js';
 ```
 
 #### blas
@@ -119,7 +124,7 @@ var o = blas;
 
 ```javascript
 import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@deno/mod.js';
-import blas from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base@v0.1.0-deno/mod.js';
+import blas from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base@deno/mod.js';
 
 console.log( objectKeys( blas ) );
 ```
