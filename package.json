@@ -62,7 +62,8 @@
     "@stdlib/blas-base-srotg": "^0.1.0",
     "@stdlib/blas-base-sscal": "^0.1.0",
     "@stdlib/blas-base-sswap": "^0.1.0",
-    "@stdlib/utils-define-read-only-property": "^0.1.0"
+    "@stdlib/utils-define-read-only-property": "^0.1.0",
+    "@stdlib/error-tools-fmtprodmsg": "^0.1.0"
   },
   "devDependencies": {
     "@stdlib/array-base-arraylike2object": "^0.1.0",
