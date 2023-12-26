@@ -35,30 +35,20 @@ limitations under the License.
 
 > Base (i.e., lower-level) basic linear algebra subprograms (BLAS).
 
-<section class="installation">
 
-## Installation
-
-```bash
-npm install @stdlib/blas-base
-```
-
-Alternatively,
-
--   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
--   If you are using Deno, visit the [`deno` branch][deno-url].
--   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
-
-The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
-
-</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-var blas = require( '@stdlib/blas-base' );
+import blas from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base@deno/mod.js';
+```
+
+You can also import the following named exports from the package:
+
+```javascript
+import { ccopy, cswap, dasum, daxpy, dcopy, ddot, dnrm2, drotg, dscal, dsdot, dswap, gasum, gaxpy, gcopy, gdot, gnrm2, gscal, gswap, sasum, saxpy, scopy, sdot, sdsdot, snrm2, srotg, sscal, sswap } from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base@deno/mod.js';
 ```
 
 #### blas
@@ -129,8 +119,8 @@ var o = blas;
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-var objectKeys = require( '@stdlib/utils-keys' );
-var blas = require( '@stdlib/blas-base' );
+import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@deno/mod.js';
+import blas from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base@deno/mod.js';
 
 console.log( objectKeys( blas ) );
 ```
@@ -156,7 +146,7 @@ console.log( objectKeys( blas ) );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -218,59 +208,59 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 <!-- <toc-links> -->
 
-[@stdlib/blas/base/ccopy]: https://github.com/stdlib-js/blas-base-ccopy
+[@stdlib/blas/base/ccopy]: https://github.com/stdlib-js/blas-base-ccopy/tree/deno
 
-[@stdlib/blas/base/cswap]: https://github.com/stdlib-js/blas-base-cswap
+[@stdlib/blas/base/cswap]: https://github.com/stdlib-js/blas-base-cswap/tree/deno
 
-[@stdlib/blas/base/dasum]: https://github.com/stdlib-js/blas-base-dasum
+[@stdlib/blas/base/dasum]: https://github.com/stdlib-js/blas-base-dasum/tree/deno
 
-[@stdlib/blas/base/daxpy]: https://github.com/stdlib-js/blas-base-daxpy
+[@stdlib/blas/base/daxpy]: https://github.com/stdlib-js/blas-base-daxpy/tree/deno
 
-[@stdlib/blas/base/dcopy]: https://github.com/stdlib-js/blas-base-dcopy
+[@stdlib/blas/base/dcopy]: https://github.com/stdlib-js/blas-base-dcopy/tree/deno
 
-[@stdlib/blas/base/ddot]: https://github.com/stdlib-js/blas-base-ddot
+[@stdlib/blas/base/ddot]: https://github.com/stdlib-js/blas-base-ddot/tree/deno
 
-[@stdlib/blas/base/dnrm2]: https://github.com/stdlib-js/blas-base-dnrm2
+[@stdlib/blas/base/dnrm2]: https://github.com/stdlib-js/blas-base-dnrm2/tree/deno
 
-[@stdlib/blas/base/drotg]: https://github.com/stdlib-js/blas-base-drotg
+[@stdlib/blas/base/drotg]: https://github.com/stdlib-js/blas-base-drotg/tree/deno
 
-[@stdlib/blas/base/dscal]: https://github.com/stdlib-js/blas-base-dscal
+[@stdlib/blas/base/dscal]: https://github.com/stdlib-js/blas-base-dscal/tree/deno
 
-[@stdlib/blas/base/dsdot]: https://github.com/stdlib-js/blas-base-dsdot
+[@stdlib/blas/base/dsdot]: https://github.com/stdlib-js/blas-base-dsdot/tree/deno
 
-[@stdlib/blas/base/dswap]: https://github.com/stdlib-js/blas-base-dswap
+[@stdlib/blas/base/dswap]: https://github.com/stdlib-js/blas-base-dswap/tree/deno
 
-[@stdlib/blas/base/gasum]: https://github.com/stdlib-js/blas-base-gasum
+[@stdlib/blas/base/gasum]: https://github.com/stdlib-js/blas-base-gasum/tree/deno
 
-[@stdlib/blas/base/gaxpy]: https://github.com/stdlib-js/blas-base-gaxpy
+[@stdlib/blas/base/gaxpy]: https://github.com/stdlib-js/blas-base-gaxpy/tree/deno
 
-[@stdlib/blas/base/gcopy]: https://github.com/stdlib-js/blas-base-gcopy
+[@stdlib/blas/base/gcopy]: https://github.com/stdlib-js/blas-base-gcopy/tree/deno
 
-[@stdlib/blas/base/gdot]: https://github.com/stdlib-js/blas-base-gdot
+[@stdlib/blas/base/gdot]: https://github.com/stdlib-js/blas-base-gdot/tree/deno
 
-[@stdlib/blas/base/gnrm2]: https://github.com/stdlib-js/blas-base-gnrm2
+[@stdlib/blas/base/gnrm2]: https://github.com/stdlib-js/blas-base-gnrm2/tree/deno
 
-[@stdlib/blas/base/gscal]: https://github.com/stdlib-js/blas-base-gscal
+[@stdlib/blas/base/gscal]: https://github.com/stdlib-js/blas-base-gscal/tree/deno
 
-[@stdlib/blas/base/gswap]: https://github.com/stdlib-js/blas-base-gswap
+[@stdlib/blas/base/gswap]: https://github.com/stdlib-js/blas-base-gswap/tree/deno
 
-[@stdlib/blas/base/sasum]: https://github.com/stdlib-js/blas-base-sasum
+[@stdlib/blas/base/sasum]: https://github.com/stdlib-js/blas-base-sasum/tree/deno
 
-[@stdlib/blas/base/saxpy]: https://github.com/stdlib-js/blas-base-saxpy
+[@stdlib/blas/base/saxpy]: https://github.com/stdlib-js/blas-base-saxpy/tree/deno
 
-[@stdlib/blas/base/scopy]: https://github.com/stdlib-js/blas-base-scopy
+[@stdlib/blas/base/scopy]: https://github.com/stdlib-js/blas-base-scopy/tree/deno
 
-[@stdlib/blas/base/sdot]: https://github.com/stdlib-js/blas-base-sdot
+[@stdlib/blas/base/sdot]: https://github.com/stdlib-js/blas-base-sdot/tree/deno
 
-[@stdlib/blas/base/sdsdot]: https://github.com/stdlib-js/blas-base-sdsdot
+[@stdlib/blas/base/sdsdot]: https://github.com/stdlib-js/blas-base-sdsdot/tree/deno
 
-[@stdlib/blas/base/snrm2]: https://github.com/stdlib-js/blas-base-snrm2
+[@stdlib/blas/base/snrm2]: https://github.com/stdlib-js/blas-base-snrm2/tree/deno
 
-[@stdlib/blas/base/srotg]: https://github.com/stdlib-js/blas-base-srotg
+[@stdlib/blas/base/srotg]: https://github.com/stdlib-js/blas-base-srotg/tree/deno
 
-[@stdlib/blas/base/sscal]: https://github.com/stdlib-js/blas-base-sscal
+[@stdlib/blas/base/sscal]: https://github.com/stdlib-js/blas-base-sscal/tree/deno
 
-[@stdlib/blas/base/sswap]: https://github.com/stdlib-js/blas-base-sswap
+[@stdlib/blas/base/sswap]: https://github.com/stdlib-js/blas-base-sswap/tree/deno
 
 <!-- </toc-links> -->
 
