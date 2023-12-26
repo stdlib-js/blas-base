@@ -43,6 +43,7 @@
     "@stdlib/blas-base-dcopy": "^0.1.1",
     "@stdlib/blas-base-ddot": "^0.1.1",
     "@stdlib/blas-base-dnrm2": "^0.1.0",
+    "@stdlib/blas-base-drotg": "^0.1.0",
     "@stdlib/blas-base-dscal": "^0.1.1",
     "@stdlib/blas-base-dsdot": "^0.1.1",
     "@stdlib/blas-base-dswap": "^0.1.1",
