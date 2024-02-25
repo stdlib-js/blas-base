@@ -42,13 +42,18 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import blas from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/blas-base/tags). For example,
+
+```javascript
 import blas from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base@v0.2.1-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { ccopy, cswap, dasum, daxpy, dcopy, ddot, dnrm2, drotg, dscal, dsdot, dswap, gasum, gaxpy, gcopy, gdot, gnrm2, gscal, gswap, sasum, saxpy, scopy, sdot, sdsdot, snrm2, srotg, sscal, sswap } from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base@v0.2.1-esm/index.mjs';
+import { ccopy, cswap, dasum, daxpy, dcopy, ddot, dnrm2, drotg, dscal, dsdot, dswap, gasum, gaxpy, gcopy, gdot, gnrm2, gscal, gswap, sasum, saxpy, scopy, sdot, sdsdot, snrm2, srotg, sscal, sswap } from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base@esm/index.mjs';
 ```
 
 #### blas
@@ -123,7 +128,7 @@ var o = blas;
 <script type="module">
 
 import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@esm/index.mjs';
-import blas from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base@v0.2.1-esm/index.mjs';
+import blas from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base@esm/index.mjs';
 
 console.log( objectKeys( blas ) );
 
