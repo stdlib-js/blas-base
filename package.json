@@ -76,6 +76,7 @@
     "@stdlib/assert-is-browser": "^0.2.1",
     "@stdlib/assert-is-error": "^0.2.1",
     "@stdlib/complex-float32": "^0.2.1",
+    "@stdlib/complex-float64": "^0.2.1",
     "@stdlib/constants-float64-eps": "^0.2.1",
     "@stdlib/math-base-assert-is-nan": "^0.2.1",
     "@stdlib/math-base-assert-is-nanf": "^0.2.1",
