@@ -44,6 +44,7 @@
     "@stdlib/blas-base-dcabs1": "github:stdlib-js/blas-base-dcabs1#main",
     "@stdlib/blas-base-dcopy": "^0.2.1",
     "@stdlib/blas-base-ddot": "^0.2.1",
+    "@stdlib/blas-base-diagonal-types": "github:stdlib-js/blas-base-diagonal-types#main",
     "@stdlib/blas-base-dnrm2": "^0.2.1",
     "@stdlib/blas-base-drotg": "^0.2.1",
     "@stdlib/blas-base-dscal": "^0.2.1",
