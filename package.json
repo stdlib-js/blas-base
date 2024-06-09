@@ -60,6 +60,7 @@
     "@stdlib/blas-base-idamax": "^0.0.1",
     "@stdlib/blas-base-isamax": "^0.0.1",
     "@stdlib/blas-base-layouts": "github:stdlib-js/blas-base-layouts#main",
+    "@stdlib/blas-base-operation-sides": "github:stdlib-js/blas-base-operation-sides#main",
     "@stdlib/blas-base-sasum": "^0.2.1",
     "@stdlib/blas-base-saxpy": "^0.2.1",
     "@stdlib/blas-base-scabs1": "github:stdlib-js/blas-base-scabs1#main",
