@@ -69,6 +69,7 @@
     "@stdlib/blas-base-srotg": "^0.2.1",
     "@stdlib/blas-base-sscal": "^0.2.1",
     "@stdlib/blas-base-sswap": "^0.2.1",
+    "@stdlib/blas-base-transpose-operations": "github:stdlib-js/blas-base-transpose-operations#main",
     "@stdlib/blas-base-zcopy": "^0.1.0",
     "@stdlib/blas-base-zswap": "^0.1.0",
     "@stdlib/utils-define-read-only-property": "^0.2.1"
