@@ -76,7 +76,8 @@
     "@stdlib/blas-base-transpose-operations": "github:stdlib-js/blas-base-transpose-operations#main",
     "@stdlib/blas-base-zcopy": "^0.1.0",
     "@stdlib/blas-base-zswap": "^0.1.0",
-    "@stdlib/utils-define-read-only-property": "^0.2.1"
+    "@stdlib/utils-define-read-only-property": "^0.2.1",
+    "@stdlib/error-tools-fmtprodmsg": "^0.2.1"
   },
   "devDependencies": {
     "@stdlib/array-base-arraylike2object": "^0.2.1",
