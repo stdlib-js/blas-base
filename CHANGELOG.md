@@ -20,6 +20,7 @@
 
 ##### Features
 
+-   [`44ccf84`](https://github.com/stdlib-js/stdlib/commit/44ccf84cda56714dd8624d1d3df130674b64e1dc) - add `matrixTriangles` to namespace
 -   [`91237b5`](https://github.com/stdlib-js/stdlib/commit/91237b58273c24c9e5b3925deb0053cafa90734c) - add `operationSides` to namespace
 -   [`38a9e4c`](https://github.com/stdlib-js/stdlib/commit/38a9e4cb046a114a11438b681437949e69b3cd75) - add `diagonalTypes` to namespace
 -   [`31aa8db`](https://github.com/stdlib-js/stdlib/commit/31aa8dbfb2c0a722710adc8a399e703b224cadab) - add `transposeOperations` to namespace
@@ -565,6 +566,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="blas-base-matrix-triangles-unreleased">
+
+#### [@stdlib/blas/base/matrix-triangles](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/matrix-triangles)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`917e002`](https://github.com/stdlib-js/stdlib/commit/917e00207daf329791c74bba0060f9df5094b267) - add `blas/base/matrix-triangles`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="blas-base-operation-sides-unreleased">
 
 #### [@stdlib/blas/base/operation-sides](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/operation-sides)
@@ -887,6 +910,10 @@ A total of 6 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`35b165b`](https://github.com/stdlib-js/stdlib/commit/35b165ba743f3fe19491b0b55ac5172cae580b7e) - **refactor:** use `blas/base/matrix-triangles` enum values _(by Athan Reines)_
+-   [`44ccf84`](https://github.com/stdlib-js/stdlib/commit/44ccf84cda56714dd8624d1d3df130674b64e1dc) - **feat:** add `matrixTriangles` to namespace _(by Athan Reines)_
+-   [`e01e0c4`](https://github.com/stdlib-js/stdlib/commit/e01e0c4fc6a8f29142b4ade5acbd2a1b2d07473b) - **docs:** add missing punctuation _(by Athan Reines)_
+-   [`917e002`](https://github.com/stdlib-js/stdlib/commit/917e00207daf329791c74bba0060f9df5094b267) - **feat:** add `blas/base/matrix-triangles` _(by Athan Reines)_
 -   [`5f085d1`](https://github.com/stdlib-js/stdlib/commit/5f085d146d57ff083c24068217adb597bd14b1c5) - **refactor:** use `blas/base/operation-sides` enum values _(by Athan Reines)_
 -   [`91237b5`](https://github.com/stdlib-js/stdlib/commit/91237b58273c24c9e5b3925deb0053cafa90734c) - **feat:** add `operationSides` to namespace _(by Athan Reines)_
 -   [`4cf962b`](https://github.com/stdlib-js/stdlib/commit/4cf962bb62a3592651cead050e70604e455c7e0e) - **docs:** update description _(by Athan Reines)_
