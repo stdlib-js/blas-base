@@ -61,6 +61,8 @@
     "@stdlib/blas-base-idamax": "^0.0.1",
     "@stdlib/blas-base-isamax": "^0.0.1",
     "@stdlib/blas-base-layout-enum2str": "github:stdlib-js/blas-base-layout-enum2str#main",
+    "@stdlib/blas-base-layout-resolve-enum": "github:stdlib-js/blas-base-layout-resolve-enum#main",
+    "@stdlib/blas-base-layout-resolve-str": "github:stdlib-js/blas-base-layout-resolve-str#main",
     "@stdlib/blas-base-layout-str2enum": "github:stdlib-js/blas-base-layout-str2enum#main",
     "@stdlib/blas-base-layouts": "github:stdlib-js/blas-base-layouts#main",
     "@stdlib/blas-base-matrix-triangles": "github:stdlib-js/blas-base-matrix-triangles#main",
