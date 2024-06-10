@@ -35,38 +35,32 @@ limitations under the License.
 
 > Base (i.e., lower-level) basic linear algebra subprograms (BLAS).
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/blas-base
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
+-   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-blas = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base@umd/browser.js' )
-```
-
-To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
-
-```javascript
-var blas = require( 'path/to/vendor/umd/blas-base/index.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/blas-base@umd/browser.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.blas;
-})();
-</script>
+var blas = require( '@stdlib/blas-base' );
 ```
 
 #### blas
@@ -85,6 +79,7 @@ var o = blas;
 <div class="namespace-toc">
 
 -   <span class="signature">[`ccopy( N, x, strideX, y, strideY )`][@stdlib/blas/base/ccopy]</span><span class="delimiter">: </span><span class="description">copy values from one complex single-precision floating-point vector to another complex single-precision floating-point vector.</span>
+-   <span class="signature">[`cscal( N, ca, cx, strideX )`][@stdlib/blas/base/cscal]</span><span class="delimiter">: </span><span class="description">scales a single-precision complex floating-point vector by a single-precision complex floating-point constant.</span>
 -   <span class="signature">[`cswap( N, x, strideX, y, strideY )`][@stdlib/blas/base/cswap]</span><span class="delimiter">: </span><span class="description">interchange two complex single-precision floating-point vectors.</span>
 -   <span class="signature">[`dasum( N, x, stride )`][@stdlib/blas/base/dasum]</span><span class="delimiter">: </span><span class="description">compute the sum of absolute values (_L1_ norm).</span>
 -   <span class="signature">[`daxpy( N, alpha, x, strideX, y, strideY )`][@stdlib/blas/base/daxpy]</span><span class="delimiter">: </span><span class="description">multiply a vector `x` by a constant `alpha` and add the result to `y`.</span>
@@ -111,6 +106,8 @@ var o = blas;
 -   <span class="signature">[`srotg( a, b )`][@stdlib/blas/base/srotg]</span><span class="delimiter">: </span><span class="description">construct a Givens plane rotation.</span>
 -   <span class="signature">[`sscal( N, alpha, x, stride )`][@stdlib/blas/base/sscal]</span><span class="delimiter">: </span><span class="description">multiply a single-precision floating-point vector `x` by a constant `alpha`.</span>
 -   <span class="signature">[`sswap( N, x, strideX, y, strideY )`][@stdlib/blas/base/sswap]</span><span class="delimiter">: </span><span class="description">interchange two single-precision floating-point vectors.</span>
+-   <span class="signature">[`zcopy( N, x, strideX, y, strideY )`][@stdlib/blas/base/zcopy]</span><span class="delimiter">: </span><span class="description">copy values from one complex double-precision floating-point vector to another complex double-precision floating-point vector.</span>
+-   <span class="signature">[`zswap( N, x, strideX, y, strideY )`][@stdlib/blas/base/zswap]</span><span class="delimiter">: </span><span class="description">interchange two complex double-precision floating-point vectors.</span>
 
 </div>
 
@@ -119,6 +116,13 @@ var o = blas;
 ### Auxiliary BLAS
 
 <!-- <toc pattern="+(*amax|*lsame|*xerbla*)"> -->
+
+<div class="namespace-toc">
+
+-   <span class="signature">[`idamax( N, x, strideX )`][@stdlib/blas/base/idamax]</span><span class="delimiter">: </span><span class="description">find the index of the first element having the maximum absolute value.</span>
+-   <span class="signature">[`isamax( N, x, strideX )`][@stdlib/blas/base/isamax]</span><span class="delimiter">: </span><span class="description">find the index of the first element having the maximum absolute value.</span>
+
+</div>
 
 <!-- </toc> -->
 
@@ -134,21 +138,11 @@ var o = blas;
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/blas-base@umd/browser.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var objectKeys = require( '@stdlib/utils-keys' );
+var blas = require( '@stdlib/blas-base' );
 
 console.log( objectKeys( blas ) );
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -237,59 +231,69 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 
 <!-- <toc-links> -->
 
-[@stdlib/blas/base/ccopy]: https://github.com/stdlib-js/blas-base-ccopy/tree/umd
+[@stdlib/blas/base/idamax]: https://github.com/stdlib-js/blas-base-idamax
 
-[@stdlib/blas/base/cswap]: https://github.com/stdlib-js/blas-base-cswap/tree/umd
+[@stdlib/blas/base/isamax]: https://github.com/stdlib-js/blas-base-isamax
 
-[@stdlib/blas/base/dasum]: https://github.com/stdlib-js/blas-base-dasum/tree/umd
+[@stdlib/blas/base/ccopy]: https://github.com/stdlib-js/blas-base-ccopy
 
-[@stdlib/blas/base/daxpy]: https://github.com/stdlib-js/blas-base-daxpy/tree/umd
+[@stdlib/blas/base/cscal]: https://github.com/stdlib-js/blas-base-cscal
 
-[@stdlib/blas/base/dcopy]: https://github.com/stdlib-js/blas-base-dcopy/tree/umd
+[@stdlib/blas/base/cswap]: https://github.com/stdlib-js/blas-base-cswap
 
-[@stdlib/blas/base/ddot]: https://github.com/stdlib-js/blas-base-ddot/tree/umd
+[@stdlib/blas/base/dasum]: https://github.com/stdlib-js/blas-base-dasum
 
-[@stdlib/blas/base/dnrm2]: https://github.com/stdlib-js/blas-base-dnrm2/tree/umd
+[@stdlib/blas/base/daxpy]: https://github.com/stdlib-js/blas-base-daxpy
 
-[@stdlib/blas/base/drotg]: https://github.com/stdlib-js/blas-base-drotg/tree/umd
+[@stdlib/blas/base/dcopy]: https://github.com/stdlib-js/blas-base-dcopy
 
-[@stdlib/blas/base/dscal]: https://github.com/stdlib-js/blas-base-dscal/tree/umd
+[@stdlib/blas/base/ddot]: https://github.com/stdlib-js/blas-base-ddot
 
-[@stdlib/blas/base/dsdot]: https://github.com/stdlib-js/blas-base-dsdot/tree/umd
+[@stdlib/blas/base/dnrm2]: https://github.com/stdlib-js/blas-base-dnrm2
 
-[@stdlib/blas/base/dswap]: https://github.com/stdlib-js/blas-base-dswap/tree/umd
+[@stdlib/blas/base/drotg]: https://github.com/stdlib-js/blas-base-drotg
 
-[@stdlib/blas/base/gasum]: https://github.com/stdlib-js/blas-base-gasum/tree/umd
+[@stdlib/blas/base/dscal]: https://github.com/stdlib-js/blas-base-dscal
 
-[@stdlib/blas/base/gaxpy]: https://github.com/stdlib-js/blas-base-gaxpy/tree/umd
+[@stdlib/blas/base/dsdot]: https://github.com/stdlib-js/blas-base-dsdot
 
-[@stdlib/blas/base/gcopy]: https://github.com/stdlib-js/blas-base-gcopy/tree/umd
+[@stdlib/blas/base/dswap]: https://github.com/stdlib-js/blas-base-dswap
 
-[@stdlib/blas/base/gdot]: https://github.com/stdlib-js/blas-base-gdot/tree/umd
+[@stdlib/blas/base/gasum]: https://github.com/stdlib-js/blas-base-gasum
 
-[@stdlib/blas/base/gnrm2]: https://github.com/stdlib-js/blas-base-gnrm2/tree/umd
+[@stdlib/blas/base/gaxpy]: https://github.com/stdlib-js/blas-base-gaxpy
 
-[@stdlib/blas/base/gscal]: https://github.com/stdlib-js/blas-base-gscal/tree/umd
+[@stdlib/blas/base/gcopy]: https://github.com/stdlib-js/blas-base-gcopy
 
-[@stdlib/blas/base/gswap]: https://github.com/stdlib-js/blas-base-gswap/tree/umd
+[@stdlib/blas/base/gdot]: https://github.com/stdlib-js/blas-base-gdot
 
-[@stdlib/blas/base/sasum]: https://github.com/stdlib-js/blas-base-sasum/tree/umd
+[@stdlib/blas/base/gnrm2]: https://github.com/stdlib-js/blas-base-gnrm2
 
-[@stdlib/blas/base/saxpy]: https://github.com/stdlib-js/blas-base-saxpy/tree/umd
+[@stdlib/blas/base/gscal]: https://github.com/stdlib-js/blas-base-gscal
 
-[@stdlib/blas/base/scopy]: https://github.com/stdlib-js/blas-base-scopy/tree/umd
+[@stdlib/blas/base/gswap]: https://github.com/stdlib-js/blas-base-gswap
 
-[@stdlib/blas/base/sdot]: https://github.com/stdlib-js/blas-base-sdot/tree/umd
+[@stdlib/blas/base/sasum]: https://github.com/stdlib-js/blas-base-sasum
 
-[@stdlib/blas/base/sdsdot]: https://github.com/stdlib-js/blas-base-sdsdot/tree/umd
+[@stdlib/blas/base/saxpy]: https://github.com/stdlib-js/blas-base-saxpy
 
-[@stdlib/blas/base/snrm2]: https://github.com/stdlib-js/blas-base-snrm2/tree/umd
+[@stdlib/blas/base/scopy]: https://github.com/stdlib-js/blas-base-scopy
 
-[@stdlib/blas/base/srotg]: https://github.com/stdlib-js/blas-base-srotg/tree/umd
+[@stdlib/blas/base/sdot]: https://github.com/stdlib-js/blas-base-sdot
 
-[@stdlib/blas/base/sscal]: https://github.com/stdlib-js/blas-base-sscal/tree/umd
+[@stdlib/blas/base/sdsdot]: https://github.com/stdlib-js/blas-base-sdsdot
 
-[@stdlib/blas/base/sswap]: https://github.com/stdlib-js/blas-base-sswap/tree/umd
+[@stdlib/blas/base/snrm2]: https://github.com/stdlib-js/blas-base-snrm2
+
+[@stdlib/blas/base/srotg]: https://github.com/stdlib-js/blas-base-srotg
+
+[@stdlib/blas/base/sscal]: https://github.com/stdlib-js/blas-base-sscal
+
+[@stdlib/blas/base/sswap]: https://github.com/stdlib-js/blas-base-sswap
+
+[@stdlib/blas/base/zcopy]: https://github.com/stdlib-js/blas-base-zcopy
+
+[@stdlib/blas/base/zswap]: https://github.com/stdlib-js/blas-base-zswap
 
 <!-- </toc-links> -->
 
