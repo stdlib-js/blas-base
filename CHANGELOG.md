@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-06-10)
+## Unreleased (2024-06-12)
 
 <section class="packages">
 
@@ -1008,6 +1008,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="blas-base-zscal-unreleased">
+
+#### [@stdlib/blas/base/zscal](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/zscal)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`76e73a5`](https://github.com/stdlib-js/stdlib/commit/76e73a51987ac45b78b3f5011806c57ca33c1951) - add `blas/base/zscal` [(#2253)](https://github.com/stdlib-js/stdlib/pull/2253)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="blas-base-zswap-unreleased">
 
 #### [@stdlib/blas/base/zswap](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/zswap)
@@ -1094,6 +1116,9 @@ A total of 6 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`ce25d7e`](https://github.com/stdlib-js/stdlib/commit/ce25d7e1233e6b0018df58d58d31a38d6c53c27c) - **docs:** fix examples [(#2360)](https://github.com/stdlib-js/stdlib/pull/2360) _(by stdlib-bot, Athan Reines)_
+-   [`143d842`](https://github.com/stdlib-js/stdlib/commit/143d8420e7022c8464594a837831582096771a4d) - **docs:** fix examples _(by Athan Reines)_
+-   [`76e73a5`](https://github.com/stdlib-js/stdlib/commit/76e73a51987ac45b78b3f5011806c57ca33c1951) - **feat:** add `blas/base/zscal` [(#2253)](https://github.com/stdlib-js/stdlib/pull/2253) _(by Aman Bhansali, Athan Reines)_
 -   [`b8bd516`](https://github.com/stdlib-js/stdlib/commit/b8bd51687cabdda74299cb37b9a5527fddd35aaa) - **feat:** update namespace TypeScript declarations [(##2351)](#2351) _(by stdlib-bot, Philipp Burckhardt)_
 -   [`f9bc7dc`](https://github.com/stdlib-js/stdlib/commit/f9bc7dc126bbb1c67ea03692b71613bfba205ad7) - **test:** add test cases to ensure full coverage _(by Athan Reines)_
 -   [`396d612`](https://github.com/stdlib-js/stdlib/commit/396d6128357346cafbc438d75d8797377ba4022f) - **docs:** update namespace table of contents [(##2348)](#2348 ) _(by stdlib-bot, Philipp Burckhardt)_
