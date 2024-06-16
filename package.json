@@ -78,6 +78,8 @@
     "@stdlib/blas-base-sscal": "^0.2.1",
     "@stdlib/blas-base-sswap": "^0.2.1",
     "@stdlib/blas-base-transpose-operation-enum2str": "github:stdlib-js/blas-base-transpose-operation-enum2str#main",
+    "@stdlib/blas-base-transpose-operation-resolve-enum": "github:stdlib-js/blas-base-transpose-operation-resolve-enum#main",
+    "@stdlib/blas-base-transpose-operation-resolve-str": "github:stdlib-js/blas-base-transpose-operation-resolve-str#main",
     "@stdlib/blas-base-transpose-operation-str2enum": "github:stdlib-js/blas-base-transpose-operation-str2enum#main",
     "@stdlib/blas-base-transpose-operations": "^0.0.1",
     "@stdlib/blas-base-zcopy": "^0.1.0",
