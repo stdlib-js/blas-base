@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-06-12)
+## Unreleased (2024-06-16)
 
 <section class="packages">
 
@@ -20,6 +20,8 @@
 
 ##### Features
 
+-   [`7ae7d15`](https://github.com/stdlib-js/stdlib/commit/7ae7d158f1f467abc1a42491f2acdfdae83ad520) - add `transposeOperationStr2Enum` to namespace
+-   [`3466408`](https://github.com/stdlib-js/stdlib/commit/346640810621a54a70b8f6e175ebce2098d8a736) - add `transposeOperationEnum2Str` to namespace
 -   [`b8bd516`](https://github.com/stdlib-js/stdlib/commit/b8bd51687cabdda74299cb37b9a5527fddd35aaa) - update namespace TypeScript declarations [(##2351)](#2351)
 -   [`df48448`](https://github.com/stdlib-js/stdlib/commit/df484486ee1dda67e3b5821a7531786992fd5837) - add `layoutResolveEnum` to namespace
 -   [`c533088`](https://github.com/stdlib-js/stdlib/commit/c533088d61f9a0d2b182dbe8d89329c9b625f27b) - add `layoutResolveStr` to namespace
@@ -61,10 +63,34 @@
 
 ##### Features
 
+-   [`8741f9c`](https://github.com/stdlib-js/stdlib/commit/8741f9ce65e3aefe3d4b1aca6d3be765f44c6f16) - add `isOperationSide` to namespace
+-   [`901d732`](https://github.com/stdlib-js/stdlib/commit/901d732e5f564d696ddfe87481eecd98d5bcf967) - add `isDiagonalType` to namespace
 -   [`b8bd516`](https://github.com/stdlib-js/stdlib/commit/b8bd51687cabdda74299cb37b9a5527fddd35aaa) - update namespace TypeScript declarations [(##2351)](#2351)
 -   [`3719fcd`](https://github.com/stdlib-js/stdlib/commit/3719fcd56b28595b9b101f9767b0b6d965c9e426) - add `isMatrixTriangle` to namespace
 -   [`926dcec`](https://github.com/stdlib-js/stdlib/commit/926dcecec6a4940ecd7ee57da5db924fadfa3edb) - add `isTransposeOperation` to namespace
 -   [`b5f6754`](https://github.com/stdlib-js/stdlib/commit/b5f6754f4b180101e7b43b602d1cbfac7470c699) - add `blas/base/assert` namespace
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="blas-base-assert-is-diagonal-type-unreleased">
+
+#### [@stdlib/blas/base/assert/is-diagonal-type](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/assert/is-diagonal-type)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`b55cf02`](https://github.com/stdlib-js/stdlib/commit/b55cf027c771d1ad80ca2221cb8115739eea39b4) - add `blas/base/assert/is-diagonal-type`
 
 </section>
 
@@ -109,6 +135,28 @@
 ##### Features
 
 -   [`49464c6`](https://github.com/stdlib-js/stdlib/commit/49464c6b0dd287f92e145c73af1f601d000edd37) - add `blas/base/assert/is-matrix-triangle`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="blas-base-assert-is-operation-side-unreleased">
+
+#### [@stdlib/blas/base/assert/is-operation-side](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/assert/is-operation-side)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`66c7026`](https://github.com/stdlib-js/stdlib/commit/66c7026967dd937980d050a79480c425be2f61a0) - add `blas/base/assert/is-operation-side`
 
 </section>
 
@@ -942,6 +990,50 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="blas-base-transpose-operation-enum2str-unreleased">
+
+#### [@stdlib/blas/base/transpose-operation-enum2str](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/transpose-operation-enum2str)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`74bd47b`](https://github.com/stdlib-js/stdlib/commit/74bd47b73df622246480fb51a3f7a69a7bebb0c4) - add `blas/base/transpose-operation-enum2str` and `blas/base/transpose-operation-str2enum`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="blas-base-transpose-operation-str2enum-unreleased">
+
+#### [@stdlib/blas/base/transpose-operation-str2enum](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/transpose-operation-str2enum)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`74bd47b`](https://github.com/stdlib-js/stdlib/commit/74bd47b73df622246480fb51a3f7a69a7bebb0c4) - add `blas/base/transpose-operation-enum2str` and `blas/base/transpose-operation-str2enum`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="blas-base-transpose-operations-unreleased">
 
 #### [@stdlib/blas/base/transpose-operations](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/transpose-operations)
@@ -1116,6 +1208,13 @@ A total of 6 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`7ae7d15`](https://github.com/stdlib-js/stdlib/commit/7ae7d158f1f467abc1a42491f2acdfdae83ad520) - **feat:** add `transposeOperationStr2Enum` to namespace _(by Athan Reines)_
+-   [`3466408`](https://github.com/stdlib-js/stdlib/commit/346640810621a54a70b8f6e175ebce2098d8a736) - **feat:** add `transposeOperationEnum2Str` to namespace _(by Athan Reines)_
+-   [`74bd47b`](https://github.com/stdlib-js/stdlib/commit/74bd47b73df622246480fb51a3f7a69a7bebb0c4) - **feat:** add `blas/base/transpose-operation-enum2str` and `blas/base/transpose-operation-str2enum` _(by Athan Reines)_
+-   [`8741f9c`](https://github.com/stdlib-js/stdlib/commit/8741f9ce65e3aefe3d4b1aca6d3be765f44c6f16) - **feat:** add `isOperationSide` to namespace _(by Athan Reines)_
+-   [`66c7026`](https://github.com/stdlib-js/stdlib/commit/66c7026967dd937980d050a79480c425be2f61a0) - **feat:** add `blas/base/assert/is-operation-side` _(by Athan Reines)_
+-   [`901d732`](https://github.com/stdlib-js/stdlib/commit/901d732e5f564d696ddfe87481eecd98d5bcf967) - **feat:** add `isDiagonalType` to namespace _(by Athan Reines)_
+-   [`b55cf02`](https://github.com/stdlib-js/stdlib/commit/b55cf027c771d1ad80ca2221cb8115739eea39b4) - **feat:** add `blas/base/assert/is-diagonal-type` _(by Athan Reines)_
 -   [`ce25d7e`](https://github.com/stdlib-js/stdlib/commit/ce25d7e1233e6b0018df58d58d31a38d6c53c27c) - **docs:** fix examples [(#2360)](https://github.com/stdlib-js/stdlib/pull/2360) _(by stdlib-bot, Athan Reines)_
 -   [`143d842`](https://github.com/stdlib-js/stdlib/commit/143d8420e7022c8464594a837831582096771a4d) - **docs:** fix examples _(by Athan Reines)_
 -   [`76e73a5`](https://github.com/stdlib-js/stdlib/commit/76e73a51987ac45b78b3f5011806c57ca33c1951) - **feat:** add `blas/base/zscal` [(#2253)](https://github.com/stdlib-js/stdlib/pull/2253) _(by Aman Bhansali, Athan Reines)_
