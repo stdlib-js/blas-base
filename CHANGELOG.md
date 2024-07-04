@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-06-16)
+## Unreleased (2024-07-04)
 
 <section class="packages">
 
@@ -20,6 +20,7 @@
 
 ##### Features
 
+-   [`48703d8`](https://github.com/stdlib-js/stdlib/commit/48703d8deabd12050c18f7382c966df26d5239a3) - add utilities to namespace
 -   [`ca84473`](https://github.com/stdlib-js/stdlib/commit/ca844736f22b282b3ee33e0d62373442aaf991db) - update namespace TypeScript declarations [(#2381)](https://github.com/stdlib-js/stdlib/pull/2381)
 -   [`79b486d`](https://github.com/stdlib-js/stdlib/commit/79b486d8f6787762e6eb82abb95e7f55a24dc91a) - add `transposeOperationResolveStr` to namespace
 -   [`8ca3745`](https://github.com/stdlib-js/stdlib/commit/8ca374503c82fefe69dfc281ad10a4a9d1d733a3) - add `transposeOperationResolveEnum` to namespace
@@ -432,6 +433,94 @@
 
 <!-- /.package -->
 
+<section class="package" id="blas-base-diagonal-type-enum2str-unreleased">
+
+#### [@stdlib/blas/base/diagonal-type-enum2str](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/diagonal-type-enum2str)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`1493a14`](https://github.com/stdlib-js/stdlib/commit/1493a1446311df5c8b643e3429dba4c8850fc227) - add `blas/base/diagonal-type-*` utilities [(#2498)](https://github.com/stdlib-js/stdlib/pull/2498)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="blas-base-diagonal-type-resolve-enum-unreleased">
+
+#### [@stdlib/blas/base/diagonal-type-resolve-enum](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/diagonal-type-resolve-enum)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`1493a14`](https://github.com/stdlib-js/stdlib/commit/1493a1446311df5c8b643e3429dba4c8850fc227) - add `blas/base/diagonal-type-*` utilities [(#2498)](https://github.com/stdlib-js/stdlib/pull/2498)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="blas-base-diagonal-type-resolve-str-unreleased">
+
+#### [@stdlib/blas/base/diagonal-type-resolve-str](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/diagonal-type-resolve-str)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`1493a14`](https://github.com/stdlib-js/stdlib/commit/1493a1446311df5c8b643e3429dba4c8850fc227) - add `blas/base/diagonal-type-*` utilities [(#2498)](https://github.com/stdlib-js/stdlib/pull/2498)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="blas-base-diagonal-type-str2enum-unreleased">
+
+#### [@stdlib/blas/base/diagonal-type-str2enum](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/diagonal-type-str2enum)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`1493a14`](https://github.com/stdlib-js/stdlib/commit/1493a1446311df5c8b643e3429dba4c8850fc227) - add `blas/base/diagonal-type-*` utilities [(#2498)](https://github.com/stdlib-js/stdlib/pull/2498)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="blas-base-diagonal-types-unreleased">
 
 #### [@stdlib/blas/base/diagonal-types](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/diagonal-types)
@@ -541,6 +630,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="blas-base-drotm-unreleased">
+
+#### [@stdlib/blas/base/drotm](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/drotm)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`51608dc`](https://github.com/stdlib-js/stdlib/commit/51608dce38bc73594242644c3b732c37ed3dfbe8) - add `blas/base/drotm` [(#2266)](https://github.com/stdlib-js/stdlib/pull/2266)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="blas-base-dscal-unreleased">
 
 #### [@stdlib/blas/base/dscal](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/dscal)
@@ -605,6 +716,45 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="blas-base-dspmv-unreleased">
+
+#### [@stdlib/blas/base/dspmv](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/dspmv)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`bc23559`](https://github.com/stdlib-js/stdlib/commit/bc2355981ffa28082d8e23273887501bd3ba674a) - add support for specifying the index offset for `AP`
+-   [`ca56638`](https://github.com/stdlib-js/stdlib/commit/ca566387ddc147c4f15fd012a09bd55713307394) - add `blas/base/dspmv` [(#2456)](https://github.com/stdlib-js/stdlib/pull/2456)
+
+</section>
+
+<!-- /.features -->
+
+<section class="breaking-changes">
+
+##### BREAKING CHANGES
+
+-   [`bc23559`](https://github.com/stdlib-js/stdlib/commit/bc2355981ffa28082d8e23273887501bd3ba674a): add support for specifying the index offset for `AP`
+-   [`bc23559`](https://github.com/stdlib-js/stdlib/commit/bc2355981ffa28082d8e23273887501bd3ba674a): add offset parameter to `ndarray` method 
+
+    -   To migrate, users should set the `offsetAP` parameter. For most cases,
+    this parameter will be zero, but supporting this parameter allows
+    users to specify alternative starting indices, such as needed when
+    working with ndarray views.
+
+</section>
+
+<!-- /.breaking-changes -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="blas-base-dswap-unreleased">
 
 #### [@stdlib/blas/base/dswap](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/dswap)
@@ -630,6 +780,28 @@ This release closes the following issue:
 </section>
 
 <!-- /.bug-fixes -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="blas-base-dsymv-unreleased">
+
+#### [@stdlib/blas/base/dsymv](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/dsymv)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`4c95c4b`](https://github.com/stdlib-js/stdlib/commit/4c95c4b36797d601976e647baf2f4a493aff8de5) - add `blas/base/dsymv` [(#2458)](https://github.com/stdlib-js/stdlib/pull/2458)
+
+</section>
+
+<!-- /.features -->
 
 </details>
 
@@ -802,6 +974,94 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="blas-base-matrix-triangle-enum2str-unreleased">
+
+#### [@stdlib/blas/base/matrix-triangle-enum2str](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/matrix-triangle-enum2str)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`a61b40c`](https://github.com/stdlib-js/stdlib/commit/a61b40cedd7518a68efb28372e4bf817aeb5a319) - add `blas/base/matrix-triangle-str2enum` and `blas/base/matrix-triangle/enum2str` [(#2495)](https://github.com/stdlib-js/stdlib/pull/2495)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="blas-base-matrix-triangle-resolve-enum-unreleased">
+
+#### [@stdlib/blas/base/matrix-triangle-resolve-enum](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/matrix-triangle-resolve-enum)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`defe484`](https://github.com/stdlib-js/stdlib/commit/defe4849d8043a1c5d506d84ad6172a5e0df6af2) - add `blas/base/matrix-triangle-resolve-enum` [(#2497)](https://github.com/stdlib-js/stdlib/pull/2497)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="blas-base-matrix-triangle-resolve-str-unreleased">
+
+#### [@stdlib/blas/base/matrix-triangle-resolve-str](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/matrix-triangle-resolve-str)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`50316e4`](https://github.com/stdlib-js/stdlib/commit/50316e43a7f59092f56aebcd2acfa815871ae3bf) - add `blas/base/matrix-triangle-resolve-str` [(#2496)](https://github.com/stdlib-js/stdlib/pull/2496)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="blas-base-matrix-triangle-str2enum-unreleased">
+
+#### [@stdlib/blas/base/matrix-triangle-str2enum](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/matrix-triangle-str2enum)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`a61b40c`](https://github.com/stdlib-js/stdlib/commit/a61b40cedd7518a68efb28372e4bf817aeb5a319) - add `blas/base/matrix-triangle-str2enum` and `blas/base/matrix-triangle/enum2str` [(#2495)](https://github.com/stdlib-js/stdlib/pull/2495)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="blas-base-matrix-triangles-unreleased">
 
 #### [@stdlib/blas/base/matrix-triangles](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/matrix-triangles)
@@ -813,6 +1073,94 @@ This release closes the following issue:
 ##### Features
 
 -   [`917e002`](https://github.com/stdlib-js/stdlib/commit/917e00207daf329791c74bba0060f9df5094b267) - add `blas/base/matrix-triangles`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="blas-base-operation-side-enum2str-unreleased">
+
+#### [@stdlib/blas/base/operation-side-enum2str](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/operation-side-enum2str)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`04b3803`](https://github.com/stdlib-js/stdlib/commit/04b3803f90e84a700d42da7c1f0117b4676b2040) - add `blas/base/operation-side-*` utilities [(#2499)](https://github.com/stdlib-js/stdlib/pull/2499)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="blas-base-operation-side-resolve-enum-unreleased">
+
+#### [@stdlib/blas/base/operation-side-resolve-enum](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/operation-side-resolve-enum)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`04b3803`](https://github.com/stdlib-js/stdlib/commit/04b3803f90e84a700d42da7c1f0117b4676b2040) - add `blas/base/operation-side-*` utilities [(#2499)](https://github.com/stdlib-js/stdlib/pull/2499)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="blas-base-operation-side-resolve-str-unreleased">
+
+#### [@stdlib/blas/base/operation-side-resolve-str](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/operation-side-resolve-str)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`04b3803`](https://github.com/stdlib-js/stdlib/commit/04b3803f90e84a700d42da7c1f0117b4676b2040) - add `blas/base/operation-side-*` utilities [(#2499)](https://github.com/stdlib-js/stdlib/pull/2499)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="blas-base-operation-side-str2enum-unreleased">
+
+#### [@stdlib/blas/base/operation-side-str2enum](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/operation-side-str2enum)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`04b3803`](https://github.com/stdlib-js/stdlib/commit/04b3803f90e84a700d42da7c1f0117b4676b2040) - add `blas/base/operation-side-*` utilities [(#2499)](https://github.com/stdlib-js/stdlib/pull/2499)
 
 </section>
 
@@ -925,6 +1273,38 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="blas-base-scnrm2-unreleased">
+
+#### [@stdlib/blas/base/scnrm2](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/scnrm2)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`c49ba29`](https://github.com/stdlib-js/stdlib/commit/c49ba291cbed0449d7a7e21a32d3d0e9498f74ec) - add `blas/base/scnrm2` [(#2270)](https://github.com/stdlib-js/stdlib/pull/2270)
+
+</section>
+
+<!-- /.features -->
+
+<section class="bug-fixes">
+
+##### Bug Fixes
+
+-   [`6b0d3fc`](https://github.com/stdlib-js/stdlib/commit/6b0d3fc30e73190cbf953f636e1eb39b02e7260e) - update paths, descriptions, and examples [(#2457)](https://github.com/stdlib-js/stdlib/pull/2457)
+
+</section>
+
+<!-- /.bug-fixes -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="blas-base-shared-unreleased">
 
 #### [@stdlib/blas/base/shared](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/shared)
@@ -935,6 +1315,7 @@ This release closes the following issue:
 
 ##### Features
 
+-   [`8248b4a`](https://github.com/stdlib-js/stdlib/commit/8248b4a4c72d7a981a72075583561b98646c8068) - add macro to convert a stride to an index offset
 -   [`123f7f9`](https://github.com/stdlib-js/stdlib/commit/123f7f945a9154c7518c6c0837110e0712811b5f) - add `blas/base/diagonal-types`
 -   [`9174c02`](https://github.com/stdlib-js/stdlib/commit/9174c02e42ca651f8959fff0626ae8147a75ee09) - add `blas/base/shared`
 
@@ -987,6 +1368,83 @@ This release closes the following issue:
 </section>
 
 <!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="blas-base-srotm-unreleased">
+
+#### [@stdlib/blas/base/srotm](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/srotm)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`ad36a03`](https://github.com/stdlib-js/stdlib/commit/ad36a034d88d65ae6a68a4f79122f5867c02c596) - add `blas/base/srotm` [(#2267)](https://github.com/stdlib-js/stdlib/pull/2267)
+
+</section>
+
+<!-- /.features -->
+
+<section class="bug-fixes">
+
+##### Bug Fixes
+
+-   [`15ea69b`](https://github.com/stdlib-js/stdlib/commit/15ea69be968a9dbc98310ad06a79f53759841ffc) - update C examples and description for `blas/base/srotm` [(#2448)](https://github.com/stdlib-js/stdlib/pull/2448)
+-   [`1c95092`](https://github.com/stdlib-js/stdlib/commit/1c950922dbe073c352ceec63a25b3d6972f9d668) - perform float32 emulation in `blas/base/srotm` [(#2445)](https://github.com/stdlib-js/stdlib/pull/2445)
+
+</section>
+
+<!-- /.bug-fixes -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="blas-base-sspmv-unreleased">
+
+#### [@stdlib/blas/base/sspmv](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/sspmv)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`f73aeb5`](https://github.com/stdlib-js/stdlib/commit/f73aeb5549179b68269aeedde9c9b2a5351da320) - add `blas/base/sspmv` [(#2414)](https://github.com/stdlib-js/stdlib/pull/2414)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="blas-base-ssymv-unreleased">
+
+#### [@stdlib/blas/base/ssymv](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/ssymv)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`62744b5`](https://github.com/stdlib-js/stdlib/commit/62744b5bd1fc7a9502d527be5ff3239f0491e05c) - add `blas/base/ssymv` [(#2305)](https://github.com/stdlib-js/stdlib/pull/2305)
+
+</section>
+
+<!-- /.features -->
 
 </details>
 
@@ -1212,6 +1670,14 @@ This release closes the following issue:
 
 ### BREAKING CHANGES
 
+-   [`bc23559`](https://github.com/stdlib-js/stdlib/commit/bc2355981ffa28082d8e23273887501bd3ba674a): add support for specifying the index offset for `AP`
+-   [`bc23559`](https://github.com/stdlib-js/stdlib/commit/bc2355981ffa28082d8e23273887501bd3ba674a): add offset parameter to `ndarray` method 
+
+    -   To migrate, users should set the `offsetAP` parameter. For most cases,
+    this parameter will be zero, but supporting this parameter allows
+    users to specify alternative starting indices, such as needed when
+    working with ndarray views.
+
 -   [`85ec173`](https://github.com/stdlib-js/stdlib/commit/85ec1734c06b80b13eb607576e592414047c90a7): remove `blas/base/orders` 
 
     -   To migrate, users should use `blas/base/layouts` and the
@@ -1256,6 +1722,34 @@ A total of 6 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`48703d8`](https://github.com/stdlib-js/stdlib/commit/48703d8deabd12050c18f7382c966df26d5239a3) - **feat:** add utilities to namespace _(by Athan Reines)_
+-   [`defe484`](https://github.com/stdlib-js/stdlib/commit/defe4849d8043a1c5d506d84ad6172a5e0df6af2) - **feat:** add `blas/base/matrix-triangle-resolve-enum` [(#2497)](https://github.com/stdlib-js/stdlib/pull/2497) _(by Pranav Goswami, Athan Reines)_
+-   [`50316e4`](https://github.com/stdlib-js/stdlib/commit/50316e43a7f59092f56aebcd2acfa815871ae3bf) - **feat:** add `blas/base/matrix-triangle-resolve-str` [(#2496)](https://github.com/stdlib-js/stdlib/pull/2496) _(by Pranav Goswami, Athan Reines)_
+-   [`1493a14`](https://github.com/stdlib-js/stdlib/commit/1493a1446311df5c8b643e3429dba4c8850fc227) - **feat:** add `blas/base/diagonal-type-*` utilities [(#2498)](https://github.com/stdlib-js/stdlib/pull/2498) _(by Pranav Goswami, Athan Reines)_
+-   [`04b3803`](https://github.com/stdlib-js/stdlib/commit/04b3803f90e84a700d42da7c1f0117b4676b2040) - **feat:** add `blas/base/operation-side-*` utilities [(#2499)](https://github.com/stdlib-js/stdlib/pull/2499) _(by Pranav Goswami, Athan Reines)_
+-   [`a61b40c`](https://github.com/stdlib-js/stdlib/commit/a61b40cedd7518a68efb28372e4bf817aeb5a319) - **feat:** add `blas/base/matrix-triangle-str2enum` and `blas/base/matrix-triangle/enum2str` [(#2495)](https://github.com/stdlib-js/stdlib/pull/2495) _(by Pranav Goswami, Athan Reines)_
+-   [`bc23559`](https://github.com/stdlib-js/stdlib/commit/bc2355981ffa28082d8e23273887501bd3ba674a) - **feat:** add support for specifying the index offset for `AP` _(by Athan Reines)_
+-   [`43b84f7`](https://github.com/stdlib-js/stdlib/commit/43b84f7b8614a31ed5985c010572da16b2b5186d) - **refactor:** use utility to resolve an index offset _(by Athan Reines)_
+-   [`5418177`](https://github.com/stdlib-js/stdlib/commit/5418177d92f26a6d99bd53d19713f2fa0d536b27) - **refactor:** use macro to convert stride to offset _(by Athan Reines)_
+-   [`8248b4a`](https://github.com/stdlib-js/stdlib/commit/8248b4a4c72d7a981a72075583561b98646c8068) - **feat:** add macro to convert a stride to an index offset _(by Athan Reines)_
+-   [`c3895df`](https://github.com/stdlib-js/stdlib/commit/c3895df672126473f5803e93b529bcdd0775c75a) - **refactor:** use utility to resolve an index offset _(by Athan Reines)_
+-   [`1654659`](https://github.com/stdlib-js/stdlib/commit/1654659445a6dee281706379770c9cb0498c36c7) - **refactor:** update implementation to reduce code duplication [(#2480)](https://github.com/stdlib-js/stdlib/pull/2480) _(by Aman Bhansali, Athan Reines)_
+-   [`4d08374`](https://github.com/stdlib-js/stdlib/commit/4d0837401b68ebd4e5b8c38e0214158dbe410a07) - **refactor:** reduce code duplication [(#2479)](https://github.com/stdlib-js/stdlib/pull/2479) _(by Aman Bhansali, Athan Reines)_
+-   [`a591e05`](https://github.com/stdlib-js/stdlib/commit/a591e052cf1b1515c267781b914c6a482e150425) - **test:** fix test configuration _(by Athan Reines)_
+-   [`ca56638`](https://github.com/stdlib-js/stdlib/commit/ca566387ddc147c4f15fd012a09bd55713307394) - **feat:** add `blas/base/dspmv` [(#2456)](https://github.com/stdlib-js/stdlib/pull/2456) _(by Aman Bhansali, Athan Reines)_
+-   [`4c95c4b`](https://github.com/stdlib-js/stdlib/commit/4c95c4b36797d601976e647baf2f4a493aff8de5) - **feat:** add `blas/base/dsymv` [(#2458)](https://github.com/stdlib-js/stdlib/pull/2458) _(by Aman Bhansali, Athan Reines)_
+-   [`6b0d3fc`](https://github.com/stdlib-js/stdlib/commit/6b0d3fc30e73190cbf953f636e1eb39b02e7260e) - **fix:** update paths, descriptions, and examples [(#2457)](https://github.com/stdlib-js/stdlib/pull/2457) _(by Aman Bhansali)_
+-   [`d8b6e5a`](https://github.com/stdlib-js/stdlib/commit/d8b6e5a1d6841b05d1af0dfc627be38bb25f9cf1) - **test:** add test cases to `blas/base/drotm` [(#2454)](https://github.com/stdlib-js/stdlib/pull/2454) _(by Aman Bhansali)_
+-   [`4d45aa2`](https://github.com/stdlib-js/stdlib/commit/4d45aa236afedd4bf2bcda0d444dc81bd8915a45) - **test:** add test cases to `blas/base/srotm` [(#2455)](https://github.com/stdlib-js/stdlib/pull/2455) _(by Aman Bhansali)_
+-   [`51608dc`](https://github.com/stdlib-js/stdlib/commit/51608dce38bc73594242644c3b732c37ed3dfbe8) - **feat:** add `blas/base/drotm` [(#2266)](https://github.com/stdlib-js/stdlib/pull/2266) _(by Aman Bhansali, Athan Reines)_
+-   [`9de1979`](https://github.com/stdlib-js/stdlib/commit/9de1979e01566cdb52a8d7667fedd7418871e130) - **docs:** fix descriptions _(by Athan Reines)_
+-   [`15ea69b`](https://github.com/stdlib-js/stdlib/commit/15ea69be968a9dbc98310ad06a79f53759841ffc) - **fix:** update C examples and description for `blas/base/srotm` [(#2448)](https://github.com/stdlib-js/stdlib/pull/2448) _(by Aman Bhansali)_
+-   [`1c95092`](https://github.com/stdlib-js/stdlib/commit/1c950922dbe073c352ceec63a25b3d6972f9d668) - **fix:** perform float32 emulation in `blas/base/srotm` [(#2445)](https://github.com/stdlib-js/stdlib/pull/2445) _(by Aman Bhansali)_
+-   [`ad36a03`](https://github.com/stdlib-js/stdlib/commit/ad36a034d88d65ae6a68a4f79122f5867c02c596) - **feat:** add `blas/base/srotm` [(#2267)](https://github.com/stdlib-js/stdlib/pull/2267) _(by Aman Bhansali, Athan Reines)_
+-   [`c49ba29`](https://github.com/stdlib-js/stdlib/commit/c49ba291cbed0449d7a7e21a32d3d0e9498f74ec) - **feat:** add `blas/base/scnrm2` [(#2270)](https://github.com/stdlib-js/stdlib/pull/2270) _(by Aman Bhansali, Athan Reines)_
+-   [`f73aeb5`](https://github.com/stdlib-js/stdlib/commit/f73aeb5549179b68269aeedde9c9b2a5351da320) - **feat:** add `blas/base/sspmv` [(#2414)](https://github.com/stdlib-js/stdlib/pull/2414) _(by Aman Bhansali, Athan Reines)_
+-   [`62744b5`](https://github.com/stdlib-js/stdlib/commit/62744b5bd1fc7a9502d527be5ff3239f0491e05c) - **feat:** add `blas/base/ssymv` [(#2305)](https://github.com/stdlib-js/stdlib/pull/2305) _(by Aman Bhansali, Athan Reines)_
+-   [`fb8d458`](https://github.com/stdlib-js/stdlib/commit/fb8d458e12ae4cf0d443e04debf72b4ea764de56) - **docs:** update namespace table of contents [(#2383)](https://github.com/stdlib-js/stdlib/pull/2383) _(by stdlib-bot, Athan Reines)_
 -   [`ca84473`](https://github.com/stdlib-js/stdlib/commit/ca844736f22b282b3ee33e0d62373442aaf991db) - **feat:** update namespace TypeScript declarations [(#2381)](https://github.com/stdlib-js/stdlib/pull/2381) _(by stdlib-bot, Athan Reines)_
 -   [`79b486d`](https://github.com/stdlib-js/stdlib/commit/79b486d8f6787762e6eb82abb95e7f55a24dc91a) - **feat:** add `transposeOperationResolveStr` to namespace _(by Athan Reines)_
 -   [`d62dd8c`](https://github.com/stdlib-js/stdlib/commit/d62dd8cc70527215253e242624afe900593117b8) - **feat:** add `blas/base/transpose-operation-resolve-str` _(by Athan Reines)_
