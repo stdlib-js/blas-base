@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-07-05)
+## Unreleased (2024-07-15)
 
 <section class="packages">
 
@@ -20,6 +20,7 @@
 
 ##### Features
 
+-   [`722452c`](https://github.com/stdlib-js/stdlib/commit/722452c97282738c0a83e336720c63ee785bc69f) - rename 'none' transpose operation to 'no-transpose'
 -   [`dd73ff2`](https://github.com/stdlib-js/stdlib/commit/dd73ff27e89fc2a39e2fb8a6f54d8b1a1a29f575) - update namespace TypeScript declarations [(#2514)](https://github.com/stdlib-js/stdlib/pull/2514)
 -   [`48703d8`](https://github.com/stdlib-js/stdlib/commit/48703d8deabd12050c18f7382c966df26d5239a3) - add utilities to namespace
 -   [`ca84473`](https://github.com/stdlib-js/stdlib/commit/ca844736f22b282b3ee33e0d62373442aaf991db) - update namespace TypeScript declarations [(#2381)](https://github.com/stdlib-js/stdlib/pull/2381)
@@ -51,6 +52,16 @@
 </section>
 
 <!-- /.bug-fixes -->
+
+<section class="breaking-changes">
+
+##### BREAKING CHANGES
+
+-   [`722452c`](https://github.com/stdlib-js/stdlib/commit/722452c97282738c0a83e336720c63ee785bc69f): rename 'none' transpose operation to 'no-transpose'
+
+</section>
+
+<!-- /.breaking-changes -->
 
 </details>
 
@@ -184,7 +195,40 @@
 
 ##### Features
 
+-   [`722452c`](https://github.com/stdlib-js/stdlib/commit/722452c97282738c0a83e336720c63ee785bc69f) - rename 'none' transpose operation to 'no-transpose'
 -   [`b59eb8b`](https://github.com/stdlib-js/stdlib/commit/b59eb8bf46debbde5e24ec21ed1c0afb184e8ae0) - add `blas/base/assert/is-transpose-operation`
+
+</section>
+
+<!-- /.features -->
+
+<section class="breaking-changes">
+
+##### BREAKING CHANGES
+
+-   [`722452c`](https://github.com/stdlib-js/stdlib/commit/722452c97282738c0a83e336720c63ee785bc69f): rename 'none' transpose operation to 'no-transpose'
+
+</section>
+
+<!-- /.breaking-changes -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="blas-base-caxpy-unreleased">
+
+#### [@stdlib/blas/base/caxpy](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/caxpy)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`7d65943`](https://github.com/stdlib-js/stdlib/commit/7d65943604945f9a9e3ad63267c9d91a8c26da2c) - add `blas/base/caxpy` [(#2121)](https://github.com/stdlib-js/stdlib/pull/2121)
 
 </section>
 
@@ -239,6 +283,28 @@
 ##### Features
 
 -   [`b40f5c3`](https://github.com/stdlib-js/stdlib/commit/b40f5c33aaf2113c73f8f0811c8d1cdc9fbfde53) - add `blas/base/cscal` [(#2104)](https://github.com/stdlib-js/stdlib/pull/2104)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="blas-base-csrot-unreleased">
+
+#### [@stdlib/blas/base/csrot](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/csrot)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`bdaa7e0`](https://github.com/stdlib-js/stdlib/commit/bdaa7e0c54b8d4cf18bc3d4eb04147971b3c69cd) - add `blas/base/csrot` [(#2256)](https://github.com/stdlib-js/stdlib/pull/2256)
 
 </section>
 
@@ -810,6 +876,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="blas-base-dznrm2-unreleased">
+
+#### [@stdlib/blas/base/dznrm2](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/dznrm2)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`08eaa1b`](https://github.com/stdlib-js/stdlib/commit/08eaa1b176d0e510b0af53d7b7a02d5c63090e1f) - add `blas/base/dznrm2` [(#2271)](https://github.com/stdlib-js/stdlib/pull/2271)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="blas-base-idamax-unreleased">
 
 #### [@stdlib/blas/base/idamax](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/idamax)
@@ -1274,6 +1362,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="blas-base-scasum-unreleased">
+
+#### [@stdlib/blas/base/scasum](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/scasum)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`3dda09b`](https://github.com/stdlib-js/stdlib/commit/3dda09be640b5ee96278691de75d35a61b2ecfe8) - add `blas/base/scasum` [(#2573)](https://github.com/stdlib-js/stdlib/pull/2573)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="blas-base-scnrm2-unreleased">
 
 #### [@stdlib/blas/base/scnrm2](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/scnrm2)
@@ -1294,6 +1404,7 @@ This release closes the following issue:
 
 ##### Bug Fixes
 
+-   [`81aca47`](https://github.com/stdlib-js/stdlib/commit/81aca4745dae0b9ab083f1c79f6e60617a109f4c) - update variable name
 -   [`6b0d3fc`](https://github.com/stdlib-js/stdlib/commit/6b0d3fc30e73190cbf953f636e1eb39b02e7260e) - update paths, descriptions, and examples [(#2457)](https://github.com/stdlib-js/stdlib/pull/2457)
 
 </section>
@@ -1352,6 +1463,7 @@ This release closes the following issue:
 
 ##### Features
 
+-   [`96f2299`](https://github.com/stdlib-js/stdlib/commit/96f22991788a808caa052cb3d1e1c9618091e3d3) - add support for specifying integer size
 -   [`d1cbb09`](https://github.com/stdlib-js/stdlib/commit/d1cbb0973d127cf391ecce4efefd1390d6aab0e1) - add `blas/base/srot` [(#1844)](https://github.com/stdlib-js/stdlib/pull/1844)
 
 </section>
@@ -1463,11 +1575,22 @@ This release closes the following issue:
 
 ##### Features
 
+-   [`722452c`](https://github.com/stdlib-js/stdlib/commit/722452c97282738c0a83e336720c63ee785bc69f) - rename 'none' transpose operation to 'no-transpose'
 -   [`74bd47b`](https://github.com/stdlib-js/stdlib/commit/74bd47b73df622246480fb51a3f7a69a7bebb0c4) - add `blas/base/transpose-operation-enum2str` and `blas/base/transpose-operation-str2enum`
 
 </section>
 
 <!-- /.features -->
+
+<section class="breaking-changes">
+
+##### BREAKING CHANGES
+
+-   [`722452c`](https://github.com/stdlib-js/stdlib/commit/722452c97282738c0a83e336720c63ee785bc69f): rename 'none' transpose operation to 'no-transpose'
+
+</section>
+
+<!-- /.breaking-changes -->
 
 </details>
 
@@ -1485,11 +1608,22 @@ This release closes the following issue:
 
 ##### Features
 
+-   [`722452c`](https://github.com/stdlib-js/stdlib/commit/722452c97282738c0a83e336720c63ee785bc69f) - rename 'none' transpose operation to 'no-transpose'
 -   [`f493d51`](https://github.com/stdlib-js/stdlib/commit/f493d512c7a4e5b3f3410266ea44f08bd47f7bde) - add `blas/base/transpose-operation-resolve-enum`
 
 </section>
 
 <!-- /.features -->
+
+<section class="breaking-changes">
+
+##### BREAKING CHANGES
+
+-   [`722452c`](https://github.com/stdlib-js/stdlib/commit/722452c97282738c0a83e336720c63ee785bc69f): rename 'none' transpose operation to 'no-transpose'
+
+</section>
+
+<!-- /.breaking-changes -->
 
 </details>
 
@@ -1507,11 +1641,22 @@ This release closes the following issue:
 
 ##### Features
 
+-   [`722452c`](https://github.com/stdlib-js/stdlib/commit/722452c97282738c0a83e336720c63ee785bc69f) - rename 'none' transpose operation to 'no-transpose'
 -   [`d62dd8c`](https://github.com/stdlib-js/stdlib/commit/d62dd8cc70527215253e242624afe900593117b8) - add `blas/base/transpose-operation-resolve-str`
 
 </section>
 
 <!-- /.features -->
+
+<section class="breaking-changes">
+
+##### BREAKING CHANGES
+
+-   [`722452c`](https://github.com/stdlib-js/stdlib/commit/722452c97282738c0a83e336720c63ee785bc69f): rename 'none' transpose operation to 'no-transpose'
+
+</section>
+
+<!-- /.breaking-changes -->
 
 </details>
 
@@ -1529,11 +1674,22 @@ This release closes the following issue:
 
 ##### Features
 
+-   [`722452c`](https://github.com/stdlib-js/stdlib/commit/722452c97282738c0a83e336720c63ee785bc69f) - rename 'none' transpose operation to 'no-transpose'
 -   [`74bd47b`](https://github.com/stdlib-js/stdlib/commit/74bd47b73df622246480fb51a3f7a69a7bebb0c4) - add `blas/base/transpose-operation-enum2str` and `blas/base/transpose-operation-str2enum`
 
 </section>
 
 <!-- /.features -->
+
+<section class="breaking-changes">
+
+##### BREAKING CHANGES
+
+-   [`722452c`](https://github.com/stdlib-js/stdlib/commit/722452c97282738c0a83e336720c63ee785bc69f): rename 'none' transpose operation to 'no-transpose'
+
+</section>
+
+<!-- /.breaking-changes -->
 
 </details>
 
@@ -1551,11 +1707,22 @@ This release closes the following issue:
 
 ##### Features
 
+-   [`722452c`](https://github.com/stdlib-js/stdlib/commit/722452c97282738c0a83e336720c63ee785bc69f) - rename 'none' transpose operation to 'no-transpose'
 -   [`87a0d77`](https://github.com/stdlib-js/stdlib/commit/87a0d77b81cc5bc8c05e40d6ec22f548c5d3dd14) - add `blas/base/transpose-operations`
 
 </section>
 
 <!-- /.features -->
+
+<section class="breaking-changes">
+
+##### BREAKING CHANGES
+
+-   [`722452c`](https://github.com/stdlib-js/stdlib/commit/722452c97282738c0a83e336720c63ee785bc69f): rename 'none' transpose operation to 'no-transpose'
+
+</section>
+
+<!-- /.breaking-changes -->
 
 </details>
 
@@ -1585,6 +1752,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="blas-base-zaxpy-unreleased">
+
+#### [@stdlib/blas/base/zaxpy](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/zaxpy)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`85ffc1a`](https://github.com/stdlib-js/stdlib/commit/85ffc1a73bdcabdfc4c2a550e398a285eae49ebb) - add `blas/base/zaxpy` [(#2468)](https://github.com/stdlib-js/stdlib/pull/2468)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="blas-base-zcopy-unreleased">
 
 #### [@stdlib/blas/base/zcopy](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/zcopy)
@@ -1596,6 +1785,28 @@ This release closes the following issue:
 ##### Features
 
 -   [`1dda7d2`](https://github.com/stdlib-js/stdlib/commit/1dda7d20d743bf44053c96cfa9bf89f456e1ed8b) - add `blas/base/zcopy` [(#2064)](https://github.com/stdlib-js/stdlib/pull/2064)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="blas-base-zdrot-unreleased">
+
+#### [@stdlib/blas/base/zdrot](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/zdrot)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`4d5293d`](https://github.com/stdlib-js/stdlib/commit/4d5293d0cfd81bd1016d1bcc372afefe20b1a211) - add `blas/base/zdrot` [(#2257)](https://github.com/stdlib-js/stdlib/pull/2257)
 
 </section>
 
@@ -1671,6 +1882,7 @@ This release closes the following issue:
 
 ### BREAKING CHANGES
 
+-   [`722452c`](https://github.com/stdlib-js/stdlib/commit/722452c97282738c0a83e336720c63ee785bc69f): rename 'none' transpose operation to 'no-transpose'
 -   [`bc23559`](https://github.com/stdlib-js/stdlib/commit/bc2355981ffa28082d8e23273887501bd3ba674a): add support for specifying the index offset for `AP`
 -   [`bc23559`](https://github.com/stdlib-js/stdlib/commit/bc2355981ffa28082d8e23273887501bd3ba674a): add offset parameter to `ndarray` method 
 
@@ -1723,6 +1935,26 @@ A total of 6 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`722452c`](https://github.com/stdlib-js/stdlib/commit/722452c97282738c0a83e336720c63ee785bc69f) - **feat:** rename 'none' transpose operation to 'no-transpose' _(by Athan Reines)_
+-   [`d04dcbd`](https://github.com/stdlib-js/stdlib/commit/d04dcbd6dc3b0bf4a89bd3947d317fa5ff15bb38) - **docs:** remove private annotations in C comments _(by Philipp Burckhardt)_
+-   [`3dda09b`](https://github.com/stdlib-js/stdlib/commit/3dda09be640b5ee96278691de75d35a61b2ecfe8) - **feat:** add `blas/base/scasum` [(#2573)](https://github.com/stdlib-js/stdlib/pull/2573) _(by Aman Bhansali, Athan Reines)_
+-   [`7d65943`](https://github.com/stdlib-js/stdlib/commit/7d65943604945f9a9e3ad63267c9d91a8c26da2c) - **feat:** add `blas/base/caxpy` [(#2121)](https://github.com/stdlib-js/stdlib/pull/2121) _(by Aman Bhansali, Athan Reines)_
+-   [`e693161`](https://github.com/stdlib-js/stdlib/commit/e6931618c88d2bc3f957fecdca013bcda2558e0c) - **test:** fix test comparisons _(by Athan Reines)_
+-   [`bdaa7e0`](https://github.com/stdlib-js/stdlib/commit/bdaa7e0c54b8d4cf18bc3d4eb04147971b3c69cd) - **feat:** add `blas/base/csrot` [(#2256)](https://github.com/stdlib-js/stdlib/pull/2256) _(by Aman Bhansali, Athan Reines)_
+-   [`562f806`](https://github.com/stdlib-js/stdlib/commit/562f80662e928af49eac8dd78ee57b1785aab515) - **style:** group expressions based on order of operations _(by Athan Reines)_
+-   [`a78f42b`](https://github.com/stdlib-js/stdlib/commit/a78f42b3295fe4513a15b90a837b60a63fc1f6bc) - **docs:** fix paths in examples and refactor array creation in benchmarks [(#2563)](https://github.com/stdlib-js/stdlib/pull/2563) _(by Aman Bhansali)_
+-   [`4d5293d`](https://github.com/stdlib-js/stdlib/commit/4d5293d0cfd81bd1016d1bcc372afefe20b1a211) - **feat:** add `blas/base/zdrot` [(#2257)](https://github.com/stdlib-js/stdlib/pull/2257) _(by Aman Bhansali, Athan Reines)_
+-   [`f35cb6e`](https://github.com/stdlib-js/stdlib/commit/f35cb6eb2dddc6fdcc904ef165b92970f4a50698) - **docs:** fix description _(by Athan Reines)_
+-   [`96f2299`](https://github.com/stdlib-js/stdlib/commit/96f22991788a808caa052cb3d1e1c9618091e3d3) - **feat:** add support for specifying integer size _(by Athan Reines)_
+-   [`d9dfc21`](https://github.com/stdlib-js/stdlib/commit/d9dfc219d84a0418eae579a882ba4fc9b841aecd) - **refactor:** use common implementation and document C API _(by Athan Reines)_
+-   [`85ffc1a`](https://github.com/stdlib-js/stdlib/commit/85ffc1a73bdcabdfc4c2a550e398a285eae49ebb) - **feat:** add `blas/base/zaxpy` [(#2468)](https://github.com/stdlib-js/stdlib/pull/2468) _(by Aman Bhansali, Athan Reines)_
+-   [`08eaa1b`](https://github.com/stdlib-js/stdlib/commit/08eaa1b176d0e510b0af53d7b7a02d5c63090e1f) - **feat:** add `blas/base/dznrm2` [(#2271)](https://github.com/stdlib-js/stdlib/pull/2271) _(by Aman Bhansali, Athan Reines)_
+-   [`72a5a6c`](https://github.com/stdlib-js/stdlib/commit/72a5a6cd80794d51bbb0489c0eab5b8bf4839c27) - **style:** use consistent spacing _(by Athan Reines)_
+-   [`0b59ac0`](https://github.com/stdlib-js/stdlib/commit/0b59ac098da813bb1e8ae93b93b1bb5df30d2a18) - **refactor:** use utility to resolve offset _(by Athan Reines)_
+-   [`81aca47`](https://github.com/stdlib-js/stdlib/commit/81aca4745dae0b9ab083f1c79f6e60617a109f4c) - **fix:** update variable name _(by Athan Reines)_
+-   [`659f752`](https://github.com/stdlib-js/stdlib/commit/659f752db18317bf5fc237fdbcad0d74b61e1ed9) - **style:** add missing spaces _(by Philipp Burckhardt)_
+-   [`a78f7d1`](https://github.com/stdlib-js/stdlib/commit/a78f7d1b859b6b1d7b0bc0ee4daf76789e3e0910) - **style:** add missing spaces _(by Philipp Burckhardt)_
+-   [`271f5d5`](https://github.com/stdlib-js/stdlib/commit/271f5d5d3e530225bd82f34efebf5df9a944fdde) - **refactor:** reduce code duplication in `blas/base` level 1 routines [(#2517)](https://github.com/stdlib-js/stdlib/pull/2517) _(by Aman Bhansali)_
 -   [`dd73ff2`](https://github.com/stdlib-js/stdlib/commit/dd73ff27e89fc2a39e2fb8a6f54d8b1a1a29f575) - **feat:** update namespace TypeScript declarations [(#2514)](https://github.com/stdlib-js/stdlib/pull/2514) _(by stdlib-bot, Athan Reines)_
 -   [`48703d8`](https://github.com/stdlib-js/stdlib/commit/48703d8deabd12050c18f7382c966df26d5239a3) - **feat:** add utilities to namespace _(by Athan Reines)_
 -   [`defe484`](https://github.com/stdlib-js/stdlib/commit/defe4849d8043a1c5d506d84ad6172a5e0df6af2) - **feat:** add `blas/base/matrix-triangle-resolve-enum` [(#2497)](https://github.com/stdlib-js/stdlib/pull/2497) _(by Pranav Goswami, Athan Reines)_
