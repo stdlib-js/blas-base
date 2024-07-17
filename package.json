@@ -131,7 +131,7 @@
     "@stdlib/complex-float64": "^0.2.1",
     "@stdlib/complex-float64-ctor": "^0.0.1",
     "@stdlib/complex-float64-imag": "github:stdlib-js/complex-float64-imag#main",
-    "@stdlib/complex-real": "^0.2.1",
+    "@stdlib/complex-float64-real": "github:stdlib-js/complex-float64-real#main",
     "@stdlib/console-log-each": "^0.2.1",
     "@stdlib/constants-float32-eps": "^0.2.1",
     "@stdlib/constants-float32-max": "^0.2.1",
