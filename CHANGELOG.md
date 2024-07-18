@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-07-17)
+## Unreleased (2024-07-18)
 
 <section class="packages">
 
@@ -489,6 +489,28 @@
 ##### Bug Fixes
 
 -   [`5c514c7`](https://github.com/stdlib-js/stdlib/commit/5c514c7ad5828bc5047594ff001d11334f8f5670) - specify integer type to match CBLAS
+
+</section>
+
+<!-- /.bug-fixes -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="blas-base-dger-unreleased">
+
+#### [@stdlib/blas/base/dger](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/dger)
+
+<details>
+
+<section class="bug-fixes">
+
+##### Bug Fixes
+
+-   [`da288a4`](https://github.com/stdlib-js/stdlib/commit/da288a4cda05760681a70fc0a941ef91e0114b05) - resolve strided 2D array
 
 </section>
 
@@ -1935,6 +1957,11 @@ A total of 6 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`ba35d8f`](https://github.com/stdlib-js/stdlib/commit/ba35d8f2e923d26640828a0f035333bd778389b7) - **refactor:** update paths _(by Athan Reines)_
+-   [`e3a3679`](https://github.com/stdlib-js/stdlib/commit/e3a3679f1e733cf02ce47cdc4bd0137bd37bef41) - **refactor:** update paths _(by Athan Reines)_
+-   [`ddd4403`](https://github.com/stdlib-js/stdlib/commit/ddd44032f9d8a6d318c80e3b239ff72280ffc599) - **refactor:** update paths _(by Athan Reines)_
+-   [`0406147`](https://github.com/stdlib-js/stdlib/commit/04061476d1036e1b8b786736b1ba1653eddff1ef) - **refactor:** update paths _(by Athan Reines)_
+-   [`b9703b5`](https://github.com/stdlib-js/stdlib/commit/b9703b569dc2f0a67e604e388a0d188b08138b48) - **refactor:** update paths _(by Athan Reines)_
 -   [`32bbcb3`](https://github.com/stdlib-js/stdlib/commit/32bbcb3b3dae1f028fd18166ee7875a93d44d0ee) - **refactor:** update paths _(by Athan Reines)_
 -   [`8d4c46b`](https://github.com/stdlib-js/stdlib/commit/8d4c46b10ca912401e0ff0caa37a17cd3c443c2f) - **refactor:** update paths _(by Athan Reines)_
 -   [`ed9c0a5`](https://github.com/stdlib-js/stdlib/commit/ed9c0a5e55ff09af3dd6af8c38615480e2c1828e) - **refactor:** update paths _(by Athan Reines)_
@@ -1942,6 +1969,7 @@ A total of 6 people contributed to this release. Thank you to the following cont
 -   [`8908bda`](https://github.com/stdlib-js/stdlib/commit/8908bda11588f80edf375466ae9e84a3d70cf7d3) - **refactor:** update paths _(by Athan Reines)_
 -   [`ad760a9`](https://github.com/stdlib-js/stdlib/commit/ad760a922086631226d8f759a0d467c707fbc0fb) - **refactor:** update paths _(by Athan Reines)_
 -   [`722452c`](https://github.com/stdlib-js/stdlib/commit/722452c97282738c0a83e336720c63ee785bc69f) - **feat:** rename 'none' transpose operation to 'no-transpose' _(by Athan Reines)_
+-   [`da288a4`](https://github.com/stdlib-js/stdlib/commit/da288a4cda05760681a70fc0a941ef91e0114b05) - **fix:** resolve strided 2D array _(by Athan Reines)_
 -   [`d04dcbd`](https://github.com/stdlib-js/stdlib/commit/d04dcbd6dc3b0bf4a89bd3947d317fa5ff15bb38) - **docs:** remove private annotations in C comments _(by Philipp Burckhardt)_
 -   [`3dda09b`](https://github.com/stdlib-js/stdlib/commit/3dda09be640b5ee96278691de75d35a61b2ecfe8) - **feat:** add `blas/base/scasum` [(#2573)](https://github.com/stdlib-js/stdlib/pull/2573) _(by Aman Bhansali, Athan Reines)_
 -   [`7d65943`](https://github.com/stdlib-js/stdlib/commit/7d65943604945f9a9e3ad63267c9d91a8c26da2c) - **feat:** add `blas/base/caxpy` [(#2121)](https://github.com/stdlib-js/stdlib/pull/2121) _(by Aman Bhansali, Athan Reines)_
