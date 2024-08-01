@@ -74,7 +74,7 @@ var o = blas;
 
 ### BLAS Level 1
 
-<!-- <toc pattern="+(*asum|*axpy|*cabs|*copy|*dot*|*nrm2|*rot*|*scal|*swap)"> -->
+<!-- <toc pattern="+(*amax|*asum|*axpy|*copy|*dot*|*imax1|*nrm2|*rot*|*scal|*sum1|*swap)"> -->
 
 <div class="namespace-toc">
 
@@ -113,16 +113,33 @@ var o = blas;
 
 <!-- </toc> -->
 
+### BLAS Level 2
+
+<!-- <toc pattern="+(*gemv|*ger|*hemv|*symv|*her*|*syr*|*trmv|*trsv|*pmv|*hpmv|*spmv|*hpr*|*spr*|*tmpv|*tpsv|*gbmv|*hbmv|*sbmv|*tbmv|*tbsv)"> -->
+
+<!-- </toc> -->
+
+### BLAS Level 3
+
+<!-- <toc pattern="+(*gemm|*hemm|*symm|*herk|*syrk|*her2k|*syr2k|*trmm|*trsm)"> -->
+
+<!-- </toc> -->
+
+### Scalar Operations
+
+<!-- <toc pattern="+(*abs1)"> -->
+
+<!-- </toc> -->
+
 ### Auxiliary BLAS
 
-<!-- <toc pattern="+(*amax|*lsame|*xerbla*)"> -->
+<!-- <toc pattern="+(*lsame|*xerbla)"> -->
 
-<div class="namespace-toc">
+<!-- </toc> -->
 
--   <span class="signature">[`idamax( N, x, strideX )`][@stdlib/blas/base/idamax]</span><span class="delimiter">: </span><span class="description">find the index of the first element having the maximum absolute value.</span>
--   <span class="signature">[`isamax( N, x, strideX )`][@stdlib/blas/base/isamax]</span><span class="delimiter">: </span><span class="description">find the index of the first element having the maximum absolute value.</span>
+### Utilities
 
-</div>
+<!-- <toc pattern="+(*assert|*diagonal*|*layout*|*matrix*|*operation*|*transpose*)"> -->
 
 <!-- </toc> -->
 
@@ -230,10 +247,6 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/blas-base/main/LICENSE
 
 <!-- <toc-links> -->
-
-[@stdlib/blas/base/idamax]: https://github.com/stdlib-js/blas-base-idamax
-
-[@stdlib/blas/base/isamax]: https://github.com/stdlib-js/blas-base-isamax
 
 [@stdlib/blas/base/ccopy]: https://github.com/stdlib-js/blas-base-ccopy
 
