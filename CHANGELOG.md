@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-09-28)
+## Unreleased (2024-11-20)
 
 <section class="packages">
 
@@ -20,6 +20,7 @@
 
 ##### Features
 
+-   [`8b1548f`](https://github.com/stdlib-js/stdlib/commit/8b1548fb45c1ff131f5edac20cb984344a2d28ec) - update namespace TypeScript declarations [(#3190)](https://github.com/stdlib-js/stdlib/pull/3190)
 -   [`f1128aa`](https://github.com/stdlib-js/stdlib/commit/f1128aa2432497a7297ad1cc733de562f44169d5) - add `zaxpy`, `zdrot`, and `zscal` to namespace
 -   [`10640df`](https://github.com/stdlib-js/stdlib/commit/10640dfff29bff48cc339c31c0fe98ab5a5d2ff3) - add `sspmv`, `ssymv`, `ssyr`, `ssyr2`, and `strmv` to namespace
 -   [`1457b6c`](https://github.com/stdlib-js/stdlib/commit/1457b6c9c2107f5888436df9f0897a22ad39c16a) - add `sgemv`, `srot`, and `srotm` to namespace
@@ -64,6 +65,10 @@
 <section class="breaking-changes">
 
 ##### BREAKING CHANGES
+
+-   [`8b1548f`](https://github.com/stdlib-js/stdlib/commit/8b1548fb45c1ff131f5edac20cb984344a2d28ec): update namespace declarations
+
+    -   To migrate, users should consult the corresponding packages containing the respective implementations to determine what is breaking. The primary breakages come from the `blas/*` namespace, where we recently refactored how top-level BLAS APIs operate on input arguments.
 
 -   [`722452c`](https://github.com/stdlib-js/stdlib/commit/722452c97282738c0a83e336720c63ee785bc69f): rename 'none' transpose operation to 'no-transpose'
 
@@ -258,6 +263,7 @@
 
 ##### Features
 
+-   [`d7925a2`](https://github.com/stdlib-js/stdlib/commit/d7925a2cc0b94ebe0299ed39d2f463ecc3fd1149) - update JavaScipt implementation and add C `ndarray` implementation for `blas/base/ccopy` [(#3063)](https://github.com/stdlib-js/stdlib/pull/3063)
 -   [`8a403b0`](https://github.com/stdlib-js/stdlib/commit/8a403b02cdd283dcfc12cfca3bb0a10b5cbac993) - add support for specifying integer size
 
 </section>
@@ -290,6 +296,7 @@
 
 ##### Features
 
+-   [`fc1256b`](https://github.com/stdlib-js/stdlib/commit/fc1256b1cb1736d9669b986c03ceb29a77228ec8) - update JavaScript implementation and add C `ndarray` implementation for `blas/base/cscal` [(#2967)](https://github.com/stdlib-js/stdlib/pull/2967)
 -   [`b40f5c3`](https://github.com/stdlib-js/stdlib/commit/b40f5c33aaf2113c73f8f0811c8d1cdc9fbfde53) - add `blas/base/cscal` [(#2104)](https://github.com/stdlib-js/stdlib/pull/2104)
 
 </section>
@@ -312,6 +319,28 @@
 
 <!-- /.package -->
 
+<section class="package" id="blas-base-cscal-wasm-unreleased">
+
+#### [@stdlib/blas/base/cscal-wasm](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/cscal-wasm)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`e692962`](https://github.com/stdlib-js/stdlib/commit/e69296220d967abab11a41b50f5f763abf13c640) - add `blas/base/cscal-wasm`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="blas-base-csrot-unreleased">
 
 #### [@stdlib/blas/base/csrot](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/csrot)
@@ -322,6 +351,7 @@
 
 ##### Features
 
+-   [`2d0ea39`](https://github.com/stdlib-js/stdlib/commit/2d0ea39cfb5e3f2c31e13520ac6bec201e7842ef) - add C `ndarray` implementation for `blas/base/csrot` [(#3067)](https://github.com/stdlib-js/stdlib/pull/3067)
 -   [`bdaa7e0`](https://github.com/stdlib-js/stdlib/commit/bdaa7e0c54b8d4cf18bc3d4eb04147971b3c69cd) - add `blas/base/csrot` [(#2256)](https://github.com/stdlib-js/stdlib/pull/2256)
 
 </section>
@@ -344,6 +374,7 @@
 
 ##### Features
 
+-   [`953e73d`](https://github.com/stdlib-js/stdlib/commit/953e73d1fd1c06babf0ed16dcc94430152abf5a8) - update JavaScript implementation and add C `ndarray` implementation for `blas/base/cswap` [(#3064)](https://github.com/stdlib-js/stdlib/pull/3064)
 -   [`0a88c6c`](https://github.com/stdlib-js/stdlib/commit/0a88c6c47ff0075c010624031572a3b1f05c2d2d) - add support for specifying integer size
 
 </section>
@@ -394,6 +425,28 @@
 </section>
 
 <!-- /.bug-fixes -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="blas-base-dasum-wasm-unreleased">
+
+#### [@stdlib/blas/base/dasum-wasm](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/dasum-wasm)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`e3512fc`](https://github.com/stdlib-js/stdlib/commit/e3512fca3391a238a1f40a030406c9354cb7cc25) - add `blas/base/dasum-wasm` [(#2987)](https://github.com/stdlib-js/stdlib/pull/2987)
+
+</section>
+
+<!-- /.features -->
 
 </details>
 
@@ -512,6 +565,28 @@
 
 <!-- /.package -->
 
+<section class="package" id="blas-base-dcopy-wasm-unreleased">
+
+#### [@stdlib/blas/base/dcopy-wasm](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/dcopy-wasm)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`98600ec`](https://github.com/stdlib-js/stdlib/commit/98600eca7ebd8e7269f051a2e87612c33dca0638) - add `blas/base/dcopy-wasm` [(#2959)](https://github.com/stdlib-js/stdlib/pull/2959)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="blas-base-ddot-unreleased">
 
 #### [@stdlib/blas/base/ddot](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/ddot)
@@ -538,6 +613,28 @@
 </section>
 
 <!-- /.bug-fixes -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="blas-base-ddot-wasm-unreleased">
+
+#### [@stdlib/blas/base/ddot-wasm](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/ddot-wasm)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`1594f0f`](https://github.com/stdlib-js/stdlib/commit/1594f0f4dc6ff16c5b44a7ae6428784ff76f2b75) - add `blas/base/ddot-wasm` [(#2986)](https://github.com/stdlib-js/stdlib/pull/2986)
+
+</section>
+
+<!-- /.features -->
 
 </details>
 
@@ -764,6 +861,28 @@
 
 <!-- /.package -->
 
+<section class="package" id="blas-base-dnrm2-wasm-unreleased">
+
+#### [@stdlib/blas/base/dnrm2-wasm](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/dnrm2-wasm)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`4f8bad3`](https://github.com/stdlib-js/stdlib/commit/4f8bad3ec19d742b1f08481bbb08ee2406312080) - add `blas/base/dnrm2-wasm` [(#3014)](https://github.com/stdlib-js/stdlib/pull/3014)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="blas-base-drot-unreleased">
 
 #### [@stdlib/blas/base/drot](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/drot)
@@ -810,6 +929,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="blas-base-drot-wasm-unreleased">
+
+#### [@stdlib/blas/base/drot-wasm](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/drot-wasm)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`5d79f98`](https://github.com/stdlib-js/stdlib/commit/5d79f98fcf24be0adf5ab357964d8afaa6707b86) - add `blas/base/drot-wasm` [(#2979)](https://github.com/stdlib-js/stdlib/pull/2979)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="blas-base-drotm-unreleased">
 
 #### [@stdlib/blas/base/drotm](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/drotm)
@@ -822,6 +963,28 @@ This release closes the following issue:
 
 -   [`faa3014`](https://github.com/stdlib-js/stdlib/commit/faa30141a0ca6c5e871a281536ab8755032b70ec) - add C `ndarray` implementation for `blas/base/drotm` [(#2935)](https://github.com/stdlib-js/stdlib/pull/2935)
 -   [`51608dc`](https://github.com/stdlib-js/stdlib/commit/51608dce38bc73594242644c3b732c37ed3dfbe8) - add `blas/base/drotm` [(#2266)](https://github.com/stdlib-js/stdlib/pull/2266)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="blas-base-drotm-wasm-unreleased">
+
+#### [@stdlib/blas/base/drotm-wasm](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/drotm-wasm)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`c442b93`](https://github.com/stdlib-js/stdlib/commit/c442b93d2ed3af2a2f50402b4b0dc87e9090f596) - add `blas/base/drotm-wasm` [(#3021)](https://github.com/stdlib-js/stdlib/pull/3021)
 
 </section>
 
@@ -859,6 +1022,28 @@ This release closes the following issue:
 </section>
 
 <!-- /.bug-fixes -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="blas-base-dscal-wasm-unreleased">
+
+#### [@stdlib/blas/base/dscal-wasm](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/dscal-wasm)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`bfcfb89`](https://github.com/stdlib-js/stdlib/commit/bfcfb8907b096bb574c9dffba4cc256687a4f213) - add `blas/base/dscal-wasm` [(#2985)](https://github.com/stdlib-js/stdlib/pull/2985)
+
+</section>
+
+<!-- /.features -->
 
 </details>
 
@@ -992,6 +1177,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="blas-base-dswap-wasm-unreleased">
+
+#### [@stdlib/blas/base/dswap-wasm](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/dswap-wasm)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`a3fb243`](https://github.com/stdlib-js/stdlib/commit/a3fb243895ebb2ad90f84bbe4d69c23e4663758c) - add `blas/base/dswap-wasm` [(#2976)](https://github.com/stdlib-js/stdlib/pull/2976)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="blas-base-dsymv-unreleased">
 
 #### [@stdlib/blas/base/dsymv](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/dsymv)
@@ -1112,11 +1319,24 @@ This release closes the following issue:
 
 ##### Features
 
+-   [`d05d7b3`](https://github.com/stdlib-js/stdlib/commit/d05d7b352455ff537847cd081aafd1fb77c67c3e) - add C `ndarray` implementation for `blas/base/dznrm2` [(#3130)](https://github.com/stdlib-js/stdlib/pull/3130)
 -   [`08eaa1b`](https://github.com/stdlib-js/stdlib/commit/08eaa1b176d0e510b0af53d7b7a02d5c63090e1f) - add `blas/base/dznrm2` [(#2271)](https://github.com/stdlib-js/stdlib/pull/2271)
 
 </section>
 
 <!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#2543](https://github.com/stdlib-js/stdlib/issues/2543)
+
+</section>
+
+<!-- /.issues -->
 
 </details>
 
@@ -1134,6 +1354,7 @@ This release closes the following issue:
 
 ##### Features
 
+-   [`86b103d`](https://github.com/stdlib-js/stdlib/commit/86b103d5332a58ad6e6a7c254453587460e5c021) - update JavaScript implementation and add C `ndarray` implementation for `blas/base/idamax` [(#2980)](https://github.com/stdlib-js/stdlib/pull/2980)
 -   [`35cbdfb`](https://github.com/stdlib-js/stdlib/commit/35cbdfbbd0d8144b188bb95d56ec9f4719cc2bc5) - add support for negative strides in `idamax` and `isamax` [(#2793)](https://github.com/stdlib-js/stdlib/pull/2793)
 -   [`95653a3`](https://github.com/stdlib-js/stdlib/commit/95653a3f070bf770e5281a46d0d85ba18d72948b) - add `blas/base/idamax` [(#2152)](https://github.com/stdlib-js/stdlib/pull/2152)
 
@@ -1170,6 +1391,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="blas-base-idamax-wasm-unreleased">
+
+#### [@stdlib/blas/base/idamax-wasm](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/idamax-wasm)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`8f8b649`](https://github.com/stdlib-js/stdlib/commit/8f8b6497126fee0256de7be78a9501edd37c70fb) - add `blas/base/idamax-wasm` [(#3016)](https://github.com/stdlib-js/stdlib/pull/3016)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="blas-base-isamax-unreleased">
 
 #### [@stdlib/blas/base/isamax](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/isamax)
@@ -1180,6 +1423,7 @@ This release closes the following issue:
 
 ##### Features
 
+-   [`206c660`](https://github.com/stdlib-js/stdlib/commit/206c6608c3822e807d4a6cb4982838510bb36c21) - update JavaScript implementation and add C `ndarray` implementation for `blas/base/isamax` [(#2931)](https://github.com/stdlib-js/stdlib/pull/2931)
 -   [`35cbdfb`](https://github.com/stdlib-js/stdlib/commit/35cbdfbbd0d8144b188bb95d56ec9f4719cc2bc5) - add support for negative strides in `idamax` and `isamax` [(#2793)](https://github.com/stdlib-js/stdlib/pull/2793)
 -   [`fb6571e`](https://github.com/stdlib-js/stdlib/commit/fb6571ecebab94780dbd3b6d32b0c0275a3d636b) - add `blas/base/isamax` [(#2153)](https://github.com/stdlib-js/stdlib/pull/2153)
 
@@ -1603,6 +1847,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="blas-base-sasum-wasm-unreleased">
+
+#### [@stdlib/blas/base/sasum-wasm](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/sasum-wasm)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`9de99eb`](https://github.com/stdlib-js/stdlib/commit/9de99eb4266af077482ae26a14c2b526f725d305) - add `blas/base/sasum-wasm` [(#3024)](https://github.com/stdlib-js/stdlib/pull/3024)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="blas-base-saxpy-unreleased">
 
 #### [@stdlib/blas/base/saxpy](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/saxpy)
@@ -1614,6 +1880,28 @@ This release closes the following issue:
 ##### Features
 
 -   [`e85f394`](https://github.com/stdlib-js/stdlib/commit/e85f3947aaca3cbbd6ab4f84e41577928e0a10a4) - add C `ndarray` implementation for `blas/base/saxpy` [(#2918)](https://github.com/stdlib-js/stdlib/pull/2918)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="blas-base-saxpy-wasm-unreleased">
+
+#### [@stdlib/blas/base/saxpy-wasm](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/saxpy-wasm)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`929a224`](https://github.com/stdlib-js/stdlib/commit/929a2241acc3b3714fb01fcb4a9e295810df5bf5) - add `blas/base/saxpy-wasm` [(#2956)](https://github.com/stdlib-js/stdlib/pull/2956)
 
 </section>
 
@@ -1657,6 +1945,7 @@ This release closes the following issue:
 
 ##### Features
 
+-   [`17b2358`](https://github.com/stdlib-js/stdlib/commit/17b23580739e33491f1287c88d3083ec989cd756) - update JavaScript implementation and add C `ndarray` implementation for `blas/base/scasum` [(#3068)](https://github.com/stdlib-js/stdlib/pull/3068)
 -   [`3dda09b`](https://github.com/stdlib-js/stdlib/commit/3dda09be640b5ee96278691de75d35a61b2ecfe8) - add `blas/base/scasum` [(#2573)](https://github.com/stdlib-js/stdlib/pull/2573)
 
 </section>
@@ -1679,6 +1968,7 @@ This release closes the following issue:
 
 ##### Features
 
+-   [`14b8f08`](https://github.com/stdlib-js/stdlib/commit/14b8f08874e0a6fc2f7cc6f31d6876afb159c7e4) - add C `ndarray` implementation for `blas/base/scnrm2` [(#3133)](https://github.com/stdlib-js/stdlib/pull/3133)
 -   [`c49ba29`](https://github.com/stdlib-js/stdlib/commit/c49ba291cbed0449d7a7e21a32d3d0e9498f74ec) - add `blas/base/scnrm2` [(#2270)](https://github.com/stdlib-js/stdlib/pull/2270)
 
 </section>
@@ -1695,6 +1985,18 @@ This release closes the following issue:
 </section>
 
 <!-- /.bug-fixes -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#2543](https://github.com/stdlib-js/stdlib/issues/2543)
+
+</section>
+
+<!-- /.issues -->
 
 </details>
 
@@ -1724,6 +2026,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="blas-base-scopy-wasm-unreleased">
+
+#### [@stdlib/blas/base/scopy-wasm](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/scopy-wasm)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`fe8255a`](https://github.com/stdlib-js/stdlib/commit/fe8255aaadeae80d038625abcda3264c70e9b32b) - add `blas/base/scopy-wasm` [(#3022)](https://github.com/stdlib-js/stdlib/pull/3022)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="blas-base-sdot-unreleased">
 
 #### [@stdlib/blas/base/sdot](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/sdot)
@@ -1735,6 +2059,28 @@ This release closes the following issue:
 ##### Features
 
 -   [`2bedae9`](https://github.com/stdlib-js/stdlib/commit/2bedae91dbdd0080b38ae0413f5e8f26b88db95b) - add C `ndarray` implementation for `blas/base/sdot` [(#2919)](https://github.com/stdlib-js/stdlib/pull/2919)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="blas-base-sdot-wasm-unreleased">
+
+#### [@stdlib/blas/base/sdot-wasm](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/sdot-wasm)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`6b238d9`](https://github.com/stdlib-js/stdlib/commit/6b238d9a0b152532351c72100a5be2ca644eba1c) - add `blas/base/sdot-wasm` [(#3025)](https://github.com/stdlib-js/stdlib/pull/3025)
 
 </section>
 
@@ -1871,6 +2217,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="blas-base-snrm2-wasm-unreleased">
+
+#### [@stdlib/blas/base/snrm2-wasm](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/snrm2-wasm)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`243f857`](https://github.com/stdlib-js/stdlib/commit/243f85723b0b899c6cedcac0271f707bebdad918) - add `blas/base/snrm2-wasm` [(#3029)](https://github.com/stdlib-js/stdlib/pull/3029)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="blas-base-srot-unreleased">
 
 #### [@stdlib/blas/base/srot](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/srot)
@@ -1900,6 +2268,28 @@ This release closes the following issue:
 </section>
 
 <!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="blas-base-srot-wasm-unreleased">
+
+#### [@stdlib/blas/base/srot-wasm](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/srot-wasm)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`3409af0`](https://github.com/stdlib-js/stdlib/commit/3409af04eea8a65bb04643be17d40b5a7974b5d6) - add `blas/base/srot-wasm` [(#3028)](https://github.com/stdlib-js/stdlib/pull/3028)
+
+</section>
+
+<!-- /.features -->
 
 </details>
 
@@ -2359,6 +2749,7 @@ This release closes the following issue:
 
 ##### Features
 
+-   [`75e000c`](https://github.com/stdlib-js/stdlib/commit/75e000ca99d19069677358c0c890b2748fa3074a) - add C `ndarray` implementation for `blas/base/zcopy` [(#3081)](https://github.com/stdlib-js/stdlib/pull/3081)
 -   [`1dda7d2`](https://github.com/stdlib-js/stdlib/commit/1dda7d20d743bf44053c96cfa9bf89f456e1ed8b) - add `blas/base/zcopy` [(#2064)](https://github.com/stdlib-js/stdlib/pull/2064)
 
 </section>
@@ -2381,6 +2772,7 @@ This release closes the following issue:
 
 ##### Features
 
+-   [`7462db7`](https://github.com/stdlib-js/stdlib/commit/7462db759c64f25e883c731169e57a48067d076d) - add C `ndarray` implementation for `blas/base/zdrot` [(#3069)](https://github.com/stdlib-js/stdlib/pull/3069)
 -   [`4d5293d`](https://github.com/stdlib-js/stdlib/commit/4d5293d0cfd81bd1016d1bcc372afefe20b1a211) - add `blas/base/zdrot` [(#2257)](https://github.com/stdlib-js/stdlib/pull/2257)
 
 </section>
@@ -2425,6 +2817,7 @@ This release closes the following issue:
 
 ##### Features
 
+-   [`ada1567`](https://github.com/stdlib-js/stdlib/commit/ada15676ce0be30b050d3c0fbcbf777492bb3cac) - add C `ndarray` implementation for `blas/base/zswap` [(#3080)](https://github.com/stdlib-js/stdlib/pull/3080)
 -   [`7155e52`](https://github.com/stdlib-js/stdlib/commit/7155e52806a52b6918d0de96ea2fe5da2c19bcd0) - add `blas/base/zswap` [(#2075)](https://github.com/stdlib-js/stdlib/pull/2075)
 
 </section>
@@ -2457,6 +2850,10 @@ This release closes the following issue:
 
 ### BREAKING CHANGES
 
+-   [`8b1548f`](https://github.com/stdlib-js/stdlib/commit/8b1548fb45c1ff131f5edac20cb984344a2d28ec): update namespace declarations
+
+    -   To migrate, users should consult the corresponding packages containing the respective implementations to determine what is breaking. The primary breakages come from the `blas/*` namespace, where we recently refactored how top-level BLAS APIs operate on input arguments.
+
 -   [`2254a56`](https://github.com/stdlib-js/stdlib/commit/2254a5616945ee973f080c6d35f19e51778e24ee): rename `none` transpose operation to `no-transpose` in `@stdlib/types`
 
     -   To migrate, users should change their usage of `none` to `no-transpose`. This change enhances code readability and aligns the string literal with the C enumeration constant.
@@ -2482,9 +2879,9 @@ This release closes the following issue:
 
 ### Closed Issues
 
-A total of 4 issues were closed in this release:
+A total of 5 issues were closed in this release:
 
-[#276](https://github.com/stdlib-js/stdlib/issues/276), [#277](https://github.com/stdlib-js/stdlib/issues/277), [#2047](https://github.com/stdlib-js/stdlib/issues/2047), [#2792](https://github.com/stdlib-js/stdlib/issues/2792)
+[#276](https://github.com/stdlib-js/stdlib/issues/276), [#277](https://github.com/stdlib-js/stdlib/issues/277), [#2047](https://github.com/stdlib-js/stdlib/issues/2047), [#2543](https://github.com/stdlib-js/stdlib/issues/2543), [#2792](https://github.com/stdlib-js/stdlib/issues/2792)
 
 </section>
 
@@ -2494,10 +2891,11 @@ A total of 4 issues were closed in this release:
 
 ### Contributors
 
-A total of 6 people contributed to this release. Thank you to the following contributors:
+A total of 7 people contributed to this release. Thank you to the following contributors:
 
 -   Aman Bhansali
 -   Athan Reines
+-   Gururaj Gurram
 -   Muhammad Haris
 -   Philipp Burckhardt
 -   Pranav Goswami
@@ -2513,6 +2911,109 @@ A total of 6 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`8b1548f`](https://github.com/stdlib-js/stdlib/commit/8b1548fb45c1ff131f5edac20cb984344a2d28ec) - **feat:** update namespace TypeScript declarations [(#3190)](https://github.com/stdlib-js/stdlib/pull/3190) _(by stdlib-bot, Philipp Burckhardt)_
+-   [`14b8f08`](https://github.com/stdlib-js/stdlib/commit/14b8f08874e0a6fc2f7cc6f31d6876afb159c7e4) - **feat:** add C `ndarray` implementation for `blas/base/scnrm2` [(#3133)](https://github.com/stdlib-js/stdlib/pull/3133) _(by Aman Bhansali)_
+-   [`d05d7b3`](https://github.com/stdlib-js/stdlib/commit/d05d7b352455ff537847cd081aafd1fb77c67c3e) - **feat:** add C `ndarray` implementation for `blas/base/dznrm2` [(#3130)](https://github.com/stdlib-js/stdlib/pull/3130) _(by Aman Bhansali, Athan Reines)_
+-   [`2d0ea39`](https://github.com/stdlib-js/stdlib/commit/2d0ea39cfb5e3f2c31e13520ac6bec201e7842ef) - **feat:** add C `ndarray` implementation for `blas/base/csrot` [(#3067)](https://github.com/stdlib-js/stdlib/pull/3067) _(by Aman Bhansali, Athan Reines, stdlib-bot)_
+-   [`7462db7`](https://github.com/stdlib-js/stdlib/commit/7462db759c64f25e883c731169e57a48067d076d) - **feat:** add C `ndarray` implementation for `blas/base/zdrot` [(#3069)](https://github.com/stdlib-js/stdlib/pull/3069) _(by Aman Bhansali, Athan Reines, stdlib-bot)_
+-   [`52e9aa8`](https://github.com/stdlib-js/stdlib/commit/52e9aa8b65c4485c8a077dde000c44b5cfefc5fb) - **docs:** update example _(by Athan Reines)_
+-   [`8e33b88`](https://github.com/stdlib-js/stdlib/commit/8e33b88b7c99fbfa44e9af0ade340334fddcb2fd) - **docs:** fix example _(by Athan Reines)_
+-   [`b21aca4`](https://github.com/stdlib-js/stdlib/commit/b21aca4063a9e72d5f79c6788c137e481582e958) - **docs:** fix example _(by Athan Reines)_
+-   [`3327fe6`](https://github.com/stdlib-js/stdlib/commit/3327fe6ecc87dc059a04be79333e83a6cbaa08ee) - **style:** resolve lint error _(by Athan Reines)_
+-   [`be9fdef`](https://github.com/stdlib-js/stdlib/commit/be9fdef8ee4a08af772953051f18972be7011131) - **style:** resolve lint error _(by Athan Reines)_
+-   [`d7925a2`](https://github.com/stdlib-js/stdlib/commit/d7925a2cc0b94ebe0299ed39d2f463ecc3fd1149) - **feat:** update JavaScipt implementation and add C `ndarray` implementation for `blas/base/ccopy` [(#3063)](https://github.com/stdlib-js/stdlib/pull/3063) _(by Aman Bhansali, Athan Reines)_
+-   [`2defdab`](https://github.com/stdlib-js/stdlib/commit/2defdabcaaa1484616e212679d4ce72b9173d57d) - **test:** add tests for `blas/base/cscal-wasm` [(#3062)](https://github.com/stdlib-js/stdlib/pull/3062) _(by Aman Bhansali, Athan Reines)_
+-   [`cef4c74`](https://github.com/stdlib-js/stdlib/commit/cef4c747d92903b039c71391c2dc52ffd9e31cb3) - **docs:** fix example _(by Athan Reines)_
+-   [`17b2358`](https://github.com/stdlib-js/stdlib/commit/17b23580739e33491f1287c88d3083ec989cd756) - **feat:** update JavaScript implementation and add C `ndarray` implementation for `blas/base/scasum` [(#3068)](https://github.com/stdlib-js/stdlib/pull/3068) _(by Aman Bhansali, Athan Reines)_
+-   [`953e73d`](https://github.com/stdlib-js/stdlib/commit/953e73d1fd1c06babf0ed16dcc94430152abf5a8) - **feat:** update JavaScript implementation and add C `ndarray` implementation for `blas/base/cswap` [(#3064)](https://github.com/stdlib-js/stdlib/pull/3064) _(by Aman Bhansali, Athan Reines)_
+-   [`38656e4`](https://github.com/stdlib-js/stdlib/commit/38656e4893257726e3c3276ff3cead5f2f02c5c5) - **docs:** fix example _(by Athan Reines)_
+-   [`ada1567`](https://github.com/stdlib-js/stdlib/commit/ada15676ce0be30b050d3c0fbcbf777492bb3cac) - **feat:** add C `ndarray` implementation for `blas/base/zswap` [(#3080)](https://github.com/stdlib-js/stdlib/pull/3080) _(by Aman Bhansali, Athan Reines)_
+-   [`adbee81`](https://github.com/stdlib-js/stdlib/commit/adbee8105b6903730d070261f36127b5744cabbb) - **docs:** fix description _(by Athan Reines)_
+-   [`75e000c`](https://github.com/stdlib-js/stdlib/commit/75e000ca99d19069677358c0c890b2748fa3074a) - **feat:** add C `ndarray` implementation for `blas/base/zcopy` [(#3081)](https://github.com/stdlib-js/stdlib/pull/3081) _(by Aman Bhansali, Athan Reines)_
+-   [`c442b93`](https://github.com/stdlib-js/stdlib/commit/c442b93d2ed3af2a2f50402b4b0dc87e9090f596) - **feat:** add `blas/base/drotm-wasm` [(#3021)](https://github.com/stdlib-js/stdlib/pull/3021) _(by Aman Bhansali, Athan Reines)_
+-   [`78a7b34`](https://github.com/stdlib-js/stdlib/commit/78a7b34ccda3efe8d2613eb2eb27f8ca00adb66e) - **chore:** update package meta data [(#3038)](https://github.com/stdlib-js/stdlib/pull/3038) _(by stdlib-bot, Athan Reines)_
+-   [`63f08ff`](https://github.com/stdlib-js/stdlib/commit/63f08ffc835fe1cf26ad835bd799123c41b5695b) - **docs:** add return annotation _(by Athan Reines)_
+-   [`ba99cc0`](https://github.com/stdlib-js/stdlib/commit/ba99cc0e3cbc7bd4429c8b84aa43309c79054080) - **docs:** fix variable name _(by Athan Reines)_
+-   [`e692962`](https://github.com/stdlib-js/stdlib/commit/e69296220d967abab11a41b50f5f763abf13c640) - **feat:** add `blas/base/cscal-wasm` _(by Athan Reines)_
+-   [`bef1dbe`](https://github.com/stdlib-js/stdlib/commit/bef1dbefc05949b1d6db5f2f9a2b173957aa7d38) - **docs:** fix comments _(by Athan Reines)_
+-   [`dd5ecf0`](https://github.com/stdlib-js/stdlib/commit/dd5ecf0a231b19a656f4024a79a0b182e42d69e9) - **docs:** fix comments _(by Athan Reines)_
+-   [`5950b02`](https://github.com/stdlib-js/stdlib/commit/5950b0290ff5c39e518f70e6f3bdbef1dea31cd1) - **docs:** fix comments _(by Athan Reines)_
+-   [`8967a46`](https://github.com/stdlib-js/stdlib/commit/8967a468209dffbb3a3a687615a8cdb514bc9a91) - **docs:** fix comments _(by Athan Reines)_
+-   [`7d54f12`](https://github.com/stdlib-js/stdlib/commit/7d54f1260a5b93aa60793c370aace11785682fa6) - **docs:** fix comments _(by Athan Reines)_
+-   [`4ace02e`](https://github.com/stdlib-js/stdlib/commit/4ace02ecce4fef6fb843449f2fa30f34d37593f0) - **docs:** fix comments _(by Athan Reines)_
+-   [`263ed0d`](https://github.com/stdlib-js/stdlib/commit/263ed0d5d9557daf7e471ce88bdfff5bf0aab168) - **docs:** fix param name _(by Athan Reines)_
+-   [`a7dd0cf`](https://github.com/stdlib-js/stdlib/commit/a7dd0cf36e8ff747083aff3aa4bfff4bf01dfd0c) - **style:** fix spacing _(by Athan Reines)_
+-   [`d3c6d35`](https://github.com/stdlib-js/stdlib/commit/d3c6d356c0789dc258bf9c56aeeb0f5e67fa7f8a) - **docs:** remove unused require _(by Athan Reines)_
+-   [`2c2e66f`](https://github.com/stdlib-js/stdlib/commit/2c2e66f414ee0df49f854cc3b48aad679a3666bd) - **docs:** fix example _(by Athan Reines)_
+-   [`f8c853a`](https://github.com/stdlib-js/stdlib/commit/f8c853aafa3551b514da3c640fc2003df1840715) - **docs:** fix notes _(by Athan Reines)_
+-   [`f2323a6`](https://github.com/stdlib-js/stdlib/commit/f2323a68e672e14217451bf76973084375a61e9a) - **docs:** fix notes _(by Athan Reines)_
+-   [`d50be97`](https://github.com/stdlib-js/stdlib/commit/d50be9724c245443e7227165659dac0868d9dbd8) - **docs:** fix notes _(by Athan Reines)_
+-   [`f7e5311`](https://github.com/stdlib-js/stdlib/commit/f7e53110fd50f318c4f908ff0fcc97d5589766c5) - **docs:** fix notes _(by Athan Reines)_
+-   [`ea972a9`](https://github.com/stdlib-js/stdlib/commit/ea972a96c02f99590f04a7f36cf577782f1713d2) - **docs:** fix notes _(by Athan Reines)_
+-   [`9aafd79`](https://github.com/stdlib-js/stdlib/commit/9aafd79e3f560b96d724aeade6fdaf2a72defe2a) - **docs:** fix example _(by Athan Reines)_
+-   [`c8b03cb`](https://github.com/stdlib-js/stdlib/commit/c8b03cb5ef49064325b8859de640833ee715ab20) - **docs:** fix comments _(by Athan Reines)_
+-   [`a7d96e6`](https://github.com/stdlib-js/stdlib/commit/a7d96e6c94fab2b408f88f966854550b66c1b620) - **docs:** fix comment _(by Athan Reines)_
+-   [`b99598a`](https://github.com/stdlib-js/stdlib/commit/b99598a0257aff9d3c62a186323d1cc0dab7a04b) - **docs:** fix comment _(by Athan Reines)_
+-   [`aa66ef4`](https://github.com/stdlib-js/stdlib/commit/aa66ef43fbd484c41c266300702d4f72496ff1e3) - **docs:** fix comment _(by Athan Reines)_
+-   [`3de76a0`](https://github.com/stdlib-js/stdlib/commit/3de76a0863ce62bb51e324907a417370780c91bf) - **docs:** fix comments _(by Athan Reines)_
+-   [`21234b9`](https://github.com/stdlib-js/stdlib/commit/21234b9591e0034916f84b49a48a4662d2da37a7) - **docs:** fix comments _(by Athan Reines)_
+-   [`14e4fc8`](https://github.com/stdlib-js/stdlib/commit/14e4fc8a3ce1192c5c10e86fc2a994b438fa89cd) - **docs:** fix comment _(by Athan Reines)_
+-   [`50f1d89`](https://github.com/stdlib-js/stdlib/commit/50f1d890ee83daa67370a78753c1db1be44d92cc) - **docs:** fix comment _(by Athan Reines)_
+-   [`1d23b34`](https://github.com/stdlib-js/stdlib/commit/1d23b34a57833b3ab879c68b8c2a6fe8cb4445c8) - **docs:** fix comments _(by Athan Reines)_
+-   [`ee1deea`](https://github.com/stdlib-js/stdlib/commit/ee1deea7bbbcaca2a57ca98406e01a90a6da1ea4) - **docs:** fix comments _(by Athan Reines)_
+-   [`57a9346`](https://github.com/stdlib-js/stdlib/commit/57a9346e851b6d801be99f038961b8b42dd5b179) - **docs:** fix comments _(by Athan Reines)_
+-   [`91e37be`](https://github.com/stdlib-js/stdlib/commit/91e37be0fc89c072ee006802d5a568eab3003c9a) - **docs:** fix missing license headers _(by Athan Reines)_
+-   [`401609a`](https://github.com/stdlib-js/stdlib/commit/401609ac92116f94127c39ccd25edd678530a8e7) - **docs:** fix missing license header _(by Athan Reines)_
+-   [`5a7ec02`](https://github.com/stdlib-js/stdlib/commit/5a7ec022b24a9081169b23ceea806c53d8ab5a4d) - **docs:** fix missing license header _(by Athan Reines)_
+-   [`198a20c`](https://github.com/stdlib-js/stdlib/commit/198a20c9815eb5e0690baa5b4c2a18e29f75e62e) - **build:** update compiler flags and export resolution _(by Athan Reines)_
+-   [`85a6c6a`](https://github.com/stdlib-js/stdlib/commit/85a6c6a051660cab231134b7043796cff7ca1f2c) - **build:** update compiler flags and export resolution _(by Athan Reines)_
+-   [`75ff0b6`](https://github.com/stdlib-js/stdlib/commit/75ff0b69d20427fe929c697b480bee5beaf39716) - **build:** update compiler flags and export resolution _(by Athan Reines)_
+-   [`2325635`](https://github.com/stdlib-js/stdlib/commit/2325635de551a3867b8a65ade8c1f43ef71b5871) - **build:** update compiler flags and export resolution _(by Athan Reines)_
+-   [`4e19f61`](https://github.com/stdlib-js/stdlib/commit/4e19f611f6c3e875e976dd0c2bcab74628541d85) - **build:** update compiler flags and export resolution _(by Athan Reines)_
+-   [`59f10a1`](https://github.com/stdlib-js/stdlib/commit/59f10a15ac63897778f1dbb98678043dba326667) - **build:** update compiler flags and export resolution _(by Athan Reines)_
+-   [`90b36a5`](https://github.com/stdlib-js/stdlib/commit/90b36a5f3e5493be4427cbfdbd4ed6abc083f6fc) - **build:** update compiler flags and export resolution _(by Athan Reines)_
+-   [`d681033`](https://github.com/stdlib-js/stdlib/commit/d681033f62799160a33f37a76c8ea64df6532179) - **build:** update compiler flags and export resolution _(by Athan Reines)_
+-   [`f62e6d1`](https://github.com/stdlib-js/stdlib/commit/f62e6d1b3e4c6ca8602c14b47c25d8e23759eefc) - **build:** update compiler flags and export resolution _(by Athan Reines)_
+-   [`f9e0fd5`](https://github.com/stdlib-js/stdlib/commit/f9e0fd5ff8176c64766214a77438c551ce9b41aa) - **build:** update compiler flags and export resolution _(by Athan Reines)_
+-   [`f1e59ff`](https://github.com/stdlib-js/stdlib/commit/f1e59ff23bdc7b924746d39ef7bf2fc45a9f9e6d) - **build:** update compiler flags and export resolution _(by Athan Reines)_
+-   [`b7102c9`](https://github.com/stdlib-js/stdlib/commit/b7102c9c3edcaf9903c62aa69cf00fc4282534d9) - **build:** update compiler flags and export resolution _(by Athan Reines)_
+-   [`e0b5a46`](https://github.com/stdlib-js/stdlib/commit/e0b5a4655e834c4ad6359cb68806cb7807e5a5a0) - **build:** update compiler flags and export resolution _(by Athan Reines)_
+-   [`1530f80`](https://github.com/stdlib-js/stdlib/commit/1530f80d4d9f298361cccc3463fee8315fbb83c3) - **build:** update compiler flags and export resolution _(by Athan Reines)_
+-   [`def99de`](https://github.com/stdlib-js/stdlib/commit/def99deab9d392f322f0e005be7c08dac2aa5014) - **build:** update compiler flags and export resolution _(by Athan Reines)_
+-   [`243f857`](https://github.com/stdlib-js/stdlib/commit/243f85723b0b899c6cedcac0271f707bebdad918) - **feat:** add `blas/base/snrm2-wasm` [(#3029)](https://github.com/stdlib-js/stdlib/pull/3029) _(by Aman Bhansali, Athan Reines)_
+-   [`5c30260`](https://github.com/stdlib-js/stdlib/commit/5c302603389144ab1f9e88ce926d8a504dfe1294) - **docs:** fix missing comma _(by Athan Reines)_
+-   [`9de99eb`](https://github.com/stdlib-js/stdlib/commit/9de99eb4266af077482ae26a14c2b526f725d305) - **feat:** add `blas/base/sasum-wasm` [(#3024)](https://github.com/stdlib-js/stdlib/pull/3024) _(by Aman Bhansali, Athan Reines)_
+-   [`3409af0`](https://github.com/stdlib-js/stdlib/commit/3409af04eea8a65bb04643be17d40b5a7974b5d6) - **feat:** add `blas/base/srot-wasm` [(#3028)](https://github.com/stdlib-js/stdlib/pull/3028) _(by Aman Bhansali, Athan Reines)_
+-   [`e2ed2a3`](https://github.com/stdlib-js/stdlib/commit/e2ed2a3f152e6b424b9479b1103dcf382110e313) - **bench:** use single-precision utility _(by Athan Reines)_
+-   [`6b238d9`](https://github.com/stdlib-js/stdlib/commit/6b238d9a0b152532351c72100a5be2ca644eba1c) - **feat:** add `blas/base/sdot-wasm` [(#3025)](https://github.com/stdlib-js/stdlib/pull/3025) _(by Aman Bhansali, Athan Reines)_
+-   [`45539d2`](https://github.com/stdlib-js/stdlib/commit/45539d264609d023eb189457bf4b6d326fddaa9b) - **docs:** fix description _(by Athan Reines)_
+-   [`420e21c`](https://github.com/stdlib-js/stdlib/commit/420e21cbeb53062caad324e14b8ea8ca53d51755) - **docs:** fix examples and notes _(by Athan Reines)_
+-   [`fe8255a`](https://github.com/stdlib-js/stdlib/commit/fe8255aaadeae80d038625abcda3264c70e9b32b) - **feat:** add `blas/base/scopy-wasm` [(#3022)](https://github.com/stdlib-js/stdlib/pull/3022) _(by Aman Bhansali, Athan Reines)_
+-   [`e3512fc`](https://github.com/stdlib-js/stdlib/commit/e3512fca3391a238a1f40a030406c9354cb7cc25) - **feat:** add `blas/base/dasum-wasm` [(#2987)](https://github.com/stdlib-js/stdlib/pull/2987) _(by Aman Bhansali, Athan Reines)_
+-   [`8f8b649`](https://github.com/stdlib-js/stdlib/commit/8f8b6497126fee0256de7be78a9501edd37c70fb) - **feat:** add `blas/base/idamax-wasm` [(#3016)](https://github.com/stdlib-js/stdlib/pull/3016) _(by Aman Bhansali, Athan Reines)_
+-   [`6c9018c`](https://github.com/stdlib-js/stdlib/commit/6c9018cb081c3e9e0510bd5609995bf38449e6d1) - **docs:** fix note _(by Athan Reines)_
+-   [`3ab8221`](https://github.com/stdlib-js/stdlib/commit/3ab82210f8241550f61dfc491345ee1ebd9bcf2f) - **docs:** fix note _(by Athan Reines)_
+-   [`1594f0f`](https://github.com/stdlib-js/stdlib/commit/1594f0f4dc6ff16c5b44a7ae6428784ff76f2b75) - **feat:** add `blas/base/ddot-wasm` [(#2986)](https://github.com/stdlib-js/stdlib/pull/2986) _(by Aman Bhansali, Athan Reines)_
+-   [`200e78a`](https://github.com/stdlib-js/stdlib/commit/200e78af939661bb4f435dc4f523cb57594c003e) - **docs:** add missing comma _(by Athan Reines)_
+-   [`bfcfb89`](https://github.com/stdlib-js/stdlib/commit/bfcfb8907b096bb574c9dffba4cc256687a4f213) - **feat:** add `blas/base/dscal-wasm` [(#2985)](https://github.com/stdlib-js/stdlib/pull/2985) _(by Aman Bhansali, Athan Reines)_
+-   [`01e414b`](https://github.com/stdlib-js/stdlib/commit/01e414bd9a03e578d44e2c284fcc77ce2fbcd825) - **docs:** fix examples in `blas/base/dnrm2-wasm` [(#3018)](https://github.com/stdlib-js/stdlib/pull/3018) _(by Aman Bhansali)_
+-   [`4f8bad3`](https://github.com/stdlib-js/stdlib/commit/4f8bad3ec19d742b1f08481bbb08ee2406312080) - **feat:** add `blas/base/dnrm2-wasm` [(#3014)](https://github.com/stdlib-js/stdlib/pull/3014) _(by Aman Bhansali, Athan Reines)_
+-   [`c0a5dbe`](https://github.com/stdlib-js/stdlib/commit/c0a5dbe868b88f8bcf770e128833d5768c041919) - **test:** achieve complete code coverage in `blas/base/dznrm2` and `blas/base/scnrm2` [(#2977)](https://github.com/stdlib-js/stdlib/pull/2977) _(by Gururaj Gurram)_
+-   [`5d79f98`](https://github.com/stdlib-js/stdlib/commit/5d79f98fcf24be0adf5ab357964d8afaa6707b86) - **feat:** add `blas/base/drot-wasm` [(#2979)](https://github.com/stdlib-js/stdlib/pull/2979) _(by Aman Bhansali, Athan Reines)_
+-   [`0441176`](https://github.com/stdlib-js/stdlib/commit/0441176842aa621bace6bb098ef669638b5cd787) - **docs:** fix descriptions _(by Athan Reines)_
+-   [`0010618`](https://github.com/stdlib-js/stdlib/commit/001061803801fb497616cc99943129f5817e8eed) - **docs:** fix descriptions _(by Athan Reines)_
+-   [`86b103d`](https://github.com/stdlib-js/stdlib/commit/86b103d5332a58ad6e6a7c254453587460e5c021) - **feat:** update JavaScript implementation and add C `ndarray` implementation for `blas/base/idamax` [(#2980)](https://github.com/stdlib-js/stdlib/pull/2980) _(by Aman Bhansali, Athan Reines)_
+-   [`206c660`](https://github.com/stdlib-js/stdlib/commit/206c6608c3822e807d4a6cb4982838510bb36c21) - **feat:** update JavaScript implementation and add C `ndarray` implementation for `blas/base/isamax` [(#2931)](https://github.com/stdlib-js/stdlib/pull/2931) _(by Aman Bhansali, Athan Reines)_
+-   [`41135da`](https://github.com/stdlib-js/stdlib/commit/41135daeb35150c6f4774ef73bb9e3648d0a7c36) - **test:** fix missing argument _(by Athan Reines)_
+-   [`e379b5c`](https://github.com/stdlib-js/stdlib/commit/e379b5cca26575571292841842a35a78d06f9ebd) - **test:** fix missing argument _(by Athan Reines)_
+-   [`a3fb243`](https://github.com/stdlib-js/stdlib/commit/a3fb243895ebb2ad90f84bbe4d69c23e4663758c) - **feat:** add `blas/base/dswap-wasm` [(#2976)](https://github.com/stdlib-js/stdlib/pull/2976) _(by Aman Bhansali, Athan Reines)_
+-   [`fc1256b`](https://github.com/stdlib-js/stdlib/commit/fc1256b1cb1736d9669b986c03ceb29a77228ec8) - **feat:** update JavaScript implementation and add C `ndarray` implementation for `blas/base/cscal` [(#2967)](https://github.com/stdlib-js/stdlib/pull/2967) _(by Aman Bhansali, Athan Reines)_
+-   [`0f8ee58`](https://github.com/stdlib-js/stdlib/commit/0f8ee58b842adebc77aeb2e6aebb41054ad6f3cd) - **docs:** fix overwriting of variables _(by Athan Reines)_
+-   [`ef474af`](https://github.com/stdlib-js/stdlib/commit/ef474af3b2f1eafffbbbc9e4bcb72541f72970ef) - **docs:** fix overwriting of variables _(by Athan Reines)_
+-   [`98600ec`](https://github.com/stdlib-js/stdlib/commit/98600eca7ebd8e7269f051a2e87612c33dca0638) - **feat:** add `blas/base/dcopy-wasm` [(#2959)](https://github.com/stdlib-js/stdlib/pull/2959) _(by Aman Bhansali, Athan Reines)_
+-   [`929a224`](https://github.com/stdlib-js/stdlib/commit/929a2241acc3b3714fb01fcb4a9e295810df5bf5) - **feat:** add `blas/base/saxpy-wasm` [(#2956)](https://github.com/stdlib-js/stdlib/pull/2956) _(by Aman Bhansali, Athan Reines)_
+-   [`1cd5988`](https://github.com/stdlib-js/stdlib/commit/1cd5988f17e8bd1e3282540d82e05536178423a4) - **docs:** fix copy _(by Athan Reines)_
+-   [`aad48ea`](https://github.com/stdlib-js/stdlib/commit/aad48eab1f19217854f4ffbfaed2a8be664b0f47) - **chore:** resolve lint errors _(by Philipp Burckhardt)_
 -   [`08f9c1a`](https://github.com/stdlib-js/stdlib/commit/08f9c1af6dee1cc36cda84b10230500e75d53ff5) - **chore:** minor clean-up _(by Philipp Burckhardt)_
 -   [`3095c9a`](https://github.com/stdlib-js/stdlib/commit/3095c9a511ea9d5291e2af2344b239a6101ab31f) - **docs:** add example using little-endian arrays _(by Athan Reines)_
 -   [`8f72b43`](https://github.com/stdlib-js/stdlib/commit/8f72b432c0fc81a78641d5689722ecc9671c6f02) - **style:** add missing spaces around parentheses _(by Philipp Burckhardt)_
