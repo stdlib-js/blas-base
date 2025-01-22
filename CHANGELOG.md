@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-11-24)
+## Unreleased (2025-01-22)
 
 <section class="packages">
 
@@ -20,6 +20,7 @@
 
 ##### Features
 
+-   [`8e8437c`](https://github.com/stdlib-js/stdlib/commit/8e8437c92781ac1873dc5df96daae1ef17a2ce1f) - update namespace TypeScript declarations [(#4843)](https://github.com/stdlib-js/stdlib/pull/4843)
 -   [`d649da5`](https://github.com/stdlib-js/stdlib/commit/d649da5c2f30c5cb459d6c43215ce6066f5c7483) - update namespace TypeScript declarations [(#3243)](https://github.com/stdlib-js/stdlib/pull/3243)
 -   [`8b1548f`](https://github.com/stdlib-js/stdlib/commit/8b1548fb45c1ff131f5edac20cb984344a2d28ec) - update namespace TypeScript declarations [(#3190)](https://github.com/stdlib-js/stdlib/pull/3190)
 -   [`f1128aa`](https://github.com/stdlib-js/stdlib/commit/f1128aa2432497a7297ad1cc733de562f44169d5) - add `zaxpy`, `zdrot`, and `zscal` to namespace
@@ -66,6 +67,10 @@
 <section class="breaking-changes">
 
 ##### BREAKING CHANGES
+
+-   [`8e8437c`](https://github.com/stdlib-js/stdlib/commit/8e8437c92781ac1873dc5df96daae1ef17a2ce1f): remove `stats/base/dcumaxabs`
+
+    -   To migrate, users should access `dcumaxabs` via the `stats/strided` namespace.
 
 -   [`8b1548f`](https://github.com/stdlib-js/stdlib/commit/8b1548fb45c1ff131f5edac20cb984344a2d28ec): update namespace declarations
 
@@ -242,6 +247,7 @@
 
 ##### Features
 
+-   [`b6ee443`](https://github.com/stdlib-js/stdlib/commit/b6ee443347db7dcd18b281f99a0617b3b64d86fc) - add C `ndarray` implementation for `blas/base/caxpy` [(#3456)](https://github.com/stdlib-js/stdlib/pull/3456)
 -   [`7d65943`](https://github.com/stdlib-js/stdlib/commit/7d65943604945f9a9e3ad63267c9d91a8c26da2c) - add `blas/base/caxpy` [(#2121)](https://github.com/stdlib-js/stdlib/pull/2121)
 
 </section>
@@ -2874,6 +2880,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="blas-base-zdscal-unreleased">
+
+#### [@stdlib/blas/base/zdscal](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/zdscal)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`4b88dd6`](https://github.com/stdlib-js/stdlib/commit/4b88dd6a4fc83d387ea60a0b129bdaf53bc8c184) - add `blas/base/zdscal` [(#4738)](https://github.com/stdlib-js/stdlib/pull/4738)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="blas-base-zscal-unreleased">
 
 #### [@stdlib/blas/base/zscal](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/zscal)
@@ -2939,6 +2967,10 @@ This release closes the following issue:
 
 ### BREAKING CHANGES
 
+-   [`8e8437c`](https://github.com/stdlib-js/stdlib/commit/8e8437c92781ac1873dc5df96daae1ef17a2ce1f): remove `stats/base/dcumaxabs`
+
+    -   To migrate, users should access `dcumaxabs` via the `stats/strided` namespace.
+
 -   [`8b1548f`](https://github.com/stdlib-js/stdlib/commit/8b1548fb45c1ff131f5edac20cb984344a2d28ec): update namespace declarations
 
     -   To migrate, users should consult the corresponding packages containing the respective implementations to determine what is breaking. The primary breakages come from the `blas/*` namespace, where we recently refactored how top-level BLAS APIs operate on input arguments.
@@ -2980,7 +3012,7 @@ A total of 5 issues were closed in this release:
 
 ### Contributors
 
-A total of 7 people contributed to this release. Thank you to the following contributors:
+A total of 8 people contributed to this release. Thank you to the following contributors:
 
 -   Aman Bhansali
 -   Athan Reines
@@ -2988,7 +3020,8 @@ A total of 7 people contributed to this release. Thank you to the following cont
 -   Muhammad Haris
 -   Philipp Burckhardt
 -   Pranav Goswami
--   Rutam
+-   Ricky Reusser
+-   Rutam Kathale
 
 </section>
 
@@ -3000,6 +3033,27 @@ A total of 7 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`8e8437c`](https://github.com/stdlib-js/stdlib/commit/8e8437c92781ac1873dc5df96daae1ef17a2ce1f) - **feat:** update namespace TypeScript declarations [(#4843)](https://github.com/stdlib-js/stdlib/pull/4843) _(by stdlib-bot)_
+-   [`399942d`](https://github.com/stdlib-js/stdlib/commit/399942d86d04b5b5aba4e41d6957f3089ad58ab1) - **docs:** update examples for `blas/base/ccopy` [(#4836)](https://github.com/stdlib-js/stdlib/pull/4836) _(by Gururaj Gurram, Athan Reines)_
+-   [`4b88dd6`](https://github.com/stdlib-js/stdlib/commit/4b88dd6a4fc83d387ea60a0b129bdaf53bc8c184) - **feat:** add `blas/base/zdscal` [(#4738)](https://github.com/stdlib-js/stdlib/pull/4738) _(by Ricky Reusser, Athan Reines)_
+-   [`dbb338e`](https://github.com/stdlib-js/stdlib/commit/dbb338e80336515e9f7ef602188985bbbe9b9010) - **docs:** update related packages sections [(#4690)](https://github.com/stdlib-js/stdlib/pull/4690) _(by stdlib-bot)_
+-   [`321e49e`](https://github.com/stdlib-js/stdlib/commit/321e49e9965648f1b5eb6a840fe454959af0ec49) - **docs:** add missing periods to list items _(by Philipp Burckhardt)_
+-   [`0d8ee2d`](https://github.com/stdlib-js/stdlib/commit/0d8ee2dd2425d7414487f65940dfc4c25c79ad1d) - **docs:** update related packages sections [(#4334)](https://github.com/stdlib-js/stdlib/pull/4334) _(by stdlib-bot)_
+-   [`4a70790`](https://github.com/stdlib-js/stdlib/commit/4a707903dfef7c2b56216000165706497d19a251) - **style:** add missing spaces _(by Philipp Burckhardt)_
+-   [`d3d3d14`](https://github.com/stdlib-js/stdlib/commit/d3d3d14939ac77ab7d5a4476551108f8ff1c3f1f) - **docs:** update related packages sections [(#4149)](https://github.com/stdlib-js/stdlib/pull/4149) _(by stdlib-bot, Philipp Burckhardt)_
+-   [`62364f6`](https://github.com/stdlib-js/stdlib/commit/62364f62ea823a3b52c2ad25660ecd80c71f8f36) - **style:** fix C comment alignment _(by Philipp Burckhardt)_
+-   [`6a0d6b8`](https://github.com/stdlib-js/stdlib/commit/6a0d6b861f8e2079a501ca4e46a9175440eedb46) - **style:** update to use tabs for indentation _(by Philipp Burckhardt)_
+-   [`8684eb4`](https://github.com/stdlib-js/stdlib/commit/8684eb429498a239bff9bdd72f443dd1cd981552) - **docs:** update related packages sections [(#4114)](https://github.com/stdlib-js/stdlib/pull/4114) _(by stdlib-bot, Athan Reines)_
+-   [`8bf8285`](https://github.com/stdlib-js/stdlib/commit/8bf8285aba0ecbd00ae145c4c5c098cd28135814) - **chore:** minor clean-up _(by Philipp Burckhardt)_
+-   [`b20a9e6`](https://github.com/stdlib-js/stdlib/commit/b20a9e616e5d04cfc3e5bc71bd557e15af738050) - **docs:** update related packages sections [(#3936)](https://github.com/stdlib-js/stdlib/pull/3936) _(by stdlib-bot)_
+-   [`cfc0665`](https://github.com/stdlib-js/stdlib/commit/cfc0665435a1f99158d7fed39b8873dea6aa6209) - **docs:** add missing private tag _(by Philipp Burckhardt)_
+-   [`b8c41df`](https://github.com/stdlib-js/stdlib/commit/b8c41df78cd2cdc9cd3c3c6b223759d32f4f6e14) - **docs:** update related packages sections [(#3915)](https://github.com/stdlib-js/stdlib/pull/3915) _(by stdlib-bot)_
+-   [`5cb36ef`](https://github.com/stdlib-js/stdlib/commit/5cb36ef4c6f8158585ac88867a8dec21ed3fa372) - **docs:** update related packages sections [(#3890)](https://github.com/stdlib-js/stdlib/pull/3890) _(by stdlib-bot)_
+-   [`b6ee443`](https://github.com/stdlib-js/stdlib/commit/b6ee443347db7dcd18b281f99a0617b3b64d86fc) - **feat:** add C `ndarray` implementation for `blas/base/caxpy` [(#3456)](https://github.com/stdlib-js/stdlib/pull/3456) _(by Aman Bhansali, Athan Reines)_
+-   [`bf5643f`](https://github.com/stdlib-js/stdlib/commit/bf5643fb1a3f32a60903d8e210f71571e609119f) - **docs:** update related packages sections [(#3404)](https://github.com/stdlib-js/stdlib/pull/3404) _(by stdlib-bot)_
+-   [`ac06419`](https://github.com/stdlib-js/stdlib/commit/ac06419c2a8358dfd80818823f571077eb58958e) - **docs:** update related packages sections [(#3387)](https://github.com/stdlib-js/stdlib/pull/3387) _(by stdlib-bot)_
+-   [`0a8192d`](https://github.com/stdlib-js/stdlib/commit/0a8192d68506a2abf4c3e52e1af9f1510e1660b4) - **docs:** update related packages sections [(#3370)](https://github.com/stdlib-js/stdlib/pull/3370) _(by stdlib-bot)_
+-   [`e3a09c9`](https://github.com/stdlib-js/stdlib/commit/e3a09c998fe7ac472456650abc0b4ea726037982) - **style:** use consistent indentation _(by Athan Reines)_
 -   [`d649da5`](https://github.com/stdlib-js/stdlib/commit/d649da5c2f30c5cb459d6c43215ce6066f5c7483) - **feat:** update namespace TypeScript declarations [(#3243)](https://github.com/stdlib-js/stdlib/pull/3243) _(by stdlib-bot, Philipp Burckhardt)_
 -   [`05aab7d`](https://github.com/stdlib-js/stdlib/commit/05aab7d99007e790e05e82509b50c63db761b49a) - **feat:** add `blas/base/csrot-wasm` [(#3203)](https://github.com/stdlib-js/stdlib/pull/3203) _(by Aman Bhansali, Athan Reines)_
 -   [`6734e4d`](https://github.com/stdlib-js/stdlib/commit/6734e4dc3d249e2544ef1e22e2a5fd47ff3e6cd3) - **feat:** add `blas/base/ccopy-wasm` [(#3163)](https://github.com/stdlib-js/stdlib/pull/3163) _(by Aman Bhansali, Athan Reines)_
@@ -3417,7 +3471,7 @@ A total of 7 people contributed to this release. Thank you to the following cont
 -   [`e709ece`](https://github.com/stdlib-js/stdlib/commit/e709eced3f4dcc94f5a8aeb87c8331d2a5ba5092) - **fix:** update libraries _(by Athan Reines)_
 -   [`7187d1b`](https://github.com/stdlib-js/stdlib/commit/7187d1bdf7cb931b78df3b72873ba670bcb7dc95) - **build:** add separate configurations for benchmarks and examples _(by Athan Reines)_
 -   [`0244027`](https://github.com/stdlib-js/stdlib/commit/0244027e1e2c0ceb1cd8ae1808196c24fa77b142) - **chore:** add missing trailing newlines _(by Philipp Burckhardt)_
--   [`7155e52`](https://github.com/stdlib-js/stdlib/commit/7155e52806a52b6918d0de96ea2fe5da2c19bcd0) - **feat:** add `blas/base/zswap` [(#2075)](https://github.com/stdlib-js/stdlib/pull/2075) _(by Rutam, Athan Reines, stdlib-bot)_
+-   [`7155e52`](https://github.com/stdlib-js/stdlib/commit/7155e52806a52b6918d0de96ea2fe5da2c19bcd0) - **feat:** add `blas/base/zswap` [(#2075)](https://github.com/stdlib-js/stdlib/pull/2075) _(by Rutam Kathale, Athan Reines, stdlib-bot)_
 -   [`9e9ba56`](https://github.com/stdlib-js/stdlib/commit/9e9ba56219655b135d38d733887f15f6cd975bf6) - **style:** remove trailing newlines _(by Athan Reines)_
 -   [`edc9c69`](https://github.com/stdlib-js/stdlib/commit/edc9c69f219cd5bdcf08fe2f2bf0f03c191776b0) - **bench:** dynamically determine double-precision size _(by Athan Reines)_
 -   [`1dda7d2`](https://github.com/stdlib-js/stdlib/commit/1dda7d20d743bf44053c96cfa9bf89f456e1ed8b) - **feat:** add `blas/base/zcopy` [(#2064)](https://github.com/stdlib-js/stdlib/pull/2064) _(by Aman Bhansali, Athan Reines)_
