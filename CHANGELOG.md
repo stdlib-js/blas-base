@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-01-22)
+## Unreleased (2025-02-03)
 
 <section class="packages">
 
@@ -20,6 +20,7 @@
 
 ##### Features
 
+-   [`14f3f1a`](https://github.com/stdlib-js/stdlib/commit/14f3f1af0988577680efc92522bb9a45a2cbd46b) - update namespace TypeScript declarations
 -   [`8e8437c`](https://github.com/stdlib-js/stdlib/commit/8e8437c92781ac1873dc5df96daae1ef17a2ce1f) - update namespace TypeScript declarations [(#4843)](https://github.com/stdlib-js/stdlib/pull/4843)
 -   [`d649da5`](https://github.com/stdlib-js/stdlib/commit/d649da5c2f30c5cb459d6c43215ce6066f5c7483) - update namespace TypeScript declarations [(#3243)](https://github.com/stdlib-js/stdlib/pull/3243)
 -   [`8b1548f`](https://github.com/stdlib-js/stdlib/commit/8b1548fb45c1ff131f5edac20cb984344a2d28ec) - update namespace TypeScript declarations [(#3190)](https://github.com/stdlib-js/stdlib/pull/3190)
@@ -67,6 +68,10 @@
 <section class="breaking-changes">
 
 ##### BREAKING CHANGES
+
+-   [`14f3f1a`](https://github.com/stdlib-js/stdlib/commit/14f3f1af0988577680efc92522bb9a45a2cbd46b): remove `dcuminabs`
+
+    -   To migrate, users should access `dcuminabs` in the `stats/strided/*` namespace.
 
 -   [`8e8437c`](https://github.com/stdlib-js/stdlib/commit/8e8437c92781ac1873dc5df96daae1ef17a2ce1f): remove `stats/base/dcumaxabs`
 
@@ -2967,6 +2972,10 @@ This release closes the following issue:
 
 ### BREAKING CHANGES
 
+-   [`14f3f1a`](https://github.com/stdlib-js/stdlib/commit/14f3f1af0988577680efc92522bb9a45a2cbd46b): remove `dcuminabs`
+
+    -   To migrate, users should access `dcuminabs` in the `stats/strided/*` namespace.
+
 -   [`8e8437c`](https://github.com/stdlib-js/stdlib/commit/8e8437c92781ac1873dc5df96daae1ef17a2ce1f): remove `stats/base/dcumaxabs`
 
     -   To migrate, users should access `dcumaxabs` via the `stats/strided` namespace.
@@ -3033,6 +3042,16 @@ A total of 8 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`367ec2c`](https://github.com/stdlib-js/stdlib/commit/367ec2c5fe4a11f2e9a450ab4b21ea66db002cc2) - **docs:** update namespace TypeScript declarations [(#5039)](https://github.com/stdlib-js/stdlib/pull/5039) _(by stdlib-bot)_
+-   [`4ca8f05`](https://github.com/stdlib-js/stdlib/commit/4ca8f05752dd4751319db6d876eb4107ec682e45) - **docs:** update examples of `blas/base/cswap` [(#5007)](https://github.com/stdlib-js/stdlib/pull/5007) _(by Gururaj Gurram)_
+-   [`56aeda8`](https://github.com/stdlib-js/stdlib/commit/56aeda837a38b2db883b1815f7261f2f192bd0ff) - **docs:** update namespace TypeScript declarations [(#5003)](https://github.com/stdlib-js/stdlib/pull/5003) _(by stdlib-bot)_
+-   [`99b9273`](https://github.com/stdlib-js/stdlib/commit/99b9273752c85e3a322ea18dfa60bb7632478fc5) - **docs:** update examples for `blas/base/csrot` [(#4963)](https://github.com/stdlib-js/stdlib/pull/4963) _(by Gururaj Gurram)_
+-   [`14f3f1a`](https://github.com/stdlib-js/stdlib/commit/14f3f1af0988577680efc92522bb9a45a2cbd46b) - **feat:** update namespace TypeScript declarations _(by stdlib-bot)_
+-   [`48f82a2`](https://github.com/stdlib-js/stdlib/commit/48f82a28d92c8fb065770860b65e1377a00a6e3b) - **docs:** update examples for `blas/base/cscal` [(#4942)](https://github.com/stdlib-js/stdlib/pull/4942) _(by Gururaj Gurram)_
+-   [`9f88c8c`](https://github.com/stdlib-js/stdlib/commit/9f88c8cecfa7e8d67aa05a6419f2d4efd73943ff) - **docs:** update examples for `blas/base/caxpy` [(#4925)](https://github.com/stdlib-js/stdlib/pull/4925) _(by Gururaj Gurram)_
+-   [`7560ab3`](https://github.com/stdlib-js/stdlib/commit/7560ab3b55a8dfca4d494ea806f392b44fd93d09) - **refactor:** avoid temporary complex number instantiation _(by Athan Reines)_
+-   [`c97212e`](https://github.com/stdlib-js/stdlib/commit/c97212e122c2d20800469913282d9df791fcebf2) - **refactor:** avoid complex number instantiation _(by Athan Reines)_
+-   [`305beea`](https://github.com/stdlib-js/stdlib/commit/305beea04159cc7ee113442662a2694c14919f19) - **refactor:** use `complex/float64/base/scale` _(by Athan Reines)_
 -   [`8e8437c`](https://github.com/stdlib-js/stdlib/commit/8e8437c92781ac1873dc5df96daae1ef17a2ce1f) - **feat:** update namespace TypeScript declarations [(#4843)](https://github.com/stdlib-js/stdlib/pull/4843) _(by stdlib-bot)_
 -   [`399942d`](https://github.com/stdlib-js/stdlib/commit/399942d86d04b5b5aba4e41d6957f3089ad58ab1) - **docs:** update examples for `blas/base/ccopy` [(#4836)](https://github.com/stdlib-js/stdlib/pull/4836) _(by Gururaj Gurram, Athan Reines)_
 -   [`4b88dd6`](https://github.com/stdlib-js/stdlib/commit/4b88dd6a4fc83d387ea60a0b129bdaf53bc8c184) - **feat:** add `blas/base/zdscal` [(#4738)](https://github.com/stdlib-js/stdlib/pull/4738) _(by Ricky Reusser, Athan Reines)_
