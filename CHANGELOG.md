@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-02-03)
+## Unreleased (2025-02-09)
 
 <section class="packages">
 
@@ -20,6 +20,7 @@
 
 ##### Features
 
+-   [`d66db3f`](https://github.com/stdlib-js/stdlib/commit/d66db3fd4b220adcc318a5993a97fe79e5b7445a) - update namespace TypeScript declarations [(#5130)](https://github.com/stdlib-js/stdlib/pull/5130)
 -   [`14f3f1a`](https://github.com/stdlib-js/stdlib/commit/14f3f1af0988577680efc92522bb9a45a2cbd46b) - update namespace TypeScript declarations
 -   [`8e8437c`](https://github.com/stdlib-js/stdlib/commit/8e8437c92781ac1873dc5df96daae1ef17a2ce1f) - update namespace TypeScript declarations [(#4843)](https://github.com/stdlib-js/stdlib/pull/4843)
 -   [`d649da5`](https://github.com/stdlib-js/stdlib/commit/d649da5c2f30c5cb459d6c43215ce6066f5c7483) - update namespace TypeScript declarations [(#3243)](https://github.com/stdlib-js/stdlib/pull/3243)
@@ -68,6 +69,10 @@
 <section class="breaking-changes">
 
 ##### BREAKING CHANGES
+
+-   [`d66db3f`](https://github.com/stdlib-js/stdlib/commit/d66db3fd4b220adcc318a5993a97fe79e5b7445a): remove `add`, `add3`, and `add4`
+
+    -   To migrate, users should access those symbols in the `number/float64/base` namespace.
 
 -   [`14f3f1a`](https://github.com/stdlib-js/stdlib/commit/14f3f1af0988577680efc92522bb9a45a2cbd46b): remove `dcuminabs`
 
@@ -314,6 +319,64 @@
 
 <!-- /.features -->
 
+<section class="breaking-changes">
+
+##### BREAKING CHANGES
+
+-   [`3fc841d`](https://github.com/stdlib-js/stdlib/commit/3fc841dec353f3d7dbb5a385e8741a002223caa4): remove `blas/base/ccopy-wasm`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/blas-base/wasm/ccopy` which provides the same API and implementation.
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
+</section>
+
+<!-- /.breaking-changes -->
+
 </details>
 
 </section>
@@ -369,6 +432,64 @@
 
 <!-- /.features -->
 
+<section class="breaking-changes">
+
+##### BREAKING CHANGES
+
+-   [`009ba31`](https://github.com/stdlib-js/stdlib/commit/009ba31b10876362faf01f08b4f94fc3a82bbf71): remove `blas/base/cscal-wasm`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/blas-base/wasm/cscal` which provides the same API and implementation.
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
+</section>
+
+<!-- /.breaking-changes -->
+
 </details>
 
 </section>
@@ -413,6 +534,64 @@
 </section>
 
 <!-- /.features -->
+
+<section class="breaking-changes">
+
+##### BREAKING CHANGES
+
+-   [`08a68fa`](https://github.com/stdlib-js/stdlib/commit/08a68fa2382d01b74aaf1b25a8d4235465dc2a07): remove `blas/base/csrot-wasm`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/blas-base/wasm/csrot` which provides the same API and implementation.
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
+</section>
+
+<!-- /.breaking-changes -->
 
 </details>
 
@@ -468,6 +647,64 @@
 </section>
 
 <!-- /.features -->
+
+<section class="breaking-changes">
+
+##### BREAKING CHANGES
+
+-   [`79cdf06`](https://github.com/stdlib-js/stdlib/commit/79cdf06e44a07f896283172509f0c0a3a174d9d5): remove `blas/base/cswap-wasm`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/blas-base/wasm/cswap` which provides the same API and implementation.
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
+</section>
+
+<!-- /.breaking-changes -->
 
 </details>
 
@@ -526,6 +763,64 @@
 
 <!-- /.features -->
 
+<section class="breaking-changes">
+
+##### BREAKING CHANGES
+
+-   [`28aeac5`](https://github.com/stdlib-js/stdlib/commit/28aeac57a7c34eedca3d6491ea09741ee1b9992f): remove `blas/base/dasum-wasm`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/blas-base/wasm/dasum` which provides the same API and implementation.
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
+</section>
+
+<!-- /.breaking-changes -->
+
 </details>
 
 </section>
@@ -581,6 +876,64 @@
 </section>
 
 <!-- /.features -->
+
+<section class="breaking-changes">
+
+##### BREAKING CHANGES
+
+-   [`e80da18`](https://github.com/stdlib-js/stdlib/commit/e80da183a872a3c9172bd552c9f48576ea0d43fe): remove `blas/base/daxpy-wasm`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/blas-base/wasm/daxpy` which provides the same API and implementation.
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
+</section>
+
+<!-- /.breaking-changes -->
 
 </details>
 
@@ -659,6 +1012,64 @@
 
 <!-- /.features -->
 
+<section class="breaking-changes">
+
+##### BREAKING CHANGES
+
+-   [`21feb97`](https://github.com/stdlib-js/stdlib/commit/21feb97bbec27eca259b929cc346e6b86bc917aa): remove `blas/base/dcopy-wasm`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/blas-base/wasm/dcopy` which provides the same API and implementation.
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
+</section>
+
+<!-- /.breaking-changes -->
+
 </details>
 
 </section>
@@ -713,6 +1124,64 @@
 </section>
 
 <!-- /.features -->
+
+<section class="breaking-changes">
+
+##### BREAKING CHANGES
+
+-   [`c4b589f`](https://github.com/stdlib-js/stdlib/commit/c4b589f67ea7c3543f17fc1b6828bc6f72212cdc): remove `blas/base/ddot-wasm`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/blas-base/wasm/ddot` which provides the same API and implementation.
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
+</section>
+
+<!-- /.breaking-changes -->
 
 </details>
 
@@ -955,6 +1424,64 @@
 
 <!-- /.features -->
 
+<section class="breaking-changes">
+
+##### BREAKING CHANGES
+
+-   [`3c378c6`](https://github.com/stdlib-js/stdlib/commit/3c378c642fe19f5c36f97798c45d6e10f812bd2b): remove `blas/base/dnrm2-wasm`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/blas-base/wasm/dnrm2` which provides the same API and implementation.
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
+</section>
+
+<!-- /.breaking-changes -->
+
 </details>
 
 </section>
@@ -1023,6 +1550,64 @@ This release closes the following issue:
 
 <!-- /.features -->
 
+<section class="breaking-changes">
+
+##### BREAKING CHANGES
+
+-   [`0015bcd`](https://github.com/stdlib-js/stdlib/commit/0015bcde4419b759d390b8f8e0ca282305c70121): remove `blas/base/drot-wasm`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/blas-base/wasm/drot` which provides the same API and implementation.
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
+</section>
+
+<!-- /.breaking-changes -->
+
 </details>
 
 </section>
@@ -1067,6 +1652,64 @@ This release closes the following issue:
 </section>
 
 <!-- /.features -->
+
+<section class="breaking-changes">
+
+##### BREAKING CHANGES
+
+-   [`c0b7f3c`](https://github.com/stdlib-js/stdlib/commit/c0b7f3c948744b3ef7ff57cd45fcf890602222c5): remove `blas/base/drotm-wasm`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/blas-base/wasm/drotm` which provides the same API and implementation.
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
+</section>
+
+<!-- /.breaking-changes -->
 
 </details>
 
@@ -1122,6 +1765,64 @@ This release closes the following issue:
 </section>
 
 <!-- /.features -->
+
+<section class="breaking-changes">
+
+##### BREAKING CHANGES
+
+-   [`6e39c79`](https://github.com/stdlib-js/stdlib/commit/6e39c79befc44701587a7e3f39fa728b93a14ec2): remove `blas/base/dscal-wasm`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/blas-base/wasm/dscal` which provides the same API and implementation.
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
+</section>
+
+<!-- /.breaking-changes -->
 
 </details>
 
@@ -1270,6 +1971,64 @@ This release closes the following issue:
 </section>
 
 <!-- /.features -->
+
+<section class="breaking-changes">
+
+##### BREAKING CHANGES
+
+-   [`07ce325`](https://github.com/stdlib-js/stdlib/commit/07ce325d72471c7ae049f284d52627558f6dae51): remove `blas/base/dswap-wasm`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/blas-base/wasm/dswap` which provides the same API and implementation.
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
+</section>
+
+<!-- /.breaking-changes -->
 
 </details>
 
@@ -1484,6 +2243,64 @@ This release closes the following issue:
 </section>
 
 <!-- /.features -->
+
+<section class="breaking-changes">
+
+##### BREAKING CHANGES
+
+-   [`c528ea9`](https://github.com/stdlib-js/stdlib/commit/c528ea916d5b93335f1dabc3ae5c39d0a0d4a6e4): remove `blas/base/idamax-wasm`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/blas-base/wasm/idamax` which provides the same API and implementation.
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
+</section>
+
+<!-- /.breaking-changes -->
 
 </details>
 
@@ -1941,6 +2758,64 @@ This release closes the following issue:
 
 <!-- /.features -->
 
+<section class="breaking-changes">
+
+##### BREAKING CHANGES
+
+-   [`bf91fc5`](https://github.com/stdlib-js/stdlib/commit/bf91fc54f3c5b2d3170c075750ebef18971087b4): remove `blas/base/sasum-wasm`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/blas-base/wasm/sasum` which provides the same API and implementation.
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
+</section>
+
+<!-- /.breaking-changes -->
+
 </details>
 
 </section>
@@ -1984,6 +2859,64 @@ This release closes the following issue:
 </section>
 
 <!-- /.features -->
+
+<section class="breaking-changes">
+
+##### BREAKING CHANGES
+
+-   [`68d3c7c`](https://github.com/stdlib-js/stdlib/commit/68d3c7cb33337b53fec5105734d22310b8a00f8e): remove `blas/base/saxpy-wasm`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/blas-base/wasm/saxpy` which provides the same API and implementation.
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
+</section>
+
+<!-- /.breaking-changes -->
 
 </details>
 
@@ -2120,6 +3053,64 @@ This release closes the following issue:
 
 <!-- /.features -->
 
+<section class="breaking-changes">
+
+##### BREAKING CHANGES
+
+-   [`742eb42`](https://github.com/stdlib-js/stdlib/commit/742eb42240411f30af6d40846b1ed53cc50b3d4f): remove `blas/base/scopy-wasm`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/blas-base/wasm/scopy` which provides the same API and implementation.
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
+</section>
+
+<!-- /.breaking-changes -->
+
 </details>
 
 </section>
@@ -2163,6 +3154,64 @@ This release closes the following issue:
 </section>
 
 <!-- /.features -->
+
+<section class="breaking-changes">
+
+##### BREAKING CHANGES
+
+-   [`7d1efc3`](https://github.com/stdlib-js/stdlib/commit/7d1efc3234e5e97e8138775d24de6883ecc353f0): remove `blas/base/sdot-wasm`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/blas-base/wasm/sdot` which provides the same API and implementation.
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
+</section>
+
+<!-- /.breaking-changes -->
 
 </details>
 
@@ -2311,6 +3360,64 @@ This release closes the following issue:
 
 <!-- /.features -->
 
+<section class="breaking-changes">
+
+##### BREAKING CHANGES
+
+-   [`7ff23bf`](https://github.com/stdlib-js/stdlib/commit/7ff23bf5084c883c8db90385b4986c6ac5361678): remove `blas/base/snrm2-wasm`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/blas-base/wasm/snrm2` which provides the same API and implementation.
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
+</section>
+
+<!-- /.breaking-changes -->
+
 </details>
 
 </section>
@@ -2368,6 +3475,93 @@ This release closes the following issue:
 </section>
 
 <!-- /.features -->
+
+<section class="breaking-changes">
+
+##### BREAKING CHANGES
+
+-   [`beeca53`](https://github.com/stdlib-js/stdlib/commit/beeca539c35d8abd8bf52f2dabacafb56ef52d2d): remove `blas/base/srot-wasm`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/blas-base/wasm/srot` which provides the same API and implementation.
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+        ---
+        type: pre_push_report
+        description: Results of running various checks prior to pushing changes.
+        report:
+          - task: run_javascript_examples
+            status: passed
+          - task: run_c_examples
+            status: na
+          - task: run_cpp_examples
+            status: na
+          - task: run_javascript_readme_examples
+            status: passed
+          - task: run_c_benchmarks
+            status: na
+          - task: run_cpp_benchmarks
+            status: na
+          - task: run_fortran_benchmarks
+            status: na
+          - task: run_javascript_benchmarks
+            status: passed
+          - task: run_julia_benchmarks
+            status: na
+          - task: run_python_benchmarks
+            status: na
+          - task: run_r_benchmarks
+            status: na
+          - task: run_javascript_tests
+            status: failed
+        ---
+
+</section>
+
+<!-- /.breaking-changes -->
 
 </details>
 
@@ -2530,6 +3724,7 @@ This release closes the following issue:
 
 ##### Features
 
+-   [`924f85a`](https://github.com/stdlib-js/stdlib/commit/924f85ad57aec54ede64c9db9ee96459befa2c00) - add C implementation for `blas/base/ssyr` [(#2877)](https://github.com/stdlib-js/stdlib/pull/2877)
 -   [`4300111`](https://github.com/stdlib-js/stdlib/commit/4300111c80e0bd4941dcdd30a6b6dd36f2250dce) - add `blas/base/ssyr` [(#2658)](https://github.com/stdlib-js/stdlib/pull/2658)
 
 </section>
@@ -2795,6 +3990,512 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="blas-base-wasm-ccopy-unreleased">
+
+#### [@stdlib/blas/base/wasm/ccopy](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/wasm/ccopy)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`ab1d701`](https://github.com/stdlib-js/stdlib/commit/ab1d701a59615ae48b61ff4444ff6c6ac006950b) - add `blas/base/wasm/ccopy`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="blas-base-wasm-cscal-unreleased">
+
+#### [@stdlib/blas/base/wasm/cscal](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/wasm/cscal)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`c18d344`](https://github.com/stdlib-js/stdlib/commit/c18d344951dc88690929a82ef47f5b3838f93a92) - add `blas/base/wasm/cscal`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="blas-base-wasm-csrot-unreleased">
+
+#### [@stdlib/blas/base/wasm/csrot](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/wasm/csrot)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`4de4aff`](https://github.com/stdlib-js/stdlib/commit/4de4affbc7b2b1c84606700dc9b5d96bd2b57c9d) - add `blas/base/wasm/csrot`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="blas-base-wasm-cswap-unreleased">
+
+#### [@stdlib/blas/base/wasm/cswap](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/wasm/cswap)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`f067e80`](https://github.com/stdlib-js/stdlib/commit/f067e80ba5ee58232b73600e7fdfe46529d34f99) - add `blas/base/wasm/cswap`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="blas-base-wasm-dasum-unreleased">
+
+#### [@stdlib/blas/base/wasm/dasum](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/wasm/dasum)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`0d61df4`](https://github.com/stdlib-js/stdlib/commit/0d61df43906121de7569bfc943b8c90a280f2b04) - add `blas/base/wasm/dasum`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="blas-base-wasm-daxpy-unreleased">
+
+#### [@stdlib/blas/base/wasm/daxpy](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/wasm/daxpy)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`f1d4e1d`](https://github.com/stdlib-js/stdlib/commit/f1d4e1d7dabeaa6db42630707dad76923dfe755c) - add `blas/base/wasm/daxpy`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="blas-base-wasm-dcopy-unreleased">
+
+#### [@stdlib/blas/base/wasm/dcopy](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/wasm/dcopy)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`dbb0165`](https://github.com/stdlib-js/stdlib/commit/dbb0165c27aba9f90d96e37af93776a7a410e471) - add `blas/base/wasm/dcopy`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="blas-base-wasm-ddot-unreleased">
+
+#### [@stdlib/blas/base/wasm/ddot](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/wasm/ddot)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`b5468db`](https://github.com/stdlib-js/stdlib/commit/b5468dbd07d253621eddcb8a25363eab748d210a) - add `blas/base/wasm/ddot`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="blas-base-wasm-dnrm2-unreleased">
+
+#### [@stdlib/blas/base/wasm/dnrm2](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/wasm/dnrm2)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`18fef5f`](https://github.com/stdlib-js/stdlib/commit/18fef5faebcfe1acf92daf059c29ddfd64f94901) - add `blas/base/wasm/dnrm2`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="blas-base-wasm-drot-unreleased">
+
+#### [@stdlib/blas/base/wasm/drot](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/wasm/drot)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`8270aa6`](https://github.com/stdlib-js/stdlib/commit/8270aa6937b42072ab4208e8cede7bd00f197e88) - add `blas/base/wasm/drot`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="blas-base-wasm-drotm-unreleased">
+
+#### [@stdlib/blas/base/wasm/drotm](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/wasm/drotm)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`a519986`](https://github.com/stdlib-js/stdlib/commit/a519986026f8c8da8c4cd8ef8934356dcbf02cce) - add `blas/base/wasm/drotm`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="blas-base-wasm-dscal-unreleased">
+
+#### [@stdlib/blas/base/wasm/dscal](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/wasm/dscal)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`8fa1f9d`](https://github.com/stdlib-js/stdlib/commit/8fa1f9d0967e01c2de08e8b2f6bae1091a2e941f) - add `blas/base/wasm/dscal`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="blas-base-wasm-dswap-unreleased">
+
+#### [@stdlib/blas/base/wasm/dswap](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/wasm/dswap)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`35ad7f0`](https://github.com/stdlib-js/stdlib/commit/35ad7f0af7ec928461e62eb10d85a0730819af7b) - add `blas/base/wasm/dswap`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="blas-base-wasm-idamax-unreleased">
+
+#### [@stdlib/blas/base/wasm/idamax](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/wasm/idamax)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`caf2c7e`](https://github.com/stdlib-js/stdlib/commit/caf2c7e956b6edf338ed9e59a295f8f776b26230) - add `blas/base/wasm/idamax`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="blas-base-wasm-isamax-unreleased">
+
+#### [@stdlib/blas/base/wasm/isamax](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/wasm/isamax)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`cd30ae4`](https://github.com/stdlib-js/stdlib/commit/cd30ae4e94a3874a3850eb5ddec63d9360e20413) - add `blas/base/wasm/isamax` [(#3984)](https://github.com/stdlib-js/stdlib/pull/3984)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="blas-base-wasm-sasum-unreleased">
+
+#### [@stdlib/blas/base/wasm/sasum](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/wasm/sasum)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`2fc9bf4`](https://github.com/stdlib-js/stdlib/commit/2fc9bf49fe6a935260e86d3b249e78e8c9662758) - add `blas/base/wasm/sasum`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="blas-base-wasm-saxpy-unreleased">
+
+#### [@stdlib/blas/base/wasm/saxpy](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/wasm/saxpy)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`f19927d`](https://github.com/stdlib-js/stdlib/commit/f19927d6d375ea5ecdab52e52a5d3f92d8f63911) - add `blas/base/wasm/saxpy`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="blas-base-wasm-scopy-unreleased">
+
+#### [@stdlib/blas/base/wasm/scopy](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/wasm/scopy)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`56a4fc3`](https://github.com/stdlib-js/stdlib/commit/56a4fc3e28da41971a00a95653c9f249e47f5d13) - add `blas/base/wasm/scopy`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="blas-base-wasm-sdot-unreleased">
+
+#### [@stdlib/blas/base/wasm/sdot](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/wasm/sdot)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`8649400`](https://github.com/stdlib-js/stdlib/commit/864940039f6e118f031f949f7ed619e668f97034) - add `blas/base/wasm/sdot`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="blas-base-wasm-snrm2-unreleased">
+
+#### [@stdlib/blas/base/wasm/snrm2](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/wasm/snrm2)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`fa44243`](https://github.com/stdlib-js/stdlib/commit/fa4424301c6f9d417367e79843195855c291b5be) - add `blas/base/wasm/snrm2`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="blas-base-wasm-srot-unreleased">
+
+#### [@stdlib/blas/base/wasm/srot](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/wasm/srot)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`bc81929`](https://github.com/stdlib-js/stdlib/commit/bc81929038bd6393df0e76e5ad6097e2528ab967) - add `blas/base/wasm/srot`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="blas-base-wasm-zcopy-unreleased">
+
+#### [@stdlib/blas/base/wasm/zcopy](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/wasm/zcopy)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`e28cc73`](https://github.com/stdlib-js/stdlib/commit/e28cc73ce4cae0a780006c8256ca58f901b18624) - add `blas/base/wasm/zcopy` [(#3982)](https://github.com/stdlib-js/stdlib/pull/3982)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="blas-base-wasm-zswap-unreleased">
+
+#### [@stdlib/blas/base/wasm/zswap](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/wasm/zswap)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`5cdd9f7`](https://github.com/stdlib-js/stdlib/commit/5cdd9f7f4b631411afcf489dbfdeb7088f1392ed) - add `blas/base/wasm/zswap` [(#4011)](https://github.com/stdlib-js/stdlib/pull/4011)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="blas-base-xerbla-unreleased">
 
 #### [@stdlib/blas/base/xerbla](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/xerbla)
@@ -2972,6 +4673,1039 @@ This release closes the following issue:
 
 ### BREAKING CHANGES
 
+-   [`d66db3f`](https://github.com/stdlib-js/stdlib/commit/d66db3fd4b220adcc318a5993a97fe79e5b7445a): remove `add`, `add3`, and `add4`
+
+    -   To migrate, users should access those symbols in the `number/float64/base` namespace.
+
+-   [`beeca53`](https://github.com/stdlib-js/stdlib/commit/beeca539c35d8abd8bf52f2dabacafb56ef52d2d): remove `blas/base/srot-wasm`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/blas-base/wasm/srot` which provides the same API and implementation.
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+        ---
+        type: pre_push_report
+        description: Results of running various checks prior to pushing changes.
+        report:
+          - task: run_javascript_examples
+            status: passed
+          - task: run_c_examples
+            status: na
+          - task: run_cpp_examples
+            status: na
+          - task: run_javascript_readme_examples
+            status: passed
+          - task: run_c_benchmarks
+            status: na
+          - task: run_cpp_benchmarks
+            status: na
+          - task: run_fortran_benchmarks
+            status: na
+          - task: run_javascript_benchmarks
+            status: passed
+          - task: run_julia_benchmarks
+            status: na
+          - task: run_python_benchmarks
+            status: na
+          - task: run_r_benchmarks
+            status: na
+          - task: run_javascript_tests
+            status: failed
+        ---
+
+-   [`7ff23bf`](https://github.com/stdlib-js/stdlib/commit/7ff23bf5084c883c8db90385b4986c6ac5361678): remove `blas/base/snrm2-wasm`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/blas-base/wasm/snrm2` which provides the same API and implementation.
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
+-   [`7d1efc3`](https://github.com/stdlib-js/stdlib/commit/7d1efc3234e5e97e8138775d24de6883ecc353f0): remove `blas/base/sdot-wasm`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/blas-base/wasm/sdot` which provides the same API and implementation.
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
+-   [`742eb42`](https://github.com/stdlib-js/stdlib/commit/742eb42240411f30af6d40846b1ed53cc50b3d4f): remove `blas/base/scopy-wasm`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/blas-base/wasm/scopy` which provides the same API and implementation.
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
+-   [`68d3c7c`](https://github.com/stdlib-js/stdlib/commit/68d3c7cb33337b53fec5105734d22310b8a00f8e): remove `blas/base/saxpy-wasm`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/blas-base/wasm/saxpy` which provides the same API and implementation.
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
+-   [`bf91fc5`](https://github.com/stdlib-js/stdlib/commit/bf91fc54f3c5b2d3170c075750ebef18971087b4): remove `blas/base/sasum-wasm`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/blas-base/wasm/sasum` which provides the same API and implementation.
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
+-   [`c528ea9`](https://github.com/stdlib-js/stdlib/commit/c528ea916d5b93335f1dabc3ae5c39d0a0d4a6e4): remove `blas/base/idamax-wasm`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/blas-base/wasm/idamax` which provides the same API and implementation.
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
+-   [`07ce325`](https://github.com/stdlib-js/stdlib/commit/07ce325d72471c7ae049f284d52627558f6dae51): remove `blas/base/dswap-wasm`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/blas-base/wasm/dswap` which provides the same API and implementation.
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
+-   [`6e39c79`](https://github.com/stdlib-js/stdlib/commit/6e39c79befc44701587a7e3f39fa728b93a14ec2): remove `blas/base/dscal-wasm`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/blas-base/wasm/dscal` which provides the same API and implementation.
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
+-   [`c0b7f3c`](https://github.com/stdlib-js/stdlib/commit/c0b7f3c948744b3ef7ff57cd45fcf890602222c5): remove `blas/base/drotm-wasm`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/blas-base/wasm/drotm` which provides the same API and implementation.
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
+-   [`0015bcd`](https://github.com/stdlib-js/stdlib/commit/0015bcde4419b759d390b8f8e0ca282305c70121): remove `blas/base/drot-wasm`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/blas-base/wasm/drot` which provides the same API and implementation.
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
+-   [`3c378c6`](https://github.com/stdlib-js/stdlib/commit/3c378c642fe19f5c36f97798c45d6e10f812bd2b): remove `blas/base/dnrm2-wasm`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/blas-base/wasm/dnrm2` which provides the same API and implementation.
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
+-   [`c4b589f`](https://github.com/stdlib-js/stdlib/commit/c4b589f67ea7c3543f17fc1b6828bc6f72212cdc): remove `blas/base/ddot-wasm`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/blas-base/wasm/ddot` which provides the same API and implementation.
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
+-   [`21feb97`](https://github.com/stdlib-js/stdlib/commit/21feb97bbec27eca259b929cc346e6b86bc917aa): remove `blas/base/dcopy-wasm`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/blas-base/wasm/dcopy` which provides the same API and implementation.
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
+-   [`e80da18`](https://github.com/stdlib-js/stdlib/commit/e80da183a872a3c9172bd552c9f48576ea0d43fe): remove `blas/base/daxpy-wasm`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/blas-base/wasm/daxpy` which provides the same API and implementation.
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
+-   [`28aeac5`](https://github.com/stdlib-js/stdlib/commit/28aeac57a7c34eedca3d6491ea09741ee1b9992f): remove `blas/base/dasum-wasm`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/blas-base/wasm/dasum` which provides the same API and implementation.
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
+-   [`79cdf06`](https://github.com/stdlib-js/stdlib/commit/79cdf06e44a07f896283172509f0c0a3a174d9d5): remove `blas/base/cswap-wasm`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/blas-base/wasm/cswap` which provides the same API and implementation.
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
+-   [`08a68fa`](https://github.com/stdlib-js/stdlib/commit/08a68fa2382d01b74aaf1b25a8d4235465dc2a07): remove `blas/base/csrot-wasm`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/blas-base/wasm/csrot` which provides the same API and implementation.
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
+-   [`009ba31`](https://github.com/stdlib-js/stdlib/commit/009ba31b10876362faf01f08b4f94fc3a82bbf71): remove `blas/base/cscal-wasm`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/blas-base/wasm/cscal` which provides the same API and implementation.
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
+-   [`3fc841d`](https://github.com/stdlib-js/stdlib/commit/3fc841dec353f3d7dbb5a385e8741a002223caa4): remove `blas/base/ccopy-wasm`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/blas-base/wasm/ccopy` which provides the same API and implementation.
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
 -   [`14f3f1a`](https://github.com/stdlib-js/stdlib/commit/14f3f1af0988577680efc92522bb9a45a2cbd46b): remove `dcuminabs`
 
     -   To migrate, users should access `dcuminabs` in the `stats/strided/*` namespace.
@@ -3042,6 +5776,54 @@ A total of 8 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`d66db3f`](https://github.com/stdlib-js/stdlib/commit/d66db3fd4b220adcc318a5993a97fe79e5b7445a) - **feat:** update namespace TypeScript declarations [(#5130)](https://github.com/stdlib-js/stdlib/pull/5130) _(by stdlib-bot)_
+-   [`5997441`](https://github.com/stdlib-js/stdlib/commit/599744168e3ece421aa012335f90104148aa1a4c) - **docs:** update examples for `blas/base/zcopy` [(#5121)](https://github.com/stdlib-js/stdlib/pull/5121) _(by Gururaj Gurram)_
+-   [`924f85a`](https://github.com/stdlib-js/stdlib/commit/924f85ad57aec54ede64c9db9ee96459befa2c00) - **feat:** add C implementation for `blas/base/ssyr` [(#2877)](https://github.com/stdlib-js/stdlib/pull/2877) _(by Aman Bhansali, Athan Reines, stdlib-bot)_
+-   [`cd30ae4`](https://github.com/stdlib-js/stdlib/commit/cd30ae4e94a3874a3850eb5ddec63d9360e20413) - **feat:** add `blas/base/wasm/isamax` [(#3984)](https://github.com/stdlib-js/stdlib/pull/3984) _(by Aman Bhansali, Athan Reines, stdlib-bot)_
+-   [`e28cc73`](https://github.com/stdlib-js/stdlib/commit/e28cc73ce4cae0a780006c8256ca58f901b18624) - **feat:** add `blas/base/wasm/zcopy` [(#3982)](https://github.com/stdlib-js/stdlib/pull/3982) _(by Aman Bhansali, Athan Reines, stdlib-bot)_
+-   [`885fa05`](https://github.com/stdlib-js/stdlib/commit/885fa05dd8bef35faad5c336e30d643dce805171) - **docs:** fix example _(by Athan Reines)_
+-   [`4112d6d`](https://github.com/stdlib-js/stdlib/commit/4112d6de066fb6324fead4a004882527cf38856b) - **docs:** fix example _(by Athan Reines)_
+-   [`5cdd9f7`](https://github.com/stdlib-js/stdlib/commit/5cdd9f7f4b631411afcf489dbfdeb7088f1392ed) - **feat:** add `blas/base/wasm/zswap` [(#4011)](https://github.com/stdlib-js/stdlib/pull/4011) _(by Aman Bhansali, Athan Reines, stdlib-bot)_
+-   [`beeca53`](https://github.com/stdlib-js/stdlib/commit/beeca539c35d8abd8bf52f2dabacafb56ef52d2d) - **remove:** remove `blas/base/srot-wasm` _(by Athan Reines)_
+-   [`bc81929`](https://github.com/stdlib-js/stdlib/commit/bc81929038bd6393df0e76e5ad6097e2528ab967) - **feat:** add `blas/base/wasm/srot` _(by Athan Reines)_
+-   [`7ff23bf`](https://github.com/stdlib-js/stdlib/commit/7ff23bf5084c883c8db90385b4986c6ac5361678) - **remove:** remove `blas/base/snrm2-wasm` _(by Athan Reines)_
+-   [`fa44243`](https://github.com/stdlib-js/stdlib/commit/fa4424301c6f9d417367e79843195855c291b5be) - **feat:** add `blas/base/wasm/snrm2` _(by Athan Reines)_
+-   [`7d1efc3`](https://github.com/stdlib-js/stdlib/commit/7d1efc3234e5e97e8138775d24de6883ecc353f0) - **remove:** remove `blas/base/sdot-wasm` _(by Athan Reines)_
+-   [`8649400`](https://github.com/stdlib-js/stdlib/commit/864940039f6e118f031f949f7ed619e668f97034) - **feat:** add `blas/base/wasm/sdot` _(by Athan Reines)_
+-   [`742eb42`](https://github.com/stdlib-js/stdlib/commit/742eb42240411f30af6d40846b1ed53cc50b3d4f) - **remove:** remove `blas/base/scopy-wasm` _(by Athan Reines)_
+-   [`56a4fc3`](https://github.com/stdlib-js/stdlib/commit/56a4fc3e28da41971a00a95653c9f249e47f5d13) - **feat:** add `blas/base/wasm/scopy` _(by Athan Reines)_
+-   [`68d3c7c`](https://github.com/stdlib-js/stdlib/commit/68d3c7cb33337b53fec5105734d22310b8a00f8e) - **remove:** remove `blas/base/saxpy-wasm` _(by Athan Reines)_
+-   [`f19927d`](https://github.com/stdlib-js/stdlib/commit/f19927d6d375ea5ecdab52e52a5d3f92d8f63911) - **feat:** add `blas/base/wasm/saxpy` _(by Athan Reines)_
+-   [`bf91fc5`](https://github.com/stdlib-js/stdlib/commit/bf91fc54f3c5b2d3170c075750ebef18971087b4) - **remove:** remove `blas/base/sasum-wasm` _(by Athan Reines)_
+-   [`2fc9bf4`](https://github.com/stdlib-js/stdlib/commit/2fc9bf49fe6a935260e86d3b249e78e8c9662758) - **feat:** add `blas/base/wasm/sasum` _(by Athan Reines)_
+-   [`c528ea9`](https://github.com/stdlib-js/stdlib/commit/c528ea916d5b93335f1dabc3ae5c39d0a0d4a6e4) - **remove:** remove `blas/base/idamax-wasm` _(by Athan Reines)_
+-   [`caf2c7e`](https://github.com/stdlib-js/stdlib/commit/caf2c7e956b6edf338ed9e59a295f8f776b26230) - **feat:** add `blas/base/wasm/idamax` _(by Athan Reines)_
+-   [`07ce325`](https://github.com/stdlib-js/stdlib/commit/07ce325d72471c7ae049f284d52627558f6dae51) - **remove:** remove `blas/base/dswap-wasm` _(by Athan Reines)_
+-   [`35ad7f0`](https://github.com/stdlib-js/stdlib/commit/35ad7f0af7ec928461e62eb10d85a0730819af7b) - **feat:** add `blas/base/wasm/dswap` _(by Athan Reines)_
+-   [`6e39c79`](https://github.com/stdlib-js/stdlib/commit/6e39c79befc44701587a7e3f39fa728b93a14ec2) - **remove:** remove `blas/base/dscal-wasm` _(by Athan Reines)_
+-   [`8fa1f9d`](https://github.com/stdlib-js/stdlib/commit/8fa1f9d0967e01c2de08e8b2f6bae1091a2e941f) - **feat:** add `blas/base/wasm/dscal` _(by Athan Reines)_
+-   [`c0b7f3c`](https://github.com/stdlib-js/stdlib/commit/c0b7f3c948744b3ef7ff57cd45fcf890602222c5) - **remove:** remove `blas/base/drotm-wasm` _(by Athan Reines)_
+-   [`a519986`](https://github.com/stdlib-js/stdlib/commit/a519986026f8c8da8c4cd8ef8934356dcbf02cce) - **feat:** add `blas/base/wasm/drotm` _(by Athan Reines)_
+-   [`0015bcd`](https://github.com/stdlib-js/stdlib/commit/0015bcde4419b759d390b8f8e0ca282305c70121) - **remove:** remove `blas/base/drot-wasm` _(by Athan Reines)_
+-   [`8270aa6`](https://github.com/stdlib-js/stdlib/commit/8270aa6937b42072ab4208e8cede7bd00f197e88) - **feat:** add `blas/base/wasm/drot` _(by Athan Reines)_
+-   [`3c378c6`](https://github.com/stdlib-js/stdlib/commit/3c378c642fe19f5c36f97798c45d6e10f812bd2b) - **remove:** remove `blas/base/dnrm2-wasm` _(by Athan Reines)_
+-   [`18fef5f`](https://github.com/stdlib-js/stdlib/commit/18fef5faebcfe1acf92daf059c29ddfd64f94901) - **feat:** add `blas/base/wasm/dnrm2` _(by Athan Reines)_
+-   [`c4b589f`](https://github.com/stdlib-js/stdlib/commit/c4b589f67ea7c3543f17fc1b6828bc6f72212cdc) - **remove:** remove `blas/base/ddot-wasm` _(by Athan Reines)_
+-   [`b5468db`](https://github.com/stdlib-js/stdlib/commit/b5468dbd07d253621eddcb8a25363eab748d210a) - **feat:** add `blas/base/wasm/ddot` _(by Athan Reines)_
+-   [`21feb97`](https://github.com/stdlib-js/stdlib/commit/21feb97bbec27eca259b929cc346e6b86bc917aa) - **remove:** remove `blas/base/dcopy-wasm` _(by Athan Reines)_
+-   [`dbb0165`](https://github.com/stdlib-js/stdlib/commit/dbb0165c27aba9f90d96e37af93776a7a410e471) - **feat:** add `blas/base/wasm/dcopy` _(by Athan Reines)_
+-   [`e80da18`](https://github.com/stdlib-js/stdlib/commit/e80da183a872a3c9172bd552c9f48576ea0d43fe) - **remove:** remove `blas/base/daxpy-wasm` _(by Athan Reines)_
+-   [`f1d4e1d`](https://github.com/stdlib-js/stdlib/commit/f1d4e1d7dabeaa6db42630707dad76923dfe755c) - **feat:** add `blas/base/wasm/daxpy` _(by Athan Reines)_
+-   [`28aeac5`](https://github.com/stdlib-js/stdlib/commit/28aeac57a7c34eedca3d6491ea09741ee1b9992f) - **remove:** remove `blas/base/dasum-wasm` _(by Athan Reines)_
+-   [`0d61df4`](https://github.com/stdlib-js/stdlib/commit/0d61df43906121de7569bfc943b8c90a280f2b04) - **feat:** add `blas/base/wasm/dasum` _(by Athan Reines)_
+-   [`79cdf06`](https://github.com/stdlib-js/stdlib/commit/79cdf06e44a07f896283172509f0c0a3a174d9d5) - **remove:** remove `blas/base/cswap-wasm` _(by Athan Reines)_
+-   [`f067e80`](https://github.com/stdlib-js/stdlib/commit/f067e80ba5ee58232b73600e7fdfe46529d34f99) - **feat:** add `blas/base/wasm/cswap` _(by Athan Reines)_
+-   [`08a68fa`](https://github.com/stdlib-js/stdlib/commit/08a68fa2382d01b74aaf1b25a8d4235465dc2a07) - **remove:** remove `blas/base/csrot-wasm` _(by Athan Reines)_
+-   [`4de4aff`](https://github.com/stdlib-js/stdlib/commit/4de4affbc7b2b1c84606700dc9b5d96bd2b57c9d) - **feat:** add `blas/base/wasm/csrot` _(by Athan Reines)_
+-   [`009ba31`](https://github.com/stdlib-js/stdlib/commit/009ba31b10876362faf01f08b4f94fc3a82bbf71) - **remove:** remove `blas/base/cscal-wasm` _(by Athan Reines)_
+-   [`c18d344`](https://github.com/stdlib-js/stdlib/commit/c18d344951dc88690929a82ef47f5b3838f93a92) - **feat:** add `blas/base/wasm/cscal` _(by Athan Reines)_
+-   [`3fc841d`](https://github.com/stdlib-js/stdlib/commit/3fc841dec353f3d7dbb5a385e8741a002223caa4) - **remove:** remove `blas/base/ccopy-wasm` _(by Athan Reines)_
+-   [`ab1d701`](https://github.com/stdlib-js/stdlib/commit/ab1d701a59615ae48b61ff4444ff6c6ac006950b) - **feat:** add `blas/base/wasm/ccopy` _(by Athan Reines)_
 -   [`367ec2c`](https://github.com/stdlib-js/stdlib/commit/367ec2c5fe4a11f2e9a450ab4b21ea66db002cc2) - **docs:** update namespace TypeScript declarations [(#5039)](https://github.com/stdlib-js/stdlib/pull/5039) _(by stdlib-bot)_
 -   [`4ca8f05`](https://github.com/stdlib-js/stdlib/commit/4ca8f05752dd4751319db6d876eb4107ec682e45) - **docs:** update examples of `blas/base/cswap` [(#5007)](https://github.com/stdlib-js/stdlib/pull/5007) _(by Gururaj Gurram)_
 -   [`56aeda8`](https://github.com/stdlib-js/stdlib/commit/56aeda837a38b2db883b1815f7261f2f192bd0ff) - **docs:** update namespace TypeScript declarations [(#5003)](https://github.com/stdlib-js/stdlib/pull/5003) _(by stdlib-bot)_
