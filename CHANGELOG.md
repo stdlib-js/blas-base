@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-02-09)
+## Unreleased (2025-02-16)
 
 <section class="packages">
 
@@ -20,6 +20,7 @@
 
 ##### Features
 
+-   [`76cf95f`](https://github.com/stdlib-js/stdlib/commit/76cf95f336fc29cb4e83184fe6f215c23a723e95) - update namespace TypeScript declarations [(#5243)](https://github.com/stdlib-js/stdlib/pull/5243)
 -   [`d66db3f`](https://github.com/stdlib-js/stdlib/commit/d66db3fd4b220adcc318a5993a97fe79e5b7445a) - update namespace TypeScript declarations [(#5130)](https://github.com/stdlib-js/stdlib/pull/5130)
 -   [`14f3f1a`](https://github.com/stdlib-js/stdlib/commit/14f3f1af0988577680efc92522bb9a45a2cbd46b) - update namespace TypeScript declarations
 -   [`8e8437c`](https://github.com/stdlib-js/stdlib/commit/8e8437c92781ac1873dc5df96daae1ef17a2ce1f) - update namespace TypeScript declarations [(#4843)](https://github.com/stdlib-js/stdlib/pull/4843)
@@ -69,6 +70,10 @@
 <section class="breaking-changes">
 
 ##### BREAKING CHANGES
+
+-   [`76cf95f`](https://github.com/stdlib-js/stdlib/commit/76cf95f336fc29cb4e83184fe6f215c23a723e95): remove `add5`
+
+    -   To migrate, users should access the `add5` symbol via the `number/float64/base` namespace.
 
 -   [`d66db3f`](https://github.com/stdlib-js/stdlib/commit/d66db3fd4b220adcc318a5993a97fe79e5b7445a): remove `add`, `add3`, and `add4`
 
@@ -3657,6 +3662,7 @@ This release closes the following issue:
 
 ##### Features
 
+-   [`8d34c0c`](https://github.com/stdlib-js/stdlib/commit/8d34c0c773e51c464e10e67dd9ccef4f95a00f2b) - add C implementation for `blas/base/sspr` [(#4491)](https://github.com/stdlib-js/stdlib/pull/4491)
 -   [`da12183`](https://github.com/stdlib-js/stdlib/commit/da121832eca80c36e1e32929e994fef44ca8a4cc) - add `blas/base/dspr` [(#2794)](https://github.com/stdlib-js/stdlib/pull/2794)
 -   [`8a64351`](https://github.com/stdlib-js/stdlib/commit/8a64351ca2c48164945a26eda9411193659fd554) - add `blas/base/sspr` [(#2760)](https://github.com/stdlib-js/stdlib/pull/2760)
 
@@ -4672,6 +4678,10 @@ This release closes the following issue:
 <section class="breaking-changes">
 
 ### BREAKING CHANGES
+
+-   [`76cf95f`](https://github.com/stdlib-js/stdlib/commit/76cf95f336fc29cb4e83184fe6f215c23a723e95): remove `add5`
+
+    -   To migrate, users should access the `add5` symbol via the `number/float64/base` namespace.
 
 -   [`d66db3f`](https://github.com/stdlib-js/stdlib/commit/d66db3fd4b220adcc318a5993a97fe79e5b7445a): remove `add`, `add3`, and `add4`
 
@@ -5776,6 +5786,12 @@ A total of 8 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`76cf95f`](https://github.com/stdlib-js/stdlib/commit/76cf95f336fc29cb4e83184fe6f215c23a723e95) - **feat:** update namespace TypeScript declarations [(#5243)](https://github.com/stdlib-js/stdlib/pull/5243) _(by stdlib-bot)_
+-   [`753fd55`](https://github.com/stdlib-js/stdlib/commit/753fd557418e004412e70379dfeda947bf319183) - **docs:** update examples for `blas/base/zdrot` [(#5209)](https://github.com/stdlib-js/stdlib/pull/5209) _(by Gururaj Gurram)_
+-   [`6d41523`](https://github.com/stdlib-js/stdlib/commit/6d415231212694d37366e40306fd5ffbdb04db94) - **docs:** update examples for `blas/base/zscal` [(#5226)](https://github.com/stdlib-js/stdlib/pull/5226) _(by Gururaj Gurram)_
+-   [`8449e0b`](https://github.com/stdlib-js/stdlib/commit/8449e0b1753e42118df3097fc8793cfd2571646e) - **docs:** update examples for `blas/base/zswap` [(#5218)](https://github.com/stdlib-js/stdlib/pull/5218) _(by Gururaj Gurram)_
+-   [`8d34c0c`](https://github.com/stdlib-js/stdlib/commit/8d34c0c773e51c464e10e67dd9ccef4f95a00f2b) - **feat:** add C implementation for `blas/base/sspr` [(#4491)](https://github.com/stdlib-js/stdlib/pull/4491) _(by Aman Bhansali, Athan Reines, stdlib-bot)_
+-   [`7cfb8f7`](https://github.com/stdlib-js/stdlib/commit/7cfb8f70164eec956307120577cdcebf933df848) - **docs:** update examples for `blas/base/zaxpy` [(#5173)](https://github.com/stdlib-js/stdlib/pull/5173) _(by Gururaj Gurram)_
 -   [`d66db3f`](https://github.com/stdlib-js/stdlib/commit/d66db3fd4b220adcc318a5993a97fe79e5b7445a) - **feat:** update namespace TypeScript declarations [(#5130)](https://github.com/stdlib-js/stdlib/pull/5130) _(by stdlib-bot)_
 -   [`5997441`](https://github.com/stdlib-js/stdlib/commit/599744168e3ece421aa012335f90104148aa1a4c) - **docs:** update examples for `blas/base/zcopy` [(#5121)](https://github.com/stdlib-js/stdlib/pull/5121) _(by Gururaj Gurram)_
 -   [`924f85a`](https://github.com/stdlib-js/stdlib/commit/924f85ad57aec54ede64c9db9ee96459befa2c00) - **feat:** add C implementation for `blas/base/ssyr` [(#2877)](https://github.com/stdlib-js/stdlib/pull/2877) _(by Aman Bhansali, Athan Reines, stdlib-bot)_
