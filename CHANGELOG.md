@@ -20,6 +20,7 @@
 
 ##### Features
 
+-   [`ae8e7b9`](https://github.com/stdlib-js/stdlib/commit/ae8e7b9f2140d1a5b98e8bc03fb909df3171d410) - update namespace TypeScript declarations [(#5254)](https://github.com/stdlib-js/stdlib/pull/5254)
 -   [`76cf95f`](https://github.com/stdlib-js/stdlib/commit/76cf95f336fc29cb4e83184fe6f215c23a723e95) - update namespace TypeScript declarations [(#5243)](https://github.com/stdlib-js/stdlib/pull/5243)
 -   [`d66db3f`](https://github.com/stdlib-js/stdlib/commit/d66db3fd4b220adcc318a5993a97fe79e5b7445a) - update namespace TypeScript declarations [(#5130)](https://github.com/stdlib-js/stdlib/pull/5130)
 -   [`14f3f1a`](https://github.com/stdlib-js/stdlib/commit/14f3f1af0988577680efc92522bb9a45a2cbd46b) - update namespace TypeScript declarations
@@ -70,6 +71,10 @@
 <section class="breaking-changes">
 
 ##### BREAKING CHANGES
+
+-   [`ae8e7b9`](https://github.com/stdlib-js/stdlib/commit/ae8e7b9f2140d1a5b98e8bc03fb909df3171d410): remove `dmaxabs`
+
+    -   To migrate, users should access `dmaxabs` via the `stats/strided` namespace.
 
 -   [`76cf95f`](https://github.com/stdlib-js/stdlib/commit/76cf95f336fc29cb4e83184fe6f215c23a723e95): remove `add5`
 
@@ -4702,6 +4707,10 @@ This release closes the following issue:
 
 ### BREAKING CHANGES
 
+-   [`ae8e7b9`](https://github.com/stdlib-js/stdlib/commit/ae8e7b9f2140d1a5b98e8bc03fb909df3171d410): remove `dmaxabs`
+
+    -   To migrate, users should access `dmaxabs` via the `stats/strided` namespace.
+
 -   [`76cf95f`](https://github.com/stdlib-js/stdlib/commit/76cf95f336fc29cb4e83184fe6f215c23a723e95): remove `add5`
 
     -   To migrate, users should access the `add5` symbol via the `number/float64/base` namespace.
@@ -5809,6 +5818,7 @@ A total of 8 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`ae8e7b9`](https://github.com/stdlib-js/stdlib/commit/ae8e7b9f2140d1a5b98e8bc03fb909df3171d410) - **feat:** update namespace TypeScript declarations [(#5254)](https://github.com/stdlib-js/stdlib/pull/5254) _(by stdlib-bot)_
 -   [`8df3643`](https://github.com/stdlib-js/stdlib/commit/8df36439153e0c5f399c01b755213be55b2a696c) - **docs:** update namespace table of contents [(#5256)](https://github.com/stdlib-js/stdlib/pull/5256) _(by stdlib-bot)_
 -   [`c86e76e`](https://github.com/stdlib-js/stdlib/commit/c86e76e8c9ab907aedfccfbd74ca3ad39ff75a3e) - **feat:** add C `ndarray` implementation for `blas/base/zscal` [(#4864)](https://github.com/stdlib-js/stdlib/pull/4864) _(by Aman Bhansali, Athan Reines, stdlib-bot)_
 -   [`402bd40`](https://github.com/stdlib-js/stdlib/commit/402bd405359fba77de13d0136fbf3d1fb956e0ec) - **feat:** add `blas/base/wasm/sscal` [(#5224)](https://github.com/stdlib-js/stdlib/pull/5224) _(by Aman Bhansali, Athan Reines)_
