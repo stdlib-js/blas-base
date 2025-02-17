@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-02-16)
+## Unreleased (2025-02-17)
 
 <section class="packages">
 
@@ -4458,6 +4458,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="blas-base-wasm-sscal-unreleased">
+
+#### [@stdlib/blas/base/wasm/sscal](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/wasm/sscal)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`402bd40`](https://github.com/stdlib-js/stdlib/commit/402bd405359fba77de13d0136fbf3d1fb956e0ec) - add `blas/base/wasm/sscal` [(#5224)](https://github.com/stdlib-js/stdlib/pull/5224)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="blas-base-wasm-zcopy-unreleased">
 
 #### [@stdlib/blas/base/wasm/zcopy](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/wasm/zcopy)
@@ -4624,6 +4646,7 @@ This release closes the following issue:
 
 ##### Features
 
+-   [`c86e76e`](https://github.com/stdlib-js/stdlib/commit/c86e76e8c9ab907aedfccfbd74ca3ad39ff75a3e) - add C `ndarray` implementation for `blas/base/zscal` [(#4864)](https://github.com/stdlib-js/stdlib/pull/4864)
 -   [`76e73a5`](https://github.com/stdlib-js/stdlib/commit/76e73a51987ac45b78b3f5011806c57ca33c1951) - add `blas/base/zscal` [(#2253)](https://github.com/stdlib-js/stdlib/pull/2253)
 
 </section>
@@ -5786,6 +5809,9 @@ A total of 8 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`8df3643`](https://github.com/stdlib-js/stdlib/commit/8df36439153e0c5f399c01b755213be55b2a696c) - **docs:** update namespace table of contents [(#5256)](https://github.com/stdlib-js/stdlib/pull/5256) _(by stdlib-bot)_
+-   [`c86e76e`](https://github.com/stdlib-js/stdlib/commit/c86e76e8c9ab907aedfccfbd74ca3ad39ff75a3e) - **feat:** add C `ndarray` implementation for `blas/base/zscal` [(#4864)](https://github.com/stdlib-js/stdlib/pull/4864) _(by Aman Bhansali, Athan Reines, stdlib-bot)_
+-   [`402bd40`](https://github.com/stdlib-js/stdlib/commit/402bd405359fba77de13d0136fbf3d1fb956e0ec) - **feat:** add `blas/base/wasm/sscal` [(#5224)](https://github.com/stdlib-js/stdlib/pull/5224) _(by Aman Bhansali, Athan Reines)_
 -   [`76cf95f`](https://github.com/stdlib-js/stdlib/commit/76cf95f336fc29cb4e83184fe6f215c23a723e95) - **feat:** update namespace TypeScript declarations [(#5243)](https://github.com/stdlib-js/stdlib/pull/5243) _(by stdlib-bot)_
 -   [`753fd55`](https://github.com/stdlib-js/stdlib/commit/753fd557418e004412e70379dfeda947bf319183) - **docs:** update examples for `blas/base/zdrot` [(#5209)](https://github.com/stdlib-js/stdlib/pull/5209) _(by Gururaj Gurram)_
 -   [`6d41523`](https://github.com/stdlib-js/stdlib/commit/6d415231212694d37366e40306fd5ffbdb04db94) - **docs:** update examples for `blas/base/zscal` [(#5226)](https://github.com/stdlib-js/stdlib/pull/5226) _(by Gururaj Gurram)_
