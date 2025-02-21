@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-02-17)
+## Unreleased (2025-02-21)
 
 <section class="packages">
 
@@ -20,6 +20,8 @@
 
 ##### Features
 
+-   [`2a23671`](https://github.com/stdlib-js/stdlib/commit/2a23671ce88a4b3fbfcf48b5edb8b73105463bdf) - add various level 1 and level 2 routines to namespace
+-   [`c1ac93f`](https://github.com/stdlib-js/stdlib/commit/c1ac93f393ce6fc122e388e2554d01b149b6fbc0) - add `wasm` to namespace
 -   [`ae8e7b9`](https://github.com/stdlib-js/stdlib/commit/ae8e7b9f2140d1a5b98e8bc03fb909df3171d410) - update namespace TypeScript declarations [(#5254)](https://github.com/stdlib-js/stdlib/pull/5254)
 -   [`76cf95f`](https://github.com/stdlib-js/stdlib/commit/76cf95f336fc29cb4e83184fe6f215c23a723e95) - update namespace TypeScript declarations [(#5243)](https://github.com/stdlib-js/stdlib/pull/5243)
 -   [`d66db3f`](https://github.com/stdlib-js/stdlib/commit/d66db3fd4b220adcc318a5993a97fe79e5b7445a) - update namespace TypeScript declarations [(#5130)](https://github.com/stdlib-js/stdlib/pull/5130)
@@ -4001,6 +4003,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="blas-base-wasm-unreleased">
+
+#### [@stdlib/blas/base/wasm](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/wasm)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`5306dac`](https://github.com/stdlib-js/stdlib/commit/5306dac507668082336473811c64b04dc3b765ef) - add `blas/base/wasm` namespace
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="blas-base-wasm-ccopy-unreleased">
 
 #### [@stdlib/blas/base/wasm/ccopy](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/wasm/ccopy)
@@ -4496,6 +4520,28 @@ This release closes the following issue:
 ##### Features
 
 -   [`e28cc73`](https://github.com/stdlib-js/stdlib/commit/e28cc73ce4cae0a780006c8256ca58f901b18624) - add `blas/base/wasm/zcopy` [(#3982)](https://github.com/stdlib-js/stdlib/pull/3982)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="blas-base-wasm-zdrot-unreleased">
+
+#### [@stdlib/blas/base/wasm/zdrot](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/wasm/zdrot)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`99dc0fd`](https://github.com/stdlib-js/stdlib/commit/99dc0fd7d91a666b047c316ccfef58df5605e3ca) - add `blas/base/wasm/zdrot` [(#5293)](https://github.com/stdlib-js/stdlib/pull/5293)
 
 </section>
 
@@ -5818,6 +5864,11 @@ A total of 8 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`2a23671`](https://github.com/stdlib-js/stdlib/commit/2a23671ce88a4b3fbfcf48b5edb8b73105463bdf) - **feat:** add various level 1 and level 2 routines to namespace _(by Athan Reines)_
+-   [`c1ac93f`](https://github.com/stdlib-js/stdlib/commit/c1ac93f393ce6fc122e388e2554d01b149b6fbc0) - **feat:** add `wasm` to namespace _(by Athan Reines)_
+-   [`2c1cc13`](https://github.com/stdlib-js/stdlib/commit/2c1cc13215c24c7b1a9d2561a65e9c3dbf8acd9a) - **docs:** fix copyright year _(by Athan Reines)_
+-   [`5306dac`](https://github.com/stdlib-js/stdlib/commit/5306dac507668082336473811c64b04dc3b765ef) - **feat:** add `blas/base/wasm` namespace _(by Athan Reines)_
+-   [`99dc0fd`](https://github.com/stdlib-js/stdlib/commit/99dc0fd7d91a666b047c316ccfef58df5605e3ca) - **feat:** add `blas/base/wasm/zdrot` [(#5293)](https://github.com/stdlib-js/stdlib/pull/5293) _(by Aman Bhansali, stdlib-bot)_
 -   [`ae8e7b9`](https://github.com/stdlib-js/stdlib/commit/ae8e7b9f2140d1a5b98e8bc03fb909df3171d410) - **feat:** update namespace TypeScript declarations [(#5254)](https://github.com/stdlib-js/stdlib/pull/5254) _(by stdlib-bot)_
 -   [`8df3643`](https://github.com/stdlib-js/stdlib/commit/8df36439153e0c5f399c01b755213be55b2a696c) - **docs:** update namespace table of contents [(#5256)](https://github.com/stdlib-js/stdlib/pull/5256) _(by stdlib-bot)_
 -   [`c86e76e`](https://github.com/stdlib-js/stdlib/commit/c86e76e8c9ab907aedfccfbd74ca3ad39ff75a3e) - **feat:** add C `ndarray` implementation for `blas/base/zscal` [(#4864)](https://github.com/stdlib-js/stdlib/pull/4864) _(by Aman Bhansali, Athan Reines, stdlib-bot)_
