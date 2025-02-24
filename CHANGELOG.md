@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-02-22)
+## Unreleased (2025-02-24)
 
 <section class="packages">
 
@@ -5866,6 +5866,7 @@ A total of 8 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`bda44d4`](https://github.com/stdlib-js/stdlib/commit/bda44d4eac2da2fae254764a717df0586872cb2b) - **docs:** update examples for `blas/base/zdscal` [(#5392)](https://github.com/stdlib-js/stdlib/pull/5392) _(by Gururaj Gurram)_
 -   [`3772f8f`](https://github.com/stdlib-js/stdlib/commit/3772f8f53a07408b72cf4ec3e8334758f9aded0d) - **docs:** update namespace table of contents [(#5366)](https://github.com/stdlib-js/stdlib/pull/5366) _(by stdlib-bot, Philipp Burckhardt)_
 -   [`9789396`](https://github.com/stdlib-js/stdlib/commit/9789396bd5111e963f4662c57c6b4159d4166946) - **feat:** update namespace TypeScript declarations [(#5364)](https://github.com/stdlib-js/stdlib/pull/5364) _(by stdlib-bot)_
 -   [`2a23671`](https://github.com/stdlib-js/stdlib/commit/2a23671ce88a4b3fbfcf48b5edb8b73105463bdf) - **feat:** add various level 1 and level 2 routines to namespace _(by Athan Reines)_
