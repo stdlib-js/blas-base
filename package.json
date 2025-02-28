@@ -133,6 +133,7 @@
   "devDependencies": {
     "@stdlib/array-base-arraylike2object": "^0.2.1",
     "@stdlib/array-base-assert-contains": "^0.2.2",
+    "@stdlib/array-base-to-accessor-array": "^0.2.2",
     "@stdlib/array-complex128": "^0.3.0",
     "@stdlib/array-complex64": "^0.3.0",
     "@stdlib/array-filled": "^0.2.1",

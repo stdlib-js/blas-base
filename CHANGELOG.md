@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-02-24)
+## Unreleased (2025-02-28)
 
 <section class="packages">
 
@@ -20,6 +20,7 @@
 
 ##### Features
 
+-   [`211d758`](https://github.com/stdlib-js/stdlib/commit/211d7589cc78cf73556270c7bd8e669537d21799) - update namespace TypeScript declarations [(#5511)](https://github.com/stdlib-js/stdlib/pull/5511)
 -   [`31d673e`](https://github.com/stdlib-js/stdlib/commit/31d673e7ec3a7393b6b689d9ab724b783deef4ce) - update namespace TypeScript declarations [(#5385)](https://github.com/stdlib-js/stdlib/pull/5385)
 -   [`9789396`](https://github.com/stdlib-js/stdlib/commit/9789396bd5111e963f4662c57c6b4159d4166946) - update namespace TypeScript declarations [(#5364)](https://github.com/stdlib-js/stdlib/pull/5364)
 -   [`2a23671`](https://github.com/stdlib-js/stdlib/commit/2a23671ce88a4b3fbfcf48b5edb8b73105463bdf) - add various level 1 and level 2 routines to namespace
@@ -75,6 +76,10 @@
 <section class="breaking-changes">
 
 ##### BREAKING CHANGES
+
+-   [`211d758`](https://github.com/stdlib-js/stdlib/commit/211d7589cc78cf73556270c7bd8e669537d21799): remove `mulf` from `math/base/ops` namespace
+
+    -   To migrate, users should access the same symbol via the `number/float32/base` namespace.
 
 -   [`31d673e`](https://github.com/stdlib-js/stdlib/commit/31d673e7ec3a7393b6b689d9ab724b783deef4ce): remove `dnanmean` from `stats/base`
 
@@ -2188,6 +2193,62 @@ This release closes the following issue:
 This release closes the following issue:
 
 [#2543](https://github.com/stdlib-js/stdlib/issues/2543)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="blas-base-gasum-unreleased">
+
+#### [@stdlib/blas/base/gasum](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/gasum)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`57184e0`](https://github.com/stdlib-js/stdlib/commit/57184e03168cf78b9daeee492995a7ea2670d463) - add accessor array support to `blas/base/gasum` [(#5439)](https://github.com/stdlib-js/stdlib/pull/5439)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="blas-base-gscal-unreleased">
+
+#### [@stdlib/blas/base/gscal](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/gscal)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`3b48bb5`](https://github.com/stdlib-js/stdlib/commit/3b48bb5eb47d5a8559d8d7e82f7639ee59d90d21) - add accessor array support to `blas/base/gscal` [(#5418)](https://github.com/stdlib-js/stdlib/pull/5418)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#5440](https://github.com/stdlib-js/stdlib/issues/5440)
 
 </section>
 
@@ -4760,6 +4821,10 @@ This release closes the following issue:
 
 ### BREAKING CHANGES
 
+-   [`211d758`](https://github.com/stdlib-js/stdlib/commit/211d7589cc78cf73556270c7bd8e669537d21799): remove `mulf` from `math/base/ops` namespace
+
+    -   To migrate, users should access the same symbol via the `number/float32/base` namespace.
+
 -   [`31d673e`](https://github.com/stdlib-js/stdlib/commit/31d673e7ec3a7393b6b689d9ab724b783deef4ce): remove `dnanmean` from `stats/base`
 
     -   To migrate, users should access the same symbol via the `@stdlib/stats-strided` namespace.
@@ -5842,9 +5907,9 @@ This release closes the following issue:
 
 ### Closed Issues
 
-A total of 5 issues were closed in this release:
+A total of 6 issues were closed in this release:
 
-[#276](https://github.com/stdlib-js/stdlib/issues/276), [#277](https://github.com/stdlib-js/stdlib/issues/277), [#2047](https://github.com/stdlib-js/stdlib/issues/2047), [#2543](https://github.com/stdlib-js/stdlib/issues/2543), [#2792](https://github.com/stdlib-js/stdlib/issues/2792)
+[#276](https://github.com/stdlib-js/stdlib/issues/276), [#277](https://github.com/stdlib-js/stdlib/issues/277), [#2047](https://github.com/stdlib-js/stdlib/issues/2047), [#2543](https://github.com/stdlib-js/stdlib/issues/2543), [#2792](https://github.com/stdlib-js/stdlib/issues/2792), [#5440](https://github.com/stdlib-js/stdlib/issues/5440)
 
 </section>
 
@@ -5854,7 +5919,7 @@ A total of 5 issues were closed in this release:
 
 ### Contributors
 
-A total of 8 people contributed to this release. Thank you to the following contributors:
+A total of 9 people contributed to this release. Thank you to the following contributors:
 
 -   Aman Bhansali
 -   Athan Reines
@@ -5864,6 +5929,7 @@ A total of 8 people contributed to this release. Thank you to the following cont
 -   Pranav Goswami
 -   Ricky Reusser
 -   Rutam Kathale
+-   Saurabh Singh
 
 </section>
 
@@ -5875,6 +5941,12 @@ A total of 8 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`211d758`](https://github.com/stdlib-js/stdlib/commit/211d7589cc78cf73556270c7bd8e669537d21799) - **feat:** update namespace TypeScript declarations [(#5511)](https://github.com/stdlib-js/stdlib/pull/5511) _(by stdlib-bot)_
+-   [`8dc22d7`](https://github.com/stdlib-js/stdlib/commit/8dc22d75fe8396c5fe89418a325a174c531d95eb) - **refactor:** update `blas/base/gscal` to follow current project conventions [(#5447)](https://github.com/stdlib-js/stdlib/pull/5447) _(by Saurabh Singh, Athan Reines, Muhammad Haris, stdlib-bot)_
+-   [`57184e0`](https://github.com/stdlib-js/stdlib/commit/57184e03168cf78b9daeee492995a7ea2670d463) - **feat:** add accessor array support to `blas/base/gasum` [(#5439)](https://github.com/stdlib-js/stdlib/pull/5439) _(by Muhammad Haris)_
+-   [`2d26990`](https://github.com/stdlib-js/stdlib/commit/2d26990255c7d3ef2396f2d8c7ebf545e7ba41ee) - **docs:** update examples for `blas/base/wasm/zcopy` [(#5442)](https://github.com/stdlib-js/stdlib/pull/5442) _(by Gururaj Gurram)_
+-   [`3b48bb5`](https://github.com/stdlib-js/stdlib/commit/3b48bb5eb47d5a8559d8d7e82f7639ee59d90d21) - **feat:** add accessor array support to `blas/base/gscal` [(#5418)](https://github.com/stdlib-js/stdlib/pull/5418) _(by Muhammad Haris, Athan Reines)_
+-   [`f027bb0`](https://github.com/stdlib-js/stdlib/commit/f027bb01176eb0409c263cf3a9c4529bafccc5a9) - **docs:** update examples for `blas/base/wasm/ccopy` [(#5410)](https://github.com/stdlib-js/stdlib/pull/5410) _(by Gururaj Gurram)_
 -   [`31d673e`](https://github.com/stdlib-js/stdlib/commit/31d673e7ec3a7393b6b689d9ab724b783deef4ce) - **feat:** update namespace TypeScript declarations [(#5385)](https://github.com/stdlib-js/stdlib/pull/5385) _(by stdlib-bot)_
 -   [`bda44d4`](https://github.com/stdlib-js/stdlib/commit/bda44d4eac2da2fae254764a717df0586872cb2b) - **docs:** update examples for `blas/base/zdscal` [(#5392)](https://github.com/stdlib-js/stdlib/pull/5392) _(by Gururaj Gurram)_
 -   [`3772f8f`](https://github.com/stdlib-js/stdlib/commit/3772f8f53a07408b72cf4ec3e8334758f9aded0d) - **docs:** update namespace table of contents [(#5366)](https://github.com/stdlib-js/stdlib/pull/5366) _(by stdlib-bot, Philipp Burckhardt)_
