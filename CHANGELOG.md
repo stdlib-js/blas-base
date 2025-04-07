@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-02-28)
+## Unreleased (2025-04-07)
 
 <section class="packages">
 
@@ -2119,6 +2119,16 @@ This release closes the following issue:
 
 <!-- /.features -->
 
+<section class="bug-fixes">
+
+##### Bug Fixes
+
+-   [`e20f4e4`](https://github.com/stdlib-js/stdlib/commit/e20f4e4af09a7608b4f7ebeff0f8050295c646d9) - condition check in `blas/base/dsyr2` ndarray [(#6532)](https://github.com/stdlib-js/stdlib/pull/6532)
+
+</section>
+
+<!-- /.bug-fixes -->
+
 </details>
 
 </section>
@@ -2215,6 +2225,50 @@ This release closes the following issue:
 ##### Features
 
 -   [`57184e0`](https://github.com/stdlib-js/stdlib/commit/57184e03168cf78b9daeee492995a7ea2670d463) - add accessor array support to `blas/base/gasum` [(#5439)](https://github.com/stdlib-js/stdlib/pull/5439)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="blas-base-gdot-unreleased">
+
+#### [@stdlib/blas/base/gdot](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/gdot)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`24ba370`](https://github.com/stdlib-js/stdlib/commit/24ba370b3ae9e9bc4aa0160f7d0e3879e62d2153) - add accessor array support to `blas/base/gdot`  [(#5878)](https://github.com/stdlib-js/stdlib/pull/5878)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="blas-base-gnrm2-unreleased">
+
+#### [@stdlib/blas/base/gnrm2](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/gnrm2)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`f572d78`](https://github.com/stdlib-js/stdlib/commit/f572d7875370c83107013a400f32d1ec3f473acb) - add accessor array support to `blas/base/gnrm2` [(#5778)](https://github.com/stdlib-js/stdlib/pull/5778)
 
 </section>
 
@@ -3212,6 +3266,18 @@ This release closes the following issue:
 
 <!-- /.features -->
 
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#5905](https://github.com/stdlib-js/stdlib/issues/5905)
+
+</section>
+
+<!-- /.issues -->
+
 </details>
 
 </section>
@@ -3837,6 +3903,7 @@ This release closes the following issue:
 
 ##### Bug Fixes
 
+-   [`fc1d8d5`](https://github.com/stdlib-js/stdlib/commit/fc1d8d5ed542eec3ded1b128850909ebb5f8bc51) - condition checks in `blas/base/ssyr2` [(#6543)](https://github.com/stdlib-js/stdlib/pull/6543)
 -   [`b5de107`](https://github.com/stdlib-js/stdlib/commit/b5de10702d2b6ecc6c843d61f755b429bfe3c78d) - add missing parameters and update description
 
 </section>
@@ -4080,6 +4147,8 @@ This release closes the following issue:
 
 ##### Features
 
+-   [`6716e62`](https://github.com/stdlib-js/stdlib/commit/6716e624585aaba0041ae183089cb2b92851f366) - update namespace TypeScript declarations [(#5938)](https://github.com/stdlib-js/stdlib/pull/5938)
+-   [`460cd8f`](https://github.com/stdlib-js/stdlib/commit/460cd8f7b479efb7350a3b638be912b7e1bd5a7b) - add `srotm` to namespace
 -   [`9789396`](https://github.com/stdlib-js/stdlib/commit/9789396bd5111e963f4662c57c6b4159d4166946) - update namespace TypeScript declarations [(#5364)](https://github.com/stdlib-js/stdlib/pull/5364)
 -   [`5306dac`](https://github.com/stdlib-js/stdlib/commit/5306dac507668082336473811c64b04dc3b765ef) - add `blas/base/wasm` namespace
 
@@ -4544,6 +4613,28 @@ This release closes the following issue:
 ##### Features
 
 -   [`bc81929`](https://github.com/stdlib-js/stdlib/commit/bc81929038bd6393df0e76e5ad6097e2528ab967) - add `blas/base/wasm/srot`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="blas-base-wasm-srotm-unreleased">
+
+#### [@stdlib/blas/base/wasm/srotm](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/wasm/srotm)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`8dc3f35`](https://github.com/stdlib-js/stdlib/commit/8dc3f35a39fdf2d24f7a9a80ed9e5d905d5cf10b) - add `blas/base/wasm/srotm` [(#https://github.com/stodlib-js/stdlib/pull/5824)](https://github.com/stdlib-js/stdlib/pull/https://github.com/stodlib-js/stdlib/pull/5824)
 
 </section>
 
@@ -5907,9 +5998,9 @@ This release closes the following issue:
 
 ### Closed Issues
 
-A total of 6 issues were closed in this release:
+A total of 7 issues were closed in this release:
 
-[#276](https://github.com/stdlib-js/stdlib/issues/276), [#277](https://github.com/stdlib-js/stdlib/issues/277), [#2047](https://github.com/stdlib-js/stdlib/issues/2047), [#2543](https://github.com/stdlib-js/stdlib/issues/2543), [#2792](https://github.com/stdlib-js/stdlib/issues/2792), [#5440](https://github.com/stdlib-js/stdlib/issues/5440)
+[#276](https://github.com/stdlib-js/stdlib/issues/276), [#277](https://github.com/stdlib-js/stdlib/issues/277), [#2047](https://github.com/stdlib-js/stdlib/issues/2047), [#2543](https://github.com/stdlib-js/stdlib/issues/2543), [#2792](https://github.com/stdlib-js/stdlib/issues/2792), [#5440](https://github.com/stdlib-js/stdlib/issues/5440), [#5905](https://github.com/stdlib-js/stdlib/issues/5905)
 
 </section>
 
@@ -5919,17 +6010,20 @@ A total of 6 issues were closed in this release:
 
 ### Contributors
 
-A total of 9 people contributed to this release. Thank you to the following contributors:
+A total of 12 people contributed to this release. Thank you to the following contributors:
 
 -   Aman Bhansali
 -   Athan Reines
 -   Gururaj Gurram
+-   Hemant M Mehta
 -   Muhammad Haris
 -   Philipp Burckhardt
 -   Pranav Goswami
 -   Ricky Reusser
+-   Rupa
 -   Rutam Kathale
 -   Saurabh Singh
+-   Shabareesh Shetty
 
 </section>
 
@@ -5941,6 +6035,29 @@ A total of 9 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`9541650`](https://github.com/stdlib-js/stdlib/commit/9541650ee9c66a36c8e03a81036c5389383de9a3) - **test:** increase code coverage in `blas/base/ssyr2` [(#6544)](https://github.com/stdlib-js/stdlib/pull/6544) _(by Shabareesh Shetty, Athan Reines)_
+-   [`fc1d8d5`](https://github.com/stdlib-js/stdlib/commit/fc1d8d5ed542eec3ded1b128850909ebb5f8bc51) - **fix:** condition checks in `blas/base/ssyr2` [(#6543)](https://github.com/stdlib-js/stdlib/pull/6543) _(by Shabareesh Shetty)_
+-   [`e20f4e4`](https://github.com/stdlib-js/stdlib/commit/e20f4e4af09a7608b4f7ebeff0f8050295c646d9) - **fix:** condition check in `blas/base/dsyr2` ndarray [(#6532)](https://github.com/stdlib-js/stdlib/pull/6532) _(by Shabareesh Shetty)_
+-   [`d7583fb`](https://github.com/stdlib-js/stdlib/commit/d7583fbaca5c40a68bf25d4555b60a2b211b1f6e) - **test:** increase code coverage in `blas/base/caxpy` [(#6530)](https://github.com/stdlib-js/stdlib/pull/6530) _(by Shabareesh Shetty, Athan Reines)_
+-   [`c9c5acc`](https://github.com/stdlib-js/stdlib/commit/c9c5accbc966de5c699551722fb8e1bb37877740) - **docs:** update examples for `blas/base/wasm/csrot` [(#5760)](https://github.com/stdlib-js/stdlib/pull/5760) _(by Shabareesh Shetty)_
+-   [`cd6e347`](https://github.com/stdlib-js/stdlib/commit/cd6e34715d7ae5217f999318d9229e95cbab6385) - **docs:** update example _(by Athan Reines)_
+-   [`770c8fa`](https://github.com/stdlib-js/stdlib/commit/770c8fa6962456db2eaa37b2ba2c1c7282a663ff) - **chore:** remove empty lines _(by Athan Reines)_
+-   [`6aeed5c`](https://github.com/stdlib-js/stdlib/commit/6aeed5cee4eb79fb8fc4a5a7740f73077d3503b3) - **docs:** fix parameter name [(#6515)](https://github.com/stdlib-js/stdlib/pull/6515) _(by Shabareesh Shetty)_
+-   [`ea11328`](https://github.com/stdlib-js/stdlib/commit/ea113289e9129ffd1f51176afed9b5c795e1de21) - **docs:** update examples for `blas/base/wasm/cscal` [(#6495)](https://github.com/stdlib-js/stdlib/pull/6495) _(by Rupa, Athan Reines)_
+-   [`575ced1`](https://github.com/stdlib-js/stdlib/commit/575ced18983327e0b22d55b2dd5076cc45f00e9e) - **docs:** update related packages sections [(#6385)](https://github.com/stdlib-js/stdlib/pull/6385) _(by stdlib-bot)_
+-   [`a6c8cab`](https://github.com/stdlib-js/stdlib/commit/a6c8cab0f0e6ba351af643c9b5c814710bac5439) - **docs:** fix examples _(by Athan Reines)_
+-   [`022fa01`](https://github.com/stdlib-js/stdlib/commit/022fa012a2b817e4a4cdaf78dfb902c549683366) - **docs:** fix example _(by Athan Reines)_
+-   [`db9696d`](https://github.com/stdlib-js/stdlib/commit/db9696db44c79bfcb4cb0361d2666aab5724716f) - **docs:** update related packages sections [(#6007)](https://github.com/stdlib-js/stdlib/pull/6007) _(by stdlib-bot, Athan Reines)_
+-   [`01a2787`](https://github.com/stdlib-js/stdlib/commit/01a27876b6668ecb1fb20285913270e14ae663a0) - **docs:** update examples for `blas/base/wasm/zdrot` [(#5805)](https://github.com/stdlib-js/stdlib/pull/5805) _(by Gururaj Gurram)_
+-   [`6716e62`](https://github.com/stdlib-js/stdlib/commit/6716e624585aaba0041ae183089cb2b92851f366) - **feat:** update namespace TypeScript declarations [(#5938)](https://github.com/stdlib-js/stdlib/pull/5938) _(by stdlib-bot)_
+-   [`f572d78`](https://github.com/stdlib-js/stdlib/commit/f572d7875370c83107013a400f32d1ec3f473acb) - **feat:** add accessor array support to `blas/base/gnrm2` [(#5778)](https://github.com/stdlib-js/stdlib/pull/5778) _(by Muhammad Haris, Athan Reines)_
+-   [`460cd8f`](https://github.com/stdlib-js/stdlib/commit/460cd8f7b479efb7350a3b638be912b7e1bd5a7b) - **feat:** add `srotm` to namespace _(by Athan Reines)_
+-   [`8dc3f35`](https://github.com/stdlib-js/stdlib/commit/8dc3f35a39fdf2d24f7a9a80ed9e5d905d5cf10b) - **feat:** add `blas/base/wasm/srotm` [(#https://github.com/stodlib-js/stdlib/pull/5824)](https://github.com/stdlib-js/stdlib/pull/https://github.com/stodlib-js/stdlib/pull/5824) _(by Gururaj Gurram, Athan Reines)_
+-   [`14bab15`](https://github.com/stdlib-js/stdlib/commit/14bab159393b69aa3496cb3b715ea3b68de3e3d7) - **chore:** fix tests, spacing, and comments _(by Athan Reines)_
+-   [`b419e98`](https://github.com/stdlib-js/stdlib/commit/b419e9801458941ec974bd04be949735614d1432) - **bench:** suppress uninitialized variable warning [(#5918)](https://github.com/stdlib-js/stdlib/pull/5918) _(by Hemant M Mehta)_
+-   [`24ba370`](https://github.com/stdlib-js/stdlib/commit/24ba370b3ae9e9bc4aa0160f7d0e3879e62d2153) - **feat:** add accessor array support to `blas/base/gdot`  [(#5878)](https://github.com/stdlib-js/stdlib/pull/5878) _(by Muhammad Haris, Athan Reines)_
+-   [`bd9b313`](https://github.com/stdlib-js/stdlib/commit/bd9b313e9ccbc89f584a247d57c15388e019af2e) - **docs:** update examples for `blas/base/wasm/zswap` [(#5770)](https://github.com/stdlib-js/stdlib/pull/5770) _(by Gururaj Gurram)_
+-   [`8a80a81`](https://github.com/stdlib-js/stdlib/commit/8a80a811f4c4d710106c73b6381fe0d3ed2ab901) - **build:** generalize scripts to auto-update copyright year _(by Athan Reines)_
 -   [`4efada9`](https://github.com/stdlib-js/stdlib/commit/4efada90febbd19180bcba37915b0f19e918348e) - **docs:** update namespace table of contents [(#5513)](https://github.com/stdlib-js/stdlib/pull/5513) _(by stdlib-bot)_
 -   [`211d758`](https://github.com/stdlib-js/stdlib/commit/211d7589cc78cf73556270c7bd8e669537d21799) - **feat:** update namespace TypeScript declarations [(#5511)](https://github.com/stdlib-js/stdlib/pull/5511) _(by stdlib-bot)_
 -   [`8dc22d7`](https://github.com/stdlib-js/stdlib/commit/8dc22d75fe8396c5fe89418a325a174c531d95eb) - **refactor:** update `blas/base/gscal` to follow current project conventions [(#5447)](https://github.com/stdlib-js/stdlib/pull/5447) _(by Saurabh Singh, Athan Reines, Muhammad Haris, stdlib-bot)_

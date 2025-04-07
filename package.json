@@ -216,6 +216,7 @@
     "@stdlib/string-base-base64-to-uint8array": "github:stdlib-js/string-base-base64-to-uint8array#main",
     "@stdlib/string-format": "^0.2.2",
     "@stdlib/string-replace": "^0.2.2",
+    "@stdlib/time-current-year": "^0.2.2",
     "@stdlib/utils-define-nonenumerable-read-only-property": "^0.2.2",
     "@stdlib/utils-inherit": "^0.2.2",
     "@stdlib/utils-keys": "^0.2.2",
