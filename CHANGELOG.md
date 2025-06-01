@@ -10,6 +10,8 @@
 
 ### Features
 
+-   [`d74a508`](https://github.com/stdlib-js/stdlib/commit/d74a5082a8ffcb0a7c1e8be569f5e6f03b34af49) - add `csscal` to namespace
+-   [`5e7c277`](https://github.com/stdlib-js/stdlib/commit/5e7c2775daca2981424380301394025c5893646b) - add `blas/base/csscal` [(#6513)](https://github.com/stdlib-js/stdlib/pull/6513)
 -   [`6570841`](https://github.com/stdlib-js/stdlib/commit/65708419e4449c1cc7628ef2b22739383c40a24e) - add `blas/base/wasm/sdsdot` [(#6768)](https://github.com/stdlib-js/stdlib/pull/6768)
 -   [`dae553b`](https://github.com/stdlib-js/stdlib/commit/dae553bfe3c1f0d651b07eda1b36e87a516df7ef) - add `blas/base/wasm/dsdot` [(#6751)](https://github.com/stdlib-js/stdlib/pull/6751)
 -   [`d7c6f8e`](https://github.com/stdlib-js/stdlib/commit/d7c6f8e4a21779f8f4e54dac4a045b8ea8dbd497) - add `blas/base/wasm/sswap` [(#6582)](https://github.com/stdlib-js/stdlib/pull/6582)
@@ -434,6 +436,15 @@ A total of 9 issues were closed in this release:
 
 <details>
 
+-   [`d74a508`](https://github.com/stdlib-js/stdlib/commit/d74a5082a8ffcb0a7c1e8be569f5e6f03b34af49) - **feat:** add `csscal` to namespace _(by Athan Reines)_
+-   [`5e7c277`](https://github.com/stdlib-js/stdlib/commit/5e7c2775daca2981424380301394025c5893646b) - **feat:** add `blas/base/csscal` [(#6513)](https://github.com/stdlib-js/stdlib/pull/6513) _(by Shabareesh Shetty, Athan Reines, stdlib-bot)_
+-   [`842df0c`](https://github.com/stdlib-js/stdlib/commit/842df0c167d3ff3932c7ca8471c5397b4a651c76) - **refactor:** ensure float32 emulation _(by Athan Reines)_
+-   [`4d38ce8`](https://github.com/stdlib-js/stdlib/commit/4d38ce8450beef896c74e578fc03478f7e2f4a97) - **test:** update test descriptions _(by Athan Reines)_
+-   [`31d29ff`](https://github.com/stdlib-js/stdlib/commit/31d29ffd623c690f040954f73f0be0516de70600) - **test:** update test descriptions _(by Athan Reines)_
+-   [`ec426b1`](https://github.com/stdlib-js/stdlib/commit/ec426b1d27b6f530cd9a15dc0f95c319fda38ac7) - **test:** update test descriptions _(by Athan Reines)_
+-   [`9b5fac2`](https://github.com/stdlib-js/stdlib/commit/9b5fac23e4e50e389738b2b749e1ec6922146ded) - **test:** update test descriptions _(by Athan Reines)_
+-   [`4b21b5d`](https://github.com/stdlib-js/stdlib/commit/4b21b5dab671fd50cb2199f6a94518ebbd73fb3e) - **docs:** change variable naming in `blas/base/zdrot` [(#6879)](https://github.com/stdlib-js/stdlib/pull/6879) _(by Shabareesh Shetty, Athan Reines)_
+-   [`ba6ded3`](https://github.com/stdlib-js/stdlib/commit/ba6ded358ecea8ad39d9b34acce83663ac83948f) - **docs:** change variable naming in `blas/base/csrot` [(#6822)](https://github.com/stdlib-js/stdlib/pull/6822) _(by Shabareesh Shetty, Athan Reines)_
 -   [`f50db5b`](https://github.com/stdlib-js/stdlib/commit/f50db5b43e51607e188f38bd6fab7d0ad5098110) - **docs:** update namespace table of contents [(#7152)](https://github.com/stdlib-js/stdlib/pull/7152) _(by stdlib-bot)_
 -   [`095803e`](https://github.com/stdlib-js/stdlib/commit/095803e670e9095e08daffc079c95af23c7bca98) - **docs:** change variable naming in `blas/base/zscal` [(#6880)](https://github.com/stdlib-js/stdlib/pull/6880) _(by Shabareesh Shetty)_
 -   [`6a08789`](https://github.com/stdlib-js/stdlib/commit/6a08789b6476be6b9e88e17242360c83da70a8cf) - **docs:** change variable naming in `blas/base/zcopy` [(#6821)](https://github.com/stdlib-js/stdlib/pull/6821) _(by Shabareesh Shetty)_
