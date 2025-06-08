@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-06-03)
+## Unreleased (2025-06-08)
 
 <section class="features">
 
 ### Features
 
+-   [`cb8489a`](https://github.com/stdlib-js/stdlib/commit/cb8489a1e33cc21eba3dd883e6ada2b2e2ce82db) - add support for accessor arrays `blas/base/gaxpy` [(#7244)](https://github.com/stdlib-js/stdlib/pull/7244)
 -   [`d74a508`](https://github.com/stdlib-js/stdlib/commit/d74a5082a8ffcb0a7c1e8be569f5e6f03b34af49) - add `csscal` to namespace
 -   [`5e7c277`](https://github.com/stdlib-js/stdlib/commit/5e7c2775daca2981424380301394025c5893646b) - add `blas/base/csscal` [(#6513)](https://github.com/stdlib-js/stdlib/pull/6513)
 -   [`6570841`](https://github.com/stdlib-js/stdlib/commit/65708419e4449c1cc7628ef2b22739383c40a24e) - add `blas/base/wasm/sdsdot` [(#6768)](https://github.com/stdlib-js/stdlib/pull/6768)
@@ -436,6 +437,25 @@ A total of 9 issues were closed in this release:
 
 <details>
 
+-   [`8e82087`](https://github.com/stdlib-js/stdlib/commit/8e820870a43e8b649135a6f664174efc81569de6) - **docs:** update namespace table of contents [(#7261)](https://github.com/stdlib-js/stdlib/pull/7261) _(by stdlib-bot)_
+-   [`cb8489a`](https://github.com/stdlib-js/stdlib/commit/cb8489a1e33cc21eba3dd883e6ada2b2e2ce82db) - **feat:** add support for accessor arrays `blas/base/gaxpy` [(#7244)](https://github.com/stdlib-js/stdlib/pull/7244) _(by Shabareesh Shetty, Athan Reines)_
+-   [`7531b27`](https://github.com/stdlib-js/stdlib/commit/7531b27b47a63c889677a4525a6791cb700a3fac) - **test:** change structure of fixtures for `blas/base/strmv` [(#7252)](https://github.com/stdlib-js/stdlib/pull/7252) _(by Shabareesh Shetty)_
+-   [`a3c291e`](https://github.com/stdlib-js/stdlib/commit/a3c291efac68f24917f22d48f46d0255a4f32d02) - **docs:** change variable naming for `blas/base/scasum` [(#7193)](https://github.com/stdlib-js/stdlib/pull/7193) _(by Shabareesh Shetty, stdlib-bot)_
+-   [`04c89d1`](https://github.com/stdlib-js/stdlib/commit/04c89d16aca5b3c1a38b8494a82fd1c4bef55139) - **test:** add test cases for `blas/base/dtrmv` [(#7163)](https://github.com/stdlib-js/stdlib/pull/7163) _(by Shabareesh Shetty)_
+-   [`6279e52`](https://github.com/stdlib-js/stdlib/commit/6279e527265742e1630811edb2b633f1f88b7e67) - **bench:** fix overflow _(by Athan Reines)_
+-   [`09c9ceb`](https://github.com/stdlib-js/stdlib/commit/09c9ceb58c6dd23c10f1980094851983c57d693f) - **chore:** fix formatting _(by Athan Reines)_
+-   [`51bf6f9`](https://github.com/stdlib-js/stdlib/commit/51bf6f9d2bb027aacecda87e02f957badbc246b0) - **bench:** fix formatting _(by Athan Reines)_
+-   [`f592413`](https://github.com/stdlib-js/stdlib/commit/f592413491ad000ffa6d8d257ca0a8cd5c39942c) - **test:** add test cases for `blas/base/sgemv` [(#7125)](https://github.com/stdlib-js/stdlib/pull/7125) _(by Shabareesh Shetty, Athan Reines)_
+-   [`1a34934`](https://github.com/stdlib-js/stdlib/commit/1a349345ab14ff961594d888c2130f998047f209) - **test:** add test cases for `blas/base/strsv` [(#7166)](https://github.com/stdlib-js/stdlib/pull/7166) _(by Shabareesh Shetty)_
+-   [`c67ccf3`](https://github.com/stdlib-js/stdlib/commit/c67ccf3815cf568888df36136427047cb98049e9) - **test:** add test cases for `blas/base/dtrsv` [(#7165)](https://github.com/stdlib-js/stdlib/pull/7165) _(by Shabareesh Shetty)_
+-   [`a6cc0ea`](https://github.com/stdlib-js/stdlib/commit/a6cc0eaad0bc431fb2c531517697992fff2e6608) - **test:** add test cases for `blas/base/strmv` [(#7164)](https://github.com/stdlib-js/stdlib/pull/7164) _(by Shabareesh Shetty)_
+-   [`2e40ad9`](https://github.com/stdlib-js/stdlib/commit/2e40ad9683287aecc1a08663caf41967612f728c) - **docs:** change variable naming for `blas/base/scnrm2` [(#7176)](https://github.com/stdlib-js/stdlib/pull/7176) _(by Shabareesh Shetty)_
+-   [`4427c2e`](https://github.com/stdlib-js/stdlib/commit/4427c2e66d64d52d597dddf6e531d87d6c433cc5) - **test:** change structure of fixtures for `blas/base/dtrmv` [(#7190)](https://github.com/stdlib-js/stdlib/pull/7190) _(by Shabareesh Shetty)_
+-   [`5c6db32`](https://github.com/stdlib-js/stdlib/commit/5c6db32796b7e3dab9871a5e3587b3f0ce5453dc) - **refactor:** rename variable in `blas/base/srotg` [(#7209)](https://github.com/stdlib-js/stdlib/pull/7209) _(by Shabareesh Shetty)_
+-   [`02183ed`](https://github.com/stdlib-js/stdlib/commit/02183ed3e98014c54c9331e6ce9797526de18122) - **refactor:** rename variable in `blas/base/saxpy` [(#7207)](https://github.com/stdlib-js/stdlib/pull/7207) _(by Shabareesh Shetty)_
+-   [`847dd6f`](https://github.com/stdlib-js/stdlib/commit/847dd6ffbfbd48ccf523e0af97201280bf0022f1) - **refactor:** rename variable in `blas/base/sdsdot` [(#7208)](https://github.com/stdlib-js/stdlib/pull/7208) _(by Shabareesh Shetty)_
+-   [`c3a2ca6`](https://github.com/stdlib-js/stdlib/commit/c3a2ca66a8adc663cc4e5ab5f6c7b1b529e895ca) - **refactor:** rename variable in `blas/base/sdot` [(#7210)](https://github.com/stdlib-js/stdlib/pull/7210) _(by Shabareesh Shetty)_
+-   [`0723bf6`](https://github.com/stdlib-js/stdlib/commit/0723bf6fcac199cdd9c4b7384adf81be918216af) - **test:** add test cases for `blas/base/dgemv` [(#7124)](https://github.com/stdlib-js/stdlib/pull/7124) _(by Shabareesh Shetty, Athan Reines)_
 -   [`9a2b61d`](https://github.com/stdlib-js/stdlib/commit/9a2b61d04186d607367371e9ef345df179516692) - **docs:** update namespace table of contents [(#7187)](https://github.com/stdlib-js/stdlib/pull/7187) _(by stdlib-bot)_
 -   [`4b2abf0`](https://github.com/stdlib-js/stdlib/commit/4b2abf00490c06b2627ae5f75968a9a4c005d166) - **docs:** change variable naming for `blas/base/dznrm2` [(#7174)](https://github.com/stdlib-js/stdlib/pull/7174) _(by Shabareesh Shetty, Athan Reines)_
 -   [`4514170`](https://github.com/stdlib-js/stdlib/commit/4514170ad8cf99fd55fc30804fd1f1d17e11ed7f) - **docs:** update namespace table of contents [(#7162)](https://github.com/stdlib-js/stdlib/pull/7162) _(by stdlib-bot)_
