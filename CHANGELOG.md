@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-06-08)
+## Unreleased (2025-06-21)
 
 <section class="features">
 
@@ -232,6 +232,7 @@
 
 ### Bug Fixes
 
+-   [`18e08fc`](https://github.com/stdlib-js/stdlib/commit/18e08fc9d34c34bdc23e4ebd305d3ec5d034ef51) - use appropriate variable in error message [(#7401)](https://github.com/stdlib-js/stdlib/pull/7401)
 -   [`0b4a818`](https://github.com/stdlib-js/stdlib/commit/0b4a8186131a6a245fe1d893afae19c0524dbbef) - use correct dependencies in `manifest.json` of `blas/base/zscal` [(#7121)](https://github.com/stdlib-js/stdlib/pull/7121)
 -   [`05e83e1`](https://github.com/stdlib-js/stdlib/commit/05e83e1582cfeef43b39227e4a5c891f9934d1c0) - resolve typo in include guard
 -   [`43bfc6b`](https://github.com/stdlib-js/stdlib/commit/43bfc6bc1d850367f3957fdb550c40d25c6f0e62) - include value in error message
@@ -437,6 +438,12 @@ A total of 9 issues were closed in this release:
 
 <details>
 
+-   [`3f4be91`](https://github.com/stdlib-js/stdlib/commit/3f4be91fd9025e696b72b5159fee981f47937c7f) - **docs:** update namespace table of contents [(#7433)](https://github.com/stdlib-js/stdlib/pull/7433) _(by stdlib-bot, Philipp Burckhardt)_
+-   [`1ee2330`](https://github.com/stdlib-js/stdlib/commit/1ee23306fe818017146addffcd919821e4f6e06e) - **docs:** change variable naming in `blas/base/zdscal` [(#6790)](https://github.com/stdlib-js/stdlib/pull/6790) _(by Shabareesh Shetty)_
+-   [`168de01`](https://github.com/stdlib-js/stdlib/commit/168de01f5b4706dcff0aa60b98c83c85381ddd24) - **docs:** update parameter description in `blas/base/csscal` [(#7399)](https://github.com/stdlib-js/stdlib/pull/7399) _(by Shabareesh Shetty)_
+-   [`18e08fc`](https://github.com/stdlib-js/stdlib/commit/18e08fc9d34c34bdc23e4ebd305d3ec5d034ef51) - **fix:** use appropriate variable in error message [(#7401)](https://github.com/stdlib-js/stdlib/pull/7401) _(by Shabareesh Shetty)_
+-   [`67e3e62`](https://github.com/stdlib-js/stdlib/commit/67e3e626914282ea5dafe86d603e446fb2679890) - **docs:** update param description in `blas/base/dtrsv` [(#7384)](https://github.com/stdlib-js/stdlib/pull/7384) _(by Aayush Khanna)_
+-   [`161c07f`](https://github.com/stdlib-js/stdlib/commit/161c07f799df67fe19580ad0fbf1093d39566142) - **docs:** update copy _(by Athan Reines)_
 -   [`8e82087`](https://github.com/stdlib-js/stdlib/commit/8e820870a43e8b649135a6f664174efc81569de6) - **docs:** update namespace table of contents [(#7261)](https://github.com/stdlib-js/stdlib/pull/7261) _(by stdlib-bot)_
 -   [`cb8489a`](https://github.com/stdlib-js/stdlib/commit/cb8489a1e33cc21eba3dd883e6ada2b2e2ce82db) - **feat:** add support for accessor arrays `blas/base/gaxpy` [(#7244)](https://github.com/stdlib-js/stdlib/pull/7244) _(by Shabareesh Shetty, Athan Reines)_
 -   [`7531b27`](https://github.com/stdlib-js/stdlib/commit/7531b27b47a63c889677a4525a6791cb700a3fac) - **test:** change structure of fixtures for `blas/base/strmv` [(#7252)](https://github.com/stdlib-js/stdlib/pull/7252) _(by Shabareesh Shetty)_
@@ -1098,8 +1105,9 @@ A total of 9 issues were closed in this release:
 
 ### Contributors
 
-A total of 14 people contributed to this release. Thank you to the following contributors:
+A total of 15 people contributed to this release. Thank you to the following contributors:
 
+-   Aayush Khanna
 -   Aman Bhansali
 -   Athan Reines
 -   Gururaj Gurram
