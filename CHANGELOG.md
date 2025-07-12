@@ -4,12 +4,35 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-06-21)
+## Unreleased (2025-07-12)
 
 <section class="features">
 
 ### Features
 
+-   [`0b41f37`](https://github.com/stdlib-js/stdlib/commit/0b41f37fd5a455514797c54480879da3fa06201f) - add `isMatrixOrientation` to namespace
+-   [`f5f4f53`](https://github.com/stdlib-js/stdlib/commit/f5f4f53480b1bfdf40b771f3720fecfa9a68911d) - add `blas/base/assert/is-matrix-orientation`
+-   [`0bc0123`](https://github.com/stdlib-js/stdlib/commit/0bc0123a316f3efc9ce8a97a4de24a98a7ad2bb8) - add `CBLAS_ORIENT` type definition
+-   [`cdc7b67`](https://github.com/stdlib-js/stdlib/commit/cdc7b67ac69e144e998cc528d01ab3411c2f4840) - add `matrixOrientationResolveStr` to namespace
+-   [`2447a9a`](https://github.com/stdlib-js/stdlib/commit/2447a9aec572af8ad2c947866ddca212879aa936) - add `blas/base/matrix-orientation-resolve-str`
+-   [`c341ba9`](https://github.com/stdlib-js/stdlib/commit/c341ba97aa2078585f745120d6fd4f51ae27fdce) - add `matrixOrientationResolveEnum` to namespace
+-   [`ac80c7b`](https://github.com/stdlib-js/stdlib/commit/ac80c7b4275e9a7181829ec05c1bc327ddfeb12d) - add `blas/base/matrix-orientation-resolve-enum`
+-   [`aba62e8`](https://github.com/stdlib-js/stdlib/commit/aba62e8405e0098e22f6fa43e10afc420c3b29d9) - add `igamax` to namespace
+-   [`d8ce58b`](https://github.com/stdlib-js/stdlib/commit/d8ce58b2475ec10d7cd8c42e251a93985ae2b1a2) - add `matrixOrientationEnum2Str` to namespace
+-   [`293b15b`](https://github.com/stdlib-js/stdlib/commit/293b15b049248eb59630868de38957fe303f8985) - add `blas/base/matrix-orientation-enum2str`
+-   [`25e1f75`](https://github.com/stdlib-js/stdlib/commit/25e1f75a99dcd4e6a0bb52d0a068403285825eea) - add `matrixOrientationStr2Enum` to namespace
+-   [`ac4b23d`](https://github.com/stdlib-js/stdlib/commit/ac4b23d1d6a536500ec9bcbb873f1a4c7b862fa8) - add `blas/base/matrix-orientation-str2enum`
+-   [`51560ac`](https://github.com/stdlib-js/stdlib/commit/51560acc32ace8fc2f0bdcc1fe66713a3a08aa3b) - add `dger` and `sger` to namespace
+-   [`5302af0`](https://github.com/stdlib-js/stdlib/commit/5302af04f65062c3fc94a0be68a2a9ae19a6aa50) - add `matrixOrientations` to namespace
+-   [`7584303`](https://github.com/stdlib-js/stdlib/commit/7584303bc16b4045e94834e5f4f92765506fdb00) - add `blas/base/matrix-orientations`
+-   [`fffbf73`](https://github.com/stdlib-js/stdlib/commit/fffbf730b1a27175ece26a82f05c4053567e4386) - add C implementation for `blas/base/dsyr`  [(#6566)](https://github.com/stdlib-js/stdlib/pull/6566)
+-   [`2ba34b6`](https://github.com/stdlib-js/stdlib/commit/2ba34b6ff6943eff6b48b8963c2d2817413c9c1c) - add C implementation for `blas/base/sgemv` [(#6984)](https://github.com/stdlib-js/stdlib/pull/6984)
+-   [`f1e8702`](https://github.com/stdlib-js/stdlib/commit/f1e87027f6350b20d9618166e80e2e0a9cee60fb) - add `blas/base/sger` [(#2767)](https://github.com/stdlib-js/stdlib/pull/2767)
+-   [`ea875d6`](https://github.com/stdlib-js/stdlib/commit/ea875d60ea897e1d599634ce69eabd740275dda4) - add C implementation for `blas/base/dgemv` [(#7013)](https://github.com/stdlib-js/stdlib/pull/7013)
+-   [`231adcc`](https://github.com/stdlib-js/stdlib/commit/231adcca7fe97378ed76193faba8ccf41123ad83) - add JavaScript implementation and clean-up `blas/base/dger` [(#6395)](https://github.com/stdlib-js/stdlib/pull/6395)
+-   [`1321911`](https://github.com/stdlib-js/stdlib/commit/1321911685e6ad3b66de365a1d314324d2838344) - add `blas/base/wasm/scasum` [(#6285)](https://github.com/stdlib-js/stdlib/pull/6285)
+-   [`68d705a`](https://github.com/stdlib-js/stdlib/commit/68d705a06a2ccf8c292b85a53b091e461ff90c14) - add `blas/base/wasm/scnrm2` [(#6791)](https://github.com/stdlib-js/stdlib/pull/6791)
+-   [`e7e1a3a`](https://github.com/stdlib-js/stdlib/commit/e7e1a3a6f2e5499e77c8cf7821614e4ad1838129) - add `blas/base/igamax` [(#7287)](https://github.com/stdlib-js/stdlib/pull/7287)
 -   [`cb8489a`](https://github.com/stdlib-js/stdlib/commit/cb8489a1e33cc21eba3dd883e6ada2b2e2ce82db) - add support for accessor arrays `blas/base/gaxpy` [(#7244)](https://github.com/stdlib-js/stdlib/pull/7244)
 -   [`d74a508`](https://github.com/stdlib-js/stdlib/commit/d74a5082a8ffcb0a7c1e8be569f5e6f03b34af49) - add `csscal` to namespace
 -   [`5e7c277`](https://github.com/stdlib-js/stdlib/commit/5e7c2775daca2981424380301394025c5893646b) - add `blas/base/csscal` [(#6513)](https://github.com/stdlib-js/stdlib/pull/6513)
@@ -232,6 +255,16 @@
 
 ### Bug Fixes
 
+-   [`55fe412`](https://github.com/stdlib-js/stdlib/commit/55fe4127100d635e8c4b534e4d08565035c6d8ae) - rename fields to be more explicit
+-   [`2cb36f7`](https://github.com/stdlib-js/stdlib/commit/2cb36f78f8a2e23a6be89070c1c8c6c7d257a096) - update field name
+-   [`c9f4cb9`](https://github.com/stdlib-js/stdlib/commit/c9f4cb9b593f963d25efc20a6bd3b2aeeda515c2) - add missing checks and tests
+-   [`e039f2a`](https://github.com/stdlib-js/stdlib/commit/e039f2a6f7ff1b4141dba2d0f5a2fb8a03d7a9b8) - consistently use constants instead of hardcoded numbers in unrolled BLAS loops
+-   [`5986aa6`](https://github.com/stdlib-js/stdlib/commit/5986aa661893a77a297c0aa18b44f6f58d93c948) - use correct number of elements for X
+-   [`d76695b`](https://github.com/stdlib-js/stdlib/commit/d76695b21bc8a799580c3a0acde2b22501b11f92) - update error check and messages
+-   [`3878734`](https://github.com/stdlib-js/stdlib/commit/3878734f1a4d27c98b100165d9e3842e960169b3) - update error check and messages
+-   [`ae34cce`](https://github.com/stdlib-js/stdlib/commit/ae34cce2706107d6738b4830d43e4130ff7399e4) - update `caxpy` manifest to include missing dependencies for Mac builds
+-   [`f27e62f`](https://github.com/stdlib-js/stdlib/commit/f27e62f31b16eb5c92f5c0af88b00b6d5124b9f6) - provide correct number of arguments
+-   [`6688495`](https://github.com/stdlib-js/stdlib/commit/6688495296d51628b4a85466de99b5a5347cff94) - provide correct number of arguments
 -   [`18e08fc`](https://github.com/stdlib-js/stdlib/commit/18e08fc9d34c34bdc23e4ebd305d3ec5d034ef51) - use appropriate variable in error message [(#7401)](https://github.com/stdlib-js/stdlib/pull/7401)
 -   [`0b4a818`](https://github.com/stdlib-js/stdlib/commit/0b4a8186131a6a245fe1d893afae19c0524dbbef) - use correct dependencies in `manifest.json` of `blas/base/zscal` [(#7121)](https://github.com/stdlib-js/stdlib/pull/7121)
 -   [`05e83e1`](https://github.com/stdlib-js/stdlib/commit/05e83e1582cfeef43b39227e4a5c891f9934d1c0) - resolve typo in include guard
@@ -438,6 +471,56 @@ A total of 9 issues were closed in this release:
 
 <details>
 
+-   [`0b41f37`](https://github.com/stdlib-js/stdlib/commit/0b41f37fd5a455514797c54480879da3fa06201f) - **feat:** add `isMatrixOrientation` to namespace _(by Athan Reines)_
+-   [`f5f4f53`](https://github.com/stdlib-js/stdlib/commit/f5f4f53480b1bfdf40b771f3720fecfa9a68911d) - **feat:** add `blas/base/assert/is-matrix-orientation` _(by Athan Reines)_
+-   [`0bc0123`](https://github.com/stdlib-js/stdlib/commit/0bc0123a316f3efc9ce8a97a4de24a98a7ad2bb8) - **feat:** add `CBLAS_ORIENT` type definition _(by Athan Reines)_
+-   [`cdc7b67`](https://github.com/stdlib-js/stdlib/commit/cdc7b67ac69e144e998cc528d01ab3411c2f4840) - **feat:** add `matrixOrientationResolveStr` to namespace _(by Athan Reines)_
+-   [`2447a9a`](https://github.com/stdlib-js/stdlib/commit/2447a9aec572af8ad2c947866ddca212879aa936) - **feat:** add `blas/base/matrix-orientation-resolve-str` _(by Athan Reines)_
+-   [`c341ba9`](https://github.com/stdlib-js/stdlib/commit/c341ba97aa2078585f745120d6fd4f51ae27fdce) - **feat:** add `matrixOrientationResolveEnum` to namespace _(by Athan Reines)_
+-   [`ac80c7b`](https://github.com/stdlib-js/stdlib/commit/ac80c7b4275e9a7181829ec05c1bc327ddfeb12d) - **feat:** add `blas/base/matrix-orientation-resolve-enum` _(by Athan Reines)_
+-   [`aba62e8`](https://github.com/stdlib-js/stdlib/commit/aba62e8405e0098e22f6fa43e10afc420c3b29d9) - **feat:** add `igamax` to namespace _(by Athan Reines)_
+-   [`d8ce58b`](https://github.com/stdlib-js/stdlib/commit/d8ce58b2475ec10d7cd8c42e251a93985ae2b1a2) - **feat:** add `matrixOrientationEnum2Str` to namespace _(by Athan Reines)_
+-   [`293b15b`](https://github.com/stdlib-js/stdlib/commit/293b15b049248eb59630868de38957fe303f8985) - **feat:** add `blas/base/matrix-orientation-enum2str` _(by Athan Reines)_
+-   [`25e1f75`](https://github.com/stdlib-js/stdlib/commit/25e1f75a99dcd4e6a0bb52d0a068403285825eea) - **feat:** add `matrixOrientationStr2Enum` to namespace _(by Athan Reines)_
+-   [`ac4b23d`](https://github.com/stdlib-js/stdlib/commit/ac4b23d1d6a536500ec9bcbb873f1a4c7b862fa8) - **feat:** add `blas/base/matrix-orientation-str2enum` _(by Athan Reines)_
+-   [`64bcad8`](https://github.com/stdlib-js/stdlib/commit/64bcad80462130920dd92692acd842125ca040a7) - **docs:** update copy _(by Athan Reines)_
+-   [`55fe412`](https://github.com/stdlib-js/stdlib/commit/55fe4127100d635e8c4b534e4d08565035c6d8ae) - **fix:** rename fields to be more explicit _(by Athan Reines)_
+-   [`51560ac`](https://github.com/stdlib-js/stdlib/commit/51560acc32ace8fc2f0bdcc1fe66713a3a08aa3b) - **feat:** add `dger` and `sger` to namespace _(by Athan Reines)_
+-   [`5302af0`](https://github.com/stdlib-js/stdlib/commit/5302af04f65062c3fc94a0be68a2a9ae19a6aa50) - **feat:** add `matrixOrientations` to namespace _(by Athan Reines)_
+-   [`2cb36f7`](https://github.com/stdlib-js/stdlib/commit/2cb36f78f8a2e23a6be89070c1c8c6c7d257a096) - **fix:** update field name _(by Athan Reines)_
+-   [`7584303`](https://github.com/stdlib-js/stdlib/commit/7584303bc16b4045e94834e5f4f92765506fdb00) - **feat:** add `blas/base/matrix-orientations` _(by Athan Reines)_
+-   [`37aabaf`](https://github.com/stdlib-js/stdlib/commit/37aabafe30fd671f0fd7ea58b21d192abe6e3208) - **test:** fix test case _(by Athan Reines)_
+-   [`a41c427`](https://github.com/stdlib-js/stdlib/commit/a41c427ee9ddd87f48288a737ea9820ea48b5498) - **refactor:** reduce pointer arithmetic operations _(by Athan Reines)_
+-   [`c9f4cb9`](https://github.com/stdlib-js/stdlib/commit/c9f4cb9b593f963d25efc20a6bd3b2aeeda515c2) - **fix:** add missing checks and tests _(by Athan Reines)_
+-   [`fffbf73`](https://github.com/stdlib-js/stdlib/commit/fffbf730b1a27175ece26a82f05c4053567e4386) - **feat:** add C implementation for `blas/base/dsyr`  [(#6566)](https://github.com/stdlib-js/stdlib/pull/6566) _(by Shabareesh Shetty, Athan Reines)_
+-   [`e039f2a`](https://github.com/stdlib-js/stdlib/commit/e039f2a6f7ff1b4141dba2d0f5a2fb8a03d7a9b8) - **fix:** consistently use constants instead of hardcoded numbers in unrolled BLAS loops _(by Philipp Burckhardt)_
+-   [`7ec74ef`](https://github.com/stdlib-js/stdlib/commit/7ec74ef82dc2c2442729e5ec84073d61d8501c84) - **docs:** avoid using JS strict equality operators in C comments _(by Philipp Burckhardt)_
+-   [`5986aa6`](https://github.com/stdlib-js/stdlib/commit/5986aa661893a77a297c0aa18b44f6f58d93c948) - **fix:** use correct number of elements for X _(by Philipp Burckhardt)_
+-   [`d76695b`](https://github.com/stdlib-js/stdlib/commit/d76695b21bc8a799580c3a0acde2b22501b11f92) - **fix:** update error check and messages _(by Philipp Burckhardt)_
+-   [`edcb3f2`](https://github.com/stdlib-js/stdlib/commit/edcb3f2cf5f9e4d724c842416aca70a210a7eb51) - **docs:** fix parameter name in Doxygen comment and error messages _(by Philipp Burckhardt)_
+-   [`3878734`](https://github.com/stdlib-js/stdlib/commit/3878734f1a4d27c98b100165d9e3842e960169b3) - **fix:** update error check and messages _(by Philipp Burckhardt)_
+-   [`332199e`](https://github.com/stdlib-js/stdlib/commit/332199e73b253aee2f8b37284ac4b6c87ede5454) - **docs:** fix typo and function name _(by Philipp Burckhardt)_
+-   [`2ba34b6`](https://github.com/stdlib-js/stdlib/commit/2ba34b6ff6943eff6b48b8963c2d2817413c9c1c) - **feat:** add C implementation for `blas/base/sgemv` [(#6984)](https://github.com/stdlib-js/stdlib/pull/6984) _(by Shabareesh Shetty, Athan Reines, stdlib-bot)_
+-   [`e34aa06`](https://github.com/stdlib-js/stdlib/commit/e34aa06da0790d4551851e4d2ab4e02510bfd5ce) - **chore:** clean-up _(by Athan Reines)_
+-   [`f1e8702`](https://github.com/stdlib-js/stdlib/commit/f1e87027f6350b20d9618166e80e2e0a9cee60fb) - **feat:** add `blas/base/sger` [(#2767)](https://github.com/stdlib-js/stdlib/pull/2767) _(by Aman Bhansali, Athan Reines, stdlib-bot, Shabareesh Shetty)_
+-   [`a2f0378`](https://github.com/stdlib-js/stdlib/commit/a2f0378a76569c79599c550b781a1dc96a935f76) - **docs:** use consistent capitalization _(by Athan Reines)_
+-   [`a1d90a8`](https://github.com/stdlib-js/stdlib/commit/a1d90a8485273025956d41831ed12e423032f580) - **docs:** fix descriptions _(by Athan Reines)_
+-   [`01f149a`](https://github.com/stdlib-js/stdlib/commit/01f149a97d76b4e8e14353d87f4dbabca338f5a1) - **docs:** fix typo _(by Athan Reines)_
+-   [`8992c1c`](https://github.com/stdlib-js/stdlib/commit/8992c1c7183ba70421f329143f2524de124ad301) - **docs:** update type _(by Athan Reines)_
+-   [`ae34cce`](https://github.com/stdlib-js/stdlib/commit/ae34cce2706107d6738b4830d43e4130ff7399e4) - **fix:** update `caxpy` manifest to include missing dependencies for Mac builds _(by Philipp Burckhardt)_
+-   [`53cb5ce`](https://github.com/stdlib-js/stdlib/commit/53cb5cec01d65b42bccee658c7ed3bd1d6b7c441) - **docs:** fix data type [(#7536)](https://github.com/stdlib-js/stdlib/pull/7536) _(by Shabareesh Shetty)_
+-   [`ea875d6`](https://github.com/stdlib-js/stdlib/commit/ea875d60ea897e1d599634ce69eabd740275dda4) - **feat:** add C implementation for `blas/base/dgemv` [(#7013)](https://github.com/stdlib-js/stdlib/pull/7013) _(by Shabareesh Shetty, Athan Reines, stdlib-bot)_
+-   [`f27e62f`](https://github.com/stdlib-js/stdlib/commit/f27e62f31b16eb5c92f5c0af88b00b6d5124b9f6) - **fix:** provide correct number of arguments _(by Athan Reines)_
+-   [`6688495`](https://github.com/stdlib-js/stdlib/commit/6688495296d51628b4a85466de99b5a5347cff94) - **fix:** provide correct number of arguments _(by Athan Reines)_
+-   [`85a9c18`](https://github.com/stdlib-js/stdlib/commit/85a9c18a4a4edcf9ccfc590137ecc76812e86204) - **chore:** disable lint rule _(by Philipp Burckhardt)_
+-   [`4dba421`](https://github.com/stdlib-js/stdlib/commit/4dba421f5bd8acafdd58e1c7681965b9ad267bc7) - **docs:** minor clean-up _(by Philipp Burckhardt)_
+-   [`69ad0f3`](https://github.com/stdlib-js/stdlib/commit/69ad0f330677990bab1fe157e167998d94a58eea) - **docs:** minor clean-up _(by Philipp Burckhardt)_
+-   [`231adcc`](https://github.com/stdlib-js/stdlib/commit/231adcca7fe97378ed76193faba8ccf41123ad83) - **feat:** add JavaScript implementation and clean-up `blas/base/dger` [(#6395)](https://github.com/stdlib-js/stdlib/pull/6395) _(by Shabareesh Shetty, Athan Reines, stdlib-bot)_
+-   [`7c9afed`](https://github.com/stdlib-js/stdlib/commit/7c9afed6a288c9e7d3048dfa0ac8f085759d73f4) - **chore:** minor clean-up _(by Philipp Burckhardt)_
+-   [`1321911`](https://github.com/stdlib-js/stdlib/commit/1321911685e6ad3b66de365a1d314324d2838344) - **feat:** add `blas/base/wasm/scasum` [(#6285)](https://github.com/stdlib-js/stdlib/pull/6285) _(by Shabareesh Shetty, Athan Reines, stdlib-bot)_
+-   [`bac5dfa`](https://github.com/stdlib-js/stdlib/commit/bac5dfaf33f0d0b07988126ef565c726b56cf447) - **test:** update test expected values [(#7449)](https://github.com/stdlib-js/stdlib/pull/7449) _(by Shabareesh Shetty)_
+-   [`68d705a`](https://github.com/stdlib-js/stdlib/commit/68d705a06a2ccf8c292b85a53b091e461ff90c14) - **feat:** add `blas/base/wasm/scnrm2` [(#6791)](https://github.com/stdlib-js/stdlib/pull/6791) _(by Shabareesh Shetty, Athan Reines, stdlib-bot)_
+-   [`e7e1a3a`](https://github.com/stdlib-js/stdlib/commit/e7e1a3a6f2e5499e77c8cf7821614e4ad1838129) - **feat:** add `blas/base/igamax` [(#7287)](https://github.com/stdlib-js/stdlib/pull/7287) _(by Shabareesh Shetty, Athan Reines, stdlib-bot)_
 -   [`3f4be91`](https://github.com/stdlib-js/stdlib/commit/3f4be91fd9025e696b72b5159fee981f47937c7f) - **docs:** update namespace table of contents [(#7433)](https://github.com/stdlib-js/stdlib/pull/7433) _(by stdlib-bot, Philipp Burckhardt)_
 -   [`1ee2330`](https://github.com/stdlib-js/stdlib/commit/1ee23306fe818017146addffcd919821e4f6e06e) - **docs:** change variable naming in `blas/base/zdscal` [(#6790)](https://github.com/stdlib-js/stdlib/pull/6790) _(by Shabareesh Shetty)_
 -   [`168de01`](https://github.com/stdlib-js/stdlib/commit/168de01f5b4706dcff0aa60b98c83c85381ddd24) - **docs:** update parameter description in `blas/base/csscal` [(#7399)](https://github.com/stdlib-js/stdlib/pull/7399) _(by Shabareesh Shetty)_
