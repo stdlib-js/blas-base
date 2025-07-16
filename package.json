@@ -75,6 +75,7 @@
     "@stdlib/blas-base-gaxpy": "^0.2.2",
     "@stdlib/blas-base-gcopy": "^0.2.1",
     "@stdlib/blas-base-gdot": "^0.2.2",
+    "@stdlib/blas-base-gger": "github:stdlib-js/blas-base-gger#main",
     "@stdlib/blas-base-gnrm2": "^0.2.2",
     "@stdlib/blas-base-gscal": "^0.2.2",
     "@stdlib/blas-base-gswap": "^0.2.1",
@@ -142,6 +143,7 @@
   "devDependencies": {
     "@stdlib/array-base-arraylike2object": "^0.2.1",
     "@stdlib/array-base-assert-contains": "^0.2.2",
+    "@stdlib/array-base-copy": "^0.2.2",
     "@stdlib/array-base-to-accessor-array": "^0.2.2",
     "@stdlib/array-complex128": "^0.3.0",
     "@stdlib/array-complex64": "^0.3.0",
