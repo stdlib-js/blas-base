@@ -4,12 +4,20 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-07-12)
+## Unreleased (2025-07-16)
 
 <section class="features">
 
 ### Features
 
+-   [`75e2622`](https://github.com/stdlib-js/stdlib/commit/75e2622f2a9c4a5f7b6fc639dcabe3129d9f6ca9) - add C implementation for `blas/base/dsyr2` [(#6572)](https://github.com/stdlib-js/stdlib/pull/6572)
+-   [`2e9d1b7`](https://github.com/stdlib-js/stdlib/commit/2e9d1b7a10a3058d75cfe6ea5470beacea086a63) - add `sswap` to namespace
+-   [`efbe0fa`](https://github.com/stdlib-js/stdlib/commit/efbe0fade8b7c664b085fd683e9d7e76147e16e3) - add `sdsdot` to namespace
+-   [`091b506`](https://github.com/stdlib-js/stdlib/commit/091b506bbff10a11cebaf052692aff11cd50ca62) - add `scnrm2` to namespace
+-   [`3cc3bc4`](https://github.com/stdlib-js/stdlib/commit/3cc3bc4bad2a228a7f3a987be7985c2d2fca2988) - add `scasum` to namespace
+-   [`6cf5764`](https://github.com/stdlib-js/stdlib/commit/6cf5764f637dd02b06970fc6716ab6aba955b7dc) - add `dznrm2` to namespace
+-   [`b666af6`](https://github.com/stdlib-js/stdlib/commit/b666af681143dbb7fad3eaccaa5221b5491a7207) - add `dsdot` to namespace
+-   [`e6adda2`](https://github.com/stdlib-js/stdlib/commit/e6adda297e305a79f5aca249d654cd197e8ec8bf) - add `blas/base/wasm/dznrm2` [(#6795)](https://github.com/stdlib-js/stdlib/pull/6795)
 -   [`0b41f37`](https://github.com/stdlib-js/stdlib/commit/0b41f37fd5a455514797c54480879da3fa06201f) - add `isMatrixOrientation` to namespace
 -   [`f5f4f53`](https://github.com/stdlib-js/stdlib/commit/f5f4f53480b1bfdf40b771f3720fecfa9a68911d) - add `blas/base/assert/is-matrix-orientation`
 -   [`0bc0123`](https://github.com/stdlib-js/stdlib/commit/0bc0123a316f3efc9ce8a97a4de24a98a7ad2bb8) - add `CBLAS_ORIENT` type definition
@@ -255,6 +263,7 @@
 
 ### Bug Fixes
 
+-   [`2192700`](https://github.com/stdlib-js/stdlib/commit/21927004b3028a79326c41bd78e8dfe3d3044553) - update path
 -   [`55fe412`](https://github.com/stdlib-js/stdlib/commit/55fe4127100d635e8c4b534e4d08565035c6d8ae) - rename fields to be more explicit
 -   [`2cb36f7`](https://github.com/stdlib-js/stdlib/commit/2cb36f78f8a2e23a6be89070c1c8c6c7d257a096) - update field name
 -   [`c9f4cb9`](https://github.com/stdlib-js/stdlib/commit/c9f4cb9b593f963d25efc20a6bd3b2aeeda515c2) - add missing checks and tests
@@ -471,6 +480,28 @@ A total of 9 issues were closed in this release:
 
 <details>
 
+-   [`92d4b33`](https://github.com/stdlib-js/stdlib/commit/92d4b337fe0f7aed4e2adaeb57da42ec639cff38) - **docs:** fix descriptions _(by Athan Reines)_
+-   [`75e2622`](https://github.com/stdlib-js/stdlib/commit/75e2622f2a9c4a5f7b6fc639dcabe3129d9f6ca9) - **feat:** add C implementation for `blas/base/dsyr2` [(#6572)](https://github.com/stdlib-js/stdlib/pull/6572) _(by Shabareesh Shetty, Athan Reines, stdlib-bot, Aman Bhansali)_
+-   [`2ec2116`](https://github.com/stdlib-js/stdlib/commit/2ec2116fb43058cddc4bf726defbe60823bd2590) - **docs:** fix typo _(by Athan Reines)_
+-   [`5388bba`](https://github.com/stdlib-js/stdlib/commit/5388bba36044d2de93dacb0134c6e5539b02928c) - **chore:** minor clean-up _(by Philipp Burckhardt)_
+-   [`2e9d1b7`](https://github.com/stdlib-js/stdlib/commit/2e9d1b7a10a3058d75cfe6ea5470beacea086a63) - **feat:** add `sswap` to namespace _(by Athan Reines)_
+-   [`efbe0fa`](https://github.com/stdlib-js/stdlib/commit/efbe0fade8b7c664b085fd683e9d7e76147e16e3) - **feat:** add `sdsdot` to namespace _(by Athan Reines)_
+-   [`091b506`](https://github.com/stdlib-js/stdlib/commit/091b506bbff10a11cebaf052692aff11cd50ca62) - **feat:** add `scnrm2` to namespace _(by Athan Reines)_
+-   [`3cc3bc4`](https://github.com/stdlib-js/stdlib/commit/3cc3bc4bad2a228a7f3a987be7985c2d2fca2988) - **feat:** add `scasum` to namespace _(by Athan Reines)_
+-   [`6cf5764`](https://github.com/stdlib-js/stdlib/commit/6cf5764f637dd02b06970fc6716ab6aba955b7dc) - **feat:** add `dznrm2` to namespace _(by Athan Reines)_
+-   [`b666af6`](https://github.com/stdlib-js/stdlib/commit/b666af681143dbb7fad3eaccaa5221b5491a7207) - **feat:** add `dsdot` to namespace _(by Athan Reines)_
+-   [`e6adda2`](https://github.com/stdlib-js/stdlib/commit/e6adda297e305a79f5aca249d654cd197e8ec8bf) - **feat:** add `blas/base/wasm/dznrm2` [(#6795)](https://github.com/stdlib-js/stdlib/pull/6795) _(by Shabareesh Shetty, Athan Reines, stdlib-bot)_
+-   [`40e9eaa`](https://github.com/stdlib-js/stdlib/commit/40e9eaa2b7391c661a6bf953938b82adee3761bd) - **bench:** fix random value generation _(by Athan Reines)_
+-   [`1070a84`](https://github.com/stdlib-js/stdlib/commit/1070a840f5b25d142478ca21fce3109dd0dfc983) - **bench:** fix random value generation _(by Athan Reines)_
+-   [`9de8599`](https://github.com/stdlib-js/stdlib/commit/9de85992004be1bb16c4374f090bdbf4f1861928) - **bench:** fix random value generation _(by Athan Reines)_
+-   [`9dc4177`](https://github.com/stdlib-js/stdlib/commit/9dc4177ac62c2bfaa7db9f6168cb4b3846e8ea07) - **bench:** fix random value generation _(by Athan Reines)_
+-   [`e01e9d8`](https://github.com/stdlib-js/stdlib/commit/e01e9d8efc5ba72da1a68a6abf2d4058e6d89a02) - **docs:** use appropriate data type in string interpolation [(#7631)](https://github.com/stdlib-js/stdlib/pull/7631) _(by Shabareesh Shetty)_
+-   [`c9c2744`](https://github.com/stdlib-js/stdlib/commit/c9c274420d450483ea3518e73e5103961ec8f4b5) - **docs:** fix parameter name _(by Philipp Burckhardt)_
+-   [`c458860`](https://github.com/stdlib-js/stdlib/commit/c458860b027331d80f38f87461fb8f7e80283e39) - **refactor:** use smaller dtype _(by Athan Reines)_
+-   [`398570f`](https://github.com/stdlib-js/stdlib/commit/398570f2b74d19d9725a40e8c47f0a1e76af6f0a) - **refactor:** use smaller dtype _(by Athan Reines)_
+-   [`62ff36c`](https://github.com/stdlib-js/stdlib/commit/62ff36cb90d77208942f34b4bca9b592d6fb2093) - **docs:** remove returns annotations _(by Athan Reines)_
+-   [`63a51aa`](https://github.com/stdlib-js/stdlib/commit/63a51aa8549108ed0c1b50cef872ef9cc6f87311) - **docs:** remove returns annotations _(by Athan Reines)_
+-   [`2192700`](https://github.com/stdlib-js/stdlib/commit/21927004b3028a79326c41bd78e8dfe3d3044553) - **fix:** update path _(by Athan Reines)_
 -   [`0b41f37`](https://github.com/stdlib-js/stdlib/commit/0b41f37fd5a455514797c54480879da3fa06201f) - **feat:** add `isMatrixOrientation` to namespace _(by Athan Reines)_
 -   [`f5f4f53`](https://github.com/stdlib-js/stdlib/commit/f5f4f53480b1bfdf40b771f3720fecfa9a68911d) - **feat:** add `blas/base/assert/is-matrix-orientation` _(by Athan Reines)_
 -   [`0bc0123`](https://github.com/stdlib-js/stdlib/commit/0bc0123a316f3efc9ce8a97a4de24a98a7ad2bb8) - **feat:** add `CBLAS_ORIENT` type definition _(by Athan Reines)_
