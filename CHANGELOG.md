@@ -4,12 +4,17 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-07-16)
+## Unreleased (2025-08-18)
 
 <section class="features">
 
 ### Features
 
+-   [`f1ddfef`](https://github.com/stdlib-js/stdlib/commit/f1ddfef59e6460cd9f6505566434c2ed3dafa3df) - add `blas/base/gsyr` [(#7738)](https://github.com/stdlib-js/stdlib/pull/7738)
+-   [`f08a71f`](https://github.com/stdlib-js/stdlib/commit/f08a71f18d953ba2c911c17d506ab1e752c9f609) - add `blas/base/ggemm` [(#7847)](https://github.com/stdlib-js/stdlib/pull/7847)
+-   [`6177f03`](https://github.com/stdlib-js/stdlib/commit/6177f031124ddaf3fa330f2cffe453ec03b7ac60) - add `blas/base/ggemv` [(#7697)](https://github.com/stdlib-js/stdlib/pull/7697)
+-   [`0b79b81`](https://github.com/stdlib-js/stdlib/commit/0b79b81b45a018fa9a2f8a3a834164af9f944d40) - add `blas/base/ndarray/gdot` [(#7740)](https://github.com/stdlib-js/stdlib/pull/7740)
+-   [`4f94e60`](https://github.com/stdlib-js/stdlib/commit/4f94e6071dbc28c204f01b2aae41618cc0bfc60b) - add C implementation to `blas/base/ssyr` [(#7127)](https://github.com/stdlib-js/stdlib/pull/7127)
 -   [`9dc8cd1`](https://github.com/stdlib-js/stdlib/commit/9dc8cd1f528d402a9072014d9e54ac01172814ed) - add `gger` to namespace
 -   [`c807834`](https://github.com/stdlib-js/stdlib/commit/c8078342575813bde0e5cc0e37b54ac2b75e74b8) - add `blas/base/gger` [(#7629)](https://github.com/stdlib-js/stdlib/pull/7629)
 -   [`75e2622`](https://github.com/stdlib-js/stdlib/commit/75e2622f2a9c4a5f7b6fc639dcabe3129d9f6ca9) - add C implementation for `blas/base/dsyr2` [(#6572)](https://github.com/stdlib-js/stdlib/pull/6572)
@@ -265,6 +270,7 @@
 
 ### Bug Fixes
 
+-   [`785bc4c`](https://github.com/stdlib-js/stdlib/commit/785bc4c84dee00021ec5f0bad034bf99603ba5cb) - use correct stride in error message
 -   [`2192700`](https://github.com/stdlib-js/stdlib/commit/21927004b3028a79326c41bd78e8dfe3d3044553) - update path
 -   [`55fe412`](https://github.com/stdlib-js/stdlib/commit/55fe4127100d635e8c4b534e4d08565035c6d8ae) - rename fields to be more explicit
 -   [`2cb36f7`](https://github.com/stdlib-js/stdlib/commit/2cb36f78f8a2e23a6be89070c1c8c6c7d257a096) - update field name
@@ -482,6 +488,34 @@ A total of 9 issues were closed in this release:
 
 <details>
 
+-   [`e38f6c6`](https://github.com/stdlib-js/stdlib/commit/e38f6c6e0c0bccec552a2346c900e1f7711da7b0) - **test:** add user reference matrix [(#7895)](https://github.com/stdlib-js/stdlib/pull/7895) _(by Shabareesh Shetty)_
+-   [`f344466`](https://github.com/stdlib-js/stdlib/commit/f344466c6dcfb8f52d7f3148acaadd52772938da) - **test:** use .strictEqual() instead of .equal() and fix lint errors _(by Philipp Burckhardt)_
+-   [`f1ddfef`](https://github.com/stdlib-js/stdlib/commit/f1ddfef59e6460cd9f6505566434c2ed3dafa3df) - **feat:** add `blas/base/gsyr` [(#7738)](https://github.com/stdlib-js/stdlib/pull/7738) _(by Shabareesh Shetty, Athan Reines, stdlib-bot)_
+-   [`d293a23`](https://github.com/stdlib-js/stdlib/commit/d293a2321d3c9dc0c4e016cb890032d0b32d28fc) - **docs:** add missing periods _(by Philipp Burckhardt)_
+-   [`5f1cbd7`](https://github.com/stdlib-js/stdlib/commit/5f1cbd7f87b8f288a483a419b6eee93dd3d1a739) - **chore:** minor clean-up _(by Philipp Burckhardt)_
+-   [`f08a71f`](https://github.com/stdlib-js/stdlib/commit/f08a71f18d953ba2c911c17d506ab1e752c9f609) - **feat:** add `blas/base/ggemm` [(#7847)](https://github.com/stdlib-js/stdlib/pull/7847) _(by Shabareesh Shetty, Athan Reines, stdlib-bot)_
+-   [`12a15ec`](https://github.com/stdlib-js/stdlib/commit/12a15ece0351b7760ebed4fb8edfa669bd470118) - **docs:** fix function alias in example [(#7829)](https://github.com/stdlib-js/stdlib/pull/7829) _(by Shabareesh Shetty)_
+-   [`da7e4e4`](https://github.com/stdlib-js/stdlib/commit/da7e4e422963b771b74c3db51d0d081adee34724) - **docs:** fix arguments in example code _(by Philipp Burckhardt)_
+-   [`6177f03`](https://github.com/stdlib-js/stdlib/commit/6177f031124ddaf3fa330f2cffe453ec03b7ac60) - **feat:** add `blas/base/ggemv` [(#7697)](https://github.com/stdlib-js/stdlib/pull/7697) _(by Shabareesh Shetty, Athan Reines, stdlib-bot)_
+-   [`295ec84`](https://github.com/stdlib-js/stdlib/commit/295ec846a762e879e8e86aa6640530c92ab5e563) - **docs:** update descriptions _(by Athan Reines)_
+-   [`159a7bd`](https://github.com/stdlib-js/stdlib/commit/159a7bdca75971055131d61d5cb67a6856ec2d30) - **docs:** update descriptions _(by Athan Reines)_
+-   [`a384a64`](https://github.com/stdlib-js/stdlib/commit/a384a64b85c34cf2911bb01af7ae248649467037) - **docs:** update descriptions _(by Athan Reines)_
+-   [`c005d72`](https://github.com/stdlib-js/stdlib/commit/c005d72ccf277b527f30f691b557dc690ce7d7c7) - **docs:** ensure consistent capitalization _(by Athan Reines)_
+-   [`1582d42`](https://github.com/stdlib-js/stdlib/commit/1582d42f6efd18df7ae13857ff78ba73b65bdb7d) - **docs:** ensure consistent capitalization _(by Athan Reines)_
+-   [`0b79b81`](https://github.com/stdlib-js/stdlib/commit/0b79b81b45a018fa9a2f8a3a834164af9f944d40) - **feat:** add `blas/base/ndarray/gdot` [(#7740)](https://github.com/stdlib-js/stdlib/pull/7740) _(by Gururaj Gurram, Athan Reines)_
+-   [`f83b3c1`](https://github.com/stdlib-js/stdlib/commit/f83b3c136f2ecd76e4604f27059c60d391f1c2d5) - **bench:** update parameters for ndarray benchmarking [(#7732)](https://github.com/stdlib-js/stdlib/pull/7732) _(by Shabareesh Shetty)_
+-   [`11f3cfa`](https://github.com/stdlib-js/stdlib/commit/11f3cfa5a658d7cb105aeb2578b7d72ea62f1e97) - **refactor:** update include header guards for double precision real packages [(#7711)](https://github.com/stdlib-js/stdlib/pull/7711) _(by Shabareesh Shetty)_
+-   [`bfa899f`](https://github.com/stdlib-js/stdlib/commit/bfa899f1968bc5b112549fc3e839973744706297) - **refactor:** update include header guards for double precision complex packages [(#7709)](https://github.com/stdlib-js/stdlib/pull/7709) _(by Shabareesh Shetty)_
+-   [`d559fd7`](https://github.com/stdlib-js/stdlib/commit/d559fd70de9ec9b1d72d22543876f380e4062c69) - **refactor:** update include header guards for single precision real packages [(#7710)](https://github.com/stdlib-js/stdlib/pull/7710) _(by Shabareesh Shetty)_
+-   [`a9776fd`](https://github.com/stdlib-js/stdlib/commit/a9776fdca0331c293eade49bd195836fbb434999) - **refactor:** update include header guards for single precision complex packages [(#7708)](https://github.com/stdlib-js/stdlib/pull/7708) _(by Shabareesh Shetty)_
+-   [`f911d85`](https://github.com/stdlib-js/stdlib/commit/f911d85bd1fbe895bc360b5062ab7d7890029f48) - **refactor:** update include header guards for `blas/base/dsyr` [(#7689)](https://github.com/stdlib-js/stdlib/pull/7689) _(by Shabareesh Shetty)_
+-   [`099dca8`](https://github.com/stdlib-js/stdlib/commit/099dca8ca5d4ec5078cfc376b0533bd1dac34f95) - **docs:** fix method invocation in example _(by Athan Reines)_
+-   [`670819f`](https://github.com/stdlib-js/stdlib/commit/670819fd8dfa1f77eaeb50565311e2695d38d0b8) - **docs:** fix method invocation in example [(#7691)](https://github.com/stdlib-js/stdlib/pull/7691) _(by Shabareesh Shetty)_
+-   [`ade0259`](https://github.com/stdlib-js/stdlib/commit/ade02597cebc6c28007b5082d28abcf73c076e57) - **style:** remove leading empty line _(by Philipp Burckhardt)_
+-   [`785bc4c`](https://github.com/stdlib-js/stdlib/commit/785bc4c84dee00021ec5f0bad034bf99603ba5cb) - **fix:** use correct stride in error message _(by Philipp Burckhardt)_
+-   [`4f94e60`](https://github.com/stdlib-js/stdlib/commit/4f94e6071dbc28c204f01b2aae41618cc0bfc60b) - **feat:** add C implementation to `blas/base/ssyr` [(#7127)](https://github.com/stdlib-js/stdlib/pull/7127) _(by Shabareesh Shetty, Athan Reines)_
+-   [`bbcd10e`](https://github.com/stdlib-js/stdlib/commit/bbcd10e4612d8b164f5716b1a3d79aecba358548) - **docs:** fix parameter name _(by Athan Reines)_
+-   [`f892202`](https://github.com/stdlib-js/stdlib/commit/f89220228daf5c84c2a5cfdcc03633ac2cc78a7c) - **docs:** fix description _(by Athan Reines)_
 -   [`9dc8cd1`](https://github.com/stdlib-js/stdlib/commit/9dc8cd1f528d402a9072014d9e54ac01172814ed) - **feat:** add `gger` to namespace _(by Athan Reines)_
 -   [`c807834`](https://github.com/stdlib-js/stdlib/commit/c8078342575813bde0e5cc0e37b54ac2b75e74b8) - **feat:** add `blas/base/gger` [(#7629)](https://github.com/stdlib-js/stdlib/pull/7629) _(by Shabareesh Shetty, Athan Reines, stdlib-bot)_
 -   [`92d4b33`](https://github.com/stdlib-js/stdlib/commit/92d4b337fe0f7aed4e2adaeb57da42ec639cff38) - **docs:** fix descriptions _(by Athan Reines)_
