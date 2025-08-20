@@ -4,12 +4,15 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-08-18)
+## Unreleased (2025-08-20)
 
 <section class="features">
 
 ### Features
 
+-   [`20e035e`](https://github.com/stdlib-js/stdlib/commit/20e035e834102c1d18a354a5a61d0759cd78cddf) - add missing functions to namespace
+-   [`21e7e6c`](https://github.com/stdlib-js/stdlib/commit/21e7e6cc8eae3e8e3306dd7cbdbd4af634173a0e) - add `blas/base/ndarray/sdot` [(#7907)](https://github.com/stdlib-js/stdlib/pull/7907)
+-   [`e66b879`](https://github.com/stdlib-js/stdlib/commit/e66b8795bb85a7bcab4c7af5aecbaa5529b6626c) - add `blas/base/ndarray/ddot` [(#7906)](https://github.com/stdlib-js/stdlib/pull/7906)
 -   [`f1ddfef`](https://github.com/stdlib-js/stdlib/commit/f1ddfef59e6460cd9f6505566434c2ed3dafa3df) - add `blas/base/gsyr` [(#7738)](https://github.com/stdlib-js/stdlib/pull/7738)
 -   [`f08a71f`](https://github.com/stdlib-js/stdlib/commit/f08a71f18d953ba2c911c17d506ab1e752c9f609) - add `blas/base/ggemm` [(#7847)](https://github.com/stdlib-js/stdlib/pull/7847)
 -   [`6177f03`](https://github.com/stdlib-js/stdlib/commit/6177f031124ddaf3fa330f2cffe453ec03b7ac60) - add `blas/base/ggemv` [(#7697)](https://github.com/stdlib-js/stdlib/pull/7697)
@@ -270,6 +273,7 @@
 
 ### Bug Fixes
 
+-   [`933ae5e`](https://github.com/stdlib-js/stdlib/commit/933ae5eaa70b01019a3b8880d2666dddbd129298) - remove xerbla from namespaces
 -   [`785bc4c`](https://github.com/stdlib-js/stdlib/commit/785bc4c84dee00021ec5f0bad034bf99603ba5cb) - use correct stride in error message
 -   [`2192700`](https://github.com/stdlib-js/stdlib/commit/21927004b3028a79326c41bd78e8dfe3d3044553) - update path
 -   [`55fe412`](https://github.com/stdlib-js/stdlib/commit/55fe4127100d635e8c4b534e4d08565035c6d8ae) - rename fields to be more explicit
@@ -488,6 +492,16 @@ A total of 9 issues were closed in this release:
 
 <details>
 
+-   [`933ae5e`](https://github.com/stdlib-js/stdlib/commit/933ae5eaa70b01019a3b8880d2666dddbd129298) - **fix:** remove xerbla from namespaces _(by Philipp Burckhardt)_
+-   [`5acfd64`](https://github.com/stdlib-js/stdlib/commit/5acfd64326637640433a7e3ffc5d101db23ab1d8) - **docs:** fix example code _(by Philipp Burckhardt)_
+-   [`aaee349`](https://github.com/stdlib-js/stdlib/commit/aaee349836bc2324f9ce4e3428bc5828f28e372c) - **docs:** round return annotation values correctly _(by Philipp Burckhardt)_
+-   [`cedc9bb`](https://github.com/stdlib-js/stdlib/commit/cedc9bb0f92c950200128079cac8ab1da99ec7ed) - **docs:** fix example code _(by Philipp Burckhardt)_
+-   [`20e035e`](https://github.com/stdlib-js/stdlib/commit/20e035e834102c1d18a354a5a61d0759cd78cddf) - **feat:** add missing functions to namespace _(by Philipp Burckhardt)_
+-   [`4977993`](https://github.com/stdlib-js/stdlib/commit/4977993a257fde660b0f8c5678ab0c8d6e26538a) - **docs:** fix example code _(by Philipp Burckhardt)_
+-   [`21e7e6c`](https://github.com/stdlib-js/stdlib/commit/21e7e6cc8eae3e8e3306dd7cbdbd4af634173a0e) - **feat:** add `blas/base/ndarray/sdot` [(#7907)](https://github.com/stdlib-js/stdlib/pull/7907) _(by Gururaj Gurram, Athan Reines)_
+-   [`fa35502`](https://github.com/stdlib-js/stdlib/commit/fa355021abc829672cea53bbf10dc3a26bbf4ac7) - **docs:** remove comment _(by Athan Reines)_
+-   [`e66b879`](https://github.com/stdlib-js/stdlib/commit/e66b8795bb85a7bcab4c7af5aecbaa5529b6626c) - **feat:** add `blas/base/ndarray/ddot` [(#7906)](https://github.com/stdlib-js/stdlib/pull/7906) _(by Gururaj Gurram, Athan Reines)_
+-   [`8cea287`](https://github.com/stdlib-js/stdlib/commit/8cea2870cc30848a616b76259b3274caae387b10) - **docs:** fix return annotation values _(by Philipp Burckhardt)_
 -   [`e38f6c6`](https://github.com/stdlib-js/stdlib/commit/e38f6c6e0c0bccec552a2346c900e1f7711da7b0) - **test:** add user reference matrix [(#7895)](https://github.com/stdlib-js/stdlib/pull/7895) _(by Shabareesh Shetty)_
 -   [`f344466`](https://github.com/stdlib-js/stdlib/commit/f344466c6dcfb8f52d7f3148acaadd52772938da) - **test:** use .strictEqual() instead of .equal() and fix lint errors _(by Philipp Burckhardt)_
 -   [`f1ddfef`](https://github.com/stdlib-js/stdlib/commit/f1ddfef59e6460cd9f6505566434c2ed3dafa3df) - **feat:** add `blas/base/gsyr` [(#7738)](https://github.com/stdlib-js/stdlib/pull/7738) _(by Shabareesh Shetty, Athan Reines, stdlib-bot)_
