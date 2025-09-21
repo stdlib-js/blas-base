@@ -4,12 +4,19 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-08-20)
+## Unreleased (2025-09-21)
 
 <section class="features">
 
 ### Features
 
+-   [`08ff2de`](https://github.com/stdlib-js/stdlib/commit/08ff2de759f79583df55a39c58c7e94d05d1149e) - update `blas/base` TypeScript declarations
+-   [`30e0dfd`](https://github.com/stdlib-js/stdlib/commit/30e0dfd038ad78b093a6250982e40e8685c5775a) - update `blas/base/wasm` TypeScript declarations
+-   [`d78ef70`](https://github.com/stdlib-js/stdlib/commit/d78ef70c653ac6ea86d6bf93e3e6af5fc97aa18f) - update `blas/base/assert` TypeScript declarations
+-   [`68d2365`](https://github.com/stdlib-js/stdlib/commit/68d23656d0335ed8f30f86c2548c699a5a988502) - add C and Fortran implementation for `blas/base/zdscal` [(#7086)](https://github.com/stdlib-js/stdlib/pull/7086)
+-   [`ab94c83`](https://github.com/stdlib-js/stdlib/commit/ab94c83ad9d32ce492cb65a0146bb6408973b478) - add `blas/base/wasm/zscal` [(#6810)](https://github.com/stdlib-js/stdlib/pull/6810)
+-   [`9861705`](https://github.com/stdlib-js/stdlib/commit/986170553f7fa289eca57e9aedbd194f7a70c420) - add C implementation for `blas/base/ssyr2` [(#2880)](https://github.com/stdlib-js/stdlib/pull/2880)
+-   [`e457e47`](https://github.com/stdlib-js/stdlib/commit/e457e479937148f7c056b3717a913dd8e02bf9fe) - add C implementation for `blas/base/zaxpy` [(#7594)](https://github.com/stdlib-js/stdlib/pull/7594)
 -   [`20e035e`](https://github.com/stdlib-js/stdlib/commit/20e035e834102c1d18a354a5a61d0759cd78cddf) - add missing functions to namespace
 -   [`21e7e6c`](https://github.com/stdlib-js/stdlib/commit/21e7e6cc8eae3e8e3306dd7cbdbd4af634173a0e) - add `blas/base/ndarray/sdot` [(#7907)](https://github.com/stdlib-js/stdlib/pull/7907)
 -   [`e66b879`](https://github.com/stdlib-js/stdlib/commit/e66b8795bb85a7bcab4c7af5aecbaa5529b6626c) - add `blas/base/ndarray/ddot` [(#7906)](https://github.com/stdlib-js/stdlib/pull/7906)
@@ -273,6 +280,7 @@
 
 ### Bug Fixes
 
+-   [`15d72a1`](https://github.com/stdlib-js/stdlib/commit/15d72a11d2c316d6e07e667eea6a8ca69156dfd1) - update error messages and fix parameter name
 -   [`933ae5e`](https://github.com/stdlib-js/stdlib/commit/933ae5eaa70b01019a3b8880d2666dddbd129298) - remove xerbla from namespaces
 -   [`785bc4c`](https://github.com/stdlib-js/stdlib/commit/785bc4c84dee00021ec5f0bad034bf99603ba5cb) - use correct stride in error message
 -   [`2192700`](https://github.com/stdlib-js/stdlib/commit/21927004b3028a79326c41bd78e8dfe3d3044553) - update path
@@ -492,6 +500,17 @@ A total of 9 issues were closed in this release:
 
 <details>
 
+-   [`08ff2de`](https://github.com/stdlib-js/stdlib/commit/08ff2de759f79583df55a39c58c7e94d05d1149e) - **feat:** update `blas/base` TypeScript declarations _(by Philipp Burckhardt)_
+-   [`30e0dfd`](https://github.com/stdlib-js/stdlib/commit/30e0dfd038ad78b093a6250982e40e8685c5775a) - **feat:** update `blas/base/wasm` TypeScript declarations _(by Philipp Burckhardt)_
+-   [`d78ef70`](https://github.com/stdlib-js/stdlib/commit/d78ef70c653ac6ea86d6bf93e3e6af5fc97aa18f) - **feat:** update `blas/base/assert` TypeScript declarations _(by Philipp Burckhardt)_
+-   [`82be305`](https://github.com/stdlib-js/stdlib/commit/82be305dfecc75ac71e18dbed841aa6f8022e7be) - **docs:** clean-up TSDoc examples _(by Philipp Burckhardt)_
+-   [`68d2365`](https://github.com/stdlib-js/stdlib/commit/68d23656d0335ed8f30f86c2548c699a5a988502) - **feat:** add C and Fortran implementation for `blas/base/zdscal` [(#7086)](https://github.com/stdlib-js/stdlib/pull/7086) _(by Shabareesh Shetty, Athan Reines, stdlib-bot)_
+-   [`1891116`](https://github.com/stdlib-js/stdlib/commit/1891116f31ac5680c4349c2159bb5d115e6239ae) - **docs:** minor clean-up _(by Philipp Burckhardt)_
+-   [`ab94c83`](https://github.com/stdlib-js/stdlib/commit/ab94c83ad9d32ce492cb65a0146bb6408973b478) - **feat:** add `blas/base/wasm/zscal` [(#6810)](https://github.com/stdlib-js/stdlib/pull/6810) _(by Shabareesh Shetty, Athan Reines, stdlib-bot)_
+-   [`4dc4f6c`](https://github.com/stdlib-js/stdlib/commit/4dc4f6c755105fa814122e27b0da02a982f7118b) - **refactor:** update implementation for `blas/base/ssymv` [(#2843)](https://github.com/stdlib-js/stdlib/pull/2843) _(by Aman Bhansali, Athan Reines, Shabareesh Shetty, stdlib-bot)_
+-   [`9861705`](https://github.com/stdlib-js/stdlib/commit/986170553f7fa289eca57e9aedbd194f7a70c420) - **feat:** add C implementation for `blas/base/ssyr2` [(#2880)](https://github.com/stdlib-js/stdlib/pull/2880) _(by Aman Bhansali, Athan Reines, Shabareesh Shetty)_
+-   [`15d72a1`](https://github.com/stdlib-js/stdlib/commit/15d72a11d2c316d6e07e667eea6a8ca69156dfd1) - **fix:** update error messages and fix parameter name _(by Athan Reines)_
+-   [`e457e47`](https://github.com/stdlib-js/stdlib/commit/e457e479937148f7c056b3717a913dd8e02bf9fe) - **feat:** add C implementation for `blas/base/zaxpy` [(#7594)](https://github.com/stdlib-js/stdlib/pull/7594) _(by Shabareesh Shetty, Athan Reines, stdlib-bot)_
 -   [`933ae5e`](https://github.com/stdlib-js/stdlib/commit/933ae5eaa70b01019a3b8880d2666dddbd129298) - **fix:** remove xerbla from namespaces _(by Philipp Burckhardt)_
 -   [`5acfd64`](https://github.com/stdlib-js/stdlib/commit/5acfd64326637640433a7e3ffc5d101db23ab1d8) - **docs:** fix example code _(by Philipp Burckhardt)_
 -   [`aaee349`](https://github.com/stdlib-js/stdlib/commit/aaee349836bc2324f9ce4e3428bc5828f28e372c) - **docs:** round return annotation values correctly _(by Philipp Burckhardt)_

@@ -195,6 +195,7 @@
     "@stdlib/complex-float64-ctor": "^0.0.3",
     "@stdlib/complex-float64-imag": "^0.1.1",
     "@stdlib/complex-float64-real": "^0.1.1",
+    "@stdlib/complex-float64-reim": "^0.1.2",
     "@stdlib/console-log-each": "^0.2.2",
     "@stdlib/constants-float32-eps": "^0.2.2",
     "@stdlib/constants-float32-max": "^0.2.2",
