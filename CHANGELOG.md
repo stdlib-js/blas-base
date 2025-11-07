@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-09-21)
+## Unreleased (2025-11-07)
 
 <section class="features">
 
@@ -486,9 +486,9 @@
 
 ### Closed Issues
 
-A total of 9 issues were closed in this release:
+A total of 11 issues were closed in this release:
 
-[#276](https://github.com/stdlib-js/stdlib/issues/276), [#277](https://github.com/stdlib-js/stdlib/issues/277), [#2047](https://github.com/stdlib-js/stdlib/issues/2047), [#2543](https://github.com/stdlib-js/stdlib/issues/2543), [#2792](https://github.com/stdlib-js/stdlib/issues/2792), [#5440](https://github.com/stdlib-js/stdlib/issues/5440), [#5905](https://github.com/stdlib-js/stdlib/issues/5905), [#6992](https://github.com/stdlib-js/stdlib/issues/6992), [#7032](https://github.com/stdlib-js/stdlib/issues/7032)
+[#276](https://github.com/stdlib-js/stdlib/issues/276), [#277](https://github.com/stdlib-js/stdlib/issues/277), [#2047](https://github.com/stdlib-js/stdlib/issues/2047), [#2543](https://github.com/stdlib-js/stdlib/issues/2543), [#2792](https://github.com/stdlib-js/stdlib/issues/2792), [#5440](https://github.com/stdlib-js/stdlib/issues/5440), [#5905](https://github.com/stdlib-js/stdlib/issues/5905), [#6992](https://github.com/stdlib-js/stdlib/issues/6992), [#7032](https://github.com/stdlib-js/stdlib/issues/7032), [#8195](https://github.com/stdlib-js/stdlib/issues/8195), [#8357](https://github.com/stdlib-js/stdlib/issues/8357)
 
 </section>
 
@@ -500,6 +500,12 @@ A total of 9 issues were closed in this release:
 
 <details>
 
+-   [`5f5bb2d`](https://github.com/stdlib-js/stdlib/commit/5f5bb2d4277a24000b57fb07bc28d821500cd7e8) - **docs:** update namespace table of contents [(#8425)](https://github.com/stdlib-js/stdlib/pull/8425) _(by stdlib-bot, Athan Reines)_
+-   [`2ec7e51`](https://github.com/stdlib-js/stdlib/commit/2ec7e5165cab5afc566fe1a337b67c8bd9335cf2) - **style:** remove whitespace [(#8370)](https://github.com/stdlib-js/stdlib/pull/8370) _(by anujmishra03, Athan Reines)_
+-   [`53ffc05`](https://github.com/stdlib-js/stdlib/commit/53ffc054bf593936293c275279ceab2e17c45973) - **chore:** fix JavaScript lint errors [(#8211)](https://github.com/stdlib-js/stdlib/pull/8211) _(by Payal Goswami)_
+-   [`d94514b`](https://github.com/stdlib-js/stdlib/commit/d94514bc9418f5b42df6233204d5005d53af00ca) - **docs:** clean-up TSDoc declaration comments _(by Philipp Burckhardt)_
+-   [`b7c2031`](https://github.com/stdlib-js/stdlib/commit/b7c20312491bdcf54ffc681e5fe489b9ba3d059c) - **docs:** clean-up TSDoc declaration comments _(by Philipp Burckhardt)_
+-   [`8317b7f`](https://github.com/stdlib-js/stdlib/commit/8317b7f2c2eb21b2f36d734bfd853d7bc75d10a9) - **style:** remove empty line [(#8122)](https://github.com/stdlib-js/stdlib/pull/8122) _(by stdlib-bot)_
 -   [`08ff2de`](https://github.com/stdlib-js/stdlib/commit/08ff2de759f79583df55a39c58c7e94d05d1149e) - **feat:** update `blas/base` TypeScript declarations _(by Philipp Burckhardt)_
 -   [`30e0dfd`](https://github.com/stdlib-js/stdlib/commit/30e0dfd038ad78b093a6250982e40e8685c5775a) - **feat:** update `blas/base/wasm` TypeScript declarations _(by Philipp Burckhardt)_
 -   [`d78ef70`](https://github.com/stdlib-js/stdlib/commit/d78ef70c653ac6ea86d6bf93e3e6af5fc97aa18f) - **feat:** update `blas/base/assert` TypeScript declarations _(by Philipp Burckhardt)_
@@ -1290,7 +1296,7 @@ A total of 9 issues were closed in this release:
 
 ### Contributors
 
-A total of 15 people contributed to this release. Thank you to the following contributors:
+A total of 17 people contributed to this release. Thank you to the following contributors:
 
 -   Aayush Khanna
 -   Aman Bhansali
@@ -1299,6 +1305,7 @@ A total of 15 people contributed to this release. Thank you to the following con
 -   Hemant M Mehta
 -   Lalit Narayan Yadav
 -   Muhammad Haris
+-   Payal Goswami
 -   Philipp Burckhardt
 -   Pranav Goswami
 -   Ricky Reusser
@@ -1307,6 +1314,7 @@ A total of 15 people contributed to this release. Thank you to the following con
 -   Saurabh Singh
 -   Shabareesh Shetty
 -   Uday Kakade
+-   anujmishra03
 
 </section>
 
