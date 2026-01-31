@@ -2,9 +2,9 @@
 
 > Package changelog.
 
-<section class="release" id="unreleased">
+<section class="release" id="v0.3.0">
 
-## Unreleased (2025-12-01)
+## 0.3.0 (2026-01-31)
 
 <section class="features">
 
@@ -280,6 +280,7 @@
 
 ### Bug Fixes
 
+-   [`600afbd`](https://github.com/stdlib-js/stdlib/commit/600afbd33e98dfe849a1232e00080a6d9adf7fda) - return correct parameter [(#9368)](https://github.com/stdlib-js/stdlib/pull/9368)
 -   [`258a8a9`](https://github.com/stdlib-js/stdlib/commit/258a8a9dc4341c90796f4dcabede0eba149d09c4) - ensure correct `this` context when creating a new Module instance
 -   [`e8977d9`](https://github.com/stdlib-js/stdlib/commit/e8977d9abad1e2eda67f94f4950e042374608544) - ensure correct `this` context when creating a new Module instance
 -   [`8ece787`](https://github.com/stdlib-js/stdlib/commit/8ece787eae84c27b4018185aaba3371eea94fa99) - ensure correct `this` context when creating a new Module instance
@@ -519,9 +520,9 @@
 
 ### Closed Issues
 
-A total of 12 issues were closed in this release:
+A total of 30 issues were closed in this release:
 
-[#276](https://github.com/stdlib-js/stdlib/issues/276), [#277](https://github.com/stdlib-js/stdlib/issues/277), [#2047](https://github.com/stdlib-js/stdlib/issues/2047), [#2543](https://github.com/stdlib-js/stdlib/issues/2543), [#2792](https://github.com/stdlib-js/stdlib/issues/2792), [#5440](https://github.com/stdlib-js/stdlib/issues/5440), [#5905](https://github.com/stdlib-js/stdlib/issues/5905), [#6992](https://github.com/stdlib-js/stdlib/issues/6992), [#7032](https://github.com/stdlib-js/stdlib/issues/7032), [#8195](https://github.com/stdlib-js/stdlib/issues/8195), [#8357](https://github.com/stdlib-js/stdlib/issues/8357), [#8443](https://github.com/stdlib-js/stdlib/issues/8443)
+[#276](https://github.com/stdlib-js/stdlib/issues/276), [#277](https://github.com/stdlib-js/stdlib/issues/277), [#2047](https://github.com/stdlib-js/stdlib/issues/2047), [#2543](https://github.com/stdlib-js/stdlib/issues/2543), [#2792](https://github.com/stdlib-js/stdlib/issues/2792), [#5440](https://github.com/stdlib-js/stdlib/issues/5440), [#5905](https://github.com/stdlib-js/stdlib/issues/5905), [#6992](https://github.com/stdlib-js/stdlib/issues/6992), [#7032](https://github.com/stdlib-js/stdlib/issues/7032), [#8195](https://github.com/stdlib-js/stdlib/issues/8195), [#8265](https://github.com/stdlib-js/stdlib/issues/8265), [#8357](https://github.com/stdlib-js/stdlib/issues/8357), [#8443](https://github.com/stdlib-js/stdlib/issues/8443), [#8700](https://github.com/stdlib-js/stdlib/issues/8700), [#9108](https://github.com/stdlib-js/stdlib/issues/9108), [#9125](https://github.com/stdlib-js/stdlib/issues/9125), [#9130](https://github.com/stdlib-js/stdlib/issues/9130), [#9131](https://github.com/stdlib-js/stdlib/issues/9131), [#9132](https://github.com/stdlib-js/stdlib/issues/9132), [#9133](https://github.com/stdlib-js/stdlib/issues/9133), [#9134](https://github.com/stdlib-js/stdlib/issues/9134), [#9135](https://github.com/stdlib-js/stdlib/issues/9135), [#9136](https://github.com/stdlib-js/stdlib/issues/9136), [#9137](https://github.com/stdlib-js/stdlib/issues/9137), [#9138](https://github.com/stdlib-js/stdlib/issues/9138), [#9139](https://github.com/stdlib-js/stdlib/issues/9139), [#9140](https://github.com/stdlib-js/stdlib/issues/9140), [#9235](https://github.com/stdlib-js/stdlib/issues/9235), [#9236](https://github.com/stdlib-js/stdlib/issues/9236), [#9897](https://github.com/stdlib-js/stdlib/issues/9897)
 
 </section>
 
@@ -533,6 +534,53 @@ A total of 12 issues were closed in this release:
 
 <details>
 
+-   [`4018ee6`](https://github.com/stdlib-js/stdlib/commit/4018ee617715d836b7cc1dd3ab5861b5ff1d5b6e) - **bench:** fix name _(by Athan Reines)_
+-   [`3a975ff`](https://github.com/stdlib-js/stdlib/commit/3a975ff10be645021132858cbea5e588afdfaa38) - **bench:** fix name _(by Athan Reines)_
+-   [`085eb24`](https://github.com/stdlib-js/stdlib/commit/085eb2426b60071db157a9ae63e0ff85797e134f) - **chore:** fix JavaScript lint errors [(#9900)](https://github.com/stdlib-js/stdlib/pull/9900) _(by Suyash Pathak, Athan Reines)_
+-   [`4026f6b`](https://github.com/stdlib-js/stdlib/commit/4026f6b885a77192ae147c6314c691db8d375f26) - **docs:** add references _(by Athan Reines)_
+-   [`2035f34`](https://github.com/stdlib-js/stdlib/commit/2035f344a1a469278042b7532f034dc6119933b3) - **docs:** add function documentation _(by Athan Reines)_
+-   [`46c47ec`](https://github.com/stdlib-js/stdlib/commit/46c47ec0c92f9a3608290ef8a6ca5cf0e9258866) - **refactor:** update paths _(by Neeraj Pathak)_
+-   [`600afbd`](https://github.com/stdlib-js/stdlib/commit/600afbd33e98dfe849a1232e00080a6d9adf7fda) - **fix:** return correct parameter [(#9368)](https://github.com/stdlib-js/stdlib/pull/9368) _(by Gururaj Gurram)_
+-   [`29fc92b`](https://github.com/stdlib-js/stdlib/commit/29fc92b2cfc9285b1f8eb6ad0623e520168efa9c) - **bench:** refactor to use dynamic memory allocation in `blas/base/dsdot` [(#9309)](https://github.com/stdlib-js/stdlib/pull/9309) _(by Yohan Park, Athan Reines)_
+-   [`8c17399`](https://github.com/stdlib-js/stdlib/commit/8c17399ca9130b6cc74048bf65448eff78b7dfd2) - **docs:** fix broken Markdown link [(#9173)](https://github.com/stdlib-js/stdlib/pull/9173) _(by Sujal charati)_
+-   [`623b764`](https://github.com/stdlib-js/stdlib/commit/623b7649bc363bece2174f2fb260fdaa71d77277) - **docs:** fix broken Markdown link [(#9172)](https://github.com/stdlib-js/stdlib/pull/9172) _(by Sujal charati)_
+-   [`de79f2b`](https://github.com/stdlib-js/stdlib/commit/de79f2b123f348e81efa6fe53f5cb55d08dba3c4) - **docs:** fix broken Markdown link [(#9167)](https://github.com/stdlib-js/stdlib/pull/9167) _(by Manit Roy, Philipp Burckhardt)_
+-   [`2033404`](https://github.com/stdlib-js/stdlib/commit/2033404ed14bcff12b0590df0c96de52bf4d4bb9) - **docs:** fix broken Markdown link [(#9171)](https://github.com/stdlib-js/stdlib/pull/9171) _(by Sujal charati)_
+-   [`dd5de21`](https://github.com/stdlib-js/stdlib/commit/dd5de2167d0e95c4065ae262c72226bd3ebf1f91) - **docs:** fix broken Markdown link [(#9166)](https://github.com/stdlib-js/stdlib/pull/9166) _(by Sujal charati)_
+-   [`ebd03c2`](https://github.com/stdlib-js/stdlib/commit/ebd03c2397241d6aa16f78b5d318af8faec41531) - **docs:** fix broken Markdown link [(#9168)](https://github.com/stdlib-js/stdlib/pull/9168) _(by Sujal charati)_
+-   [`1fb7f34`](https://github.com/stdlib-js/stdlib/commit/1fb7f343b7bf44233dcdf2207e8055fff5e43dbc) - **chore:** address commit comments [(#9241)](https://github.com/stdlib-js/stdlib/pull/9241) _(by DivitJain26)_
+-   [`c0aae8f`](https://github.com/stdlib-js/stdlib/commit/c0aae8f567edd8e5ea8f0f5aace75f2a8a141009) - **chore:** address commit comments [(#9242)](https://github.com/stdlib-js/stdlib/pull/9242) _(by DivitJain26)_
+-   [`6cc55bb`](https://github.com/stdlib-js/stdlib/commit/6cc55bbc6957bdf2c26330dcd566f20db3f28bad) - **bench:** refactor to use dynamic memory allocation in `blas/base/dsyr` [(#9211)](https://github.com/stdlib-js/stdlib/pull/9211) _(by Samarth Kolarkar, Athan Reines)_
+-   [`c0665d3`](https://github.com/stdlib-js/stdlib/commit/c0665d30371329f38dd6cd07ae8f4954bb831f42) - **docs:** fix broken Markdown link [(#9164)](https://github.com/stdlib-js/stdlib/pull/9164) _(by Manit Roy)_
+-   [`a4c852e`](https://github.com/stdlib-js/stdlib/commit/a4c852e7b5f111798b4c85218e94b293d1c96b65) - **bench:** refactor to use dynamic memory allocation [(#9213)](https://github.com/stdlib-js/stdlib/pull/9213) _(by Samarth Kolarkar)_
+-   [`3633d58`](https://github.com/stdlib-js/stdlib/commit/3633d5834de17c392e5fb5bb2a3b45198da52831) - **bench:** refactor to use dynamic memory allocation [(#9218)](https://github.com/stdlib-js/stdlib/pull/9218) _(by Samarth Kolarkar)_
+-   [`d53a54e`](https://github.com/stdlib-js/stdlib/commit/d53a54e14e5c74531c5a181cf183dc92c643d65d) - **bench:** refactor to use dynamic memory allocation [(#9219)](https://github.com/stdlib-js/stdlib/pull/9219) _(by Samarth Kolarkar)_
+-   [`4f36427`](https://github.com/stdlib-js/stdlib/commit/4f3642777584bc664945dc190cb2f568a984a0ac) - **bench:** refactor to use dynamic memory allocation in `blas/base/cswap` [(#9226)](https://github.com/stdlib-js/stdlib/pull/9226) _(by piyxsh31)_
+-   [`8a20a3e`](https://github.com/stdlib-js/stdlib/commit/8a20a3e35f760bc807bdd9cf3916c660b90b1dd0) - **docs:** fix broken Markdown links in `zswap`, `ssyr2`, and `assert` packages [(#9161)](https://github.com/stdlib-js/stdlib/pull/9161) _(by Almunazza, Philipp Burckhardt)_
+-   [`540a83e`](https://github.com/stdlib-js/stdlib/commit/540a83e5de5378d3c74ab97ee4ce92517fa00a56) - **docs:** fix broken Markdown link [(#9170)](https://github.com/stdlib-js/stdlib/pull/9170) _(by Manit Roy)_
+-   [`160d77b`](https://github.com/stdlib-js/stdlib/commit/160d77b7424aafbc8b30bdad10112f40f2010a98) - **docs:** fix broken Markdown link [(#9175)](https://github.com/stdlib-js/stdlib/pull/9175) _(by Sujal charati)_
+-   [`ea9f072`](https://github.com/stdlib-js/stdlib/commit/ea9f072b321a395594b7904a11807f7f78d09b28) - **bench:** refactor to use dynamic memory allocation in `blas/base/csrot` [(#9090)](https://github.com/stdlib-js/stdlib/pull/9090) _(by Ishwar, Athan Reines)_
+-   [`601434c`](https://github.com/stdlib-js/stdlib/commit/601434cd743a76e8079c58b39d406adbb5638657) - **chore:** fix JavaScript lint errors [(#9114)](https://github.com/stdlib-js/stdlib/pull/9114) _(by Rohit R Bhat)_
+-   [`1dc9764`](https://github.com/stdlib-js/stdlib/commit/1dc9764dfb9e7e2435f9f0cc1e4d451fa5d6c78e) - **bench:** refactor to use dynamic memory allocation in `blas/base/drotm` [(#9088)](https://github.com/stdlib-js/stdlib/pull/9088) _(by anee3)_
+-   [`e57055b`](https://github.com/stdlib-js/stdlib/commit/e57055b3156cd61492450c6ef263771e481df0e9) - **bench:** refactor to use dynamic memory allocation in `blas/base/ccopy` [(#8922)](https://github.com/stdlib-js/stdlib/pull/8922) _(by Ishwar, Athan Reines)_
+-   [`8ffe947`](https://github.com/stdlib-js/stdlib/commit/8ffe947c0f22228a49d41ee15ca9daea6d25a9f4) - **bench:** refactor to use dynamic memory allocation in `blas/base/cscal` [(#8887)](https://github.com/stdlib-js/stdlib/pull/8887) _(by Ishwar, Athan Reines)_
+-   [`74cc5b7`](https://github.com/stdlib-js/stdlib/commit/74cc5b707c7b46cecda166f2a6b4b40e722a29bd) - **bench:** refactor to use dynamic memory allocation in `blas/base/caxpy` [(#8885)](https://github.com/stdlib-js/stdlib/pull/8885) _(by Ishwar)_
+-   [`7eab9c5`](https://github.com/stdlib-js/stdlib/commit/7eab9c55ef559183a133a94a644daf4cf8d25ad9) - **bench:** refactor to use dynamic memory allocation in `blas/base/dswap` [(#8820)](https://github.com/stdlib-js/stdlib/pull/8820) _(by Krishna Awasthi)_
+-   [`0ea23ed`](https://github.com/stdlib-js/stdlib/commit/0ea23ed7a9be84a6e534984b7a5de2e5cdadfa5a) - **bench:** add missing docblock in `blas/base/sscal` _(by Philipp Burckhardt)_
+-   [`d3f52bb`](https://github.com/stdlib-js/stdlib/commit/d3f52bbb4e2257902fa8c19ec43e9c561833ff42) - **bench:** add missing float literal suffix in `blas/base/isamax` _(by Philipp Burckhardt)_
+-   [`e924862`](https://github.com/stdlib-js/stdlib/commit/e924862135cc2cd2d1dbee6fe94fdefb5e8ae8fe) - **bench:** refactor to use dynamic memory allocation in `blas/base/snrm2` [(#8818)](https://github.com/stdlib-js/stdlib/pull/8818) _(by Krishna Awasthi, Athan Reines)_
+-   [`67088b9`](https://github.com/stdlib-js/stdlib/commit/67088b9007a9543c3672f6b3c3710bd12f315501) - **bench:** refactor to use dynamic memory allocation in `blas/base/sasum` [(#8817)](https://github.com/stdlib-js/stdlib/pull/8817) _(by Krishna Awasthi, Athan Reines)_
+-   [`7dd0179`](https://github.com/stdlib-js/stdlib/commit/7dd017988d1db6401aaa7ca1ec9590dc6aa1e011) - **bench:** refactor to use dynamic memory allocation in `blas/base/sscal` [(#8819)](https://github.com/stdlib-js/stdlib/pull/8819) _(by Krishna Awasthi)_
+-   [`60b2261`](https://github.com/stdlib-js/stdlib/commit/60b2261376b1b45cba645edff4dc566f50de0f58) - **bench:** refactor to use dynamic memory allocation in `blas/base/isamax` [(#8816)](https://github.com/stdlib-js/stdlib/pull/8816) _(by Krishna Awasthi)_
+-   [`910cbfb`](https://github.com/stdlib-js/stdlib/commit/910cbfbf4c26253a403eb67512b6799ae8f3580e) - **bench:** refactor to use dynamic memory allocation in `blas/base/dscal` [(#8814)](https://github.com/stdlib-js/stdlib/pull/8814) _(by Krishna Awasthi)_
+-   [`172a0b9`](https://github.com/stdlib-js/stdlib/commit/172a0b9697fd21193a8b638c02f1d0774db8f6a3) - **bench:** refactor to use dynamic memory allocation in `blas/base/dnrm2` [(#8813)](https://github.com/stdlib-js/stdlib/pull/8813) _(by Krishna Awasthi)_
+-   [`72cb0d7`](https://github.com/stdlib-js/stdlib/commit/72cb0d719966736444cda29320021f5cc74090cd) - **bench:** refactor to use dynamic memory allocation in `blas/base/idamax` [(#8815)](https://github.com/stdlib-js/stdlib/pull/8815) _(by Krishna Awasthi)_
+-   [`09c6032`](https://github.com/stdlib-js/stdlib/commit/09c603243ffb5539937ebd1986e9d9029c7a52cb) - **chore:** update array allocation and example path [(#8789)](https://github.com/stdlib-js/stdlib/pull/8789) _(by Atharv1405)_
+-   [`30ab067`](https://github.com/stdlib-js/stdlib/commit/30ab067adba7be2a54c72df42b3ff6b1ae72f304) - **bench:** refactor to use dynamic memory allocation in `blas/base/daxpy` [(#8680)](https://github.com/stdlib-js/stdlib/pull/8680) _(by Faraz Ghani, Athan Reines)_
+-   [`89a5bbd`](https://github.com/stdlib-js/stdlib/commit/89a5bbda013fe507eb6aa0c350428ebb7e484030) - **bench:** refactor to use dynamic memory allocation in `blas/base/dcopy` [(#8712)](https://github.com/stdlib-js/stdlib/pull/8712) _(by Faraz Ghani, Athan Reines)_
+-   [`59db850`](https://github.com/stdlib-js/stdlib/commit/59db8508c6113b3c5e3951b34877fc933d317ccd) - **chore:** address commit comments [(#8752)](https://github.com/stdlib-js/stdlib/pull/8752) _(by utshav khatiwada)_
+-   [`57d4088`](https://github.com/stdlib-js/stdlib/commit/57d40888b041ba88da1d555662d0734deb2f8a10) - **bench:** refactor to use dynamic memory allocation in `blas/base/ddot` [(#8713)](https://github.com/stdlib-js/stdlib/pull/8713) _(by Faraz Ghani, Athan Reines, Philipp Burckhardt)_
+-   [`ee4d86a`](https://github.com/stdlib-js/stdlib/commit/ee4d86a633fbd5f33524af8ff97c3104df5d6e97) - **bench:** refactor to use dynamic memory allocation in `blas/base/drot` [(#8711)](https://github.com/stdlib-js/stdlib/pull/8711) _(by Faraz Ghani, Athan Reines)_
 -   [`818054a`](https://github.com/stdlib-js/stdlib/commit/818054a494c75b6cdbc7b9e33891a5e08f2c8031) - **docs:** fix TSDoc return annotation values and example code _(by Philipp Burckhardt)_
 -   [`da28542`](https://github.com/stdlib-js/stdlib/commit/da28542b62c44fd61b46c6564d4f5a26f4707d31) - **docs:** fix example code in TS declarations for `blas/base` namespace _(by Philipp Burckhardt)_
 -   [`7e39b69`](https://github.com/stdlib-js/stdlib/commit/7e39b69431dfad9f542cd3b8028d4bd50718fc24) - **docs:** fix TSDoc return annotation values and example code _(by Philipp Burckhardt)_
@@ -1370,26 +1418,42 @@ A total of 12 issues were closed in this release:
 
 ### Contributors
 
-A total of 18 people contributed to this release. Thank you to the following contributors:
+A total of 34 people contributed to this release. Thank you to the following contributors:
 
 -   Aayush Khanna
+-   Almunazza
 -   Aman Bhansali
 -   Athan Reines
+-   Atharv1405
+-   DivitJain26
+-   Faraz Ghani
 -   Gururaj Gurram
 -   Hemant M Mehta
+-   Ishwar
+-   Krishna Awasthi
 -   Lalit Narayan Yadav
+-   Manit Roy
 -   Muhammad Haris
+-   Neeraj Pathak
 -   Payal Goswami
 -   Philipp Burckhardt
 -   Pranav Goswami
 -   Ricky Reusser
+-   Rohit R Bhat
 -   Rupa
 -   Rutam Kathale
+-   Samarth Kolarkar
 -   Saurabh Singh
 -   Shabareesh Shetty
+-   Sujal charati
+-   Suyash Pathak
 -   Uday Kakade
+-   Yohan Park
+-   anee3
 -   anujmishra03
 -   kaushal-kumar-it
+-   piyxsh31
+-   utshav khatiwada
 
 </section>
 
