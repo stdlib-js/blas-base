@@ -2,6 +2,41 @@
 
 > Package changelog.
 
+<section class="release" id="v0.3.1">
+
+## 0.3.1 (2026-02-08)
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`9d9b268`](https://github.com/stdlib-js/stdlib/commit/9d9b2684d2d965826e3fa1426a1eb204e44231a8) - **bench:** refactor to use dynamic memory allocation in `blas/base/saxpy` [(#10146)](https://github.com/stdlib-js/stdlib/pull/10146) _(by Prajjwal Bajpai)_
+-   [`b22ed96`](https://github.com/stdlib-js/stdlib/commit/b22ed969fd6fcff0278ffc6c50c2ce774ab00ba7) - **bench:** refactor to use string interpolation in `blas/base/saxpy` [(#10147)](https://github.com/stdlib-js/stdlib/pull/10147) _(by Prajjwal Bajpai)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 1 person contributed to this release. Thank you to this contributor:
+
+-   Prajjwal Bajpai
+
+</section>
+
+<!-- /.contributors -->
+
+</section>
+
+<!-- /.release -->
+
 <section class="release" id="v0.3.0">
 
 ## 0.3.0 (2026-01-31)
