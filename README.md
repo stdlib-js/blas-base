@@ -42,13 +42,18 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import blas from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/blas-base/tags). For example,
+
+```javascript
 import blas from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base@v0.3.1-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { assert, caxpy, ccopy, cscal, csrot, csscal, cswap, dasum, daxpy, dcabs1, dcopy, ddot, dgemm, dgemv, dger, diagonalTypeEnum2Str, diagonalTypeResolveEnum, diagonalTypeResolveStr, diagonalTypeStr2Enum, diagonalTypes, dnrm2, drot, drotg, drotm, dscal, dsdot, dspmv, dspr, dswap, dsymv, dsyr, dsyr2, dtrmv, dtrsv, dznrm2, gasum, gaxpy, gcopy, gdot, ggemm, ggemv, gger, gnrm2, gscal, gswap, gsyr, idamax, igamax, isamax, layoutEnum2Str, layoutResolveEnum, layoutResolveStr, layoutStr2Enum, layouts, matrixOrientationEnum2Str, matrixOrientationResolveEnum, matrixOrientationResolveStr, matrixOrientationStr2Enum, matrixOrientations, matrixTriangleEnum2Str, matrixTriangleResolveEnum, matrixTriangleResolveStr, matrixTriangleStr2Enum, matrixTriangles, operationSideEnum2Str, operationSideResolveEnum, operationSideResolveStr, operationSideStr2Enum, operationSides, sasum, saxpy, scabs1, scasum, scnrm2, scopy, sdot, sdsdot, sgemm, sgemv, sger, snrm2, srot, srotg, srotm, sscal, sspmv, sspr, sswap, ssymv, ssyr, ssyr2, strmv, strsv, transposeOperationEnum2Str, transposeOperationResolveEnum, transposeOperationResolveStr, transposeOperationStr2Enum, transposeOperations, wasm, zaxpy, zcopy, zdrot, zdscal, zscal, zswap } from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base@v0.3.1-deno/mod.js';
+import { assert, caxpy, ccopy, cscal, csrot, csscal, cswap, dasum, daxpy, dcabs1, dcopy, ddot, dgemm, dgemv, dger, diagonalTypeEnum2Str, diagonalTypeResolveEnum, diagonalTypeResolveStr, diagonalTypeStr2Enum, diagonalTypes, dnrm2, drot, drotg, drotm, dscal, dsdot, dspmv, dspr, dswap, dsymv, dsyr, dsyr2, dtrmv, dtrsv, dznrm2, gasum, gaxpy, gcopy, gdot, ggemm, ggemv, gger, gnrm2, gscal, gswap, gsyr, idamax, igamax, isamax, layoutEnum2Str, layoutResolveEnum, layoutResolveStr, layoutStr2Enum, layouts, matrixOrientationEnum2Str, matrixOrientationResolveEnum, matrixOrientationResolveStr, matrixOrientationStr2Enum, matrixOrientations, matrixTriangleEnum2Str, matrixTriangleResolveEnum, matrixTriangleResolveStr, matrixTriangleStr2Enum, matrixTriangles, operationSideEnum2Str, operationSideResolveEnum, operationSideResolveStr, operationSideStr2Enum, operationSides, sasum, saxpy, scabs1, scasum, scnrm2, scopy, sdot, sdsdot, sgemm, sgemv, sger, snrm2, srot, srotg, srotm, sscal, sspmv, sspr, sswap, ssymv, ssyr, ssyr2, strmv, strsv, transposeOperationEnum2Str, transposeOperationResolveEnum, transposeOperationResolveStr, transposeOperationStr2Enum, transposeOperations, wasm, zaxpy, zcopy, zdrot, zdscal, zscal, zswap } from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base@deno/mod.js';
 ```
 
 #### blas
@@ -239,7 +244,7 @@ var o = blas;
 
 ```javascript
 import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@deno/mod.js';
-import blas from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base@v0.3.1-deno/mod.js';
+import blas from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base@deno/mod.js';
 
 console.log( objectKeys( blas ) );
 ```
