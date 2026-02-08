@@ -35,25 +35,32 @@ limitations under the License.
 
 > Base (i.e., lower-level) basic linear algebra subprograms (BLAS).
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/blas-base
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
+-   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import blas from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base@esm/index.mjs';
-```
-The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/blas-base/tags). For example,
-
-```javascript
-import blas from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base@v0.3.0-esm/index.mjs';
-```
-
-You can also import the following named exports from the package:
-
-```javascript
-import { assert, caxpy, ccopy, cscal, csrot, csscal, cswap, dasum, daxpy, dcabs1, dcopy, ddot, dgemm, dgemv, dger, diagonalTypeEnum2Str, diagonalTypeResolveEnum, diagonalTypeResolveStr, diagonalTypeStr2Enum, diagonalTypes, dnrm2, drot, drotg, drotm, dscal, dsdot, dspmv, dspr, dswap, dsymv, dsyr, dsyr2, dtrmv, dtrsv, dznrm2, gasum, gaxpy, gcopy, gdot, ggemm, ggemv, gger, gnrm2, gscal, gswap, gsyr, idamax, igamax, isamax, layoutEnum2Str, layoutResolveEnum, layoutResolveStr, layoutStr2Enum, layouts, matrixOrientationEnum2Str, matrixOrientationResolveEnum, matrixOrientationResolveStr, matrixOrientationStr2Enum, matrixOrientations, matrixTriangleEnum2Str, matrixTriangleResolveEnum, matrixTriangleResolveStr, matrixTriangleStr2Enum, matrixTriangles, operationSideEnum2Str, operationSideResolveEnum, operationSideResolveStr, operationSideStr2Enum, operationSides, sasum, saxpy, scabs1, scasum, scnrm2, scopy, sdot, sdsdot, sgemm, sgemv, sger, snrm2, srot, srotg, srotm, sscal, sspmv, sspr, sswap, ssymv, ssyr, ssyr2, strmv, strsv, transposeOperationEnum2Str, transposeOperationResolveEnum, transposeOperationResolveStr, transposeOperationStr2Enum, transposeOperations, wasm, zaxpy, zcopy, zdrot, zdscal, zscal, zswap } from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base@esm/index.mjs';
+var blas = require( '@stdlib/blas-base' );
 ```
 
 #### blas
@@ -242,20 +249,11 @@ var o = blas;
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="module">
-
-import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@esm/index.mjs';
-import blas from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base@esm/index.mjs';
+```javascript
+var objectKeys = require( '@stdlib/utils-keys' );
+var blas = require( '@stdlib/blas-base' );
 
 console.log( objectKeys( blas ) );
-
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -279,7 +277,7 @@ console.log( objectKeys( blas ) );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -309,8 +307,8 @@ Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/blas-base.svg
 [npm-url]: https://npmjs.org/package/@stdlib/blas-base
 
-[test-image]: https://github.com/stdlib-js/blas-base/actions/workflows/test.yml/badge.svg?branch=v0.3.0
-[test-url]: https://github.com/stdlib-js/blas-base/actions/workflows/test.yml?query=branch:v0.3.0
+[test-image]: https://github.com/stdlib-js/blas-base/actions/workflows/test.yml/badge.svg?branch=v0.3.1
+[test-url]: https://github.com/stdlib-js/blas-base/actions/workflows/test.yml?query=branch:v0.3.1
 
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/blas-base/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/blas-base?branch=main
@@ -344,213 +342,213 @@ Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 
 <!-- <toc-links> -->
 
-[@stdlib/blas/base/assert]: https://github.com/stdlib-js/blas-base-assert/tree/esm
+[@stdlib/blas/base/assert]: https://github.com/stdlib-js/blas-base-assert
 
-[@stdlib/blas/base/diagonal-type-enum2str]: https://github.com/stdlib-js/blas-base-diagonal-type-enum2str/tree/esm
+[@stdlib/blas/base/diagonal-type-enum2str]: https://github.com/stdlib-js/blas-base-diagonal-type-enum2str
 
-[@stdlib/blas/base/diagonal-type-resolve-enum]: https://github.com/stdlib-js/blas-base-diagonal-type-resolve-enum/tree/esm
+[@stdlib/blas/base/diagonal-type-resolve-enum]: https://github.com/stdlib-js/blas-base-diagonal-type-resolve-enum
 
-[@stdlib/blas/base/diagonal-type-resolve-str]: https://github.com/stdlib-js/blas-base-diagonal-type-resolve-str/tree/esm
+[@stdlib/blas/base/diagonal-type-resolve-str]: https://github.com/stdlib-js/blas-base-diagonal-type-resolve-str
 
-[@stdlib/blas/base/diagonal-type-str2enum]: https://github.com/stdlib-js/blas-base-diagonal-type-str2enum/tree/esm
+[@stdlib/blas/base/diagonal-type-str2enum]: https://github.com/stdlib-js/blas-base-diagonal-type-str2enum
 
-[@stdlib/blas/base/diagonal-types]: https://github.com/stdlib-js/blas-base-diagonal-types/tree/esm
+[@stdlib/blas/base/diagonal-types]: https://github.com/stdlib-js/blas-base-diagonal-types
 
-[@stdlib/blas/base/layout-enum2str]: https://github.com/stdlib-js/blas-base-layout-enum2str/tree/esm
+[@stdlib/blas/base/layout-enum2str]: https://github.com/stdlib-js/blas-base-layout-enum2str
 
-[@stdlib/blas/base/layout-resolve-enum]: https://github.com/stdlib-js/blas-base-layout-resolve-enum/tree/esm
+[@stdlib/blas/base/layout-resolve-enum]: https://github.com/stdlib-js/blas-base-layout-resolve-enum
 
-[@stdlib/blas/base/layout-resolve-str]: https://github.com/stdlib-js/blas-base-layout-resolve-str/tree/esm
+[@stdlib/blas/base/layout-resolve-str]: https://github.com/stdlib-js/blas-base-layout-resolve-str
 
-[@stdlib/blas/base/layout-str2enum]: https://github.com/stdlib-js/blas-base-layout-str2enum/tree/esm
+[@stdlib/blas/base/layout-str2enum]: https://github.com/stdlib-js/blas-base-layout-str2enum
 
-[@stdlib/blas/base/layouts]: https://github.com/stdlib-js/blas-base-layouts/tree/esm
+[@stdlib/blas/base/layouts]: https://github.com/stdlib-js/blas-base-layouts
 
-[@stdlib/blas/base/matrix-orientation-enum2str]: https://github.com/stdlib-js/blas-base-matrix-orientation-enum2str/tree/esm
+[@stdlib/blas/base/matrix-orientation-enum2str]: https://github.com/stdlib-js/blas-base-matrix-orientation-enum2str
 
-[@stdlib/blas/base/matrix-orientation-resolve-enum]: https://github.com/stdlib-js/blas-base-matrix-orientation-resolve-enum/tree/esm
+[@stdlib/blas/base/matrix-orientation-resolve-enum]: https://github.com/stdlib-js/blas-base-matrix-orientation-resolve-enum
 
-[@stdlib/blas/base/matrix-orientation-resolve-str]: https://github.com/stdlib-js/blas-base-matrix-orientation-resolve-str/tree/esm
+[@stdlib/blas/base/matrix-orientation-resolve-str]: https://github.com/stdlib-js/blas-base-matrix-orientation-resolve-str
 
-[@stdlib/blas/base/matrix-orientation-str2enum]: https://github.com/stdlib-js/blas-base-matrix-orientation-str2enum/tree/esm
+[@stdlib/blas/base/matrix-orientation-str2enum]: https://github.com/stdlib-js/blas-base-matrix-orientation-str2enum
 
-[@stdlib/blas/base/matrix-orientations]: https://github.com/stdlib-js/blas-base-matrix-orientations/tree/esm
+[@stdlib/blas/base/matrix-orientations]: https://github.com/stdlib-js/blas-base-matrix-orientations
 
-[@stdlib/blas/base/matrix-triangle-enum2str]: https://github.com/stdlib-js/blas-base-matrix-triangle-enum2str/tree/esm
+[@stdlib/blas/base/matrix-triangle-enum2str]: https://github.com/stdlib-js/blas-base-matrix-triangle-enum2str
 
-[@stdlib/blas/base/matrix-triangle-resolve-enum]: https://github.com/stdlib-js/blas-base-matrix-triangle-resolve-enum/tree/esm
+[@stdlib/blas/base/matrix-triangle-resolve-enum]: https://github.com/stdlib-js/blas-base-matrix-triangle-resolve-enum
 
-[@stdlib/blas/base/matrix-triangle-resolve-str]: https://github.com/stdlib-js/blas-base-matrix-triangle-resolve-str/tree/esm
+[@stdlib/blas/base/matrix-triangle-resolve-str]: https://github.com/stdlib-js/blas-base-matrix-triangle-resolve-str
 
-[@stdlib/blas/base/matrix-triangle-str2enum]: https://github.com/stdlib-js/blas-base-matrix-triangle-str2enum/tree/esm
+[@stdlib/blas/base/matrix-triangle-str2enum]: https://github.com/stdlib-js/blas-base-matrix-triangle-str2enum
 
-[@stdlib/blas/base/matrix-triangles]: https://github.com/stdlib-js/blas-base-matrix-triangles/tree/esm
+[@stdlib/blas/base/matrix-triangles]: https://github.com/stdlib-js/blas-base-matrix-triangles
 
-[@stdlib/blas/base/operation-side-enum2str]: https://github.com/stdlib-js/blas-base-operation-side-enum2str/tree/esm
+[@stdlib/blas/base/operation-side-enum2str]: https://github.com/stdlib-js/blas-base-operation-side-enum2str
 
-[@stdlib/blas/base/operation-side-resolve-enum]: https://github.com/stdlib-js/blas-base-operation-side-resolve-enum/tree/esm
+[@stdlib/blas/base/operation-side-resolve-enum]: https://github.com/stdlib-js/blas-base-operation-side-resolve-enum
 
-[@stdlib/blas/base/operation-side-resolve-str]: https://github.com/stdlib-js/blas-base-operation-side-resolve-str/tree/esm
+[@stdlib/blas/base/operation-side-resolve-str]: https://github.com/stdlib-js/blas-base-operation-side-resolve-str
 
-[@stdlib/blas/base/operation-side-str2enum]: https://github.com/stdlib-js/blas-base-operation-side-str2enum/tree/esm
+[@stdlib/blas/base/operation-side-str2enum]: https://github.com/stdlib-js/blas-base-operation-side-str2enum
 
-[@stdlib/blas/base/operation-sides]: https://github.com/stdlib-js/blas-base-operation-sides/tree/esm
+[@stdlib/blas/base/operation-sides]: https://github.com/stdlib-js/blas-base-operation-sides
 
-[@stdlib/blas/base/transpose-operation-enum2str]: https://github.com/stdlib-js/blas-base-transpose-operation-enum2str/tree/esm
+[@stdlib/blas/base/transpose-operation-enum2str]: https://github.com/stdlib-js/blas-base-transpose-operation-enum2str
 
-[@stdlib/blas/base/transpose-operation-resolve-enum]: https://github.com/stdlib-js/blas-base-transpose-operation-resolve-enum/tree/esm
+[@stdlib/blas/base/transpose-operation-resolve-enum]: https://github.com/stdlib-js/blas-base-transpose-operation-resolve-enum
 
-[@stdlib/blas/base/transpose-operation-resolve-str]: https://github.com/stdlib-js/blas-base-transpose-operation-resolve-str/tree/esm
+[@stdlib/blas/base/transpose-operation-resolve-str]: https://github.com/stdlib-js/blas-base-transpose-operation-resolve-str
 
-[@stdlib/blas/base/transpose-operation-str2enum]: https://github.com/stdlib-js/blas-base-transpose-operation-str2enum/tree/esm
+[@stdlib/blas/base/transpose-operation-str2enum]: https://github.com/stdlib-js/blas-base-transpose-operation-str2enum
 
-[@stdlib/blas/base/transpose-operations]: https://github.com/stdlib-js/blas-base-transpose-operations/tree/esm
+[@stdlib/blas/base/transpose-operations]: https://github.com/stdlib-js/blas-base-transpose-operations
 
-[@stdlib/blas/base/dcabs1]: https://github.com/stdlib-js/blas-base-dcabs1/tree/esm
+[@stdlib/blas/base/dcabs1]: https://github.com/stdlib-js/blas-base-dcabs1
 
-[@stdlib/blas/base/scabs1]: https://github.com/stdlib-js/blas-base-scabs1/tree/esm
+[@stdlib/blas/base/scabs1]: https://github.com/stdlib-js/blas-base-scabs1
 
-[@stdlib/blas/base/dgemm]: https://github.com/stdlib-js/blas-base-dgemm/tree/esm
+[@stdlib/blas/base/dgemm]: https://github.com/stdlib-js/blas-base-dgemm
 
-[@stdlib/blas/base/ggemm]: https://github.com/stdlib-js/blas-base-ggemm/tree/esm
+[@stdlib/blas/base/ggemm]: https://github.com/stdlib-js/blas-base-ggemm
 
-[@stdlib/blas/base/sgemm]: https://github.com/stdlib-js/blas-base-sgemm/tree/esm
+[@stdlib/blas/base/sgemm]: https://github.com/stdlib-js/blas-base-sgemm
 
-[@stdlib/blas/base/dgemv]: https://github.com/stdlib-js/blas-base-dgemv/tree/esm
+[@stdlib/blas/base/dgemv]: https://github.com/stdlib-js/blas-base-dgemv
 
-[@stdlib/blas/base/dger]: https://github.com/stdlib-js/blas-base-dger/tree/esm
+[@stdlib/blas/base/dger]: https://github.com/stdlib-js/blas-base-dger
 
-[@stdlib/blas/base/dspmv]: https://github.com/stdlib-js/blas-base-dspmv/tree/esm
+[@stdlib/blas/base/dspmv]: https://github.com/stdlib-js/blas-base-dspmv
 
-[@stdlib/blas/base/dspr]: https://github.com/stdlib-js/blas-base-dspr/tree/esm
+[@stdlib/blas/base/dspr]: https://github.com/stdlib-js/blas-base-dspr
 
-[@stdlib/blas/base/dsymv]: https://github.com/stdlib-js/blas-base-dsymv/tree/esm
+[@stdlib/blas/base/dsymv]: https://github.com/stdlib-js/blas-base-dsymv
 
-[@stdlib/blas/base/dsyr]: https://github.com/stdlib-js/blas-base-dsyr/tree/esm
+[@stdlib/blas/base/dsyr]: https://github.com/stdlib-js/blas-base-dsyr
 
-[@stdlib/blas/base/dsyr2]: https://github.com/stdlib-js/blas-base-dsyr2/tree/esm
+[@stdlib/blas/base/dsyr2]: https://github.com/stdlib-js/blas-base-dsyr2
 
-[@stdlib/blas/base/dtrmv]: https://github.com/stdlib-js/blas-base-dtrmv/tree/esm
+[@stdlib/blas/base/dtrmv]: https://github.com/stdlib-js/blas-base-dtrmv
 
-[@stdlib/blas/base/dtrsv]: https://github.com/stdlib-js/blas-base-dtrsv/tree/esm
+[@stdlib/blas/base/dtrsv]: https://github.com/stdlib-js/blas-base-dtrsv
 
-[@stdlib/blas/base/ggemv]: https://github.com/stdlib-js/blas-base-ggemv/tree/esm
+[@stdlib/blas/base/ggemv]: https://github.com/stdlib-js/blas-base-ggemv
 
-[@stdlib/blas/base/gger]: https://github.com/stdlib-js/blas-base-gger/tree/esm
+[@stdlib/blas/base/gger]: https://github.com/stdlib-js/blas-base-gger
 
-[@stdlib/blas/base/gsyr]: https://github.com/stdlib-js/blas-base-gsyr/tree/esm
+[@stdlib/blas/base/gsyr]: https://github.com/stdlib-js/blas-base-gsyr
 
-[@stdlib/blas/base/sgemv]: https://github.com/stdlib-js/blas-base-sgemv/tree/esm
+[@stdlib/blas/base/sgemv]: https://github.com/stdlib-js/blas-base-sgemv
 
-[@stdlib/blas/base/sger]: https://github.com/stdlib-js/blas-base-sger/tree/esm
+[@stdlib/blas/base/sger]: https://github.com/stdlib-js/blas-base-sger
 
-[@stdlib/blas/base/sspmv]: https://github.com/stdlib-js/blas-base-sspmv/tree/esm
+[@stdlib/blas/base/sspmv]: https://github.com/stdlib-js/blas-base-sspmv
 
-[@stdlib/blas/base/sspr]: https://github.com/stdlib-js/blas-base-sspr/tree/esm
+[@stdlib/blas/base/sspr]: https://github.com/stdlib-js/blas-base-sspr
 
-[@stdlib/blas/base/ssymv]: https://github.com/stdlib-js/blas-base-ssymv/tree/esm
+[@stdlib/blas/base/ssymv]: https://github.com/stdlib-js/blas-base-ssymv
 
-[@stdlib/blas/base/ssyr]: https://github.com/stdlib-js/blas-base-ssyr/tree/esm
+[@stdlib/blas/base/ssyr]: https://github.com/stdlib-js/blas-base-ssyr
 
-[@stdlib/blas/base/ssyr2]: https://github.com/stdlib-js/blas-base-ssyr2/tree/esm
+[@stdlib/blas/base/ssyr2]: https://github.com/stdlib-js/blas-base-ssyr2
 
-[@stdlib/blas/base/strmv]: https://github.com/stdlib-js/blas-base-strmv/tree/esm
+[@stdlib/blas/base/strmv]: https://github.com/stdlib-js/blas-base-strmv
 
-[@stdlib/blas/base/strsv]: https://github.com/stdlib-js/blas-base-strsv/tree/esm
+[@stdlib/blas/base/strsv]: https://github.com/stdlib-js/blas-base-strsv
 
-[@stdlib/blas/base/caxpy]: https://github.com/stdlib-js/blas-base-caxpy/tree/esm
+[@stdlib/blas/base/caxpy]: https://github.com/stdlib-js/blas-base-caxpy
 
-[@stdlib/blas/base/ccopy]: https://github.com/stdlib-js/blas-base-ccopy/tree/esm
+[@stdlib/blas/base/ccopy]: https://github.com/stdlib-js/blas-base-ccopy
 
-[@stdlib/blas/base/cscal]: https://github.com/stdlib-js/blas-base-cscal/tree/esm
+[@stdlib/blas/base/cscal]: https://github.com/stdlib-js/blas-base-cscal
 
-[@stdlib/blas/base/csrot]: https://github.com/stdlib-js/blas-base-csrot/tree/esm
+[@stdlib/blas/base/csrot]: https://github.com/stdlib-js/blas-base-csrot
 
-[@stdlib/blas/base/csscal]: https://github.com/stdlib-js/blas-base-csscal/tree/esm
+[@stdlib/blas/base/csscal]: https://github.com/stdlib-js/blas-base-csscal
 
-[@stdlib/blas/base/cswap]: https://github.com/stdlib-js/blas-base-cswap/tree/esm
+[@stdlib/blas/base/cswap]: https://github.com/stdlib-js/blas-base-cswap
 
-[@stdlib/blas/base/dasum]: https://github.com/stdlib-js/blas-base-dasum/tree/esm
+[@stdlib/blas/base/dasum]: https://github.com/stdlib-js/blas-base-dasum
 
-[@stdlib/blas/base/daxpy]: https://github.com/stdlib-js/blas-base-daxpy/tree/esm
+[@stdlib/blas/base/daxpy]: https://github.com/stdlib-js/blas-base-daxpy
 
-[@stdlib/blas/base/dcopy]: https://github.com/stdlib-js/blas-base-dcopy/tree/esm
+[@stdlib/blas/base/dcopy]: https://github.com/stdlib-js/blas-base-dcopy
 
-[@stdlib/blas/base/ddot]: https://github.com/stdlib-js/blas-base-ddot/tree/esm
+[@stdlib/blas/base/ddot]: https://github.com/stdlib-js/blas-base-ddot
 
-[@stdlib/blas/base/dnrm2]: https://github.com/stdlib-js/blas-base-dnrm2/tree/esm
+[@stdlib/blas/base/dnrm2]: https://github.com/stdlib-js/blas-base-dnrm2
 
-[@stdlib/blas/base/drot]: https://github.com/stdlib-js/blas-base-drot/tree/esm
+[@stdlib/blas/base/drot]: https://github.com/stdlib-js/blas-base-drot
 
-[@stdlib/blas/base/drotg]: https://github.com/stdlib-js/blas-base-drotg/tree/esm
+[@stdlib/blas/base/drotg]: https://github.com/stdlib-js/blas-base-drotg
 
-[@stdlib/blas/base/drotm]: https://github.com/stdlib-js/blas-base-drotm/tree/esm
+[@stdlib/blas/base/drotm]: https://github.com/stdlib-js/blas-base-drotm
 
-[@stdlib/blas/base/dscal]: https://github.com/stdlib-js/blas-base-dscal/tree/esm
+[@stdlib/blas/base/dscal]: https://github.com/stdlib-js/blas-base-dscal
 
-[@stdlib/blas/base/dsdot]: https://github.com/stdlib-js/blas-base-dsdot/tree/esm
+[@stdlib/blas/base/dsdot]: https://github.com/stdlib-js/blas-base-dsdot
 
-[@stdlib/blas/base/dswap]: https://github.com/stdlib-js/blas-base-dswap/tree/esm
+[@stdlib/blas/base/dswap]: https://github.com/stdlib-js/blas-base-dswap
 
-[@stdlib/blas/base/dznrm2]: https://github.com/stdlib-js/blas-base-dznrm2/tree/esm
+[@stdlib/blas/base/dznrm2]: https://github.com/stdlib-js/blas-base-dznrm2
 
-[@stdlib/blas/base/gasum]: https://github.com/stdlib-js/blas-base-gasum/tree/esm
+[@stdlib/blas/base/gasum]: https://github.com/stdlib-js/blas-base-gasum
 
-[@stdlib/blas/base/gaxpy]: https://github.com/stdlib-js/blas-base-gaxpy/tree/esm
+[@stdlib/blas/base/gaxpy]: https://github.com/stdlib-js/blas-base-gaxpy
 
-[@stdlib/blas/base/gcopy]: https://github.com/stdlib-js/blas-base-gcopy/tree/esm
+[@stdlib/blas/base/gcopy]: https://github.com/stdlib-js/blas-base-gcopy
 
-[@stdlib/blas/base/gdot]: https://github.com/stdlib-js/blas-base-gdot/tree/esm
+[@stdlib/blas/base/gdot]: https://github.com/stdlib-js/blas-base-gdot
 
-[@stdlib/blas/base/gnrm2]: https://github.com/stdlib-js/blas-base-gnrm2/tree/esm
+[@stdlib/blas/base/gnrm2]: https://github.com/stdlib-js/blas-base-gnrm2
 
-[@stdlib/blas/base/gscal]: https://github.com/stdlib-js/blas-base-gscal/tree/esm
+[@stdlib/blas/base/gscal]: https://github.com/stdlib-js/blas-base-gscal
 
-[@stdlib/blas/base/gswap]: https://github.com/stdlib-js/blas-base-gswap/tree/esm
+[@stdlib/blas/base/gswap]: https://github.com/stdlib-js/blas-base-gswap
 
-[@stdlib/blas/base/idamax]: https://github.com/stdlib-js/blas-base-idamax/tree/esm
+[@stdlib/blas/base/idamax]: https://github.com/stdlib-js/blas-base-idamax
 
-[@stdlib/blas/base/igamax]: https://github.com/stdlib-js/blas-base-igamax/tree/esm
+[@stdlib/blas/base/igamax]: https://github.com/stdlib-js/blas-base-igamax
 
-[@stdlib/blas/base/isamax]: https://github.com/stdlib-js/blas-base-isamax/tree/esm
+[@stdlib/blas/base/isamax]: https://github.com/stdlib-js/blas-base-isamax
 
-[@stdlib/blas/base/sasum]: https://github.com/stdlib-js/blas-base-sasum/tree/esm
+[@stdlib/blas/base/sasum]: https://github.com/stdlib-js/blas-base-sasum
 
-[@stdlib/blas/base/saxpy]: https://github.com/stdlib-js/blas-base-saxpy/tree/esm
+[@stdlib/blas/base/saxpy]: https://github.com/stdlib-js/blas-base-saxpy
 
-[@stdlib/blas/base/scasum]: https://github.com/stdlib-js/blas-base-scasum/tree/esm
+[@stdlib/blas/base/scasum]: https://github.com/stdlib-js/blas-base-scasum
 
-[@stdlib/blas/base/scnrm2]: https://github.com/stdlib-js/blas-base-scnrm2/tree/esm
+[@stdlib/blas/base/scnrm2]: https://github.com/stdlib-js/blas-base-scnrm2
 
-[@stdlib/blas/base/scopy]: https://github.com/stdlib-js/blas-base-scopy/tree/esm
+[@stdlib/blas/base/scopy]: https://github.com/stdlib-js/blas-base-scopy
 
-[@stdlib/blas/base/sdot]: https://github.com/stdlib-js/blas-base-sdot/tree/esm
+[@stdlib/blas/base/sdot]: https://github.com/stdlib-js/blas-base-sdot
 
-[@stdlib/blas/base/sdsdot]: https://github.com/stdlib-js/blas-base-sdsdot/tree/esm
+[@stdlib/blas/base/sdsdot]: https://github.com/stdlib-js/blas-base-sdsdot
 
-[@stdlib/blas/base/snrm2]: https://github.com/stdlib-js/blas-base-snrm2/tree/esm
+[@stdlib/blas/base/snrm2]: https://github.com/stdlib-js/blas-base-snrm2
 
-[@stdlib/blas/base/srot]: https://github.com/stdlib-js/blas-base-srot/tree/esm
+[@stdlib/blas/base/srot]: https://github.com/stdlib-js/blas-base-srot
 
-[@stdlib/blas/base/srotg]: https://github.com/stdlib-js/blas-base-srotg/tree/esm
+[@stdlib/blas/base/srotg]: https://github.com/stdlib-js/blas-base-srotg
 
-[@stdlib/blas/base/srotm]: https://github.com/stdlib-js/blas-base-srotm/tree/esm
+[@stdlib/blas/base/srotm]: https://github.com/stdlib-js/blas-base-srotm
 
-[@stdlib/blas/base/sscal]: https://github.com/stdlib-js/blas-base-sscal/tree/esm
+[@stdlib/blas/base/sscal]: https://github.com/stdlib-js/blas-base-sscal
 
-[@stdlib/blas/base/sswap]: https://github.com/stdlib-js/blas-base-sswap/tree/esm
+[@stdlib/blas/base/sswap]: https://github.com/stdlib-js/blas-base-sswap
 
-[@stdlib/blas/base/zaxpy]: https://github.com/stdlib-js/blas-base-zaxpy/tree/esm
+[@stdlib/blas/base/zaxpy]: https://github.com/stdlib-js/blas-base-zaxpy
 
-[@stdlib/blas/base/zcopy]: https://github.com/stdlib-js/blas-base-zcopy/tree/esm
+[@stdlib/blas/base/zcopy]: https://github.com/stdlib-js/blas-base-zcopy
 
-[@stdlib/blas/base/zdrot]: https://github.com/stdlib-js/blas-base-zdrot/tree/esm
+[@stdlib/blas/base/zdrot]: https://github.com/stdlib-js/blas-base-zdrot
 
-[@stdlib/blas/base/zdscal]: https://github.com/stdlib-js/blas-base-zdscal/tree/esm
+[@stdlib/blas/base/zdscal]: https://github.com/stdlib-js/blas-base-zdscal
 
-[@stdlib/blas/base/zscal]: https://github.com/stdlib-js/blas-base-zscal/tree/esm
+[@stdlib/blas/base/zscal]: https://github.com/stdlib-js/blas-base-zscal
 
-[@stdlib/blas/base/zswap]: https://github.com/stdlib-js/blas-base-zswap/tree/esm
+[@stdlib/blas/base/zswap]: https://github.com/stdlib-js/blas-base-zswap
 
 <!-- </toc-links> -->
 
