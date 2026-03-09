@@ -2,6 +2,159 @@
 
 > Package changelog.
 
+<section class="release" id="unreleased">
+
+## Unreleased (2026-03-09)
+
+<section class="bug-fixes">
+
+### Bug Fixes
+
+-   [`0e41789`](https://github.com/stdlib-js/stdlib/commit/0e4178970f971d23a583327347070a4eba7281e5) - correct function call to cblas in `blas/base/ddot` [(#10707)](https://github.com/stdlib-js/stdlib/pull/10707)
+
+</section>
+
+<!-- /.bug-fixes -->
+
+<section class="issues">
+
+### Closed Issues
+
+A total of 4 issues were closed in this release:
+
+[#10285](https://github.com/stdlib-js/stdlib/issues/10285), [#10475](https://github.com/stdlib-js/stdlib/issues/10475), [#10621](https://github.com/stdlib-js/stdlib/issues/10621), [#10722](https://github.com/stdlib-js/stdlib/issues/10722)
+
+</section>
+
+<!-- /.issues -->
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`0e41789`](https://github.com/stdlib-js/stdlib/commit/0e4178970f971d23a583327347070a4eba7281e5) - **fix:** correct function call to cblas in `blas/base/ddot` [(#10707)](https://github.com/stdlib-js/stdlib/pull/10707) _(by Dhruvan Gnanadhandayuthapani)_
+-   [`fd40b63`](https://github.com/stdlib-js/stdlib/commit/fd40b63056d9bec36f7be2ad30cabf036efaa301) - **chore:** fix JavaScript lint errors [(#10723)](https://github.com/stdlib-js/stdlib/pull/10723) _(by Partha Das)_
+-   [`121fdcb`](https://github.com/stdlib-js/stdlib/commit/121fdcb93d35bc185984e33c19f483770dc6b5f7) - **chore:** fix JavaScript lint errors (issue #10621) [(#10623)](https://github.com/stdlib-js/stdlib/pull/10623) _(by Partha Das)_
+-   [`c8c5967`](https://github.com/stdlib-js/stdlib/commit/c8c59670058483712917ca30934bd64b54ef43cb) - **bench:** use string interpolation in `blas/base/gdot` [(#10630)](https://github.com/stdlib-js/stdlib/pull/10630) _(by Om-A-osc)_
+-   [`35ea0d4`](https://github.com/stdlib-js/stdlib/commit/35ea0d4dbf9ebf0c5b023027b3624c2b95fd2cad) - **bench:** use string interpolation in `blas/base/ggemv` [(#10631)](https://github.com/stdlib-js/stdlib/pull/10631) _(by Om-A-osc)_
+-   [`92f02f1`](https://github.com/stdlib-js/stdlib/commit/92f02f17f30a0af998f0441777138c56678e1d84) - **bench:** use string interpolation in `blas/base/gger` [(#10632)](https://github.com/stdlib-js/stdlib/pull/10632) _(by Om-A-osc)_
+-   [`b0950ed`](https://github.com/stdlib-js/stdlib/commit/b0950ed6ece0a355cf029fcb9a8825d272dbd480) - **bench:** use string interpolation in `blas/base/gnrm2` [(#10633)](https://github.com/stdlib-js/stdlib/pull/10633) _(by Om-A-osc)_
+-   [`c03e6d3`](https://github.com/stdlib-js/stdlib/commit/c03e6d3c8e1213aed8411c0655951b5968db3e9e) - **bench:** use string interpolation in `blas/base/gscal` [(#10634)](https://github.com/stdlib-js/stdlib/pull/10634) _(by Om-A-osc)_
+-   [`046e727`](https://github.com/stdlib-js/stdlib/commit/046e727333a968205db1779c1fe5e12d86a39a7d) - **bench:** use string interpolation in `blas/base/gswap` [(#10635)](https://github.com/stdlib-js/stdlib/pull/10635) _(by Om-A-osc)_
+-   [`d2cc9c0`](https://github.com/stdlib-js/stdlib/commit/d2cc9c0f6bf5ff5ae176ccd16ea4e97a9857434e) - **bench:** use string interpolation in `blas/base/gsyr` [(#10636)](https://github.com/stdlib-js/stdlib/pull/10636) _(by Om-A-osc)_
+-   [`cae80a6`](https://github.com/stdlib-js/stdlib/commit/cae80a65d0b09b4edb6f0f26e35918133bdb03fc) - **bench:** use string interpolation in `blas/base/idamax` [(#10637)](https://github.com/stdlib-js/stdlib/pull/10637) _(by Om-A-osc)_
+-   [`5e7f879`](https://github.com/stdlib-js/stdlib/commit/5e7f8796c3680e1b505342ac1b9b3f1f5c419b51) - **bench:** use string interpolation in `blas/base/igamax` [(#10638)](https://github.com/stdlib-js/stdlib/pull/10638) _(by Om-A-osc)_
+-   [`3e083af`](https://github.com/stdlib-js/stdlib/commit/3e083af31f5fc9950048b32c12a4b8c29749bb4b) - **bench:** use string interpolation in `blas/base/layout-resolve-enum` [(#10639)](https://github.com/stdlib-js/stdlib/pull/10639) _(by Om-A-osc)_
+-   [`605b1df`](https://github.com/stdlib-js/stdlib/commit/605b1dfa2f484bb76264475b1308c883a08eab75) - **chore:** minor clean-up _(by Philipp Burckhardt)_
+-   [`ceffd77`](https://github.com/stdlib-js/stdlib/commit/ceffd77b7979af5b1ea1799dee084a65c82b4526) - **bench:** refactor to use string interpolation in `blas/base/sgemm` [(#10490)](https://github.com/stdlib-js/stdlib/pull/10490) _(by Shubham, Philipp Burckhardt)_
+-   [`8336cd9`](https://github.com/stdlib-js/stdlib/commit/8336cd990af10cea439e8c2a36a6b006fe907d2e) - **bench:** use string interpolation in `blas/base/dscal` [(#10512)](https://github.com/stdlib-js/stdlib/pull/10512) _(by Om-A-osc)_
+-   [`397998b`](https://github.com/stdlib-js/stdlib/commit/397998bfc957028bbaef95f07c7f20246704f9b2) - **bench:** use string interpolation in `blas/base/dsdot` [(#10513)](https://github.com/stdlib-js/stdlib/pull/10513) _(by Om-A-osc)_
+-   [`279dfb5`](https://github.com/stdlib-js/stdlib/commit/279dfb500f2344c71fb7bacf40807abf91588001) - **bench:** use string interpolation in `blas/base/dspmv` [(#10514)](https://github.com/stdlib-js/stdlib/pull/10514) _(by Om-A-osc)_
+-   [`a62dd7c`](https://github.com/stdlib-js/stdlib/commit/a62dd7c2fc0d7be93ea3dbb7a8ac479c3bd10bdf) - **bench:** use string interpolation in `blas/base/dswap` [(#10517)](https://github.com/stdlib-js/stdlib/pull/10517) _(by Om-A-osc)_
+-   [`8fff79b`](https://github.com/stdlib-js/stdlib/commit/8fff79b16224ab75b57074709c5f8d9d9c9439e5) - **bench:** use string interpolation in `blas/base/dtrmv` [(#10551)](https://github.com/stdlib-js/stdlib/pull/10551) _(by Om-A-osc)_
+-   [`9d4fd4d`](https://github.com/stdlib-js/stdlib/commit/9d4fd4d04449738e03dfc62aab9dce8f9ae4d822) - **bench:** use string interpolation in `blas/base/gasum` [(#10553)](https://github.com/stdlib-js/stdlib/pull/10553) _(by Om-A-osc)_
+-   [`637d083`](https://github.com/stdlib-js/stdlib/commit/637d0837af7524404e244e128e237a07f2e30819) - **bench:** use string interpolation in `blas/base/dtrsv` [(#10552)](https://github.com/stdlib-js/stdlib/pull/10552) _(by Om-A-osc)_
+-   [`c333671`](https://github.com/stdlib-js/stdlib/commit/c3336710c7caf084fc146ddaed7bb9e02a1bb891) - **bench:** refactor to use dynamic memory allocation in `blas/base/sswap` [(#10573)](https://github.com/stdlib-js/stdlib/pull/10573) _(by Prajjwal Bajpai)_
+-   [`116c553`](https://github.com/stdlib-js/stdlib/commit/116c5535ab59050c12731f9cff548b0ae3bb8662) - **bench:** refactor to use string interpolation in `blas/base/wasm/dscal` [(#10545)](https://github.com/stdlib-js/stdlib/pull/10545) _(by Shubham)_
+-   [`db9486e`](https://github.com/stdlib-js/stdlib/commit/db9486e09c6c357c40d15ea3685930088827bc4e) - **bench:** refactor to use string interpolation in `blas/base/wasm/drot` [(#10546)](https://github.com/stdlib-js/stdlib/pull/10546) _(by Shubham)_
+-   [`5154372`](https://github.com/stdlib-js/stdlib/commit/51543724b7c82e0825fcac2de00d6267ae043d4e) - **bench:** refactor to use string interpolation in `blas/base/wasm/dznrm2` [(#10547)](https://github.com/stdlib-js/stdlib/pull/10547) _(by Shubham)_
+-   [`75fe17b`](https://github.com/stdlib-js/stdlib/commit/75fe17b70513a2f00bbffc911a7007084c781d13) - **bench:** refactor to use string interpolation in `blas/base/wasm/dswap` [(#10548)](https://github.com/stdlib-js/stdlib/pull/10548) _(by Shubham)_
+-   [`43e7c3a`](https://github.com/stdlib-js/stdlib/commit/43e7c3ac1af11e9f93a122a2e09d6e0a3b4a2cd5) - **bench:** refactor to use string interpolation in `blas/base/wasm/dsdot` [(#10549)](https://github.com/stdlib-js/stdlib/pull/10549) _(by Shubham)_
+-   [`1f61670`](https://github.com/stdlib-js/stdlib/commit/1f61670cd14e63d5dec2da8950a2d42a76542e4b) - **bench:** refactor to use string interpolation in `blas/base/wasm/drotm` [(#10550)](https://github.com/stdlib-js/stdlib/pull/10550) _(by Shubham)_
+-   [`841ab2e`](https://github.com/stdlib-js/stdlib/commit/841ab2eab4f9ee75fc3c99b0dfc186051061e0bf) - **bench:** refactor to use string interpolation in `blas/base/wasm/daxpy` [(#10505)](https://github.com/stdlib-js/stdlib/pull/10505) _(by Shubham)_
+-   [`34a2bca`](https://github.com/stdlib-js/stdlib/commit/34a2bcac9bd7b76456a57cd7bcbfea5a8da4c7be) - **bench:** refactor to use string interpolation in `blas/base/wasm/dasum` [(#10506)](https://github.com/stdlib-js/stdlib/pull/10506) _(by Shubham)_
+-   [`680d163`](https://github.com/stdlib-js/stdlib/commit/680d163820a00a331e89bcd9aabc5fcd3cc8d2c4) - **bench:** refactor to use string interpolation in `blas/base/wasm/ddot` [(#10507)](https://github.com/stdlib-js/stdlib/pull/10507) _(by Shubham)_
+-   [`0024bd6`](https://github.com/stdlib-js/stdlib/commit/0024bd635fe210b1d2a13ccc6abf34633a9cd1d7) - **bench:** refactor to use string interpolation in `blas/base/wasm/dcopy` [(#10508)](https://github.com/stdlib-js/stdlib/pull/10508) _(by Shubham)_
+-   [`ea168c7`](https://github.com/stdlib-js/stdlib/commit/ea168c728e02cb236ed771716c785534b6b77dad) - **bench:** refactor to use string interpolation in `blas/base/wasm/dnrm2` [(#10509)](https://github.com/stdlib-js/stdlib/pull/10509) _(by Shubham)_
+-   [`5e94b53`](https://github.com/stdlib-js/stdlib/commit/5e94b5366163e541eee1767360ac01eecf4a5df4) - **bench:** use string interpolation in `blas/base/dspr` [(#10516)](https://github.com/stdlib-js/stdlib/pull/10516) _(by Om-A-osc)_
+-   [`8bb0e6f`](https://github.com/stdlib-js/stdlib/commit/8bb0e6f15ff0a45a403393551d630830ee0afa05) - **bench:** use string interpolation in `blas/base/dsymv` [(#10521)](https://github.com/stdlib-js/stdlib/pull/10521) _(by Om-A-osc)_
+-   [`a78342c`](https://github.com/stdlib-js/stdlib/commit/a78342cc43324f4c168429d8c76c85691f502faf) - **chore:** fix JavaScript lint errors [(#10482)](https://github.com/stdlib-js/stdlib/pull/10482) _(by Aryan kumar)_
+-   [`872f2fa`](https://github.com/stdlib-js/stdlib/commit/872f2fae9ed2edd497d3fc48dafc129f73dc103d) - **bench:** refactor to use string interpolation in `blas/base/wasm/ccopy` [(#10487)](https://github.com/stdlib-js/stdlib/pull/10487) _(by Shubham)_
+-   [`4ff9eb4`](https://github.com/stdlib-js/stdlib/commit/4ff9eb447269f2a45e7a7deb589e8675e67af11e) - **bench:** refactor to use string interpolation in `blas/base/wasm/cscal` [(#10488)](https://github.com/stdlib-js/stdlib/pull/10488) _(by Shubham)_
+-   [`e7bbe68`](https://github.com/stdlib-js/stdlib/commit/e7bbe68e59ac0a3adb146adab70fb5db47038847) - **bench:** refactor to use string interpolation in `blas/base/wasm/csrot` [(#10489)](https://github.com/stdlib-js/stdlib/pull/10489) _(by Shubham)_
+-   [`3dd5b4f`](https://github.com/stdlib-js/stdlib/commit/3dd5b4fd6aea4394b8a39b587961d2f94c4cdd9c) - **bench:** refactor to use string interpolation in `blas/base/sswap` [(#10491)](https://github.com/stdlib-js/stdlib/pull/10491) _(by Shubham)_
+-   [`920af07`](https://github.com/stdlib-js/stdlib/commit/920af071bafa97f0a933d6c3f0d04e33ad7e0b39) - **bench:** refactor to use string interpolation in `blas/base/ssymv` [(#10456)](https://github.com/stdlib-js/stdlib/pull/10456) _(by Lokesh Ranjan)_
+-   [`5b091c2`](https://github.com/stdlib-js/stdlib/commit/5b091c2142b1eb2472a7049910be65fcda5a87bf) - **bench:** refactor to use string interpolation in `blas/base/ssyr` [(#10458)](https://github.com/stdlib-js/stdlib/pull/10458) _(by Lokesh Ranjan)_
+-   [`ce9806d`](https://github.com/stdlib-js/stdlib/commit/ce9806d70a5ca2d24fc81930a0bd84a58203769e) - **bench:** refactor to use string interpolation in `blas/base/ssyr2` [(#10460)](https://github.com/stdlib-js/stdlib/pull/10460) _(by Lokesh Ranjan)_
+-   [`e540461`](https://github.com/stdlib-js/stdlib/commit/e540461e94f4d7bcc56d361e0fc4d24790143b52) - **bench:** refactor to use string interpolation in `blas/base/strmv` [(#10461)](https://github.com/stdlib-js/stdlib/pull/10461) _(by Lokesh Ranjan)_
+-   [`23afcd1`](https://github.com/stdlib-js/stdlib/commit/23afcd14843e27539f59f83026a53cabe4bb3a1c) - **bench:** refactor to use string interpolation in `blas/base/strsv` [(#10463)](https://github.com/stdlib-js/stdlib/pull/10463) _(by Lokesh Ranjan)_
+-   [`6d2d900`](https://github.com/stdlib-js/stdlib/commit/6d2d90074716499c606c3e446afef21e58f71ba5) - **bench:** refactor to use string interpolation in `blas/base/sgemv` [(#10450)](https://github.com/stdlib-js/stdlib/pull/10450) _(by Lokesh Ranjan)_
+-   [`0e4b6e6`](https://github.com/stdlib-js/stdlib/commit/0e4b6e646f948b05a305094846a61f99862f9b63) - **bench:** refactor to use string interpolation in `blas/base/sger` [(#10451)](https://github.com/stdlib-js/stdlib/pull/10451) _(by Lokesh Ranjan)_
+-   [`4be2dc5`](https://github.com/stdlib-js/stdlib/commit/4be2dc517dc9668611f34b2a57c8a90fa5b48d53) - **bench:** refactor to use string interpolation in `blas/base/snrm2` [(#10452)](https://github.com/stdlib-js/stdlib/pull/10452) _(by Lokesh Ranjan)_
+-   [`5faf52b`](https://github.com/stdlib-js/stdlib/commit/5faf52b86b2a03b2ac4434598792700547a5a81f) - **bench:** refactor to use string interpolation in `blas/base/srotg` [(#10453)](https://github.com/stdlib-js/stdlib/pull/10453) _(by Lokesh Ranjan)_
+-   [`78c066a`](https://github.com/stdlib-js/stdlib/commit/78c066ad4f3da1d33317f3188b77ea0436ea7428) - **bench:** refactor to use string interpolation in `blas/base/sscal` [(#10454)](https://github.com/stdlib-js/stdlib/pull/10454) _(by Lokesh Ranjan)_
+-   [`9a0fc0a`](https://github.com/stdlib-js/stdlib/commit/9a0fc0a169aba8d7986307a49dcdb5ee6b0eeb15) - **bench:** refactor to use string interpolation in `blas/base/sspmv` [(#10455)](https://github.com/stdlib-js/stdlib/pull/10455) _(by Lokesh Ranjan)_
+-   [`c1755b9`](https://github.com/stdlib-js/stdlib/commit/c1755b981f95c57388279aa966dfc43595434846) - **bench:** refactor to use string interpolation in `blas/base/isamax` [(#10428)](https://github.com/stdlib-js/stdlib/pull/10428) _(by Shubham)_
+-   [`833eeed`](https://github.com/stdlib-js/stdlib/commit/833eeed3643df0fd0d94df57c68065b8ada8a74f) - **bench:** refactor to use string interpolation in `blas/base/sasum` [(#10429)](https://github.com/stdlib-js/stdlib/pull/10429) _(by Shubham)_
+-   [`82e5efd`](https://github.com/stdlib-js/stdlib/commit/82e5efd18ff2c2d276e88e4384e49d5f32c24959) - **bench:** refactor to use string interpolation in `blas/base/scasum` [(#10430)](https://github.com/stdlib-js/stdlib/pull/10430) _(by Shubham)_
+-   [`a8411ae`](https://github.com/stdlib-js/stdlib/commit/a8411ae90fd217e642d0d70ffa6cd2494967f73d) - **bench:** refactor to use string interpolation in `blas/base/scnrm2` [(#10431)](https://github.com/stdlib-js/stdlib/pull/10431) _(by Shubham)_
+-   [`7bb3870`](https://github.com/stdlib-js/stdlib/commit/7bb3870f66f09ffa34133204b0e02bc9411c9e6d) - **bench:** refactor to use string interpolation in `blas/base/caxpy` [(#10367)](https://github.com/stdlib-js/stdlib/pull/10367) _(by Shubham)_
+-   [`fc49fa5`](https://github.com/stdlib-js/stdlib/commit/fc49fa5c72ab4433c55f48750ea4cae10446c40c) - **bench:** refactor to use string interpolation in `blas/base/ccopy` [(#10368)](https://github.com/stdlib-js/stdlib/pull/10368) _(by Shubham)_
+-   [`b54e895`](https://github.com/stdlib-js/stdlib/commit/b54e8953f36e1feed4338c25f8e422ab6616ac30) - **bench:** refactor to use string interpolation in `blas/base/csscal` [(#10392)](https://github.com/stdlib-js/stdlib/pull/10392) _(by Shubham)_
+-   [`2b6a46b`](https://github.com/stdlib-js/stdlib/commit/2b6a46b984472ebff561251d4918c164e2a57b59) - **bench:** refactor to use string interpolation in `blas/base/cswap` [(#10393)](https://github.com/stdlib-js/stdlib/pull/10393) _(by Shubham)_
+-   [`ac99312`](https://github.com/stdlib-js/stdlib/commit/ac99312b4e8b2b6a31bb37a7077399ee35a2c186) - **bench:** refactor to use string interpolation in `blas/base/csrot` [(#10391)](https://github.com/stdlib-js/stdlib/pull/10391) _(by Shubham)_
+-   [`9108058`](https://github.com/stdlib-js/stdlib/commit/9108058ec47102a250344cb84df5e8de2a40435b) - **bench:** refactor to use string interpolation in `blas/base/dnrm2` [(#10408)](https://github.com/stdlib-js/stdlib/pull/10408) _(by Shubham)_
+-   [`25a83a9`](https://github.com/stdlib-js/stdlib/commit/25a83a9791bb03905fa36e7905d5a8551417f578) - **bench:** refactor to use string interpolation in `blas/base/daxpy` [(#10409)](https://github.com/stdlib-js/stdlib/pull/10409) _(by Shubham)_
+-   [`ff26214`](https://github.com/stdlib-js/stdlib/commit/ff262145f210fc52950aa2de33b8a746d0bdf805) - **bench:** refactor to use string interpolation in `blas/base/dasum` [(#10411)](https://github.com/stdlib-js/stdlib/pull/10411) _(by Shubham)_
+-   [`23859a1`](https://github.com/stdlib-js/stdlib/commit/23859a1be95fbece6101dd9527c053d029a76f64) - **bench:** refactor to use string interpolation in `blas/base/dznrm2` [(#10410)](https://github.com/stdlib-js/stdlib/pull/10410) _(by Shubham)_
+-   [`d7c9e82`](https://github.com/stdlib-js/stdlib/commit/d7c9e8257ce6c5eead817a24a26556c3efb62cf8) - **test:** remove empty line between require statements in `test.dsyr2.js` [(#10288)](https://github.com/stdlib-js/stdlib/pull/10288) _(by Lakshmi Sravya Vedantham, lakshmisravya123)_
+-   [`9a18a03`](https://github.com/stdlib-js/stdlib/commit/9a18a03e86bfed34475b176b2732303aab09c86c) - **bench:** refactor to use dynamic memory allocation in `blas/base/sspr` [(#10332)](https://github.com/stdlib-js/stdlib/pull/10332) _(by Prajjwal Bajpai)_
+-   [`338737a`](https://github.com/stdlib-js/stdlib/commit/338737a1f9c6f3b88a9bc5338f35dc90dc82b43a) - **bench:** refactor to use string interpolation in `blas/base/sspr` [(#10333)](https://github.com/stdlib-js/stdlib/pull/10333) _(by Prajjwal Bajpai, Philipp Burckhardt)_
+-   [`5c41472`](https://github.com/stdlib-js/stdlib/commit/5c41472c12ae782ea7dc703108ccbd92405c5397) - **bench:** refactor to use string interpolation in `blas/base/srotm` [(#10314)](https://github.com/stdlib-js/stdlib/pull/10314) _(by Prajjwal Bajpai)_
+-   [`a429a6a`](https://github.com/stdlib-js/stdlib/commit/a429a6abc8c3588478436c91a3ced18c31198948) - **bench:** refactor to use dynamic memory allocation in `blas/base/scopy` [(#10155)](https://github.com/stdlib-js/stdlib/pull/10155) _(by Prajjwal Bajpai)_
+-   [`d86efd1`](https://github.com/stdlib-js/stdlib/commit/d86efd10c0a4bc76a291c78ee8ebde52aa4f4926) - **bench:** refactor to use string interpolation in `blas/base/scopy` [(#10156)](https://github.com/stdlib-js/stdlib/pull/10156) _(by Prajjwal Bajpai)_
+-   [`c62573e`](https://github.com/stdlib-js/stdlib/commit/c62573efea9252a74eeb9056ca91c55485199286) - **bench:** refactor to use dynamic memory allocation in `blas/base/sdot` [(#10173)](https://github.com/stdlib-js/stdlib/pull/10173) _(by Prajjwal Bajpai)_
+-   [`7d88343`](https://github.com/stdlib-js/stdlib/commit/7d88343dc553ac2b116119cb618d3eee0f11a513) - **bench:** refactor to use dynamic memory allocation in `blas/base/srot` [(#10287)](https://github.com/stdlib-js/stdlib/pull/10287) _(by Prajjwal Bajpai)_
+-   [`9fc0b94`](https://github.com/stdlib-js/stdlib/commit/9fc0b943505f6b3fb58781fe53b726e65c061e2e) - **bench:** refactor to use string interpolation in `blas/base/srot` [(#10289)](https://github.com/stdlib-js/stdlib/pull/10289) _(by Prajjwal Bajpai)_
+-   [`570ea52`](https://github.com/stdlib-js/stdlib/commit/570ea52237318497987a193d4b8069a6dceff78f) - **bench:** use string interpolation in `blas/base/dgemv` [(#10290)](https://github.com/stdlib-js/stdlib/pull/10290) _(by Om-A-osc)_
+-   [`d3f62b1`](https://github.com/stdlib-js/stdlib/commit/d3f62b1dc6a274e004e047928832ce378798768a) - **bench:** use string interpolation in `blas/base/dger` [(#10292)](https://github.com/stdlib-js/stdlib/pull/10292) _(by Om-A-osc)_
+-   [`8a000b4`](https://github.com/stdlib-js/stdlib/commit/8a000b4c884be979078c342d56f96b52a8bc5b0c) - **bench:** use string interpolation in `blas/base/dgemm` [(#10294)](https://github.com/stdlib-js/stdlib/pull/10294) _(by Om-A-osc)_
+-   [`1cccd61`](https://github.com/stdlib-js/stdlib/commit/1cccd611ff6c4edd77ecf39f8f684b583499d379) - **bench:** use string interpolation in `blas/base/drot` [(#10295)](https://github.com/stdlib-js/stdlib/pull/10295) _(by Om-A-osc)_
+-   [`dd728e2`](https://github.com/stdlib-js/stdlib/commit/dd728e2944ff7318d68b89e9e8c33d9e84d94e7e) - **bench:** refactor to use string interpolation in `blas/base/cscal` [(#10308)](https://github.com/stdlib-js/stdlib/pull/10308) _(by Bhargav Dabhade)_
+-   [`80b62e9`](https://github.com/stdlib-js/stdlib/commit/80b62e996caedc9d65e3c4d319b2abd01d0429e7) - **bench:** refactor to use string interpolation in `blas/base/sdot` [(#10175)](https://github.com/stdlib-js/stdlib/pull/10175) _(by Prajjwal Bajpai)_
+-   [`51c43ad`](https://github.com/stdlib-js/stdlib/commit/51c43ad346f4f7a14e7f131b0ea5ebf477959bae) - **bench:** refactor to use string interpolation in `blas/base/sdsdot` [(#10190)](https://github.com/stdlib-js/stdlib/pull/10190) _(by Prajjwal Bajpai)_
+-   [`ea860cb`](https://github.com/stdlib-js/stdlib/commit/ea860cb837689aeec224d0f0e4f71054bc5b309d) - **bench:** refactor to use string interpolation in `blas/base/dcopy` [(#10260)](https://github.com/stdlib-js/stdlib/pull/10260) _(by Bhargav Dabhade)_
+-   [`091611e`](https://github.com/stdlib-js/stdlib/commit/091611e823cdf35c232dec0ba9ef441f5542acd2) - **bench:** use string interpolation in `blas/base/zdscal` [(#10253)](https://github.com/stdlib-js/stdlib/pull/10253) _(by Om-A-osc)_
+-   [`941a193`](https://github.com/stdlib-js/stdlib/commit/941a1939d08e0aff5c4fe5b3106cba6410566cd6) - **bench:** use string interpolation in `blas/base/zdrot` [(#10254)](https://github.com/stdlib-js/stdlib/pull/10254) _(by Om-A-osc)_
+-   [`f490e6f`](https://github.com/stdlib-js/stdlib/commit/f490e6fc9a92d5e8e9d125d842b9c572b04eb4b3) - **bench:** use string interpolation in `blas/base/zscal` [(#10255)](https://github.com/stdlib-js/stdlib/pull/10255) _(by Om-A-osc)_
+-   [`f33b43c`](https://github.com/stdlib-js/stdlib/commit/f33b43c48b34eaa32ac9a1b3d1ae92509cd06251) - **bench:** use string interpolation in `blas/base/zswap` [(#10256)](https://github.com/stdlib-js/stdlib/pull/10256) _(by Om-A-osc)_
+-   [`a92ae46`](https://github.com/stdlib-js/stdlib/commit/a92ae4642159e98a945676a90269ffc75a211b87) - **bench:** refactor to use string interpolation in `blas/base/ddot` [(#10259)](https://github.com/stdlib-js/stdlib/pull/10259) _(by Bhargav Dabhade)_
+-   [`f1626a2`](https://github.com/stdlib-js/stdlib/commit/f1626a2f9e5d8a71f99d878dfb2e60132e27af6d) - **bench:** refactor to use dynamic memory allocation in `blas/base/sdsdot` [(#10188)](https://github.com/stdlib-js/stdlib/pull/10188) _(by Prajjwal Bajpai)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 11 people contributed to this release. Thank you to the following contributors:
+
+-   Aryan kumar
+-   Bhargav Dabhade
+-   Dhruvan Gnanadhandayuthapani
+-   Lakshmi Sravya Vedantham
+-   Lokesh Ranjan
+-   Om-A-osc
+-   Partha Das
+-   Philipp Burckhardt
+-   Prajjwal Bajpai
+-   Shubham
+-   lakshmisravya123
+
+</section>
+
+<!-- /.contributors -->
+
+</section>
+
+<!-- /.release -->
+
 <section class="release" id="v0.3.1">
 
 ## 0.3.1 (2026-02-08)
