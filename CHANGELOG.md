@@ -4,12 +4,17 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-03-30)
+## Unreleased (2026-04-02)
 
 <section class="features">
 
 ### Features
 
+-   [`114a601`](https://github.com/stdlib-js/stdlib/commit/114a601d0828bd6f9c1384b1d43dae63f36c6070) - update `blas/base` TypeScript declarations [(#11269)](https://github.com/stdlib-js/stdlib/pull/11269)
+-   [`ea264e0`](https://github.com/stdlib-js/stdlib/commit/ea264e067f538fd074552cd197f458c3fad8c69a) - update `blas/base/ndarray` TypeScript declarations [(#11250)](https://github.com/stdlib-js/stdlib/pull/11250)
+-   [`68e429f`](https://github.com/stdlib-js/stdlib/commit/68e429f58616af1defd8cddfcc9b62ec47c5607a) - add `blas/base/ndarray/gasum` [(#11225)](https://github.com/stdlib-js/stdlib/pull/11225)
+-   [`fdc8470`](https://github.com/stdlib-js/stdlib/commit/fdc8470da0ab5f88ac5b2085dcdfd5f73601f12e) - add `sasum` to namespace
+-   [`26bd7e3`](https://github.com/stdlib-js/stdlib/commit/26bd7e30ed17904d35d0eb419d611647081a7f2b) - add `blas/base/ndarray/sasum` [(#11215)](https://github.com/stdlib-js/stdlib/pull/11215)
 -   [`972a005`](https://github.com/stdlib-js/stdlib/commit/972a0050d4ce65fe987718730115a90aa6313ce3) - add `ndarray` to namespace
 -   [`eb01558`](https://github.com/stdlib-js/stdlib/commit/eb01558caf34b3a230bfaae621c716c09055e3f3) - add `blas/base/ndarray` namespace
 -   [`123d52a`](https://github.com/stdlib-js/stdlib/commit/123d52a068d091362473cfdfe6cfd96db4775fae) - add `blas/base/ndarray/dasum` [(#11206)](https://github.com/stdlib-js/stdlib/pull/11206)
@@ -22,6 +27,7 @@
 
 ### Bug Fixes
 
+-   [`4e1b1df`](https://github.com/stdlib-js/stdlib/commit/4e1b1dfba22bc37cbf13902963692e6e30df16ee) - add namespace package files
 -   [`0e41789`](https://github.com/stdlib-js/stdlib/commit/0e4178970f971d23a583327347070a4eba7281e5) - correct function call to cblas in `blas/base/ddot` [(#10707)](https://github.com/stdlib-js/stdlib/pull/10707)
 
 </section>
@@ -46,6 +52,20 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`114a601`](https://github.com/stdlib-js/stdlib/commit/114a601d0828bd6f9c1384b1d43dae63f36c6070) - **feat:** update `blas/base` TypeScript declarations [(#11269)](https://github.com/stdlib-js/stdlib/pull/11269) _(by stdlib-bot)_
+-   [`ea264e0`](https://github.com/stdlib-js/stdlib/commit/ea264e067f538fd074552cd197f458c3fad8c69a) - **feat:** update `blas/base/ndarray` TypeScript declarations [(#11250)](https://github.com/stdlib-js/stdlib/pull/11250) _(by stdlib-bot)_
+-   [`04fd54f`](https://github.com/stdlib-js/stdlib/commit/04fd54f42c8c1b0af88660d7ce791f71891a2187) - **refactor:** improve type specificity in `blas/base/ndarray/gdot` [(#11245)](https://github.com/stdlib-js/stdlib/pull/11245) _(by Kaustubh Patange)_
+-   [`68e429f`](https://github.com/stdlib-js/stdlib/commit/68e429f58616af1defd8cddfcc9b62ec47c5607a) - **feat:** add `blas/base/ndarray/gasum` [(#11225)](https://github.com/stdlib-js/stdlib/pull/11225) _(by Kaustubh Patange, Athan Reines)_
+-   [`eabc418`](https://github.com/stdlib-js/stdlib/commit/eabc41856394898c0eb87c8998c0be31f1b4e1a5) - **docs:** update namespace table of contents [(#11238)](https://github.com/stdlib-js/stdlib/pull/11238) _(by stdlib-bot)_
+-   [`e5563e6`](https://github.com/stdlib-js/stdlib/commit/e5563e64c220207b23b0a7d6103986b9a2d4d196) - **bench:** refactor to use string interpolation in `blas/base/matrix-triangle-resolve-str` [(#11208)](https://github.com/stdlib-js/stdlib/pull/11208) _(by Kamal Singh Rautela)_
+-   [`39f546e`](https://github.com/stdlib-js/stdlib/commit/39f546ef68ed924078037e33ab7ea1097c48ef27) - **bench:** refactor to use string interpolation in `blas/base/diagonal-type-resolve-str` [(#11207)](https://github.com/stdlib-js/stdlib/pull/11207) _(by Kamal Singh Rautela)_
+-   [`956d892`](https://github.com/stdlib-js/stdlib/commit/956d892ba4361d840a86d4f246e3a7b9bfaa4cfd) - **bench:** refactor to use string interpolation in `blas/base/matrix-orientation-resolve-str` [(#11218)](https://github.com/stdlib-js/stdlib/pull/11218) _(by Kamal Singh Rautela)_
+-   [`9e4bd00`](https://github.com/stdlib-js/stdlib/commit/9e4bd00aa58ccaf697ef60feb35fe34db59cd60c) - **bench:** refactor to use string interpolation in `blas/base/layout-resolve-string` [(#11219)](https://github.com/stdlib-js/stdlib/pull/11219) _(by Kamal Singh Rautela)_
+-   [`62b8918`](https://github.com/stdlib-js/stdlib/commit/62b891876205c3de94b6528b4a43f59d3f7fdbab) - **bench:** refactor to use string interpolation in `blas/base/diagonal-type-resolve-enum` [(#11220)](https://github.com/stdlib-js/stdlib/pull/11220) _(by Kamal Singh Rautela)_
+-   [`5e93594`](https://github.com/stdlib-js/stdlib/commit/5e93594dd241e229cc3605b53dfa4290168526fc) - **docs:** update namespace table of contents [(#11214)](https://github.com/stdlib-js/stdlib/pull/11214) _(by stdlib-bot)_
+-   [`fdc8470`](https://github.com/stdlib-js/stdlib/commit/fdc8470da0ab5f88ac5b2085dcdfd5f73601f12e) - **feat:** add `sasum` to namespace _(by Athan Reines)_
+-   [`26bd7e3`](https://github.com/stdlib-js/stdlib/commit/26bd7e30ed17904d35d0eb419d611647081a7f2b) - **feat:** add `blas/base/ndarray/sasum` [(#11215)](https://github.com/stdlib-js/stdlib/pull/11215) _(by Kaustubh Patange, Athan Reines)_
+-   [`4e1b1df`](https://github.com/stdlib-js/stdlib/commit/4e1b1dfba22bc37cbf13902963692e6e30df16ee) - **fix:** add namespace package files _(by Athan Reines)_
 -   [`972a005`](https://github.com/stdlib-js/stdlib/commit/972a0050d4ce65fe987718730115a90aa6313ce3) - **feat:** add `ndarray` to namespace _(by Athan Reines)_
 -   [`eb01558`](https://github.com/stdlib-js/stdlib/commit/eb01558caf34b3a230bfaae621c716c09055e3f3) - **feat:** add `blas/base/ndarray` namespace _(by Athan Reines)_
 -   [`123d52a`](https://github.com/stdlib-js/stdlib/commit/123d52a068d091362473cfdfe6cfd96db4775fae) - **feat:** add `blas/base/ndarray/dasum` [(#11206)](https://github.com/stdlib-js/stdlib/pull/11206) _(by Kaustubh Patange, Athan Reines)_
@@ -151,12 +171,13 @@ A total of 5 issues were closed in this release:
 
 ### Contributors
 
-A total of 13 people contributed to this release. Thank you to the following contributors:
+A total of 14 people contributed to this release. Thank you to the following contributors:
 
 -   Aryan kumar
 -   Athan Reines
 -   Bhargav Dabhade
 -   Dhruvan Gnanadhandayuthapani
+-   Kamal Singh Rautela
 -   Kaustubh Patange
 -   Lakshmi Sravya Vedantham
 -   Lokesh Ranjan
