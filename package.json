@@ -181,6 +181,7 @@
     "@stdlib/blas-base-assert-is-transpose-operation": "^0.1.1",
     "@stdlib/blas-base-ndarray-dasum": "github:stdlib-js/blas-base-ndarray-dasum#main",
     "@stdlib/blas-base-ndarray-ddot": "^0.1.1",
+    "@stdlib/blas-base-ndarray-gasum": "github:stdlib-js/blas-base-ndarray-gasum#main",
     "@stdlib/blas-base-ndarray-gdot": "^0.1.1",
     "@stdlib/blas-base-ndarray-sasum": "github:stdlib-js/blas-base-ndarray-sasum#main",
     "@stdlib/blas-base-ndarray-sdot": "^0.1.1",
