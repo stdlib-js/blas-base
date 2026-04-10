@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-04-08)
+## Unreleased (2026-04-10)
 
 <section class="features">
 
@@ -29,6 +29,7 @@
 
 ### Bug Fixes
 
+-   [`e47ee45`](https://github.com/stdlib-js/stdlib/commit/e47ee4551cf19ad584361fb80c9eed84ff9ea792) - resolve bugs, docs, and JSDoc type errors [(#11337)](https://github.com/stdlib-js/stdlib/pull/11337)
 -   [`4e1b1df`](https://github.com/stdlib-js/stdlib/commit/4e1b1dfba22bc37cbf13902963692e6e30df16ee) - add namespace package files
 -   [`0e41789`](https://github.com/stdlib-js/stdlib/commit/0e4178970f971d23a583327347070a4eba7281e5) - correct function call to cblas in `blas/base/ddot` [(#10707)](https://github.com/stdlib-js/stdlib/pull/10707)
 
@@ -54,6 +55,8 @@ A total of 6 issues were closed in this release:
 
 <details>
 
+-   [`2022569`](https://github.com/stdlib-js/stdlib/commit/2022569674a4a4d184b3c8a3098fe70fa77ceef5) - **docs:** update descriptions [(#11349)](https://github.com/stdlib-js/stdlib/pull/11349) _(by stdlib-bot)_
+-   [`e47ee45`](https://github.com/stdlib-js/stdlib/commit/e47ee4551cf19ad584361fb80c9eed84ff9ea792) - **fix:** resolve bugs, docs, and JSDoc type errors [(#11337)](https://github.com/stdlib-js/stdlib/pull/11337) _(by Philipp Burckhardt)_
 -   [`062b6a7`](https://github.com/stdlib-js/stdlib/commit/062b6a71c5fada8235a85d908bce29c7f4c43a60) - **chore:** fix JavaScript lint errors [(#11315)](https://github.com/stdlib-js/stdlib/pull/11315) _(by Mandeep2333, Athan Reines)_
 -   [`d479058`](https://github.com/stdlib-js/stdlib/commit/d479058e503f9625161a2666e308d6976902d0f6) - **docs:** update descriptions _(by Athan Reines)_
 -   [`faaf3b3`](https://github.com/stdlib-js/stdlib/commit/faaf3b363bc48813c2c82b4b930727ae257cde54) - **docs:** update namespace table of contents [(#11276)](https://github.com/stdlib-js/stdlib/pull/11276) _(by stdlib-bot)_
