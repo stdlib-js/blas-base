@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-04-21)
+## Unreleased (2026-04-22)
 
 <section class="features">
 
 ### Features
 
+-   [`e764597`](https://github.com/stdlib-js/stdlib/commit/e76459793b63f8dcd9850db3f9b83b338b5fbcee) - update `blas/base` TypeScript declarations [(#11711)](https://github.com/stdlib-js/stdlib/pull/11711)
 -   [`288292f`](https://github.com/stdlib-js/stdlib/commit/288292ff16379fec5a112801a547bc44b0ffb93e) - update `blas/base/ndarray` TypeScript declarations [(#11687)](https://github.com/stdlib-js/stdlib/pull/11687)
 -   [`50c0046`](https://github.com/stdlib-js/stdlib/commit/50c00461c288a1fcdecaab5b6e67acb008f1b8a7) - add `ccopy` and `zcopy` to namespace
 -   [`8fb4543`](https://github.com/stdlib-js/stdlib/commit/8fb454362a24376567c1d20ad12f1a11fd396617) - add `cgemv` to namespace
@@ -83,6 +84,8 @@ A total of 10 issues were closed in this release:
 
 <details>
 
+-   [`e764597`](https://github.com/stdlib-js/stdlib/commit/e76459793b63f8dcd9850db3f9b83b338b5fbcee) - **feat:** update `blas/base` TypeScript declarations [(#11711)](https://github.com/stdlib-js/stdlib/pull/11711) _(by stdlib-bot)_
+-   [`11fe978`](https://github.com/stdlib-js/stdlib/commit/11fe9784619f60b1e31355e2ab06ad55ea90c312) - **chore:** minor clean-up [(#11694)](https://github.com/stdlib-js/stdlib/pull/11694) _(by Philipp Burckhardt, Athan Reines)_
 -   [`0f62461`](https://github.com/stdlib-js/stdlib/commit/0f62461c976de87b8782e28eceaa89b7f42f89e2) - **docs:** update namespace table of contents [(#11688)](https://github.com/stdlib-js/stdlib/pull/11688) _(by stdlib-bot)_
 -   [`288292f`](https://github.com/stdlib-js/stdlib/commit/288292ff16379fec5a112801a547bc44b0ffb93e) - **feat:** update `blas/base/ndarray` TypeScript declarations [(#11687)](https://github.com/stdlib-js/stdlib/pull/11687) _(by stdlib-bot)_
 -   [`50c0046`](https://github.com/stdlib-js/stdlib/commit/50c00461c288a1fcdecaab5b6e67acb008f1b8a7) - **feat:** add `ccopy` and `zcopy` to namespace _(by Athan Reines)_
