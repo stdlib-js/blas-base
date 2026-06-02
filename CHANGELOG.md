@@ -4,12 +4,23 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-05-29)
+## Unreleased (2026-06-02)
 
 <section class="features">
 
 ### Features
 
+-   [`bebe411`](https://github.com/stdlib-js/stdlib/commit/bebe411775818ab700e3055ce82d52c5d313c108) - update `blas/base` TypeScript declarations [(#12438)](https://github.com/stdlib-js/stdlib/pull/12438)
+-   [`57b21c2`](https://github.com/stdlib-js/stdlib/commit/57b21c2ce6642689b9f772f63bc9ad95cc6c29b6) - add TypeScript declarations for `blas/base/igamax` [(#12420)](https://github.com/stdlib-js/stdlib/pull/12420)
+-   [`52ca9a6`](https://github.com/stdlib-js/stdlib/commit/52ca9a6494aab7867e025e73ba11703989f74b60) - update `blas/base/ndarray` TypeScript declarations [(#12415)](https://github.com/stdlib-js/stdlib/pull/12415)
+-   [`d11d8fb`](https://github.com/stdlib-js/stdlib/commit/d11d8fb96e9e0ce2c11950e6143f9f9695e0e921) - add `igamax` and `isamax` to namespace
+-   [`1d9f9d1`](https://github.com/stdlib-js/stdlib/commit/1d9f9d17ff32b0f1083a7024c476fc303720c88d) - add `blas/base/ndarray/igamax` [(#12402)](https://github.com/stdlib-js/stdlib/pull/12402)
+-   [`4302ca2`](https://github.com/stdlib-js/stdlib/commit/4302ca2168b66b7f64ded7c21b5ebe6450f13ad1) - add `blas/base/ndarray/isamax` [(#12403)](https://github.com/stdlib-js/stdlib/pull/12403)
+-   [`7cdf234`](https://github.com/stdlib-js/stdlib/commit/7cdf23436c16976a0c54fbe3f9e2bce85e21fdae) - add `idamax` to namespace
+-   [`f874802`](https://github.com/stdlib-js/stdlib/commit/f87480203da0168a35c4303c1e727b7c84c30eb7) - add `blas/base/ndarray/idamax` [(#12397)](https://github.com/stdlib-js/stdlib/pull/12397)
+-   [`ba11829`](https://github.com/stdlib-js/stdlib/commit/ba11829900b454c327798281c6746bac3e9cd9dd) - add `dzasum` to namespace
+-   [`d54dfab`](https://github.com/stdlib-js/stdlib/commit/d54dfab101734f92532890f79d8704203198166d) - add `blas/base/ndarray/dzasum` [(#12396)](https://github.com/stdlib-js/stdlib/pull/12396)
+-   [`d2700aa`](https://github.com/stdlib-js/stdlib/commit/d2700aa13c218eb72bdd464fbca86156a86a7a36) - update `blas/base` TypeScript declarations [(#12339)](https://github.com/stdlib-js/stdlib/pull/12339)
 -   [`af6a5d7`](https://github.com/stdlib-js/stdlib/commit/af6a5d7a0446d5e3044cdf1a7db5775ffe2d1fa6) - add `C` implementation for `blas/base/csscal` [(#12314)](https://github.com/stdlib-js/stdlib/pull/12314)
 -   [`fea89b4`](https://github.com/stdlib-js/stdlib/commit/fea89b499cd25a101fe5358d8d6fe55392ffc2ab) - add `dzasum` to namespace
 -   [`1ff31b2`](https://github.com/stdlib-js/stdlib/commit/1ff31b207d3beac881a96679697f767595248eb4) - add `blas/base/dzasum` [(#4697)](https://github.com/stdlib-js/stdlib/pull/4697)
@@ -140,6 +151,25 @@ A total of 14 issues were closed in this release:
 
 <details>
 
+-   [`bebe411`](https://github.com/stdlib-js/stdlib/commit/bebe411775818ab700e3055ce82d52c5d313c108) - **feat:** update `blas/base` TypeScript declarations [(#12438)](https://github.com/stdlib-js/stdlib/pull/12438) _(by stdlib-bot)_
+-   [`f84f6d0`](https://github.com/stdlib-js/stdlib/commit/f84f6d09d7132ee20cf04d11ff8cd7c339158d6d) - **style:** fix return annotation _(by Athan Reines)_
+-   [`9f0e49e`](https://github.com/stdlib-js/stdlib/commit/9f0e49e6831ff9f1b342e203ed086abbaaee636d) - **chore:** address follow-up review findings for commits merged to `develop` on 2026-05-31 [(#12430)](https://github.com/stdlib-js/stdlib/pull/12430) _(by Philipp Burckhardt)_
+-   [`f7a08b6`](https://github.com/stdlib-js/stdlib/commit/f7a08b6ce746cb67f028eabec46455e0642e3758) - **docs:** align `package.json` descriptions with imperative-mood convention [(#12431)](https://github.com/stdlib-js/stdlib/pull/12431) _(by Philipp Burckhardt)_
+-   [`26c6b7a`](https://github.com/stdlib-js/stdlib/commit/26c6b7ae6f242ecb3edcf3b6e25040cc30d3e949) - **refactor:** replace `isMatrixTranspose` with `resolveStr` in `blas/base/ggemv` [(#12423)](https://github.com/stdlib-js/stdlib/pull/12423) _(by Kaustubh Patange)_
+-   [`ebd579a`](https://github.com/stdlib-js/stdlib/commit/ebd579a7d5315aab1c6e346dd3073e13f437dc86) - **refactor:** replace `isMatrixTranspose` with `resolveStr` in `blas/base/dgemv` [(#12422)](https://github.com/stdlib-js/stdlib/pull/12422) _(by Kaustubh Patange)_
+-   [`10555a8`](https://github.com/stdlib-js/stdlib/commit/10555a861a68cf5761a293e2b9c7e2b9c71b84a9) - **refactor:** replace `isMatrixTranspose` with `resolveStr` in `blas/base/sgemv` [(#12421)](https://github.com/stdlib-js/stdlib/pull/12421) _(by Kaustubh Patange)_
+-   [`57b21c2`](https://github.com/stdlib-js/stdlib/commit/57b21c2ce6642689b9f772f63bc9ad95cc6c29b6) - **feat:** add TypeScript declarations for `blas/base/igamax` [(#12420)](https://github.com/stdlib-js/stdlib/pull/12420) _(by Philipp Burckhardt)_
+-   [`9dd3df6`](https://github.com/stdlib-js/stdlib/commit/9dd3df6b9e0735d6ffe28d6475e1181ac645f2de) - **docs:** update namespace table of contents [(#12416)](https://github.com/stdlib-js/stdlib/pull/12416) _(by stdlib-bot)_
+-   [`52ca9a6`](https://github.com/stdlib-js/stdlib/commit/52ca9a6494aab7867e025e73ba11703989f74b60) - **feat:** update `blas/base/ndarray` TypeScript declarations [(#12415)](https://github.com/stdlib-js/stdlib/pull/12415) _(by stdlib-bot)_
+-   [`fa63e96`](https://github.com/stdlib-js/stdlib/commit/fa63e96848015bb73e82bae42d188989588810f8) - **docs:** fix descriptions _(by Athan Reines)_
+-   [`d11d8fb`](https://github.com/stdlib-js/stdlib/commit/d11d8fb96e9e0ce2c11950e6143f9f9695e0e921) - **feat:** add `igamax` and `isamax` to namespace _(by Athan Reines)_
+-   [`1d9f9d1`](https://github.com/stdlib-js/stdlib/commit/1d9f9d17ff32b0f1083a7024c476fc303720c88d) - **feat:** add `blas/base/ndarray/igamax` [(#12402)](https://github.com/stdlib-js/stdlib/pull/12402) _(by Kaustubh Patange, Athan Reines)_
+-   [`4302ca2`](https://github.com/stdlib-js/stdlib/commit/4302ca2168b66b7f64ded7c21b5ebe6450f13ad1) - **feat:** add `blas/base/ndarray/isamax` [(#12403)](https://github.com/stdlib-js/stdlib/pull/12403) _(by Kaustubh Patange)_
+-   [`7cdf234`](https://github.com/stdlib-js/stdlib/commit/7cdf23436c16976a0c54fbe3f9e2bce85e21fdae) - **feat:** add `idamax` to namespace _(by Athan Reines)_
+-   [`f874802`](https://github.com/stdlib-js/stdlib/commit/f87480203da0168a35c4303c1e727b7c84c30eb7) - **feat:** add `blas/base/ndarray/idamax` [(#12397)](https://github.com/stdlib-js/stdlib/pull/12397) _(by Kaustubh Patange, Athan Reines)_
+-   [`ba11829`](https://github.com/stdlib-js/stdlib/commit/ba11829900b454c327798281c6746bac3e9cd9dd) - **feat:** add `dzasum` to namespace _(by Athan Reines)_
+-   [`d54dfab`](https://github.com/stdlib-js/stdlib/commit/d54dfab101734f92532890f79d8704203198166d) - **feat:** add `blas/base/ndarray/dzasum` [(#12396)](https://github.com/stdlib-js/stdlib/pull/12396) _(by Kaustubh Patange)_
+-   [`d2700aa`](https://github.com/stdlib-js/stdlib/commit/d2700aa13c218eb72bdd464fbca86156a86a7a36) - **feat:** update `blas/base` TypeScript declarations [(#12339)](https://github.com/stdlib-js/stdlib/pull/12339) _(by stdlib-bot)_
 -   [`18f0765`](https://github.com/stdlib-js/stdlib/commit/18f0765c6838468c71eb82319b6548693ab9d19f) - **docs:** update namespace table of contents [(#12340)](https://github.com/stdlib-js/stdlib/pull/12340) _(by stdlib-bot)_
 -   [`af6a5d7`](https://github.com/stdlib-js/stdlib/commit/af6a5d7a0446d5e3044cdf1a7db5775ffe2d1fa6) - **feat:** add `C` implementation for `blas/base/csscal` [(#12314)](https://github.com/stdlib-js/stdlib/pull/12314) _(by Kaustubh Patange, Athan Reines)_
 -   [`80ccc9e`](https://github.com/stdlib-js/stdlib/commit/80ccc9efda46e813af6a0dca63e34d7671b91eeb) - **docs:** update namespace table of contents [(#12329)](https://github.com/stdlib-js/stdlib/pull/12329) _(by stdlib-bot)_

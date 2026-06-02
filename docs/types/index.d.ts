@@ -55,6 +55,7 @@ import dsyr = require( '@stdlib/blas-base-dsyr' );
 import dsyr2 = require( '@stdlib/blas-base-dsyr2' );
 import dtrmv = require( '@stdlib/blas-base-dtrmv' );
 import dtrsv = require( '@stdlib/blas-base-dtrsv' );
+import dzasum = require( '@stdlib/blas-base-dzasum' );
 import dznrm2 = require( '@stdlib/blas-base-dznrm2' );
 import gasum = require( '@stdlib/blas-base-gasum' );
 import gaxpy = require( '@stdlib/blas-base-gaxpy' );
@@ -68,6 +69,7 @@ import gscal = require( '@stdlib/blas-base-gscal' );
 import gswap = require( '@stdlib/blas-base-gswap' );
 import gsyr = require( '@stdlib/blas-base-gsyr' );
 import idamax = require( '@stdlib/blas-base-idamax' );
+import igamax = require( '@stdlib/blas-base-igamax' );
 import isamax = require( '@stdlib/blas-base-isamax' );
 import layoutEnum2Str = require( '@stdlib/blas-base-layout-enum2str' );
 import layoutResolveEnum = require( '@stdlib/blas-base-layout-resolve-enum' );
@@ -1145,6 +1147,32 @@ interface Namespace {
 	dtrsv: typeof dtrsv;
 
 	/**
+	* Computes the sum of the absolute values of the real and imaginary components of a double-precision complex floating-point strided array.
+	*
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns out
+	*
+	* @example
+	* var Complex128Array = require( '@stdlib/array-complex128' );
+	*
+	* var x = new Complex128Array( [ 0.3, 0.1, 5.0, 8.0, 0.5, 0.0, 6.0, 9.0, 0.0, 0.5, 8.0, 3.0, 0.0, 0.2, 9.0, 4.0 ] );
+	*
+	* var out = ns.dzasum( 4, x, 2 );
+	* // returns ~1.6
+	*
+	* @example
+	* var Complex128Array = require( '@stdlib/array-complex128' );
+	*
+	* var x = new Complex128Array( [ 0.3, 0.1, 5.0, 8.0, 0.5, 0.0, 6.0, 9.0, 0.0, 0.5, 8.0, 3.0, 0.0, 0.2, 9.0, 4.0 ] );
+	*
+	* var out = ns.dzasum.ndarray( 4, x, 2, 0 );
+	* // returns ~1.6
+	*/
+	dzasum: typeof dzasum;
+
+	/**
 	* Computes the L2-norm of a double-precision complex floating-point vector.
 	*
 	* @param N - number of indexed elements
@@ -1503,6 +1531,28 @@ interface Namespace {
 	* // returns 3
 	*/
 	idamax: typeof idamax;
+
+	/**
+	* Finds the index of the first element having the maximum absolute value.
+	*
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - stride length for `x`
+	* @returns index value
+	*
+	* @example
+	* var x = [ 1.0, 2.0, 3.0, 4.0, 5.0 ];
+	*
+	* var idx = ns.igamax( x.length, x, 1 );
+	* // returns 4
+	*
+	* @example
+	* var x = [ 1.0, 2.0, 3.0, 4.0, 5.0 ];
+	*
+	* var idx = ns.igamax.ndarray( x.length, x, 1, 0 );
+	* // returns 4
+	*/
+	igamax: typeof igamax;
 
 	/**
 	* Finds the index of the first element having the maximum absolute value.
