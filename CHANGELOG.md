@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-06-06)
+## Unreleased (2026-06-29)
 
 <section class="features">
 
@@ -116,6 +116,7 @@
 
 ### Bug Fixes
 
+-   [`e6cc42b`](https://github.com/stdlib-js/stdlib/commit/e6cc42bab0268753252236d0e7511c97443754cc) - correct typo in enum name and fix C examples [(#13088)](https://github.com/stdlib-js/stdlib/pull/13088)
 -   [`39f37bf`](https://github.com/stdlib-js/stdlib/commit/39f37bfe5ff3065d8da0e96cc07a3d81f1a4c649) - decouple scalar `alpha` type from input ndarray type in `blas/base/ndarray/gaxpy` [(#12532)](https://github.com/stdlib-js/stdlib/pull/12532)
 -   [`7d90009`](https://github.com/stdlib-js/stdlib/commit/7d900094623c7f16cd5cabc1c50e27135a8d4691) - import `src` utility and fix description in `blas/base/cscal` [(#12315)](https://github.com/stdlib-js/stdlib/pull/12315)
 -   [`95a8c41`](https://github.com/stdlib-js/stdlib/commit/95a8c41a2a5313aea289e722bed88bc888454233) - use correct argument value in error message and propagate JSDoc fixes to sibling packages [(#12302)](https://github.com/stdlib-js/stdlib/pull/12302)
@@ -138,9 +139,9 @@
 
 ### Closed Issues
 
-A total of 15 issues were closed in this release:
+A total of 17 issues were closed in this release:
 
-[#10285](https://github.com/stdlib-js/stdlib/issues/10285), [#10475](https://github.com/stdlib-js/stdlib/issues/10475), [#10621](https://github.com/stdlib-js/stdlib/issues/10621), [#10722](https://github.com/stdlib-js/stdlib/issues/10722), [#10980](https://github.com/stdlib-js/stdlib/issues/10980), [#11235](https://github.com/stdlib-js/stdlib/issues/11235), [#11273](https://github.com/stdlib-js/stdlib/issues/11273), [#11311](https://github.com/stdlib-js/stdlib/issues/11311), [#11452](https://github.com/stdlib-js/stdlib/issues/11452), [#11472](https://github.com/stdlib-js/stdlib/issues/11472), [#11490](https://github.com/stdlib-js/stdlib/issues/11490), [#11852](https://github.com/stdlib-js/stdlib/issues/11852), [#11958](https://github.com/stdlib-js/stdlib/issues/11958), [#12236](https://github.com/stdlib-js/stdlib/issues/12236), [#12548](https://github.com/stdlib-js/stdlib/issues/12548)
+[#10285](https://github.com/stdlib-js/stdlib/issues/10285), [#10475](https://github.com/stdlib-js/stdlib/issues/10475), [#10621](https://github.com/stdlib-js/stdlib/issues/10621), [#10722](https://github.com/stdlib-js/stdlib/issues/10722), [#10980](https://github.com/stdlib-js/stdlib/issues/10980), [#11235](https://github.com/stdlib-js/stdlib/issues/11235), [#11273](https://github.com/stdlib-js/stdlib/issues/11273), [#11311](https://github.com/stdlib-js/stdlib/issues/11311), [#11452](https://github.com/stdlib-js/stdlib/issues/11452), [#11472](https://github.com/stdlib-js/stdlib/issues/11472), [#11490](https://github.com/stdlib-js/stdlib/issues/11490), [#11852](https://github.com/stdlib-js/stdlib/issues/11852), [#11958](https://github.com/stdlib-js/stdlib/issues/11958), [#12236](https://github.com/stdlib-js/stdlib/issues/12236), [#12305](https://github.com/stdlib-js/stdlib/issues/12305), [#12548](https://github.com/stdlib-js/stdlib/issues/12548), [#12722](https://github.com/stdlib-js/stdlib/issues/12722)
 
 </section>
 
@@ -152,6 +153,14 @@ A total of 15 issues were closed in this release:
 
 <details>
 
+-   [`22afd69`](https://github.com/stdlib-js/stdlib/commit/22afd69bdd0d1e48bad6dd0bb60b1c29203f04d4) - **refactor:** add enum support in `blas/base/dtrmv` [(#13109)](https://github.com/stdlib-js/stdlib/pull/13109) _(by Divit Jain)_
+-   [`e6cc42b`](https://github.com/stdlib-js/stdlib/commit/e6cc42bab0268753252236d0e7511c97443754cc) - **fix:** correct typo in enum name and fix C examples [(#13088)](https://github.com/stdlib-js/stdlib/pull/13088) _(by anee3)_
+-   [`83e225d`](https://github.com/stdlib-js/stdlib/commit/83e225d58fc0d4d8c71f8b475f1c95faa04d2e9a) - **docs:** add missing headings and add missing placeholder section [(#13063)](https://github.com/stdlib-js/stdlib/pull/13063) _(by Philipp Burckhardt, Athan Reines)_
+-   [`2c69cdd`](https://github.com/stdlib-js/stdlib/commit/2c69cdd44b2fbde5ee16ddbf87ec66e2167e621b) - **refactor:** replace `isMatrixTranspose` with `resolveTrans` in `*gemv` packages [(#12825)](https://github.com/stdlib-js/stdlib/pull/12825) _(by Kaustubh Patange)_
+-   [`310690f`](https://github.com/stdlib-js/stdlib/commit/310690f5ceaf3ec1d7cae82e66a4748dec4c6781) - **chore:** fix JavaScript lint errors [(#12731)](https://github.com/stdlib-js/stdlib/pull/12731) _(by Suyog, Athan Reines)_
+-   [`32b7db2`](https://github.com/stdlib-js/stdlib/commit/32b7db285319cc63791eb5f232fb3bf6dc4409e9) - **chore:** fix JavaScript lint errors [(#12678)](https://github.com/stdlib-js/stdlib/pull/12678) _(by titanniya542-spec)_
+-   [`e5c4d9a`](https://github.com/stdlib-js/stdlib/commit/e5c4d9a7fe7ad93edab892ea71c79619d7e247cb) - **docs:** add missing intro section placeholders [(#12623)](https://github.com/stdlib-js/stdlib/pull/12623) _(by Philipp Burckhardt)_
+-   [`a539935`](https://github.com/stdlib-js/stdlib/commit/a53993586dfc471e535e497d6625ea33cda175c0) - **docs:** update `blas/base/wasm` TypeScript declarations [(#12576)](https://github.com/stdlib-js/stdlib/pull/12576) _(by stdlib-bot)_
 -   [`a24c6b3`](https://github.com/stdlib-js/stdlib/commit/a24c6b34de672b4b2d6823a992f8b4df54458397) - **docs:** update `blas/base` TypeScript declarations [(#12575)](https://github.com/stdlib-js/stdlib/pull/12575) _(by stdlib-bot)_
 -   [`98ca4d4`](https://github.com/stdlib-js/stdlib/commit/98ca4d428d981f27df4d2b2e1d403161d4f7ade2) - **chore:** rename `little_endian_array.js` example to plural [(#12556)](https://github.com/stdlib-js/stdlib/pull/12556) _(by Philipp Burckhardt)_
 -   [`b6dbffd`](https://github.com/stdlib-js/stdlib/commit/b6dbffd7df2988cdc118a6eead40dbf3df7f407e) - **chore:** fix JavaScript lint errors [(#12553)](https://github.com/stdlib-js/stdlib/pull/12553) _(by Rayan Salhab)_
@@ -473,7 +482,7 @@ A total of 15 issues were closed in this release:
 
 ### Contributors
 
-A total of 25 people contributed to this release. Thank you to the following contributors:
+A total of 27 people contributed to this release. Thank you to the following contributors:
 
 -   Aryan kumar
 -   Athan Reines
@@ -498,8 +507,10 @@ A total of 25 people contributed to this release. Thank you to the following con
 -   Rayan Salhab
 -   Shabareesh Shetty
 -   Shubham
+-   Suyog
 -   anee3
 -   lakshmisravya123
+-   titanniya542-spec
 
 </section>
 
