@@ -4,12 +4,47 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-06-29)
+## Unreleased (2026-08-17)
 
 <section class="features">
 
 ### Features
 
+-   [`f1c96cf`](https://github.com/stdlib-js/stdlib/commit/f1c96cfe4ff923d1f83e5d019546c89ce86050e8) - add `blas/base/ndarray/dspmv` [(#12995)](https://github.com/stdlib-js/stdlib/pull/12995)
+-   [`f8df637`](https://github.com/stdlib-js/stdlib/commit/f8df637046c9ee32a051a7daa68acf112595ab38) - update `blas/base/ndarray` TypeScript declarations [(#14315)](https://github.com/stdlib-js/stdlib/pull/14315)
+-   [`bc5638e`](https://github.com/stdlib-js/stdlib/commit/bc5638e8de64170103747b8821ffe98d65419457) - add `ssymv` to namespace
+-   [`26e6545`](https://github.com/stdlib-js/stdlib/commit/26e6545e5bf9f3eb640641b132d915b4bc2ce0f1) - add `blas/base/ndarray/ssymv` [(#12984)](https://github.com/stdlib-js/stdlib/pull/12984)
+-   [`7dddb68`](https://github.com/stdlib-js/stdlib/commit/7dddb68aed206e1d6771524c9abbe7d143b5a0c0) - update `blas/base/ndarray` TypeScript declarations [(#13571)](https://github.com/stdlib-js/stdlib/pull/13571)
+-   [`ad17191`](https://github.com/stdlib-js/stdlib/commit/ad17191dc62b80db20ac048f1b5e813faf0cdd9e) - add `dsyr`, `ssyr`, and `ssyr2` to namespace
+-   [`8b15f44`](https://github.com/stdlib-js/stdlib/commit/8b15f44829dcecaf507b7e15aa99f23250c82cd1) - add `blas/base/ndarray/ssyr2` [(#12847)](https://github.com/stdlib-js/stdlib/pull/12847)
+-   [`26bade4`](https://github.com/stdlib-js/stdlib/commit/26bade4c5acb2c4c86bbcd958dd33a45267bbfc4) - add `blas/base/ndarray/dsyr` [(#12839)](https://github.com/stdlib-js/stdlib/pull/12839)
+-   [`cfdd20a`](https://github.com/stdlib-js/stdlib/commit/cfdd20a9002beca6676ea7b1b5cc5ffeae1f9702) - add `blas/base/ndarray/ssyr` [(#12838)](https://github.com/stdlib-js/stdlib/pull/12838)
+-   [`364c3f1`](https://github.com/stdlib-js/stdlib/commit/364c3f1c4358cd95996ec5746442013029189a2b) - add `dgemm` and `sgemm` to namespace
+-   [`dc58830`](https://github.com/stdlib-js/stdlib/commit/dc588303cd69de3d3d4198e9c33767a6065bdc69) - add `blas/base/ndarray/dgemm` [(#13531)](https://github.com/stdlib-js/stdlib/pull/13531)
+-   [`488c3d8`](https://github.com/stdlib-js/stdlib/commit/488c3d82493256835db7f6645862aa163e70f0e4) - add `blas/base/ndarray/sgemm` [(#13532)](https://github.com/stdlib-js/stdlib/pull/13532)
+-   [`92b93e9`](https://github.com/stdlib-js/stdlib/commit/92b93e9c4023e46c8d53a90b8df0b471dd96c687) - add `dsyr2`, `ggemm`, and `gsyr` to namespace
+-   [`314e509`](https://github.com/stdlib-js/stdlib/commit/314e5094bd384512a0242fc909ea3dc4431384fd) - add `blas/base/ndarray/dsyr2` [(#12848)](https://github.com/stdlib-js/stdlib/pull/12848)
+-   [`ea65f7d`](https://github.com/stdlib-js/stdlib/commit/ea65f7dc3ace0eedc9e6915261c902ba369fcf7c) - add `blas/base/ndarray/gsyr` [(#12917)](https://github.com/stdlib-js/stdlib/pull/12917)
+-   [`cc19408`](https://github.com/stdlib-js/stdlib/commit/cc1940807bae9f49f1e30d288bdd600770d527b8) - add `blas/base/ndarray/ggemm` [(#13533)](https://github.com/stdlib-js/stdlib/pull/13533)
+-   [`c5ec2d1`](https://github.com/stdlib-js/stdlib/commit/c5ec2d1a213882f64428e2bc64b904804c1b44ba) - update `blas/base/ndarray` TypeScript declarations [(#13512)](https://github.com/stdlib-js/stdlib/pull/13512)
+-   [`c68e727`](https://github.com/stdlib-js/stdlib/commit/c68e727d765a7796ddb4a401ce1df3d30c98b086) - add `dspr` and `sspr` to namespace
+-   [`8614bce`](https://github.com/stdlib-js/stdlib/commit/8614bce71d72fe69d49a742d0873a284d0db234b) - add `blas/base/ndarray/sspr` [(#13021)](https://github.com/stdlib-js/stdlib/pull/13021)
+-   [`cc6b114`](https://github.com/stdlib-js/stdlib/commit/cc6b114d6592d9c3af3015ec9b20bde1acf915be) - add `blas/base/ndarray/dspr` [(#13023)](https://github.com/stdlib-js/stdlib/pull/13023)
+-   [`028e773`](https://github.com/stdlib-js/stdlib/commit/028e77359c0db9e896604c5efd2eb65c32387017) - update `blas/base/ndarray` TypeScript declarations [(#13491)](https://github.com/stdlib-js/stdlib/pull/13491)
+-   [`91f035b`](https://github.com/stdlib-js/stdlib/commit/91f035bce9f15acaf2873ee3b166f5d28ad7a379) - add `gger` to namespace
+-   [`c1ed55c`](https://github.com/stdlib-js/stdlib/commit/c1ed55cb556cfa53ba1dfb45bcd4221cb02c570c) - update `blas/base/ndarray` TypeScript declarations [(#13477)](https://github.com/stdlib-js/stdlib/pull/13477)
+-   [`6208ff5`](https://github.com/stdlib-js/stdlib/commit/6208ff5508420f69683b75bb5906034880332dba) - add `blas/base/ndarray/gger` [(#13467)](https://github.com/stdlib-js/stdlib/pull/13467)
+-   [`8bf618a`](https://github.com/stdlib-js/stdlib/commit/8bf618aed672b75bbbcd813dd2c5cd5c72274f1b) - add `dgemv`, `sgemv`, and `sger` to namespace
+-   [`3999e9f`](https://github.com/stdlib-js/stdlib/commit/3999e9f6c062b1f94ac34dea27067dccb5e74039) - add `blas/base/ndarray/sgemv` [(#12818)](https://github.com/stdlib-js/stdlib/pull/12818)
+-   [`e9cdf46`](https://github.com/stdlib-js/stdlib/commit/e9cdf46b20e51ed5cbc179aacea946da44eaf111) - add `blas/base/ndarray/dgemv` [(#12817)](https://github.com/stdlib-js/stdlib/pull/12817)
+-   [`a5c8a06`](https://github.com/stdlib-js/stdlib/commit/a5c8a0671deeb98003b9cce8348331db3a3dd4e2) - add `blas/base/ndarray/sger` [(#12699)](https://github.com/stdlib-js/stdlib/pull/12699)
+-   [`0e7f85f`](https://github.com/stdlib-js/stdlib/commit/0e7f85fdd7edefec4777d71f6aff88d144cf9496) - add `ggemv` to namespace
+-   [`de4e96c`](https://github.com/stdlib-js/stdlib/commit/de4e96ca220f636f0600e9b89e41915f9a31a980) - add `dger` to namespace
+-   [`891cc9a`](https://github.com/stdlib-js/stdlib/commit/891cc9a166dfc485f5e29c72add1ee1c40813365) - add `blas/base/ndarray/dger` [(#12698)](https://github.com/stdlib-js/stdlib/pull/12698)
+-   [`ab53d74`](https://github.com/stdlib-js/stdlib/commit/ab53d7466277d5df60dc82470a77e9e08f386c77) - add `blas/base/ndarray/ggemv` [(#12908)](https://github.com/stdlib-js/stdlib/pull/12908)
+-   [`23b4f65`](https://github.com/stdlib-js/stdlib/commit/23b4f65fe3fd5fd1bec05982fd78c58c82cd1160) - update `blas/base/ndarray` TypeScript declarations [(#13346)](https://github.com/stdlib-js/stdlib/pull/13346)
+-   [`32c8d66`](https://github.com/stdlib-js/stdlib/commit/32c8d6658e475c47bc48ac4894c28a8ef59350a7) - add `cgemv` to namespace
+-   [`6812e0b`](https://github.com/stdlib-js/stdlib/commit/6812e0b44d35482a6536ab3b763c9ee291682981) - add `blas/base/ndarray/cgemv` [(#13149)](https://github.com/stdlib-js/stdlib/pull/13149)
 -   [`bebe411`](https://github.com/stdlib-js/stdlib/commit/bebe411775818ab700e3055ce82d52c5d313c108) - update `blas/base` TypeScript declarations [(#12438)](https://github.com/stdlib-js/stdlib/pull/12438)
 -   [`57b21c2`](https://github.com/stdlib-js/stdlib/commit/57b21c2ce6642689b9f772f63bc9ad95cc6c29b6) - add TypeScript declarations for `blas/base/igamax` [(#12420)](https://github.com/stdlib-js/stdlib/pull/12420)
 -   [`52ca9a6`](https://github.com/stdlib-js/stdlib/commit/52ca9a6494aab7867e025e73ba11703989f74b60) - update `blas/base/ndarray` TypeScript declarations [(#12415)](https://github.com/stdlib-js/stdlib/pull/12415)
@@ -153,6 +188,82 @@ A total of 17 issues were closed in this release:
 
 <details>
 
+-   [`f1c96cf`](https://github.com/stdlib-js/stdlib/commit/f1c96cfe4ff923d1f83e5d019546c89ce86050e8) - **feat:** add `blas/base/ndarray/dspmv` [(#12995)](https://github.com/stdlib-js/stdlib/pull/12995) _(by Kaustubh Patange, Athan Reines)_
+-   [`e9da81b`](https://github.com/stdlib-js/stdlib/commit/e9da81b43505b0596674047188ff1a8f2aed3e29) - **docs:** update namespace table of contents [(#14319)](https://github.com/stdlib-js/stdlib/pull/14319) _(by stdlib-bot)_
+-   [`f8df637`](https://github.com/stdlib-js/stdlib/commit/f8df637046c9ee32a051a7daa68acf112595ab38) - **feat:** update `blas/base/ndarray` TypeScript declarations [(#14315)](https://github.com/stdlib-js/stdlib/pull/14315) _(by stdlib-bot)_
+-   [`448c54b`](https://github.com/stdlib-js/stdlib/commit/448c54bdaf9e6e29fc31c6ed94de4cc1f41c1101) - **chore:** clean-up [(#14292)](https://github.com/stdlib-js/stdlib/pull/14292) _(by Philipp Burckhardt)_
+-   [`bc5638e`](https://github.com/stdlib-js/stdlib/commit/bc5638e8de64170103747b8821ffe98d65419457) - **feat:** add `ssymv` to namespace _(by Athan Reines)_
+-   [`26e6545`](https://github.com/stdlib-js/stdlib/commit/26e6545e5bf9f3eb640641b132d915b4bc2ce0f1) - **feat:** add `blas/base/ndarray/ssymv` [(#12984)](https://github.com/stdlib-js/stdlib/pull/12984) _(by Kaustubh Patange, Athan Reines)_
+-   [`75cbfe8`](https://github.com/stdlib-js/stdlib/commit/75cbfe8618e8d81293eefba72f9a651e786f37a0) - **bench:** fix description and update variable names in `blas/base/ndarray` [(#14261)](https://github.com/stdlib-js/stdlib/pull/14261) _(by Philipp Burckhardt)_
+-   [`cb9723a`](https://github.com/stdlib-js/stdlib/commit/cb9723af638d9244ea0b50bcb07c550f13bdedce) - **docs:** update examples [(#14169)](https://github.com/stdlib-js/stdlib/pull/14169) _(by Philipp Burckhardt)_
+-   [`8f3e141`](https://github.com/stdlib-js/stdlib/commit/8f3e1414f7483d10adf64b81b2e857ac080bef64) - **refactor:** add support for enums _(by Athan Reines)_
+-   [`ccc3c46`](https://github.com/stdlib-js/stdlib/commit/ccc3c46246b611479e4df9aa7d4ca0a523e28731) - **chore:** clean-up [(#14138)](https://github.com/stdlib-js/stdlib/pull/14138) _(by Philipp Burckhardt)_
+-   [`3208321`](https://github.com/stdlib-js/stdlib/commit/320832192c8d32b18d24c7342ba1cf03cc5affea) - **bench:** refactor to use dynamic memory allocation [(#14099)](https://github.com/stdlib-js/stdlib/pull/14099) _(by Philipp Burckhardt, Athan Reines)_
+-   [`35cf7c0`](https://github.com/stdlib-js/stdlib/commit/35cf7c0a5265b298c9300bb4af91cf6a575918d4) - **style:** resolve lint errors [(#13911)](https://github.com/stdlib-js/stdlib/pull/13911) _(by pragyan shankar, Athan Reines)_
+-   [`f19d370`](https://github.com/stdlib-js/stdlib/commit/f19d370e0a194ac8ffed4916f8b8b51ecfe5896f) - **chore:** clean-up [(#14016)](https://github.com/stdlib-js/stdlib/pull/14016) _(by Philipp Burckhardt)_
+-   [`8df3c50`](https://github.com/stdlib-js/stdlib/commit/8df3c505604130c2c0cdf20814d2126c9ef58e69) - **docs:** fix parameter descriptions and update spacing [(#13671)](https://github.com/stdlib-js/stdlib/pull/13671) _(by Philipp Burckhardt)_
+-   [`5791dde`](https://github.com/stdlib-js/stdlib/commit/5791dde65a21b17fe40c7650a314c28922f1d62c) - **docs:** fix examples and descriptions [(#13601)](https://github.com/stdlib-js/stdlib/pull/13601) _(by Philipp Burckhardt)_
+-   [`4a0c3be`](https://github.com/stdlib-js/stdlib/commit/4a0c3be4719f713b69a8ff6b66cc3b0573bf4444) - **docs:** update Markdown equation elements _(by stdlib-bot)_
+-   [`b953edd`](https://github.com/stdlib-js/stdlib/commit/b953edd95d0ca1b521d0abbd2c2719d099ff7807) - **refactor:** use `constants/float64/nan` and clean-up [(#13585)](https://github.com/stdlib-js/stdlib/pull/13585) _(by Philipp Burckhardt)_
+-   [`7dddb68`](https://github.com/stdlib-js/stdlib/commit/7dddb68aed206e1d6771524c9abbe7d143b5a0c0) - **feat:** update `blas/base/ndarray` TypeScript declarations [(#13571)](https://github.com/stdlib-js/stdlib/pull/13571) _(by stdlib-bot)_
+-   [`90b59bc`](https://github.com/stdlib-js/stdlib/commit/90b59bc772f94cd29af6854a219dd77a8197b78d) - **docs:** update namespace table of contents [(#13575)](https://github.com/stdlib-js/stdlib/pull/13575) _(by stdlib-bot)_
+-   [`2780757`](https://github.com/stdlib-js/stdlib/commit/2780757ca6daae57598a53022837a497e55b8d41) - **style:** re-enable lint rule [(#13554)](https://github.com/stdlib-js/stdlib/pull/13554) _(by Philipp Burckhardt)_
+-   [`2b91bfe`](https://github.com/stdlib-js/stdlib/commit/2b91bfe05118a857b5b495680bbde7742aef6558) - **chore:** clean-up [(#13551)](https://github.com/stdlib-js/stdlib/pull/13551) _(by Philipp Burckhardt)_
+-   [`ad17191`](https://github.com/stdlib-js/stdlib/commit/ad17191dc62b80db20ac048f1b5e813faf0cdd9e) - **feat:** add `dsyr`, `ssyr`, and `ssyr2` to namespace _(by Athan Reines)_
+-   [`8b15f44`](https://github.com/stdlib-js/stdlib/commit/8b15f44829dcecaf507b7e15aa99f23250c82cd1) - **feat:** add `blas/base/ndarray/ssyr2` [(#12847)](https://github.com/stdlib-js/stdlib/pull/12847) _(by Kaustubh Patange, Athan Reines)_
+-   [`26bade4`](https://github.com/stdlib-js/stdlib/commit/26bade4c5acb2c4c86bbcd958dd33a45267bbfc4) - **feat:** add `blas/base/ndarray/dsyr` [(#12839)](https://github.com/stdlib-js/stdlib/pull/12839) _(by Kaustubh Patange, Athan Reines)_
+-   [`cfdd20a`](https://github.com/stdlib-js/stdlib/commit/cfdd20a9002beca6676ea7b1b5cc5ffeae1f9702) - **feat:** add `blas/base/ndarray/ssyr` [(#12838)](https://github.com/stdlib-js/stdlib/pull/12838) _(by Kaustubh Patange)_
+-   [`364c3f1`](https://github.com/stdlib-js/stdlib/commit/364c3f1c4358cd95996ec5746442013029189a2b) - **feat:** add `dgemm` and `sgemm` to namespace _(by Athan Reines)_
+-   [`dc58830`](https://github.com/stdlib-js/stdlib/commit/dc588303cd69de3d3d4198e9c33767a6065bdc69) - **feat:** add `blas/base/ndarray/dgemm` [(#13531)](https://github.com/stdlib-js/stdlib/pull/13531) _(by Kaustubh Patange, Athan Reines)_
+-   [`488c3d8`](https://github.com/stdlib-js/stdlib/commit/488c3d82493256835db7f6645862aa163e70f0e4) - **feat:** add `blas/base/ndarray/sgemm` [(#13532)](https://github.com/stdlib-js/stdlib/pull/13532) _(by Kaustubh Patange, Athan Reines)_
+-   [`532cf32`](https://github.com/stdlib-js/stdlib/commit/532cf32301c150926621c2806f9d704b2222ca2c) - **style:** re-enable lint rule _(by Athan Reines)_
+-   [`92b93e9`](https://github.com/stdlib-js/stdlib/commit/92b93e9c4023e46c8d53a90b8df0b471dd96c687) - **feat:** add `dsyr2`, `ggemm`, and `gsyr` to namespace _(by Athan Reines)_
+-   [`314e509`](https://github.com/stdlib-js/stdlib/commit/314e5094bd384512a0242fc909ea3dc4431384fd) - **feat:** add `blas/base/ndarray/dsyr2` [(#12848)](https://github.com/stdlib-js/stdlib/pull/12848) _(by Kaustubh Patange, Athan Reines)_
+-   [`ea65f7d`](https://github.com/stdlib-js/stdlib/commit/ea65f7dc3ace0eedc9e6915261c902ba369fcf7c) - **feat:** add `blas/base/ndarray/gsyr` [(#12917)](https://github.com/stdlib-js/stdlib/pull/12917) _(by Kaustubh Patange, Athan Reines)_
+-   [`cc19408`](https://github.com/stdlib-js/stdlib/commit/cc1940807bae9f49f1e30d288bdd600770d527b8) - **feat:** add `blas/base/ndarray/ggemm` [(#13533)](https://github.com/stdlib-js/stdlib/pull/13533) _(by Kaustubh Patange, Athan Reines)_
+-   [`3e6912e`](https://github.com/stdlib-js/stdlib/commit/3e6912e62a4bfb53adba1403b44546e3c6f389e2) - **refactor:** add support for enums in `blas/base/strsv` [(#13519)](https://github.com/stdlib-js/stdlib/pull/13519) _(by Kaustubh Patange)_
+-   [`1177fe1`](https://github.com/stdlib-js/stdlib/commit/1177fe1b1c425294b068bcab9387c7ea3e2f8829) - **refactor:** add support for enums in `blas/base/dtrsv` [(#13518)](https://github.com/stdlib-js/stdlib/pull/13518) _(by Kaustubh Patange)_
+-   [`75e4560`](https://github.com/stdlib-js/stdlib/commit/75e456086d0770ffc7fff40628d23a48816f4614) - **docs:** update namespace table of contents [(#13515)](https://github.com/stdlib-js/stdlib/pull/13515) _(by stdlib-bot)_
+-   [`c5ec2d1`](https://github.com/stdlib-js/stdlib/commit/c5ec2d1a213882f64428e2bc64b904804c1b44ba) - **feat:** update `blas/base/ndarray` TypeScript declarations [(#13512)](https://github.com/stdlib-js/stdlib/pull/13512) _(by stdlib-bot)_
+-   [`c68e727`](https://github.com/stdlib-js/stdlib/commit/c68e727d765a7796ddb4a401ce1df3d30c98b086) - **feat:** add `dspr` and `sspr` to namespace _(by Athan Reines)_
+-   [`88a418a`](https://github.com/stdlib-js/stdlib/commit/88a418a1f4e63dbd7086ad395325303d34753f55) - **refactor:** add support for enums in `blas/base/strmv` [(#13509)](https://github.com/stdlib-js/stdlib/pull/13509) _(by Kaustubh Patange)_
+-   [`5244cbc`](https://github.com/stdlib-js/stdlib/commit/5244cbcf3cc30c24275352d587d5d96bb2a0e0fd) - **refactor:** add support for enums in `blas/base/ssymv` [(#13500)](https://github.com/stdlib-js/stdlib/pull/13500) _(by Kaustubh Patange)_
+-   [`f2ac530`](https://github.com/stdlib-js/stdlib/commit/f2ac530254fba4c82a70e670aafc4904cbba44d8) - **refactor:** add support for enums in `blas/base/dsymv` [(#13501)](https://github.com/stdlib-js/stdlib/pull/13501) _(by Kaustubh Patange, Athan Reines)_
+-   [`f9cdc5c`](https://github.com/stdlib-js/stdlib/commit/f9cdc5cb01451092ccdcbfdb6da7ba5699f56996) - **refactor:** add support for enums in `blas/base/dspmv` [(#13502)](https://github.com/stdlib-js/stdlib/pull/13502) _(by Kaustubh Patange)_
+-   [`d5f4dce`](https://github.com/stdlib-js/stdlib/commit/d5f4dcee568b07b7b59917af3ca9c45d2911301e) - **refactor:** add support for enums in `blas/base/sspmv` [(#13503)](https://github.com/stdlib-js/stdlib/pull/13503) _(by Kaustubh Patange)_
+-   [`8614bce`](https://github.com/stdlib-js/stdlib/commit/8614bce71d72fe69d49a742d0873a284d0db234b) - **feat:** add `blas/base/ndarray/sspr` [(#13021)](https://github.com/stdlib-js/stdlib/pull/13021) _(by Kaustubh Patange, Athan Reines)_
+-   [`cc6b114`](https://github.com/stdlib-js/stdlib/commit/cc6b114d6592d9c3af3015ec9b20bde1acf915be) - **feat:** add `blas/base/ndarray/dspr` [(#13023)](https://github.com/stdlib-js/stdlib/pull/13023) _(by Kaustubh Patange, Athan Reines)_
+-   [`94e67fd`](https://github.com/stdlib-js/stdlib/commit/94e67fd1ed8a206d4209c1071c378661cc9ab16b) - **build:** add scripts to insert license headers [(#13482)](https://github.com/stdlib-js/stdlib/pull/13482) _(by Prashant Kumar Yadav)_
+-   [`eec0e8b`](https://github.com/stdlib-js/stdlib/commit/eec0e8be28a396fe8a41f11707cfa3df71f08f08) - **docs:** update namespace table of contents [(#13494)](https://github.com/stdlib-js/stdlib/pull/13494) _(by stdlib-bot)_
+-   [`028e773`](https://github.com/stdlib-js/stdlib/commit/028e77359c0db9e896604c5efd2eb65c32387017) - **feat:** update `blas/base/ndarray` TypeScript declarations [(#13491)](https://github.com/stdlib-js/stdlib/pull/13491) _(by stdlib-bot)_
+-   [`91f035b`](https://github.com/stdlib-js/stdlib/commit/91f035bce9f15acaf2873ee3b166f5d28ad7a379) - **feat:** add `gger` to namespace _(by Athan Reines)_
+-   [`205b5c2`](https://github.com/stdlib-js/stdlib/commit/205b5c215d6d31ce59fff43bef22eba10f0f70a5) - **docs:** update namespace table of contents [(#13479)](https://github.com/stdlib-js/stdlib/pull/13479) _(by stdlib-bot)_
+-   [`c1ed55c`](https://github.com/stdlib-js/stdlib/commit/c1ed55cb556cfa53ba1dfb45bcd4221cb02c570c) - **feat:** update `blas/base/ndarray` TypeScript declarations [(#13477)](https://github.com/stdlib-js/stdlib/pull/13477) _(by stdlib-bot)_
+-   [`6208ff5`](https://github.com/stdlib-js/stdlib/commit/6208ff5508420f69683b75bb5906034880332dba) - **feat:** add `blas/base/ndarray/gger` [(#13467)](https://github.com/stdlib-js/stdlib/pull/13467) _(by Kaustubh Patange, Athan Reines)_
+-   [`8bf618a`](https://github.com/stdlib-js/stdlib/commit/8bf618aed672b75bbbcd813dd2c5cd5c72274f1b) - **feat:** add `dgemv`, `sgemv`, and `sger` to namespace _(by Athan Reines)_
+-   [`3999e9f`](https://github.com/stdlib-js/stdlib/commit/3999e9f6c062b1f94ac34dea27067dccb5e74039) - **feat:** add `blas/base/ndarray/sgemv` [(#12818)](https://github.com/stdlib-js/stdlib/pull/12818) _(by Kaustubh Patange, Athan Reines)_
+-   [`e9cdf46`](https://github.com/stdlib-js/stdlib/commit/e9cdf46b20e51ed5cbc179aacea946da44eaf111) - **feat:** add `blas/base/ndarray/dgemv` [(#12817)](https://github.com/stdlib-js/stdlib/pull/12817) _(by Kaustubh Patange)_
+-   [`a5c8a06`](https://github.com/stdlib-js/stdlib/commit/a5c8a0671deeb98003b9cce8348331db3a3dd4e2) - **feat:** add `blas/base/ndarray/sger` [(#12699)](https://github.com/stdlib-js/stdlib/pull/12699) _(by Kaustubh Patange)_
+-   [`0e7f85f`](https://github.com/stdlib-js/stdlib/commit/0e7f85fdd7edefec4777d71f6aff88d144cf9496) - **feat:** add `ggemv` to namespace _(by Athan Reines)_
+-   [`de4e96c`](https://github.com/stdlib-js/stdlib/commit/de4e96ca220f636f0600e9b89e41915f9a31a980) - **feat:** add `dger` to namespace _(by Athan Reines)_
+-   [`891cc9a`](https://github.com/stdlib-js/stdlib/commit/891cc9a166dfc485f5e29c72add1ee1c40813365) - **feat:** add `blas/base/ndarray/dger` [(#12698)](https://github.com/stdlib-js/stdlib/pull/12698) _(by Kaustubh Patange, Athan Reines)_
+-   [`14939f9`](https://github.com/stdlib-js/stdlib/commit/14939f999548dfb34e3fbd718162c50b75e1c0a9) - **refactor:** add support for enums in `blas/base/dsyr2` [(#13433)](https://github.com/stdlib-js/stdlib/pull/13433) _(by Kaustubh Patange)_
+-   [`c285e1d`](https://github.com/stdlib-js/stdlib/commit/c285e1df2a4371a82fb047157742756c1f4c2632) - **refactor:** add support for enums in `blas/base/ssyr2` [(#13434)](https://github.com/stdlib-js/stdlib/pull/13434) _(by Kaustubh Patange)_
+-   [`ab53d74`](https://github.com/stdlib-js/stdlib/commit/ab53d7466277d5df60dc82470a77e9e08f386c77) - **feat:** add `blas/base/ndarray/ggemv` [(#12908)](https://github.com/stdlib-js/stdlib/pull/12908) _(by Kaustubh Patange, Athan Reines)_
+-   [`9a1e43c`](https://github.com/stdlib-js/stdlib/commit/9a1e43c351a8d9df8563ef5767b27efbcbc89ceb) - **style:** fix disabling of lint rule _(by Athan Reines)_
+-   [`b20f51a`](https://github.com/stdlib-js/stdlib/commit/b20f51a73369ddad78b7c981f069f68aa93711df) - **style:** fix disabling of lint rule _(by Athan Reines)_
+-   [`6598e05`](https://github.com/stdlib-js/stdlib/commit/6598e05680d46992f2b0972c45b342babffac9c6) - **refactor:** add support for enums in `blas/base/dspr` [(#13455)](https://github.com/stdlib-js/stdlib/pull/13455) _(by Kaustubh Patange)_
+-   [`d74c033`](https://github.com/stdlib-js/stdlib/commit/d74c0332b26bbe0924614cca9194ced45934374c) - **refactor:** add support for enums in `blas/base/sspr` [(#13456)](https://github.com/stdlib-js/stdlib/pull/13456) _(by Kaustubh Patange)_
+-   [`6352f5d`](https://github.com/stdlib-js/stdlib/commit/6352f5d926b03262dc86e116258168fee4c7132c) - **refactor:** add support for enums in `blas/base/gsyr` [(#13447)](https://github.com/stdlib-js/stdlib/pull/13447) _(by Kaustubh Patange)_
+-   [`ae1746f`](https://github.com/stdlib-js/stdlib/commit/ae1746f9e63bca71e12bce96d3eab5a7bcf37652) - **docs:** fix heading _(by Athan Reines)_
+-   [`442d4f0`](https://github.com/stdlib-js/stdlib/commit/442d4f0854d1d0954409f2a5ac4d77e93a3b3968) - **docs:** fix heading _(by Athan Reines)_
+-   [`5c57284`](https://github.com/stdlib-js/stdlib/commit/5c5728403e1a6f73727ae93347d1a8a51087201e) - **refactor:** add support for enums [(#13402)](https://github.com/stdlib-js/stdlib/pull/13402) _(by Kaustubh Patange, Athan Reines)_
+-   [`c519b5c`](https://github.com/stdlib-js/stdlib/commit/c519b5c1039d0652fd3c63a8b3b5ec5b48b42fcc) - **refactor:** add support for enums [(#13403)](https://github.com/stdlib-js/stdlib/pull/13403) _(by Kaustubh Patange, Athan Reines)_
+-   [`945328a`](https://github.com/stdlib-js/stdlib/commit/945328aa14e710f4b828b8fa303173c660c77817) - **chore:** clean-up [(#13390)](https://github.com/stdlib-js/stdlib/pull/13390) _(by Philipp Burckhardt)_
+-   [`23b4f65`](https://github.com/stdlib-js/stdlib/commit/23b4f65fe3fd5fd1bec05982fd78c58c82cd1160) - **feat:** update `blas/base/ndarray` TypeScript declarations [(#13346)](https://github.com/stdlib-js/stdlib/pull/13346) _(by stdlib-bot)_
+-   [`1d90643`](https://github.com/stdlib-js/stdlib/commit/1d90643c8086210ebcb542d5e71fbdccad868e51) - **docs:** update namespace table of contents [(#13350)](https://github.com/stdlib-js/stdlib/pull/13350) _(by stdlib-bot)_
+-   [`32c8d66`](https://github.com/stdlib-js/stdlib/commit/32c8d6658e475c47bc48ac4894c28a8ef59350a7) - **feat:** add `cgemv` to namespace _(by Athan Reines)_
+-   [`6812e0b`](https://github.com/stdlib-js/stdlib/commit/6812e0b44d35482a6536ab3b763c9ee291682981) - **feat:** add `blas/base/ndarray/cgemv` [(#13149)](https://github.com/stdlib-js/stdlib/pull/13149) _(by Kaustubh Patange, Athan Reines)_
 -   [`22afd69`](https://github.com/stdlib-js/stdlib/commit/22afd69bdd0d1e48bad6dd0bb60b1c29203f04d4) - **refactor:** add enum support in `blas/base/dtrmv` [(#13109)](https://github.com/stdlib-js/stdlib/pull/13109) _(by Divit Jain)_
 -   [`e6cc42b`](https://github.com/stdlib-js/stdlib/commit/e6cc42bab0268753252236d0e7511c97443754cc) - **fix:** correct typo in enum name and fix C examples [(#13088)](https://github.com/stdlib-js/stdlib/pull/13088) _(by anee3)_
 -   [`83e225d`](https://github.com/stdlib-js/stdlib/commit/83e225d58fc0d4d8c71f8b475f1c95faa04d2e9a) - **docs:** add missing headings and add missing placeholder section [(#13063)](https://github.com/stdlib-js/stdlib/pull/13063) _(by Philipp Burckhardt, Athan Reines)_
@@ -482,7 +593,7 @@ A total of 17 issues were closed in this release:
 
 ### Contributors
 
-A total of 27 people contributed to this release. Thank you to the following contributors:
+A total of 29 people contributed to this release. Thank you to the following contributors:
 
 -   Aryan kumar
 -   Athan Reines
@@ -504,12 +615,14 @@ A total of 27 people contributed to this release. Thank you to the following con
 -   Partha Das
 -   Philipp Burckhardt
 -   Prajjwal Bajpai
+-   Prashant Kumar Yadav
 -   Rayan Salhab
 -   Shabareesh Shetty
 -   Shubham
 -   Suyog
 -   anee3
 -   lakshmisravya123
+-   pragyan shankar
 -   titanniya542-spec
 
 </section>
