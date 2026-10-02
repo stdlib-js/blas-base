@@ -4,12 +4,16 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-08-17)
+## Unreleased (2026-10-02)
 
 <section class="features">
 
 ### Features
 
+-   [`486689f`](https://github.com/stdlib-js/stdlib/commit/486689f169880dff90784e24afc6614faa502177) - add `blas/base/ndarray/strsv` [(#13084)](https://github.com/stdlib-js/stdlib/pull/13084)
+-   [`b08183c`](https://github.com/stdlib-js/stdlib/commit/b08183c98879661e7d361be6570b9123347deebb) - add `blas/base/ndarray/dtrsv` [(#13083)](https://github.com/stdlib-js/stdlib/pull/13083)
+-   [`bc0fb45`](https://github.com/stdlib-js/stdlib/commit/bc0fb45fd6cd74fa07ce8d66a5a6914965f90e04) - add `blas/base/ndarray/strmv` [(#13067)](https://github.com/stdlib-js/stdlib/pull/13067)
+-   [`782dd23`](https://github.com/stdlib-js/stdlib/commit/782dd23a537a45066c221c07a07520604e4c251b) - add `blas/base/ndarray/dtrmv` [(#13065)](https://github.com/stdlib-js/stdlib/pull/13065)
 -   [`f1c96cf`](https://github.com/stdlib-js/stdlib/commit/f1c96cfe4ff923d1f83e5d019546c89ce86050e8) - add `blas/base/ndarray/dspmv` [(#12995)](https://github.com/stdlib-js/stdlib/pull/12995)
 -   [`f8df637`](https://github.com/stdlib-js/stdlib/commit/f8df637046c9ee32a051a7daa68acf112595ab38) - update `blas/base/ndarray` TypeScript declarations [(#14315)](https://github.com/stdlib-js/stdlib/pull/14315)
 -   [`bc5638e`](https://github.com/stdlib-js/stdlib/commit/bc5638e8de64170103747b8821ffe98d65419457) - add `ssymv` to namespace
@@ -174,9 +178,9 @@
 
 ### Closed Issues
 
-A total of 17 issues were closed in this release:
+A total of 18 issues were closed in this release:
 
-[#10285](https://github.com/stdlib-js/stdlib/issues/10285), [#10475](https://github.com/stdlib-js/stdlib/issues/10475), [#10621](https://github.com/stdlib-js/stdlib/issues/10621), [#10722](https://github.com/stdlib-js/stdlib/issues/10722), [#10980](https://github.com/stdlib-js/stdlib/issues/10980), [#11235](https://github.com/stdlib-js/stdlib/issues/11235), [#11273](https://github.com/stdlib-js/stdlib/issues/11273), [#11311](https://github.com/stdlib-js/stdlib/issues/11311), [#11452](https://github.com/stdlib-js/stdlib/issues/11452), [#11472](https://github.com/stdlib-js/stdlib/issues/11472), [#11490](https://github.com/stdlib-js/stdlib/issues/11490), [#11852](https://github.com/stdlib-js/stdlib/issues/11852), [#11958](https://github.com/stdlib-js/stdlib/issues/11958), [#12236](https://github.com/stdlib-js/stdlib/issues/12236), [#12305](https://github.com/stdlib-js/stdlib/issues/12305), [#12548](https://github.com/stdlib-js/stdlib/issues/12548), [#12722](https://github.com/stdlib-js/stdlib/issues/12722)
+[#10285](https://github.com/stdlib-js/stdlib/issues/10285), [#10475](https://github.com/stdlib-js/stdlib/issues/10475), [#10621](https://github.com/stdlib-js/stdlib/issues/10621), [#10722](https://github.com/stdlib-js/stdlib/issues/10722), [#10980](https://github.com/stdlib-js/stdlib/issues/10980), [#11235](https://github.com/stdlib-js/stdlib/issues/11235), [#11273](https://github.com/stdlib-js/stdlib/issues/11273), [#11311](https://github.com/stdlib-js/stdlib/issues/11311), [#11452](https://github.com/stdlib-js/stdlib/issues/11452), [#11472](https://github.com/stdlib-js/stdlib/issues/11472), [#11490](https://github.com/stdlib-js/stdlib/issues/11490), [#11852](https://github.com/stdlib-js/stdlib/issues/11852), [#11958](https://github.com/stdlib-js/stdlib/issues/11958), [#12236](https://github.com/stdlib-js/stdlib/issues/12236), [#12305](https://github.com/stdlib-js/stdlib/issues/12305), [#12548](https://github.com/stdlib-js/stdlib/issues/12548), [#12722](https://github.com/stdlib-js/stdlib/issues/12722), [#14246](https://github.com/stdlib-js/stdlib/issues/14246)
 
 </section>
 
@@ -188,6 +192,26 @@ A total of 17 issues were closed in this release:
 
 <details>
 
+-   [`8da0d15`](https://github.com/stdlib-js/stdlib/commit/8da0d154e408d6cd6b3381341173e8c41eac7e59) - **chore:** clean-up [(#15455)](https://github.com/stdlib-js/stdlib/pull/15455) _(by Philipp Burckhardt)_
+-   [`bf20542`](https://github.com/stdlib-js/stdlib/commit/bf20542289f45849b591f42254df4dafa253f1ab) - **test:** migrate `blas/base/wasm/srot` to ULP-based assertions [(#15444)](https://github.com/stdlib-js/stdlib/pull/15444) _(by Athan Reines)_
+-   [`e78f04d`](https://github.com/stdlib-js/stdlib/commit/e78f04d723599f35af5b3c1bed2454d89a26d44d) - **test:** migrate `blas/base/wasm/cscal` to ULP-based assertions [(#15188)](https://github.com/stdlib-js/stdlib/pull/15188) _(by Athan Reines, Philipp Burckhardt)_
+-   [`02494e9`](https://github.com/stdlib-js/stdlib/commit/02494e960b94022be4239f15646381b1bc90ed38) - **test:** migrate `blas/base/zdrot` to ULP-based assertions [(#15209)](https://github.com/stdlib-js/stdlib/pull/15209) _(by Athan Reines, Philipp Burckhardt)_
+-   [`890ad07`](https://github.com/stdlib-js/stdlib/commit/890ad078af38dacce5140a3441fbf0d4f08bb5c3) - **test:** migrate `blas/base/wasm/drotm` to ULP-based assertions [(#15275)](https://github.com/stdlib-js/stdlib/pull/15275) _(by Athan Reines, Philipp Burckhardt)_
+-   [`4eff251`](https://github.com/stdlib-js/stdlib/commit/4eff2519ee5ff28a5f7c5e5c007f17de821218df) - **chore:** update require paths in benchmarks [(#15266)](https://github.com/stdlib-js/stdlib/pull/15266) _(by Philipp Burckhardt)_
+-   [`10a84e4`](https://github.com/stdlib-js/stdlib/commit/10a84e4c9eed0d45927561f7998027339061cae3) - **chore:** clean-up [(#15165)](https://github.com/stdlib-js/stdlib/pull/15165) _(by Philipp Burckhardt)_
+-   [`45ebb64`](https://github.com/stdlib-js/stdlib/commit/45ebb649778cb49d7b1ba95ead3ed544b575882b) - **test:** migrate `blas/base/drotg` to ULP-based assertions [(#15152)](https://github.com/stdlib-js/stdlib/pull/15152) _(by Philipp Burckhardt, Athan Reines)_
+-   [`497e0b1`](https://github.com/stdlib-js/stdlib/commit/497e0b167327db3e170e7cdeda73549202fc9fe0) - **test:** migrate `blas/base/drot` to ULP-based assertions [(#15025)](https://github.com/stdlib-js/stdlib/pull/15025) _(by Athan Reines)_
+-   [`df8376c`](https://github.com/stdlib-js/stdlib/commit/df8376ca2bafd463c2b7f5189d1af8efd3a3c290) - **test:** migrate `blas/base/srotm` to ULP-based assertions [(#15018)](https://github.com/stdlib-js/stdlib/pull/15018) _(by Philipp Burckhardt, Athan Reines)_
+-   [`68ac3f1`](https://github.com/stdlib-js/stdlib/commit/68ac3f11fe5438d85cc2fcf76a0c7078c5d35218) - **test:** migrate `blas/base/dzasum` to ULP-based assertions [(#14893)](https://github.com/stdlib-js/stdlib/pull/14893) _(by Athan Reines)_
+-   [`9c211bd`](https://github.com/stdlib-js/stdlib/commit/9c211bd531d6be3b419452b92b780e493e46d700) - **test:** migrate `blas/base/drotm` to ULP-based assertions [(#14869)](https://github.com/stdlib-js/stdlib/pull/14869) _(by Philipp Burckhardt)_
+-   [`607bbc6`](https://github.com/stdlib-js/stdlib/commit/607bbc6e104c273e5b26cabfb21a8c06f3d5d375) - **build:** avoid false positives in ESLint rule `jsdoc-doctest-decimal-point` [(#14644)](https://github.com/stdlib-js/stdlib/pull/14644) _(by Philipp Burckhardt, Athan Reines)_
+-   [`dafb73c`](https://github.com/stdlib-js/stdlib/commit/dafb73c1f4042e59c0ba8aa2fc27e39de509654b) - **chore:** fix JavaScript lint errors [(#14250)](https://github.com/stdlib-js/stdlib/pull/14250) _(by mantrapatel05, Athan Reines)_
+-   [`72b23ea`](https://github.com/stdlib-js/stdlib/commit/72b23ea594cad1265cd358ade0e366d682f5858d) - **chore:** clean-up [(#14383)](https://github.com/stdlib-js/stdlib/pull/14383) _(by Philipp Burckhardt)_
+-   [`600a127`](https://github.com/stdlib-js/stdlib/commit/600a127f0a7b41a3dcfebaf5e9830823bd2a51ae) - **docs:** fix descriptions [(#14363)](https://github.com/stdlib-js/stdlib/pull/14363) _(by Philipp Burckhardt)_
+-   [`486689f`](https://github.com/stdlib-js/stdlib/commit/486689f169880dff90784e24afc6614faa502177) - **feat:** add `blas/base/ndarray/strsv` [(#13084)](https://github.com/stdlib-js/stdlib/pull/13084) _(by Kaustubh Patange)_
+-   [`b08183c`](https://github.com/stdlib-js/stdlib/commit/b08183c98879661e7d361be6570b9123347deebb) - **feat:** add `blas/base/ndarray/dtrsv` [(#13083)](https://github.com/stdlib-js/stdlib/pull/13083) _(by Kaustubh Patange)_
+-   [`bc0fb45`](https://github.com/stdlib-js/stdlib/commit/bc0fb45fd6cd74fa07ce8d66a5a6914965f90e04) - **feat:** add `blas/base/ndarray/strmv` [(#13067)](https://github.com/stdlib-js/stdlib/pull/13067) _(by Kaustubh Patange)_
+-   [`782dd23`](https://github.com/stdlib-js/stdlib/commit/782dd23a537a45066c221c07a07520604e4c251b) - **feat:** add `blas/base/ndarray/dtrmv` [(#13065)](https://github.com/stdlib-js/stdlib/pull/13065) _(by Kaustubh Patange)_
 -   [`f1c96cf`](https://github.com/stdlib-js/stdlib/commit/f1c96cfe4ff923d1f83e5d019546c89ce86050e8) - **feat:** add `blas/base/ndarray/dspmv` [(#12995)](https://github.com/stdlib-js/stdlib/pull/12995) _(by Kaustubh Patange, Athan Reines)_
 -   [`e9da81b`](https://github.com/stdlib-js/stdlib/commit/e9da81b43505b0596674047188ff1a8f2aed3e29) - **docs:** update namespace table of contents [(#14319)](https://github.com/stdlib-js/stdlib/pull/14319) _(by stdlib-bot)_
 -   [`f8df637`](https://github.com/stdlib-js/stdlib/commit/f8df637046c9ee32a051a7daa68acf112595ab38) - **feat:** update `blas/base/ndarray` TypeScript declarations [(#14315)](https://github.com/stdlib-js/stdlib/pull/14315) _(by stdlib-bot)_
@@ -593,7 +617,7 @@ A total of 17 issues were closed in this release:
 
 ### Contributors
 
-A total of 29 people contributed to this release. Thank you to the following contributors:
+A total of 30 people contributed to this release. Thank you to the following contributors:
 
 -   Aryan kumar
 -   Athan Reines
@@ -622,6 +646,7 @@ A total of 29 people contributed to this release. Thank you to the following con
 -   Suyog
 -   anee3
 -   lakshmisravya123
+-   mantrapatel05
 -   pragyan shankar
 -   titanniya542-spec
 
