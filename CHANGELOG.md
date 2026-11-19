@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-10-02)
+## Unreleased (2026-11-19)
 
 <section class="features">
 
@@ -155,6 +155,9 @@
 
 ### Bug Fixes
 
+-   [`c545ca1`](https://github.com/stdlib-js/stdlib/commit/c545ca16b604f0084406c5fa6b9c598262c26a5a) - return `β*C` when `K` is zero [(#16477)](https://github.com/stdlib-js/stdlib/pull/16477)
+-   [`c73cd1e`](https://github.com/stdlib-js/stdlib/commit/c73cd1e7b32f9eb83be97050cdc0b5f605173539) - advance indices in unrolled loops of portable `dcopy` and `scopy` [(#16122)](https://github.com/stdlib-js/stdlib/pull/16122)
+-   [`e3f60dd`](https://github.com/stdlib-js/stdlib/commit/e3f60dd4c8366eb9c7f7d4885b1c3b391dacf1a8) - use resolved transpose operations when validating leading dimensions in `blas/base/*gemm` [(#16386)](https://github.com/stdlib-js/stdlib/pull/16386)
 -   [`e6cc42b`](https://github.com/stdlib-js/stdlib/commit/e6cc42bab0268753252236d0e7511c97443754cc) - correct typo in enum name and fix C examples [(#13088)](https://github.com/stdlib-js/stdlib/pull/13088)
 -   [`39f37bf`](https://github.com/stdlib-js/stdlib/commit/39f37bfe5ff3065d8da0e96cc07a3d81f1a4c649) - decouple scalar `alpha` type from input ndarray type in `blas/base/ndarray/gaxpy` [(#12532)](https://github.com/stdlib-js/stdlib/pull/12532)
 -   [`7d90009`](https://github.com/stdlib-js/stdlib/commit/7d900094623c7f16cd5cabc1c50e27135a8d4691) - import `src` utility and fix description in `blas/base/cscal` [(#12315)](https://github.com/stdlib-js/stdlib/pull/12315)
@@ -178,9 +181,9 @@
 
 ### Closed Issues
 
-A total of 18 issues were closed in this release:
+A total of 19 issues were closed in this release:
 
-[#10285](https://github.com/stdlib-js/stdlib/issues/10285), [#10475](https://github.com/stdlib-js/stdlib/issues/10475), [#10621](https://github.com/stdlib-js/stdlib/issues/10621), [#10722](https://github.com/stdlib-js/stdlib/issues/10722), [#10980](https://github.com/stdlib-js/stdlib/issues/10980), [#11235](https://github.com/stdlib-js/stdlib/issues/11235), [#11273](https://github.com/stdlib-js/stdlib/issues/11273), [#11311](https://github.com/stdlib-js/stdlib/issues/11311), [#11452](https://github.com/stdlib-js/stdlib/issues/11452), [#11472](https://github.com/stdlib-js/stdlib/issues/11472), [#11490](https://github.com/stdlib-js/stdlib/issues/11490), [#11852](https://github.com/stdlib-js/stdlib/issues/11852), [#11958](https://github.com/stdlib-js/stdlib/issues/11958), [#12236](https://github.com/stdlib-js/stdlib/issues/12236), [#12305](https://github.com/stdlib-js/stdlib/issues/12305), [#12548](https://github.com/stdlib-js/stdlib/issues/12548), [#12722](https://github.com/stdlib-js/stdlib/issues/12722), [#14246](https://github.com/stdlib-js/stdlib/issues/14246)
+[#10285](https://github.com/stdlib-js/stdlib/issues/10285), [#10475](https://github.com/stdlib-js/stdlib/issues/10475), [#10621](https://github.com/stdlib-js/stdlib/issues/10621), [#10722](https://github.com/stdlib-js/stdlib/issues/10722), [#10980](https://github.com/stdlib-js/stdlib/issues/10980), [#11235](https://github.com/stdlib-js/stdlib/issues/11235), [#11273](https://github.com/stdlib-js/stdlib/issues/11273), [#11311](https://github.com/stdlib-js/stdlib/issues/11311), [#11452](https://github.com/stdlib-js/stdlib/issues/11452), [#11472](https://github.com/stdlib-js/stdlib/issues/11472), [#11490](https://github.com/stdlib-js/stdlib/issues/11490), [#11852](https://github.com/stdlib-js/stdlib/issues/11852), [#11958](https://github.com/stdlib-js/stdlib/issues/11958), [#12236](https://github.com/stdlib-js/stdlib/issues/12236), [#12305](https://github.com/stdlib-js/stdlib/issues/12305), [#12548](https://github.com/stdlib-js/stdlib/issues/12548), [#12722](https://github.com/stdlib-js/stdlib/issues/12722), [#14246](https://github.com/stdlib-js/stdlib/issues/14246), [#15823](https://github.com/stdlib-js/stdlib/issues/15823)
 
 </section>
 
@@ -192,6 +195,36 @@ A total of 18 issues were closed in this release:
 
 <details>
 
+-   [`9632366`](https://github.com/stdlib-js/stdlib/commit/9632366c1c13dd29dc05adbf95ddf087831267fc) - **docs:** use dedicated zero-dimensional tensor constructor in `blas/base/ndarray/saxpy` [(#16689)](https://github.com/stdlib-js/stdlib/pull/16689) _(by Kartik)_
+-   [`244943b`](https://github.com/stdlib-js/stdlib/commit/244943b5ceee37a616ba46abe63c4c9fa6d3efb8) - **docs:** update example [(#16667)](https://github.com/stdlib-js/stdlib/pull/16667) _(by stdlib-bot)_
+-   [`26fa691`](https://github.com/stdlib-js/stdlib/commit/26fa6916a2ae71caef014304bcdf9dd8fa7e4fa2) - **docs:** use dedicated zero-dimensional tensor constructor in `blas/base/ndarray/daxpy` [(#16661)](https://github.com/stdlib-js/stdlib/pull/16661) _(by Kartik)_
+-   [`7349dff`](https://github.com/stdlib-js/stdlib/commit/7349dffeddd90289879f06e70acc1be8544af75b) - **style:** add missing whitespace [(#16507)](https://github.com/stdlib-js/stdlib/pull/16507) _(by Philipp Burckhardt)_
+-   [`7cf5642`](https://github.com/stdlib-js/stdlib/commit/7cf56423a8fe3e959bd334981a00f8428d086127) - **chore:** clean-up [(#16491)](https://github.com/stdlib-js/stdlib/pull/16491) _(by Philipp Burckhardt)_
+-   [`c545ca1`](https://github.com/stdlib-js/stdlib/commit/c545ca16b604f0084406c5fa6b9c598262c26a5a) - **fix:** return `β*C` when `K` is zero [(#16477)](https://github.com/stdlib-js/stdlib/pull/16477) _(by Kaustubh Patange)_
+-   [`78ad2fa`](https://github.com/stdlib-js/stdlib/commit/78ad2fa5dbb12ce808dec93197d5343745ff91b8) - **docs:** normalize trailing newlines in REPL help texts [(#16420)](https://github.com/stdlib-js/stdlib/pull/16420) _(by Philipp Burckhardt)_
+-   [`c73cd1e`](https://github.com/stdlib-js/stdlib/commit/c73cd1e7b32f9eb83be97050cdc0b5f605173539) - **fix:** advance indices in unrolled loops of portable `dcopy` and `scopy` [(#16122)](https://github.com/stdlib-js/stdlib/pull/16122) _(by mantrapatel05)_
+-   [`e3f60dd`](https://github.com/stdlib-js/stdlib/commit/e3f60dd4c8366eb9c7f7d4885b1c3b391dacf1a8) - **fix:** use resolved transpose operations when validating leading dimensions in `blas/base/*gemm` [(#16386)](https://github.com/stdlib-js/stdlib/pull/16386) _(by Kaustubh Patange)_
+-   [`4b4e172`](https://github.com/stdlib-js/stdlib/commit/4b4e172c17aa1ff0c634b4dad38376b51fd1cf85) - **test:** migrate `blas/base/srot` to ULP-based assertions [(#16141)](https://github.com/stdlib-js/stdlib/pull/16141) _(by Athan Reines)_
+-   [`73c3f62`](https://github.com/stdlib-js/stdlib/commit/73c3f62ea82172344c5c4fe2a6aaf65132b36d64) - **test:** migrate `blas/base/dsymv` to ULP-based assertions [(#15972)](https://github.com/stdlib-js/stdlib/pull/15972) _(by Athan Reines)_
+-   [`721d574`](https://github.com/stdlib-js/stdlib/commit/721d57401459f60169dd32622ebb94e19d100a76) - **test:** migrate `blas/base/dspmv` to ULP-based assertions [(#16132)](https://github.com/stdlib-js/stdlib/pull/16132) _(by Athan Reines)_
+-   [`1472328`](https://github.com/stdlib-js/stdlib/commit/14723281a11feb1b6fc60a1ef7fdd3caeca9590e) - **test:** migrate `blas/base/sspmv` to ULP-based assertions [(#16166)](https://github.com/stdlib-js/stdlib/pull/16166) _(by Athan Reines)_
+-   [`cffc33d`](https://github.com/stdlib-js/stdlib/commit/cffc33de47e9a59a721baa3b9fc32ec63d624e5d) - **test:** migrate `blas/base/scasum` to ULP-based assertions [(#16325)](https://github.com/stdlib-js/stdlib/pull/16325) _(by Philipp Burckhardt)_
+-   [`d0a0dbb`](https://github.com/stdlib-js/stdlib/commit/d0a0dbb027c3aebee0ead80bad5b8af45b6391a9) - **test:** migrate `blas/base/snrm2` to ULP-based assertions [(#16277)](https://github.com/stdlib-js/stdlib/pull/16277) _(by Athan Reines)_
+-   [`3b7533a`](https://github.com/stdlib-js/stdlib/commit/3b7533ac9e7da01131699039c84e5388cefacd13) - **test:** migrate `blas/base/wasm/snrm2` to ULP-based assertions [(#16262)](https://github.com/stdlib-js/stdlib/pull/16262) _(by Athan Reines)_
+-   [`913219c`](https://github.com/stdlib-js/stdlib/commit/913219c609192b1fea2936b6f46291163518a71e) - **test:** migrate `blas/base/dznrm2` to ULP-based assertions [(#16272)](https://github.com/stdlib-js/stdlib/pull/16272) _(by Athan Reines)_
+-   [`2fc458a`](https://github.com/stdlib-js/stdlib/commit/2fc458a73130f937098cb29f21a7332d6e3061ca) - **test:** migrate `blas/base/scnrm2` to ULP-based assertions [(#16261)](https://github.com/stdlib-js/stdlib/pull/16261) _(by Athan Reines)_
+-   [`9a275f5`](https://github.com/stdlib-js/stdlib/commit/9a275f5c92761250d99fde97860fda4afc4ce917) - **test:** migrate `blas/base/zscal` to ULP-based assertions [(#16200)](https://github.com/stdlib-js/stdlib/pull/16200) _(by Athan Reines)_
+-   [`444fdd5`](https://github.com/stdlib-js/stdlib/commit/444fdd5f6c5cfb2dbd1fa2b69609a9349b20224d) - **test:** migrate `blas/base/dnrm2` to ULP-based assertions [(#16291)](https://github.com/stdlib-js/stdlib/pull/16291) _(by Athan Reines)_
+-   [`eeebc88`](https://github.com/stdlib-js/stdlib/commit/eeebc88f67a11370f8bc1a7cce9883324774747b) - **test:** migrate `blas/base/cscal` to ULP-based assertions [(#16288)](https://github.com/stdlib-js/stdlib/pull/16288) _(by Athan Reines)_
+-   [`f9aa9fb`](https://github.com/stdlib-js/stdlib/commit/f9aa9fb2046ed69fed2591f791ed7c8c5a03171a) - **test:** migrate `blas/base/wasm/zdrot` to ULP-based assertions [(#16159)](https://github.com/stdlib-js/stdlib/pull/16159) _(by Athan Reines)_
+-   [`1f923e3`](https://github.com/stdlib-js/stdlib/commit/1f923e38c3e5b4c00bde76e050f015d10670d51c) - **chore:** clean-up [(#16091)](https://github.com/stdlib-js/stdlib/pull/16091) _(by Philipp Burckhardt)_
+-   [`f14d9dd`](https://github.com/stdlib-js/stdlib/commit/f14d9ddf7a586b2888124be31b4fc20db3553821) - **test:** migrate `blas/base/zaxpy` to ULP-based assertions [(#16094)](https://github.com/stdlib-js/stdlib/pull/16094) _(by Athan Reines)_
+-   [`82ee225`](https://github.com/stdlib-js/stdlib/commit/82ee2255cb287caa67dca4b364ef072ac673cc27) - **test:** migrate `blas/base/wasm/csrot` to ULP-based assertions [(#15871)](https://github.com/stdlib-js/stdlib/pull/15871) _(by Athan Reines)_
+-   [`fe012cf`](https://github.com/stdlib-js/stdlib/commit/fe012cf9cc6af56bc42c03d5b8473f1c9b561e74) - **test:** migrate `blas/base/csrot` to ULP-based assertions [(#15890)](https://github.com/stdlib-js/stdlib/pull/15890) _(by Athan Reines)_
+-   [`c3a1514`](https://github.com/stdlib-js/stdlib/commit/c3a15144cc92dcd933480bbc494df57490606cd9) - **test:** migrate `blas/base/wasm/drot` to ULP-based assertions [(#16068)](https://github.com/stdlib-js/stdlib/pull/16068) _(by Athan Reines)_
+-   [`dd7bec5`](https://github.com/stdlib-js/stdlib/commit/dd7bec53bce1f0fd11eed9c64a7859eb54eb686c) - **test:** migrate `blas/base/caxpy` to ULP-based assertions [(#15941)](https://github.com/stdlib-js/stdlib/pull/15941) _(by Athan Reines)_
+-   [`eff53c5`](https://github.com/stdlib-js/stdlib/commit/eff53c53b69ed170fa8129a5ba5217507192a7f1) - **test:** migrate `blas/base/wasm/srotm` to ULP-based assertions [(#16060)](https://github.com/stdlib-js/stdlib/pull/16060) _(by Athan Reines)_
+-   [`ea03091`](https://github.com/stdlib-js/stdlib/commit/ea030918ce403f9302b41d0055f7e5ca958dc859) - **test:** migrate `blas/base/wasm/zscal` to ULP-based assertions [(#16049)](https://github.com/stdlib-js/stdlib/pull/16049) _(by Athan Reines)_
 -   [`8da0d15`](https://github.com/stdlib-js/stdlib/commit/8da0d154e408d6cd6b3381341173e8c41eac7e59) - **chore:** clean-up [(#15455)](https://github.com/stdlib-js/stdlib/pull/15455) _(by Philipp Burckhardt)_
 -   [`bf20542`](https://github.com/stdlib-js/stdlib/commit/bf20542289f45849b591f42254df4dafa253f1ab) - **test:** migrate `blas/base/wasm/srot` to ULP-based assertions [(#15444)](https://github.com/stdlib-js/stdlib/pull/15444) _(by Athan Reines)_
 -   [`e78f04d`](https://github.com/stdlib-js/stdlib/commit/e78f04d723599f35af5b3c1bed2454d89a26d44d) - **test:** migrate `blas/base/wasm/cscal` to ULP-based assertions [(#15188)](https://github.com/stdlib-js/stdlib/pull/15188) _(by Athan Reines, Philipp Burckhardt)_
@@ -617,7 +650,7 @@ A total of 18 issues were closed in this release:
 
 ### Contributors
 
-A total of 30 people contributed to this release. Thank you to the following contributors:
+A total of 31 people contributed to this release. Thank you to the following contributors:
 
 -   Aryan kumar
 -   Athan Reines
@@ -630,6 +663,7 @@ A total of 30 people contributed to this release. Thank you to the following con
 -   Gururaj Gurram
 -   Kamal Singh Rautela
 -   Karan Anand
+-   Kartik
 -   Kaustubh Patange
 -   Lakshmi Sravya Vedantham
 -   Lokesh Ranjan
